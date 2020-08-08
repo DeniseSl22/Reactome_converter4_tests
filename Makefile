@@ -1,6 +1,6 @@
 TARGETS := ${shell find . -name "*.gpml" }
 TTLS    := ${shell find . -name "*.gpml" | sed -e 's/\.\/GPMLs\///' | sed -e 's/\(.*\).gpml/wp\/Human\/\1.ttl/' | sed -e 's/\s/\\ /g' }
-REPORTS := ${shell find . -name "*.gpml" | sed -e 's/\.\/GPMLs\///' | sed -e 's/\(.*\)/reports\/\1.md/' | sed -e 's/\s/\\ /g' }
+REPORTS := ${shell find . -name "*.gpml" | sed -e 's/\.\/GPMLs\///' | sed -e 's/\(.*\).gpml/reports\/\1.md/' | sed -e 's/\s/\\ /g' }
 
 all: ${TTLS}
 
