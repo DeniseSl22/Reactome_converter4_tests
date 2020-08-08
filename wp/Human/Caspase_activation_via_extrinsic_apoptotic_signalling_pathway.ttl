@@ -1,0 +1,183 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/12620239>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q28609101> ;
+        owl:sameAs        <https://doi.org/10.1016%2FS1097-2765%2803%2900051-0> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12620239> .
+
+<http://identifiers.org/pubmed/19851329>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q43256262> ;
+        owl:sameAs        <https://doi.org/10.1038%2FCDD.2009.155> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19851329> .
+
+<http://identifiers.org/pubmed/11048727>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q29547741> ;
+        owl:sameAs        <https://doi.org/10.1038%2F35037710> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11048727> .
+
+<http://identifiers.org/reactome/R-HSA-140534>
+        a                              wp:DataNode ;
+        rdfs:label                     "Caspase activation via Death Receptors in the presence of ligand"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-140534> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/20308068> , <http://identifiers.org/pubmed/14644197> , <http://identifiers.org/pubmed/12620239> , <http://identifiers.org/pubmed/19851329> , <http://identifiers.org/pubmed/12620240> ;
+        dcterms:identifier             "R-HSA-140534"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/db89d> .
+
+<http://identifiers.org/pubmed/12620240>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q28609102> ;
+        owl:sameAs        <https://doi.org/10.1016%2FS1097-2765%2803%2900059-5> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12620240> .
+
+<http://identifiers.org/pubmed/12598906>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q28211258> ;
+        owl:sameAs        <https://doi.org/10.1038%2FNCB943> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12598906> .
+
+<http://identifiers.org/wikipathways//Caspa_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Caspa> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Caspase activation via extrinsic apoptotic signalling pathway"@en ;
+        dcterms:description  "Caspases, a family of cysteine proteases, execute apoptotic cell death. Caspases exist as inactive zymogens in cells and undergo a cascade of catalytic activation at the onset of apoptosis. Initiation of apoptosis occurs through either a cell-intrinsic or cell-extrinsic pathway. Extrinsic pathway cell death signals originate at the plasma membrane where:<ul><li>An extracellular ligand (e.g., FasL) binds to its cell surface transmembrane â€œdeath receptorâ€� (e.g., Fas receptor), inducing oligomerization of the receptor (Trauth et al. 1989; Itoh and Nagata 1993; Danial and Korsmeyer 2004). The \"death receptors\" are specialized cell-surface receptors including Fas/CD95, tumor necrosis factor-alpha (TNF-alpha) receptor 1, and two receptors, DR4 and DR5, that bind to the TNF-alpha related apoptosis-inducing ligand (TRAIL).  Ligand binding promotes clustering of proteins that bind to the intracellular domain of the receptor (e.g., FADD, or Fas-associated death domain-containing protein), which then binds to the prodomain of initiator caspases (e.g.caspase-8 or -10) to promote their dimerization and activation. Active caspase-8/-10 can then directly cleave and activate effector caspases, such as caspase-3 or it can cleave Bid, which facilitates mitochondrial cytochrome c release.</li><li>Unique group of proteins termed dependence receptors (DpRs) transduce positive (often prosurvival or progrowth) signals when engaged by ligand, but emit proapoptotic signals in the absence of ligand (Goldschneider and Mehlen 2010). DpR family includes p75 neurotrophin receptor (p75NTR), deleted in colon cancer (DCC), and UNC5 homologs, among others. cell-surface membrane receptors.</li></ul>\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5357769 Reactome]." ;
+        dcterms:identifier   "/Caspa"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/11048727> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Caspa_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Caspa_r1> .
+
+<http://identifiers.org/reactome/R-HSA-75158>
+        a                              wp:DataNode ;
+        rdfs:label                     "TRAIL  signaling"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-75158> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/14634624> ;
+        dcterms:identifier             "R-HSA-75158"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/b08bc> .
+
+<http://identifiers.org/pubmed/10348349>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q45345789> ;
+        owl:sameAs        <https://doi.org/10.1038%2FSJ.ONC.1202629> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10348349> .
+
+<http://identifiers.org/pubmed/15276183>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q45345605> ;
+        owl:sameAs        <https://doi.org/10.1016%2FJ.TIBS.2004.04.008> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15276183> .
+
+<http://identifiers.org/pubmed/12040173>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q28201944> ;
+        owl:sameAs        <https://doi.org/10.1126%2FSCIENCE.1071924> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12040173> .
+
+<http://identifiers.org/pubmed/15310786>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q34341063> ;
+        owl:sameAs        <https://doi.org/10.1200%2FJCO.2004.02.019> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15310786> .
+
+<http://identifiers.org/wikipathways//Caspa>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Caspa_r1> .
+
+<http://identifiers.org/reactome/R-HSA-166166>
+        a                              wp:DataNode ;
+        rdfs:label                     "MyD88-independent TLR4 cascade"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-166166> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15276183> ;
+        dcterms:identifier             "R-HSA-166166"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/b334e> .
+
+<http://identifiers.org/reactome/R-HSA-75157>
+        a                              wp:DataNode ;
+        rdfs:label                     "FasL/ CD95L signaling"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-75157> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11048727> ;
+        dcterms:identifier             "R-HSA-75157"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/a8124> .
+
+<http://identifiers.org/pubmed/12011067>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q24297448> ;
+        owl:sameAs        <https://doi.org/10.1074%2FJBC.M204679200> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12011067> .
+
+<http://identifiers.org/reactome/R-HSA-418889>
+        a                              wp:DataNode ;
+        rdfs:label                     "Caspase activation via Dependence Receptors in the absence of ligand"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-418889> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12598906> , <http://identifiers.org/pubmed/10348349> , <http://identifiers.org/pubmed/15310786> , <http://identifiers.org/pubmed/12011067> ;
+        dcterms:identifier             "R-HSA-418889"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/a97b3> .
+
+<http://identifiers.org/pubmed/20308068>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q33883310> ;
+        owl:sameAs        <https://doi.org/10.1074%2FJBC.M109.095083> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20308068> .
+
+<http://identifiers.org/pubmed/14634624>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q35591708> ;
+        owl:sameAs        <https://doi.org/10.1038%2FSJ.ONC.1207232> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/14634624> .
+
+<http://identifiers.org/pubmed/14644197>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q28187994> ;
+        owl:sameAs        <https://doi.org/10.1016%2FJ.CEB.2003.10.009> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/14644197> .
+
+<http://identifiers.org/reactome/R-HSA-75893>
+        a                              wp:DataNode ;
+        rdfs:label                     "TNF signaling"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-75893> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12040173> ;
+        dcterms:identifier             "R-HSA-75893"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/f322c> .

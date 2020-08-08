@@ -1,0 +1,96 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/reactome/R-HSA-69278>
+        a                   wp:DataNode ;
+        rdfs:label          "Cell Cycle, Mitotic"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-69278> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-69278"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Cell__r1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Cell__r1/DataNode/fc4cc> .
+
+<http://identifiers.org/reactome/R-HSA-69620>
+        a                   wp:DataNode ;
+        rdfs:label          "Cell Cycle Checkpoints"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-69620> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-69620"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Cell__r1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Cell__r1/DataNode/f114f> .
+
+<http://identifiers.org/wikipathways//Cell__r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Cell_> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Cell Cycle"@en ;
+        dcterms:description  "The replication of the genome and the subsequent segregation of chromosomes into daughter cells are controlled by a series of events collectively known as the <b>cell cycle</b>. DNA replication is carried out during a discrete temporal period known as the S (synthesis)-phase, and chromosome segregation occurs during a massive reorganization to cellular architecture at mitosis. Two gap-phases separate these major cell cycle events: G1 between mitosis and S-phase, and G2 between S-phase and mitosis. In the development of the human body, cells can exit the cell cycle for a period and enter a quiescent state known as G0, or terminally differentiate into cells that will not divide again, but undergo morphological development to carry out the wide variety of specialized functions of individual tissues.<p>A family of protein serine/threonine kinases known as the cyclin-dependent kinases (CDKs) controls progression through the cell cycle. As the name suggests, the activity of the catalytic subunit is dependent on binding to a cyclin partner. The human genome encodes several cyclins and several CDKs, with their names largely derived from the order in which they were identified. The oscillation of cyclin abundance is one important mechanism by which these enzymes phosphorylate key substrates to promote events at the relevant time and place. Additional post-translational modifications and interactions with regulatory proteins ensure that CDK activity is precisely regulated, frequently confined to a narrow window of activity.<p>In addition, genome integrity in the cell cycle is maintained by the action of a number of signal transduction pathways, known as <b>cell cycle checkpoints</b>, which monitor the accuracy and completeness of DNA replication during S phase and the orderly chromosomal condensation, pairing and partition into daughter cells during mitosis.<p>Replication of telomeric DNA at the ends of human chromosomes and packaging of their centromeres into chromatin are two aspects of <b>chromosome maintenance</b> that are integral parts of the cell cycle.<p><b>Meiosis</b> is the specialized form of cell division that generates haploid gametes from diploid germ cells, associated with recombination (exchange of genetic material between chromosomal homologs).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=1640170 Reactome]." ;
+        dcterms:identifier   "/Cell_"^^xsd:string ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Cell__r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Cell__r1> .
+
+<http://identifiers.org/reactome/R-HSA-73886>
+        a                   wp:DataNode ;
+        rdfs:label          "Chromosome Maintenance"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-73886> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-73886"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Cell__r1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Cell__r1/DataNode/ebf9d> .
+
+<http://identifiers.org/pubmed/20364103>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Cell__r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q28278643> ;
+        owl:sameAs        <https://doi.org/10.4161%2FEPI.5.4.11518> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20364103> .
+
+<http://identifiers.org/pubmed/16543383>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Cell__r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q36423604> ;
+        owl:sameAs        <https://doi.org/10.1210%2FER.2005-0017> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16543383> .
+
+<http://identifiers.org/wikipathways//Cell_>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Cell__r1> .
+
+<http://identifiers.org/pubmed/18948708>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Cell__r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q37307381> ;
+        owl:sameAs        <https://doi.org/10.1159%2F000166620> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18948708> .
+
+<http://identifiers.org/reactome/R-HSA-1500620>
+        a                              wp:DataNode ;
+        rdfs:label                     "Meiosis"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-1500620> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/20364103> , <http://identifiers.org/pubmed/18948708> , <http://identifiers.org/pubmed/16543383> , <http://identifiers.org/pubmed/20051984> ;
+        dcterms:identifier             "R-HSA-1500620"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Cell__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Cell__r1/DataNode/c25db> .
+
+<http://identifiers.org/pubmed/20051984>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Cell__r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q37669186> ;
+        owl:sameAs        <https://doi.org/10.1038%2FNRG2723> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20051984> .

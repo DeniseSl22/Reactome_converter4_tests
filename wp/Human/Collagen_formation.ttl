@@ -1,0 +1,89 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/19693541>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Colla_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19693541> .
+
+<http://identifiers.org/reactome/R-HSA-1650814>
+        a                              wp:DataNode ;
+        rdfs:label                     "Collagen biosynthesis and modifying enzymes"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-1650814> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/14698617> , <http://identifiers.org/pubmed/17550969> ;
+        dcterms:identifier             "R-HSA-1650814"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Colla_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Colla_r1/DataNode/efaf3> .
+
+<http://identifiers.org/pubmed/14698617>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Colla_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q34544297> ;
+        owl:sameAs        <https://doi.org/10.1016%2FJ.TIG.2003.11.004> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/14698617> .
+
+<http://identifiers.org/pubmed/21182410>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Colla_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q37823590> ;
+        owl:sameAs        <https://doi.org/10.3109%2F03008207.2010.511353> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21182410> .
+
+<http://identifiers.org/wikipathways//Colla>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Colla_r1> .
+
+<http://identifiers.org/reactome/R-HSA-2022090>
+        a                              wp:DataNode ;
+        rdfs:label                     "Assembly of collagen fibrils and other multimeric structures"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-2022090> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/21182410> , <http://identifiers.org/pubmed/8645190> ;
+        dcterms:identifier             "R-HSA-2022090"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Colla_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Colla_r1/DataNode/ae190> .
+
+<http://identifiers.org/pubmed/8645190>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Colla_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q28610094> ;
+        owl:sameAs        <https://doi.org/10.1042%2FBJ3160001> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8645190> .
+
+<http://identifiers.org/pubmed/7574488>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Colla_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/7574488> .
+
+<http://identifiers.org/pubmed/17550969>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Colla_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q34580062> ;
+        owl:sameAs        <https://doi.org/10.1242%2FJCS.03453> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17550969> .
+
+<http://identifiers.org/wikipathways//Colla_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Colla> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Collagen formation"@en ;
+        dcterms:identifier   "/Colla"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/19693541> , <http://identifiers.org/pubmed/7574488> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Colla_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Colla_r1> .

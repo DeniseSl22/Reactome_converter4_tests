@@ -1,0 +1,85 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/reactome/R-HSA-5467343>
+        a                              wp:DataNode ;
+        rdfs:label                     "Deletions in the AMER1 gene destabilize the destruction complex"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-5467343> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19760609> , <http://identifiers.org/pubmed/21248786> , <http://identifiers.org/pubmed/18311776> , <http://identifiers.org/pubmed/17510365> ;
+        dcterms:identifier             "R-HSA-5467343"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//AMER1_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//AMER1_r1/DataNode/fe6d7> .
+
+<http://identifiers.org/reactome/R-HSA-5467348>
+        a                              wp:DataNode ;
+        rdfs:label                     "Truncations of AMER1 destabilize the destruction complex"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-5467348> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19760609> , <http://identifiers.org/pubmed/17510365> , <http://identifiers.org/pubmed/21248786> , <http://identifiers.org/pubmed/18311776> ;
+        dcterms:identifier             "R-HSA-5467348"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//AMER1_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//AMER1_r1/DataNode/fc62e> .
+
+<http://identifiers.org/pubmed/18311776>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//AMER1_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q34010180> ;
+        owl:sameAs        <https://doi.org/10.1002%2FGCC.20553> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18311776> .
+
+<http://identifiers.org/wikipathways//AMER1>
+        pav:hasVersion  <http://identifiers.org/wikipathways//AMER1_r1> .
+
+<http://identifiers.org/pubmed/23256519>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//AMER1_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23256519> .
+
+<http://identifiers.org/pubmed/19760609>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//AMER1_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q45345263> ;
+        owl:sameAs        <https://doi.org/10.1002%2FGCC.20712> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19760609> .
+
+<http://identifiers.org/wikipathways//AMER1_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//AMER1> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "AMER1 mutants destabilize the destruction complex"@en ;
+        dcterms:description  "AMER1/WTX is a component of the destruction complex that interacts directly with beta-catenin through its C-terminal half.  Depletion of AMER1 through siRNA stabilizes cellular beta-catenin levels and increases transcriptional activity in a reporter assay consistent with a role for AMER1 in the degradation of beta-catenin (Major et al, 2007).  Deletions of the entire AMER1 gene have been reported in Wilms tumor, as have nonsense and missense mutations that truncate the protein before the beta-catenin interaction domain.  These mutations are predicted to stabilize beta-catenin and increase WNT signaling (reviewed in Saito-Diaz et al, 2013; Huff, 2011).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=4839748 Reactome]." ;
+        dcterms:identifier   "/AMER1"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/23256519> , <http://identifiers.org/pubmed/21248786> , <http://identifiers.org/pubmed/17510365> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//AMER1_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//AMER1_r1> .
+
+<http://identifiers.org/pubmed/21248786>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//AMER1_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q35095712> ;
+        owl:sameAs        <https://doi.org/10.1038%2FNRC3002> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21248786> .
+
+<http://identifiers.org/pubmed/17510365>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//AMER1_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q28118465> ;
+        owl:sameAs        <https://doi.org/10.1126%2FSCIENCE%2F1141515> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17510365> .

@@ -1,0 +1,510 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/a1071>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11248093> , <http://identifiers.org/pubmed/12011067> ;
+        dcterms:identifier             "R-HSA-373700"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-373700> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/e0292> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/bbc30> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/a1071> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/af435> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-373664> , <http://identifiers.org/reactome/R-HSA-373668> , <http://identifiers.org/reactome/R-HSA-141640> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-373668> , <http://identifiers.org/reactome/R-HSA-141640> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-373664> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/ComplexBinding/ad264>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Caspa_r1/Group/ad264> ;
+        wp:participants   <http://identifiers.org/uniprot/P42574> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/ad264> .
+
+<http://identifiers.org/reactome/R-HSA-374596>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "UNC5A:NRAGE"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-374596> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-374596"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/a60e6> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-374596> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50270740> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/fe508> .
+
+<http://identifiers.org/pubmed/15310786>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15310786> .
+
+<http://identifiers.org/uniprot/Q6ZN44>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "UNC5A(26-340)"^^xsd:string , "UNC5A"^^xsd:string , "UNC5A(341-842)"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q6ZN44> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q6ZN44"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/bda11> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/d200c> , <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/a60e6> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000113763> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/90249> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/UNC5A> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/H0Y9G2> , <http://identifiers.org/uniprot/H0Y8R2> , <http://identifiers.org/uniprot/Q6ZN44> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/d741f> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/f9ce8> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/ec3e4> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/acf07> .
+
+<http://identifiers.org/pubmed/9796814>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9796814> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/f3362>
+        a                   wp:DirectedInteraction , wp:Interaction ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-418852"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-418852> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/ba833> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/df3c8> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/f3362> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/e3bed> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/ca216> ;
+        wp:participants     <http://identifiers.org/reactome/R-HSA-350870> , <http://identifiers.org/uniprot/Q8IZJ1> ;
+        wp:source           <http://identifiers.org/reactome/R-HSA-350870> , <http://identifiers.org/uniprot/Q8IZJ1> ;
+        wp:target           <http://identifiers.org/uniprot/Q8IZJ1> .
+
+<http://identifiers.org/uniprot/Q9UIK4>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DAPK2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9UIK4> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9UIK4"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/df0ad> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000035664> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/23604> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DAPK2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A024R603> , <http://identifiers.org/uniprot/H0YMK1> , <http://identifiers.org/uniprot/H0YL86> , <http://identifiers.org/uniprot/H0YLP5> , <http://identifiers.org/uniprot/Q9UIK4> , <http://identifiers.org/uniprot/H0YKW8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/f9fbc> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/e9ccb> .
+
+<http://identifiers.org/reactome/R-HSA-373668>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "DCC:DIP13alpha"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-373668> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-373668"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/a1a04> , <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/a1071> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-373668> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50270728> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/d6622> .
+
+<http://identifiers.org/reactome/R-HSA-6804299>
+        a                              wp:Complex , wp:DataNode ;
+        rdfs:label                     "CASP3(1-277) dimer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-6804299> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23650375> ;
+        dcterms:identifier             "R-HSA-6804299"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/dfdbe> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6804299> ;
+        wp:bdbWikidata                 <http://www.wikidata.org/entity/Q50270735> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/e5219> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/dd2cd>
+        a                   wp:DirectedInteraction , wp:Interaction ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-418849"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-418849> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/dd2cd> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/f739b> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/f4b7f> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/e014e> ;
+        wp:participants     <http://identifiers.org/reactome/R-HSA-418842> , <http://identifiers.org/reactome/R-HSA-418812> , <http://identifiers.org/uniprot/Q8IZJ1> ;
+        wp:source           <http://identifiers.org/reactome/R-HSA-418812> , <http://identifiers.org/uniprot/Q8IZJ1> ;
+        wp:target           <http://identifiers.org/reactome/R-HSA-418842> .
+
+<http://identifiers.org/wikipathways//Caspa>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Caspa_r1> .
+
+<http://identifiers.org/uniprot/P42574>
+        a                              wp:DataNode , wp:Protein ;
+        rdfs:label                     "CASP3(29-175)"^^xsd:string , "CASP3(176-277)"^^xsd:string , "CASP3(1-277)"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/uniprot/P42574> ;
+        dc:source                      "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11931755> ;
+        dcterms:identifier             "P42574"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/ad264> ;
+        wp:bdbEnsembl                  <http://identifiers.org/ensembl/ENSG00000164305> ;
+        wp:bdbEntrezGene               <http://identifiers.org/ncbigene/836> ;
+        wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/CASP3> ;
+        wp:bdbUniprot                  <http://identifiers.org/uniprot/P42574> , <http://identifiers.org/uniprot/C9JXR7> , <http://identifiers.org/uniprot/A8MVM1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/c5209> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/b9d0f> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/cc3a6> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/d200c>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Caspa_r1/Group/d200c> ;
+        wp:participants   <http://identifiers.org/uniprot/Q6ZN44> , <http://identifiers.org/uniprot/Q9Y5V3> .
+
+<http://identifiers.org/pubmed/11248093>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11248093> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/bda11>
+        a                   wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-418846"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-418846> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/cdb89> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/fe707> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/a1dda> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/bda11> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/fcd06> ;
+        wp:participants     <http://identifiers.org/uniprot/Q6ZN44> , <http://identifiers.org/reactome/R-HSA-350870> ;
+        wp:source           <http://identifiers.org/uniprot/Q6ZN44> , <http://identifiers.org/reactome/R-HSA-350870> ;
+        wp:target           <http://identifiers.org/uniprot/Q6ZN44> .
+
+<http://identifiers.org/reactome/R-HSA-350870>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "Caspase-3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-350870> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-350870"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/ee9bd> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/f3362> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/dfdbe> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/bda11> , <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-350870> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50257762> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/ec9b9> .
+
+<http://identifiers.org/uniprot/P43146>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DCC(1291-1447)"^^xsd:string , "DCC(26-1290)"^^xsd:string , "DCC"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P43146> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P43146"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/b9fec> , <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/da779> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/a1a04> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/ee9bd> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000187323> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1630> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DCC> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P43146> , <http://identifiers.org/uniprot/J3QLT8> , <http://identifiers.org/uniprot/J3QKL2> , <http://identifiers.org/uniprot/J3QQJ6> , <http://identifiers.org/uniprot/J3QRL3> , <http://identifiers.org/uniprot/E7EQM8> , <http://identifiers.org/uniprot/J3QS93> , <http://identifiers.org/uniprot/J3QLB0> , <http://identifiers.org/uniprot/J3QRM6> , <http://identifiers.org/uniprot/H0Y2Q5> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/d641b> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/ae244> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/d7508> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/c812c> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/a6c9d> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/ComplexBinding/df0ad>
+        a                 wp:Interaction , wp:ComplexBinding , wp:Binding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Caspa_r1/Group/df0ad> ;
+        wp:participants   <http://identifiers.org/uniprot/Q9UIK4> , <http://identifiers.org/uniprot/P53355> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/df0ad> , <http://identifiers.org/uniprot/Q8IZJ1> , <http://identifiers.org/uniprot/O43293> .
+
+<http://identifiers.org/pubmed/16158190>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16158190> .
+
+<http://identifiers.org/uniprot/P55211>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CASP9(331-416)"^^xsd:string , "CASP9(?-315)"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P55211> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P55211"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/da779> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/c9404> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000132906> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/842> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CASP9> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/F8VVS7> , <http://identifiers.org/uniprot/H0Y3S8> , <http://identifiers.org/uniprot/P55211> , <http://identifiers.org/uniprot/H0Y6Y2> , <http://identifiers.org/uniprot/F8VWA5> , <http://identifiers.org/uniprot/Q5JRU2> , <http://identifiers.org/uniprot/A0A087WX72> , <http://identifiers.org/uniprot/Q5JRU8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/df5dc> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/f2f40> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/a4f3e> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/db3a8> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/ee9bd>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11248093> , <http://identifiers.org/pubmed/15310786> , <http://identifiers.org/pubmed/9796814> , <http://identifiers.org/pubmed/16158190> ;
+        dcterms:identifier             "R-HSA-373705"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-373705> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/a7a8e> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/b7904> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/f729e> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/ee9bd> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/c84bc> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-350870> , <http://identifiers.org/uniprot/P43146> ;
+        wp:source                      <http://identifiers.org/uniprot/P43146> , <http://identifiers.org/reactome/R-HSA-350870> ;
+        wp:target                      <http://identifiers.org/uniprot/P43146> .
+
+<http://identifiers.org/uniprot/Q9UKG1>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "APPL1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9UKG1> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9UKG1"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/b9fec> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/a1a04> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/da779> , <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000157500> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/26060> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/APPL1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9UKG1> , <http://identifiers.org/uniprot/C9K0C4> , <http://identifiers.org/uniprot/C9JAB0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/bfe7a> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/a6c3b> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/f3fee> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/dfdbe>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12011067> , <http://identifiers.org/pubmed/15573119> ;
+        dcterms:identifier             "R-HSA-418845"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-418845> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/a5268> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/b0fb8> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/e2353> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/dfdbe> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/ae4f4> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/dd0a8> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-6804299> , <http://identifiers.org/chebi/CHEBI:16761> , <http://identifiers.org/chebi/CHEBI:15422> , <http://identifiers.org/reactome/R-HSA-350870> , <http://identifiers.org/reactome/R-HSA-373664> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-6804299> , <http://identifiers.org/chebi/CHEBI:15422> , <http://identifiers.org/reactome/R-HSA-373664> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:16761> , <http://identifiers.org/reactome/R-HSA-350870> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/c9404>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Caspa_r1/Group/c9404> ;
+        wp:participants   <http://identifiers.org/uniprot/P55211> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/da779>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Caspa_r1/Group/da779> ;
+        wp:participants   <http://identifiers.org/uniprot/P55211> , <http://identifiers.org/uniprot/Q9UKG1> , <http://identifiers.org/uniprot/P43146> .
+
+<http://identifiers.org/reactome/R-HSA-418842>
+        a                              wp:DataNode , wp:Complex ;
+        rdfs:label                     "Unc5B with death domain:DAPK"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-418842> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/16756490> ;
+        dcterms:identifier             "R-HSA-418842"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/dd2cd> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-418842> ;
+        wp:bdbWikidata                 <http://www.wikidata.org/entity/Q50270737> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/bc736> .
+
+<http://identifiers.org/uniprot/O43293>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "DAPK3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O43293> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O43293"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/df0ad> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000167657> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1613> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DAPK3> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/O43293> , <http://identifiers.org/uniprot/M0QYY8> , <http://identifiers.org/uniprot/M0QYW5> , <http://identifiers.org/uniprot/M0R0D0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/c5016> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/d7db3> .
+
+<http://identifiers.org/pubmed/11931755>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q27919623> ;
+        owl:sameAs        <https://doi.org/10.1016%2FS1097-2765%2802%2900482-3> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11931755> .
+
+<http://identifiers.org/reactome/R-HSA-141640>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "Cleaved Caspase-9"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-141640> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-141640"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/a1071> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-141640> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50270730> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/d24ff> .
+
+<http://identifiers.org/pubmed/12011067>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12011067> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/ComplexBinding/d200c>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Caspa_r1/Group/d200c> ;
+        wp:participants   <http://identifiers.org/uniprot/Q6ZN44> , <http://identifiers.org/uniprot/Q9Y5V3> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/d200c> .
+
+<http://identifiers.org/pubmed/23650375>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbWikidata    <http://www.wikidata.org/entity/Q27678026> ;
+        owl:sameAs        <https://doi.org/10.1073%2FPNAS.1306759110> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23650375> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/b9fec>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Caspa_r1/Group/b9fec> ;
+        wp:participants   <http://identifiers.org/uniprot/P43146> , <http://identifiers.org/uniprot/Q9UKG1> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/df0ad>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Caspa_r1/Group/df0ad> ;
+        wp:participants   <http://identifiers.org/uniprot/O43293> , <http://identifiers.org/uniprot/P53355> , <http://identifiers.org/uniprot/Q9UIK4> , <http://identifiers.org/uniprot/Q8IZJ1> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/ad264>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Caspa_r1/Group/ad264> ;
+        wp:participants   <http://identifiers.org/uniprot/P42574> .
+
+<http://identifiers.org/chebi/CHEBI:15422>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ATP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15422> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15422"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/dfdbe> , <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15422> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5742> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000538> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00002> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5957> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q80863> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/e27f3> .
+
+<http://identifiers.org/pubmed/15573119>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15573119> .
+
+<http://identifiers.org/uniprot/Q8IZJ1>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "UNC5B(413-945)"^^xsd:string , "UNC5B"^^xsd:string , "UNC5B(27-412)"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q8IZJ1> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q8IZJ1"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/f3362> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/df0ad> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/dd2cd> , <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000107731> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/219699> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/UNC5B> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q8IZJ1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/a3e20> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/ba6f9> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/f0551> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/c4ceb> .
+
+<http://identifiers.org/reactome/R-HSA-418812>
+        a                              wp:DataNode , wp:Complex ;
+        rdfs:label                     "DAPKs"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-418812> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/16756490> ;
+        dcterms:identifier             "R-HSA-418812"^^xsd:string ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/dd2cd> , <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-418812> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/db019> .
+
+<http://identifiers.org/chebi/CHEBI:16761>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "ADP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16761> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16761"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/dfdbe> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16761> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5800> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001341> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00008> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6022> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q185253> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/e8fef> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/ComplexBinding/c9404>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Caspa_r1/Group/c9404> ;
+        wp:participants   <http://identifiers.org/uniprot/P55211> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/c9404> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/ComplexBinding/da779>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Caspa_r1/Group/da779> ;
+        wp:participants   <http://identifiers.org/uniprot/P55211> , <http://identifiers.org/uniprot/Q9UKG1> , <http://identifiers.org/uniprot/P43146> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/da779> .
+
+<http://identifiers.org/reactome/R-HSA-373664>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "DCC:DIP13alpha:Caspase-9"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-373664> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-373664"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/dfdbe> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/a1071> , <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-373664> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50270733> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/b9f40> .
+
+<http://identifiers.org/uniprot/Q9Y5V3>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "MAGED1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9Y5V3> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9Y5V3"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/d200c> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/a60e6> , <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000179222> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/9500> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/MAGED1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9Y5V3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/f0734> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/f16d1> .
+
+<http://identifiers.org/pubmed/16756490>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16756490> .
+
+<http://identifiers.org/pubmed/10348349>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10348349> .
+
+<http://identifiers.org/wikipathways//Caspa_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Caspa> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Caspase activation via Dependence Receptors in the absence of ligand"@en ;
+        dcterms:description  "In the presence of Netrin1, DCC and UNC5 generate attractive and repulsive signals to growing axons. In the absence of Netrin-1, DCC induces cell death signaling initiated via caspase cleavage of DCC and the interaction of caspase-9. Recent reports have shown that UNC5 receptors similarly induce apoptosis in the absence of Netrin-1. These reactions proceed without a requirement for cytochrome c release from mitochondria or interaction with apoptotic protease activating factor 1 (APAF1). DCC thus regulates an apoptosome-independent pathway for caspase activation. DCC and UNC-5 are hence defined as dependence receptors. Dependence receptors exhibit dual functions depending on the availability of ligand. They create cellular states of dependence on their respective ligands by either inducing apoptosis when unoccupied by the ligand, or inhibiting apoptosis in the presence of the ligand.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=418889 Reactome]." ;
+        dcterms:identifier   "/Caspa"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/12011067> , <http://identifiers.org/pubmed/12598906> , <http://identifiers.org/pubmed/15310786> , <http://identifiers.org/pubmed/10348349> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Caspa_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Caspa_r1> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/a1a04>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11248093> , <http://identifiers.org/pubmed/12011067> ;
+        dcterms:identifier             "R-HSA-373717"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-373717> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/a1a04> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/cd2a3> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/fe745> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/c387a> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-373668> , <http://identifiers.org/uniprot/P43146> , <http://identifiers.org/uniprot/Q9UKG1> ;
+        wp:source                      <http://identifiers.org/uniprot/P43146> , <http://identifiers.org/uniprot/Q9UKG1> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-373668> .
+
+<http://identifiers.org/uniprot/P53355>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DAPK1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P53355> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P53355"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Caspa_r1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/df0ad> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000196730> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1612> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DAPK1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P53355> , <http://identifiers.org/uniprot/F8WCQ3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/fb2fa> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/DataNode/e798e> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/ComplexBinding/b9fec>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Caspa_r1/Group/b9fec> ;
+        wp:participants   <http://identifiers.org/uniprot/P43146> , <http://identifiers.org/uniprot/Q9UKG1> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Complex/b9fec> .
+
+<http://identifiers.org/pubmed/12598906>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Caspa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12598906> .
+
+<http://rdf.wikipathways.org/Pathway//Caspa_r1/WP/Interaction/a60e6>
+        a                   wp:DirectedInteraction , wp:Interaction ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-374699"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Caspa_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-374699> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/d9a07> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/a60e6> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/f2ce2> , <http://rdf.wikipathways.org/Pathway//Caspa_r1/Interaction/fe209> ;
+        wp:participants     <http://identifiers.org/reactome/R-HSA-374596> , <http://identifiers.org/uniprot/Q6ZN44> , <http://identifiers.org/uniprot/Q9Y5V3> ;
+        wp:source           <http://identifiers.org/uniprot/Q6ZN44> , <http://identifiers.org/uniprot/Q9Y5V3> ;
+        wp:target           <http://identifiers.org/reactome/R-HSA-374596> .
