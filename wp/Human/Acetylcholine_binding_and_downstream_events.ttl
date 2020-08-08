@@ -1,0 +1,455 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/uniprot/P32297>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "CHRNA3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P32297> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P32297"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/ad986> , <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/b60d6> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000080644> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1136> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNA3> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/H0YNF9> , <http://identifiers.org/uniprot/P32297> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/cf1e6> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/f51e1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/e4386> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/fe8ea> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/ca5b6> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/d0225> .
+
+<http://identifiers.org/uniprot/Q15825>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "CHRNA6"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q15825> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q15825"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/b60d6> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> , <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000147434> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/8973> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNA6> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E9PP97> , <http://identifiers.org/uniprot/Q15825> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/f9eb2> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/c7dd0> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/cb219> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/cb039> .
+
+<http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/e60d5>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19059502> ;
+        dcterms:identifier             "R-HSA-629588"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-629588> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/bf002> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/f7451> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/e60d5> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/b1053> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-629576> , <http://identifiers.org/reactome/R-HSA-629590> , <http://identifiers.org/chebi/CHEBI:15355> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-629576> , <http://identifiers.org/chebi/CHEBI:15355> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-629590> .
+
+<http://identifiers.org/reactome/R-HSA-629581>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "Highly calcium permeable postsynaptic  nicotinic acetylcholine receptors"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-629581> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-629581"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/a7c8b> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-629581> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/eea69> .
+
+<http://identifiers.org/uniprot/P43681>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CHRNA4"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P43681> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P43681"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/ad986> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> , <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/b60d6> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000101204> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1137> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNA4> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/H0YBH1> , <http://identifiers.org/uniprot/P43681> , <http://identifiers.org/uniprot/A0A0D9SFU6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/db82e> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/ecce1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/b9f84> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/c1557> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/e4763> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/feb84> .
+
+<http://rdf.wikipathways.org/Pathway//Acety_r1/ComplexBinding/ad986>
+        a                 wp:Binding , wp:Interaction , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Acety_r1/Group/ad986> ;
+        wp:participants   <http://identifiers.org/uniprot/Q07001> , <http://identifiers.org/uniprot/P07510> , <http://identifiers.org/uniprot/P17787> , <http://identifiers.org/uniprot/P43681> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/ad986> , <http://identifiers.org/uniprot/Q04844> , <http://identifiers.org/chebi/CHEBI:15355> , <http://identifiers.org/uniprot/P30926> , <http://identifiers.org/uniprot/P32297> .
+
+<http://rdf.wikipathways.org/Pathway//Acety_r1/ComplexBinding/b60d6>
+        a                 wp:Binding , wp:ComplexBinding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Acety_r1/Group/b60d6> ;
+        wp:participants   <http://identifiers.org/uniprot/Q15825> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/b60d6> , <http://identifiers.org/uniprot/P43681> , <http://identifiers.org/uniprot/Q15822> , <http://identifiers.org/uniprot/P30532> , <http://identifiers.org/uniprot/P30926> , <http://identifiers.org/uniprot/P32297> , <http://identifiers.org/uniprot/P17787> , <http://identifiers.org/uniprot/Q05901> , <http://identifiers.org/uniprot/P02708> , <http://identifiers.org/chebi/CHEBI:15355> .
+
+<http://identifiers.org/reactome/R-HSA-629586>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "Highly calcium permeable nicotinic acetylcholine receptors"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-629586> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-629586"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/b484e> , <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-629586> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/e809e> .
+
+<http://identifiers.org/uniprot/P07510>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CHRNG"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P07510> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P07510"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/ad986> , <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000196811> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1146> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNG> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P07510> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/e6da1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/a9d0e> .
+
+<http://identifiers.org/uniprot/P36544>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CHRNA7"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P36544> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P36544"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> , <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000175344> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/101929970> , <http://identifiers.org/ncbigene/1139> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNA7> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A1B0GVH2> , <http://identifiers.org/uniprot/A0A1B0GW47> , <http://identifiers.org/uniprot/A0A1B0GTT0> , <http://identifiers.org/uniprot/A0A1B0GVN6> , <http://identifiers.org/uniprot/A0A1B0GV44> , <http://identifiers.org/uniprot/A0A1B0GTT9> , <http://identifiers.org/uniprot/A0A1B0GU93> , <http://identifiers.org/uniprot/A0A1B0GU04> , <http://identifiers.org/uniprot/A0A1B0GV25> , <http://identifiers.org/uniprot/A0A1B0GVP9> , <http://identifiers.org/uniprot/P36544> , <http://identifiers.org/uniprot/A0A1B0GV43> , <http://identifiers.org/uniprot/A0A1B0GUR5> , <http://identifiers.org/uniprot/A0A1B0GU11> , <http://identifiers.org/uniprot/A0A1B0GWH1> , <http://identifiers.org/uniprot/A0A1B0GTE0> , <http://identifiers.org/uniprot/A0A1B0GVI5> , <http://identifiers.org/uniprot/A0A1B0GW52> , <http://identifiers.org/uniprot/A0A1B0GU56> , <http://identifiers.org/uniprot/A0A1B0GV86> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/cfb1f> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/c8dd2> .
+
+<http://identifiers.org/chebi/CHEBI:29108>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Ca2+"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/BHPQYMZQTOCNFJ-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:29108> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:29108"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/dce69> , <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/c3e08> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:29108> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/266> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000464> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/BHPQYMZQTOCNFJ-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00076> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID271> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q23905776> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/c0680> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/a4e45> .
+
+<http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/b484e>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19059502> ;
+        dcterms:identifier             "R-HSA-629599"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-629599> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/b484e> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/a0542> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/df8b5> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/e7286> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15355> , <http://identifiers.org/reactome/R-HSA-629600> , <http://identifiers.org/reactome/R-HSA-629586> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:15355> , <http://identifiers.org/reactome/R-HSA-629586> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-629600> .
+
+<http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/a7c8b>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19059502> ;
+        dcterms:identifier             "R-HSA-629596"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-629596> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/ef971> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/c0c9f> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/be4a4> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/a7c8b> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15355> , <http://identifiers.org/reactome/R-HSA-629581> , <http://identifiers.org/reactome/R-HSA-629592> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:15355> , <http://identifiers.org/reactome/R-HSA-629581> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-629592> .
+
+<http://rdf.wikipathways.org/Pathway//Acety_r1/ComplexBinding/cff40>
+        a                 wp:Binding , wp:Interaction , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Acety_r1/Group/cff40> ;
+        wp:participants   <http://identifiers.org/uniprot/Q9UGM1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> , <http://identifiers.org/uniprot/P30926> , <http://identifiers.org/uniprot/P02708> , <http://identifiers.org/uniprot/P32297> , <http://identifiers.org/uniprot/Q05901> , <http://identifiers.org/uniprot/P36544> , <http://identifiers.org/chebi/CHEBI:15355> , <http://identifiers.org/uniprot/P43681> , <http://identifiers.org/uniprot/P17787> , <http://identifiers.org/uniprot/P30532> , <http://identifiers.org/uniprot/Q15825> , <http://identifiers.org/uniprot/Q15822> .
+
+<http://identifiers.org/uniprot/P30926>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "CHRNB4"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P30926> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P30926"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/ad986> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/b60d6> , <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000117971> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1143> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNB4> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/H3BU02> , <http://identifiers.org/uniprot/P30926> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/f173b> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/f0627> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/d815f> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/cf608> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/cc673> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/bb4d5> .
+
+<http://identifiers.org/uniprot/Q04844>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CHRNE"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q04844> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q04844"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/ad986> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000108556> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1145> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNE> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q04844> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/bad8c> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/f8600> .
+
+<http://identifiers.org/pubmed/8987816>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Acety_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8987816> .
+
+<http://identifiers.org/reactome/R-HSA-629592>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "O-acteylcholine bound to calcium permeable postsynaptic nicotinic acetylcholine receptors"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-629592> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-629592"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/a7c8b> , <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/dce69> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-629592> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50270066> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/e24db> .
+
+<http://identifiers.org/chebi/CHEBI:29101>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Na+"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/FKNQFGJONOIPTF-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:29101> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:29101"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/b2147> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:29101> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/899> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000588> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/FKNQFGJONOIPTF-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C01330> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID923> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q3154110> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/a3c5e> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/c9d0d> .
+
+<http://identifiers.org/wikipathways//Acety>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Acety_r1> .
+
+<http://identifiers.org/uniprot/Q05901>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CHRNB3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q05901> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q05901"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> , <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/b60d6> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000147432> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1142> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNB3> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q05901> , <http://identifiers.org/uniprot/A0A1D5RMT8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/d2377> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/ae99a> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/a8046> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/ab567> .
+
+<http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/b60d6>
+        a                 wp:DataNode , wp:Complex ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Acety_r1/Group/b60d6> ;
+        wp:participants   <http://identifiers.org/uniprot/Q05901> , <http://identifiers.org/uniprot/P30532> , <http://identifiers.org/uniprot/P43681> , <http://identifiers.org/uniprot/P02708> , <http://identifiers.org/uniprot/P32297> , <http://identifiers.org/uniprot/P30926> , <http://identifiers.org/uniprot/P17787> , <http://identifiers.org/chebi/CHEBI:15355> , <http://identifiers.org/uniprot/Q15822> , <http://identifiers.org/uniprot/Q15825> .
+
+<http://identifiers.org/uniprot/Q15822>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CHRNA2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q15822> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q15822"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/b60d6> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000120903> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1135> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNA2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E5RGT4> , <http://identifiers.org/uniprot/A0A1B0GVX5> , <http://identifiers.org/uniprot/E5RGP6> , <http://identifiers.org/uniprot/Q15822> , <http://identifiers.org/uniprot/E5RHQ4> , <http://identifiers.org/uniprot/E5RK67> , <http://identifiers.org/uniprot/A0A0X1KG79> , <http://identifiers.org/uniprot/E5RJ54> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/fc9e4> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/e865e> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/f38f7> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/d0363> .
+
+<http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/c3e08>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10945867> , <http://identifiers.org/pubmed/12810063> ;
+        dcterms:identifier             "R-HSA-622326"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-622326> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/abe20> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/fc3d9> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/fdf25> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/c3e08> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-629600> , <http://identifiers.org/chebi/CHEBI:29108> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-629600> , <http://identifiers.org/chebi/CHEBI:29108> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:29108> .
+
+<http://identifiers.org/uniprot/Q07001>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CHRND"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q07001> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q07001"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/ad986> , <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000135902> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1144> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRND> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/C9JJV8> , <http://identifiers.org/uniprot/F8WB46> , <http://identifiers.org/uniprot/B4DKT6> , <http://identifiers.org/uniprot/F8WBS0> , <http://identifiers.org/uniprot/Q07001> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/a8271> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/fd5d4> .
+
+<http://identifiers.org/reactome/R-HSA-629576>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "Highly sodium permeable nicotinic acetylcholine receptors"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-629576> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-629576"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/e60d5> , <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-629576> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/e1433> .
+
+<http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Acety_r1/Group/cff40> ;
+        wp:participants   <http://identifiers.org/uniprot/Q9UGM1> , <http://identifiers.org/uniprot/P36544> , <http://identifiers.org/uniprot/P32297> , <http://identifiers.org/chebi/CHEBI:15355> , <http://identifiers.org/uniprot/P30532> , <http://identifiers.org/uniprot/Q15825> , <http://identifiers.org/uniprot/P43681> , <http://identifiers.org/uniprot/P30926> , <http://identifiers.org/uniprot/Q05901> , <http://identifiers.org/uniprot/P17787> , <http://identifiers.org/uniprot/P02708> , <http://identifiers.org/uniprot/Q15822> .
+
+<http://identifiers.org/uniprot/P30532>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CHRNA5"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P30532> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P30532"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/b60d6> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000169684> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1138> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNA5> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/H0YK34> , <http://identifiers.org/uniprot/H7BYM0> , <http://identifiers.org/uniprot/H0YM98> , <http://identifiers.org/uniprot/P30532> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/cd2f1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/ea680> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/b43c2> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/d7f01> .
+
+<http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/ad986>
+        a                 wp:DataNode , wp:Complex ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Acety_r1/Group/ad986> ;
+        wp:participants   <http://identifiers.org/uniprot/P32297> , <http://identifiers.org/chebi/CHEBI:15355> , <http://identifiers.org/uniprot/P17787> , <http://identifiers.org/uniprot/P30926> , <http://identifiers.org/uniprot/P43681> , <http://identifiers.org/uniprot/Q07001> , <http://identifiers.org/uniprot/P07510> , <http://identifiers.org/uniprot/Q04844> .
+
+<http://identifiers.org/uniprot/P02708>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "CHRNA1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P02708> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P02708"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/b60d6> , <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000138435> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1134> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNA1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/B8ZZD3> , <http://identifiers.org/uniprot/F8WDS3> , <http://identifiers.org/uniprot/A0A1B0GV17> , <http://identifiers.org/uniprot/E7ENE5> , <http://identifiers.org/uniprot/P02708> , <http://identifiers.org/uniprot/Q53SH4> , <http://identifiers.org/uniprot/G5E9G9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/df1e6> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/d639b> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/f9cc9> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/d52ce> .
+
+<http://identifiers.org/reactome/R-HSA-629590>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "O-Acetylcholine bound to Acetylcholine receptor"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-629590> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-629590"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/e60d5> , <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/b2147> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-629590> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50270059> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/de114> .
+
+<http://identifiers.org/chebi/CHEBI:15355>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "AcCho"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/OIPILFWXSMYKGL-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15355> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15355"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> , <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/a7c8b> , <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/e60d5> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/b60d6> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/ad986> , <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/b484e> , <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15355> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/182> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000895> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/OIPILFWXSMYKGL-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C01996> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID187> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q180623> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/e9783> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/c694f> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/cba17> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/e2e7e> .
+
+<http://identifiers.org/pubmed/19059502>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Acety_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19059502> .
+
+<http://identifiers.org/reactome/R-HSA-629600>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "0-acteylcholine bound to calcium permeable nictonic acteylcholine receptor complex"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-629600> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-629600"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/b484e> , <http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/c3e08> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-629600> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50270049> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/daaca> .
+
+<http://identifiers.org/uniprot/Q9UGM1>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "CHRNA9"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9UGM1> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9UGM1"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000174343> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/55584> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNA9> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9UGM1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/badb7> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/ce5da> .
+
+<http://identifiers.org/uniprot/P17787>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "CHRNB2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P17787> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P17787"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/ad986> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/b60d6> , <http://identifiers.org/wikipathways//Acety_r1> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Complex/cff40> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000160716> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1141> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHRNB2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A1B0GVD7> , <http://identifiers.org/uniprot/P17787> , <http://identifiers.org/uniprot/A0A1B0GUQ6> , <http://identifiers.org/uniprot/Q5SXY3> , <http://identifiers.org/uniprot/A0A1B0GTH5> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/efd7b> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/afec3> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/a05a8> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/e486b> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/d2b08> , <http://rdf.wikipathways.org/Pathway//Acety_r1/DataNode/ae8b6> .
+
+<http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/b2147>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/8987816> ;
+        dcterms:identifier             "R-HSA-622325"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-622325> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/d1bf0> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/b2147> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/f8f40> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/af2d0> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:29101> , <http://identifiers.org/reactome/R-HSA-629590> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-629590> , <http://identifiers.org/chebi/CHEBI:29101> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:29101> .
+
+<http://identifiers.org/wikipathways//Acety_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Acety> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Acetylcholine binding and downstream events"@en ;
+        dcterms:description  "Acetylcholine is the neurotransmitter found at neuromuscular junctions, synapses in the ganglia of the visceral motor system, and at a variety of sites within the central nervous system. A great deal is known about the function of cholinergic transmission at the neuromuscular junction and at ganglionic synapses, the actions of ACh in the central nervous system are not as well understood.  Acetylcholine is synthesized in nerve terminals from acetyl coenzyme A (acetyl CoA) synthesized from glucose) and choline. This reaction is catalyzed by choline acetyltransferase (CAT). The presence of acetyltransferase in a neuron is thus a strong indication that ACh is used as one of its transmitters. Choline is present in plasma at a concentration of about 10 mM, and is taken up into cholinergic neurons by a high-affinity Na+/choline transporter. About 10,000 molecules of ACh are packaged into each neurotransmitter containing vesicle by a vesicular ACh transporter.\n View original pathway at:[http://www.reactome.org/PathwayBrowser/#DIAGRAM=181431 Reactome]." ;
+        dcterms:identifier   "/Acety"^^xsd:string ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Acety_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Acety_r1> .
+
+<http://identifiers.org/pubmed/10945867>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Acety_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10945867> .
+
+<http://rdf.wikipathways.org/Pathway//Acety_r1/WP/Interaction/dce69>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12810063> , <http://identifiers.org/pubmed/10945867> ;
+        dcterms:identifier             "R-HSA-629595"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Acety_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-629595> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/d4b17> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/a56b9> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/a5176> , <http://rdf.wikipathways.org/Pathway//Acety_r1/Interaction/dce69> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:29108> , <http://identifiers.org/reactome/R-HSA-629592> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:29108> , <http://identifiers.org/reactome/R-HSA-629592> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:29108> .
+
+<http://identifiers.org/pubmed/12810063>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Acety_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12810063> .
