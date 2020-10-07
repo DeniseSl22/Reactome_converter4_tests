@@ -14,4 +14,5 @@ echo "bridgefiles=/path/to/where/the/bridge/files/are" > /tmp/OPSBRIDGEDB/config
 make
 ```
 make : creates the ttl file
+
 make check : creates the report to check the content of the ttl (and possibly creates a new ttl).
