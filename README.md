@@ -1,7 +1,7 @@
 
 # GPML files
 
-No spaces, no brackets. Saved in the `GPMLs` folder.
+No spaces, no brackets (in file names of GPMLs). Saved in the `GPMLs` folder.
 
 # Generating Turtle
 
