@@ -11,4 +11,7 @@ into the `.ttl` files in this repository (GNU/Linux):
 ```shell
 mkdir -p /tmp/OPSBRIDGEDB
 echo "bridgefiles=/path/to/where/the/bridge/files/are" > /tmp/OPSBRIDGEDB/config.properties
+make
 ```
+make : creates the ttl file
+make check : creates the report to check the content of the ttl (and possibly creates a new ttl).
