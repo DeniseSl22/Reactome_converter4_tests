@@ -1,7 +1,18 @@
 
 # GPML files
 
-No spaces, no brackets (in file names of GPMLs). Saved in the `GPMLs` folder.
+Currently the converter adds the full title of the PW from Reactome as the file name. This is inconvenient, since the further operations require no spaces and no brackets in the file names of GPMLs. A new version of the Reactome2GPML converter should fix this.
+
+Current solution:
+1. In bash command line, use the following statement to replace all spaces " " in the file titles with an underscore "_":
+```
+for x in *" "*; do
+  mv -- "$x" "${x// /_}"
+done
+```
+1.In bash command line, use the following statement to replace all brackets "()" in the file titles with an underscore "_":
+
+Saved in the `GPMLs` folder.
 
 # Generating Turtle
 
