@@ -33,9 +33,20 @@ make check : creates ttl files for each GPML (from the folder GPMLs) (ttls store
 
 
 # Exploring the test reports
-Move to the folder where the test reports are located, and obtain the content over all files for specific tests (entrezGeneIdentifiersNotNumber), test classes and total number of fails (Number of fails).
+Move to the folder where the test reports are located, and obtain the content over all files for specific tests (entrezGeneIdentifiersNotNumber), test classes (Number of assertions) and total number of fails (Number of fails).
 ```
 cd reports
 grep entrezGeneIdentifiersNotNumber *.md | grep -v  "\.\."
+grep "Number of Number of test classes" *.md | sort | uniq -c | sort -n
 grep "Number of fails" *.md | sort | uniq -c | sort -n
 ```
+
+Specific tests available currently:
+- entrezGeneIdentifiersNotNumber
+- affyProbeIdentifiersNotCorrect
+- nonNumericPubMedIDs
+- zeroPubMedIDs
+- atLeastOneReference
+- noMetaboliteToNonMetaboliteConversions
+- noNonMetaboliteToMetaboliteConversions
+- noGeneProteinConversions
