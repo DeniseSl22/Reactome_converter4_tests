@@ -1,7 +1,6 @@
+# File names clean up
 
-# GPML files
-
-Currently the converter adds the full title of the PW from Reactome as the file name. This is inconvenient, since the further operations require no spaces and no brackets in the file names of GPMLs. A new version of the Reactome2GPML converter should fix this.
+Currently the converter adds the full title of the PW from Reactome as the file name. This is inconvenient, since the further operations in this repository require no spaces and no brackets in the file names of GPMLs. A new version of the Reactome2GPML converter should fix this [issue](https://github.com/wikipathways/reactome2gpml-converter/issues/55).
 
 Current solution:
 1. In bash command line, use the following statement to remove all items brackets "()" in the file titles:
@@ -13,8 +12,11 @@ for file in ./*; do mv "$file" "${file/ (*)/}"; done
 ```
 for x in *" "*; do mv -- "$x" "${x// /_}" ; done
 ```
+Check if all files are renamed accordingly (search for files with "(" or ")" ; when one of these characters is connected to a letter, they're not replaced properly). Version 73 of Reactome had 3 cases where this happens.
 
-Saved in the `GPMLs` folder.
+# GPML files
+
+Save all PWs in the `GPMLs` folder from this repository.
 
 # Generating Turtle
 
