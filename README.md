@@ -4,13 +4,14 @@
 Currently the converter adds the full title of the PW from Reactome as the file name. This is inconvenient, since the further operations require no spaces and no brackets in the file names of GPMLs. A new version of the Reactome2GPML converter should fix this.
 
 Current solution:
-1. In bash command line, use the following statement to replace all spaces " " in the file titles with an underscore "_":
-```
-for x in *" "*; do mv -- "$x" "${x// /_}" ; done
-```
-2. (Again) in bash command line, use the following statement to remove all items brackets "()" in the file titles:
+1. In bash command line, use the following statement to remove all items brackets "()" in the file titles:
 ```
 ls -d -- *\(*\)* | sed 's/\(.*\) (.*)\(.*\)/mv -- "&" "\1\2"/'
+for file in ./*; do mv "$file" "${file/ (*)/}"; done
+```
+2. (again) In bash command line, use the following statement to replace all spaces " " in the file titles with an underscore "_":
+```
+for x in *" "*; do mv -- "$x" "${x// /_}" ; done
 ```
 
 Saved in the `GPMLs` folder.
