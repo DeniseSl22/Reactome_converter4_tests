@@ -6,11 +6,12 @@ Currently the converter adds the full title of the PW from Reactome as the file 
 Current solution:
 1. In bash command line, use the following statement to replace all spaces " " in the file titles with an underscore "_":
 ```
-for x in *" "*; do
-  mv -- "$x" "${x// /_}"
-done
+for x in *" "*; do mv -- "$x" "${x// /_}" ; done
 ```
-1.In bash command line, use the following statement to replace all brackets "()" in the file titles with an underscore "_":
+1.(Again) in bash command line, use the following statement to remove all items brackets "()" in the file titles:
+```
+for file in ./*; do mv "$file" "${file/ (*)/}"; done
+```
 
 Saved in the `GPMLs` folder.
 
