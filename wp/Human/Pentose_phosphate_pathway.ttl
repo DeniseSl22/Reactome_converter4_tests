@@ -1,0 +1,1226 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/10869557>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10869557> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/ComplexBinding/bca8b>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pento_r1/Group/bca8b> ;
+        wp:participants   <http://identifiers.org/uniprot/P29401> , <http://identifiers.org/chebi/CHEBI:58937> , <http://identifiers.org/chebi/CHEBI:18420> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/bca8b> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d085a>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/4328836> ;
+        dcterms:identifier             "R-HSA-73580"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-73580> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/ba6c0> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/baf22> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/d085a> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b24dc> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a0375> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/d56dd> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17111> , <http://identifiers.org/chebi/CHEBI:16027> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/reactome/R-HSA-189812> , <http://identifiers.org/chebi/CHEBI:78679> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-189812> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/chebi/CHEBI:78679> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:16027> , <http://identifiers.org/chebi/CHEBI:17111> .
+
+<http://identifiers.org/pubmed/10745013>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10745013> .
+
+<http://identifiers.org/uniprot/P60891>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "PRPS1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P60891> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P60891"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000147224> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5631> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PRPS1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/B7ZB02> , <http://identifiers.org/uniprot/B1ALA7> , <http://identifiers.org/uniprot/P60891> , <http://identifiers.org/uniprot/B1ALA9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/c29f5> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/d631d> .
+
+<http://identifiers.org/chebi/CHEBI:30616>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ATP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:30616> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:30616"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d085a> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf3be> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/c2ccb> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4574455> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-J> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5461108> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27113900> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/e36ba> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/ab3d9> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/d8a4c> .
+
+<http://identifiers.org/pubmed/8300619>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8300619> .
+
+<http://identifiers.org/chebi/CHEBI:57737>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "XY5P"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/FNZLKVNUWIIPSJ-RFZPGFLSSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:57737> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:57737"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d987a> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b4aa0> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a8140> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/f4793> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b75cc> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a0358> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:57737> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/20015725> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/FNZLKVNUWIIPSJ-RFZPGFLSSA-L> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00231> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5459820> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q424625> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/b943a> .
+
+<http://identifiers.org/pubmed/25229427>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25229427> .
+
+<http://identifiers.org/chebi/CHEBI:11563>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "dR1P"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/KBDKAJNTYKVSEK-VPENINKCSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:11563> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:11563"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b51f6> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:11563> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4573972> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/KBDKAJNTYKVSEK-VPENINKCSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00672> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5460448> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27108892> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/f9d13> .
+
+<http://identifiers.org/chebi/CHEBI:456216>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ADP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:456216> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:456216"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/c2ccb> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf3be> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:456216> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5414423> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-K> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7058055> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27225748> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/b5dd4> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/d958a> .
+
+<http://identifiers.org/chebi/CHEBI:47013>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "D-ribose"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/HMFHBZSHGGEWLO-SOOFDHNKSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:47013> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:47013"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/c2ccb> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:47013> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/24755365> , <http://identifiers.org/chemspider/5575> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000283> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/HMFHBZSHGGEWLO-SOOFDHNKSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00121> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5779> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q179271> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/d1b49> .
+
+<http://identifiers.org/pubmed/10518023>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10518023> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d987a>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/9357955> ;
+        dcterms:identifier             "R-HSA-71324"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-71324> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a729e> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a8ead> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/c065c> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a4b33> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/d987a> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b0a84> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:15721> , <http://identifiers.org/chebi/CHEBI:57737> , <http://identifiers.org/reactome/R-HSA-71322> , <http://identifiers.org/chebi/CHEBI:78679> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:57737> , <http://identifiers.org/chebi/CHEBI:78679> , <http://identifiers.org/reactome/R-HSA-71322> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:15721> .
+
+<http://identifiers.org/chebi/CHEBI:17111>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "PRPP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/PQGCEDQWHSBAJP-TXICZTDVSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17111> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17111"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b8464> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d085a> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17111> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/7062> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000280> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/PQGCEDQWHSBAJP-TXICZTDVSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00119> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7339> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q420633> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/bcb32> .
+
+<http://identifiers.org/pubmed/18186520>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18186520> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a0358>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/9357955> ;
+        dcterms:identifier             "R-HSA-71335"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-71335> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/f6a86> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a0303> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b9f30> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a1e90> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a0358> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a6e51> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:57634> , <http://identifiers.org/chebi/CHEBI:57737> , <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:16897> , <http://identifiers.org/reactome/R-HSA-71322> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:57737> , <http://identifiers.org/reactome/R-HSA-71322> , <http://identifiers.org/chebi/CHEBI:16897> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:57634> .
+
+<http://identifiers.org/pubmed/24066844>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24066844> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/c2ccb>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/17585908> , <http://identifiers.org/pubmed/18560757> ;
+        dcterms:identifier             "R-HSA-8955844"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8955844> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/da349> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/c2ccb> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/fc985> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/c564f> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a660d> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a6e8e> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:78679> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/Q9H477> , <http://identifiers.org/chebi/CHEBI:47013> ;
+        wp:source                      <http://identifiers.org/uniprot/Q9H477> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/chebi/CHEBI:47013> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/chebi/CHEBI:78679> .
+
+<http://identifiers.org/uniprot/P11413>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "G6PD"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P11413> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P11413"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000160211> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/2539> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/G6PD> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E7EM57> , <http://identifiers.org/uniprot/E7EUI8> , <http://identifiers.org/uniprot/E9PD92> , <http://identifiers.org/uniprot/P11413> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/af56a> .
+
+<http://identifiers.org/chebi/CHEBI:16132>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "dR5P"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/ALQNUOMIEBHXQG-CRCLSJGQSA-N> , <http://identifiers.org/inchikey/KKZFLSZAWCYPOC-VPENINKCSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16132> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16132"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b51f6> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b56c5> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16132> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/25057464> , <http://identifiers.org/chemspider/132775> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001031> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/KKZFLSZAWCYPOC-VPENINKCSA-N> , <http://identifiers.org/inchikey/ALQNUOMIEBHXQG-CRCLSJGQSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00673> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID45934311> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID150629> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27098393> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/e398f> .
+
+<http://identifiers.org/uniprot/P29401>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "TKT"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P29401> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P29401"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/c168a> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/bca8b> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000163931> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/7086> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/TKT> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P29401> , <http://identifiers.org/uniprot/F8WAX4> , <http://identifiers.org/uniprot/F8W888> , <http://identifiers.org/uniprot/A0A0B4J1R6> , <http://identifiers.org/uniprot/E9PFF2> , <http://identifiers.org/uniprot/V9HWD9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/b12b2> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/fb305> .
+
+<http://identifiers.org/chebi/CHEBI:59776>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "GA3P"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/LXJXRIRHZLFYRP-VKHMYHEASA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:59776> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:59776"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a8140> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b56c5> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d987a> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/f4793> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a0358> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/fafc3> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf44f> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:59776> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/21169165> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/LXJXRIRHZLFYRP-VKHMYHEASA-L> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID24794350> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27126894> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/d3e29> .
+
+<http://identifiers.org/reactome/R-HSA-5659970>
+        a                              wp:DataNode , wp:Complex ;
+        rdfs:label                     "TALDO1 dimer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-5659970> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10869557> ;
+        dcterms:identifier             "R-HSA-5659970"^^xsd:string ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf44f> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/fafc3> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5659970> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/a319d> .
+
+<http://identifiers.org/pubmed/2581946>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/2581946> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/bca8b>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pento_r1/Group/bca8b> ;
+        wp:participants   <http://identifiers.org/uniprot/P29401> , <http://identifiers.org/chebi/CHEBI:58937> , <http://identifiers.org/chebi/CHEBI:18420> .
+
+<http://identifiers.org/uniprot/Q9UHJ6>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "SHPK"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9UHJ6> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9UHJ6"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf3be> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000197417> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/23729> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SHPK> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9UHJ6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/e81f6> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2d6c>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/5666113> , <http://identifiers.org/pubmed/24066844> , <http://identifiers.org/pubmed/10745013> ;
+        dcterms:identifier             "R-HSA-70377"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-70377> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/f6241> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/c713b> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/e2d6c> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/bd4df> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/f7ab6> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/bca48> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/e2a2a> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-464971> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:16938> , <http://identifiers.org/chebi/CHEBI:58225> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:58225> , <http://identifiers.org/reactome/R-HSA-464971> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:16938> , <http://identifiers.org/chebi/CHEBI:16474> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/aa100>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/17804405> ;
+        dcterms:identifier             "R-HSA-6787329"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6787329> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/e4f79> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/aa100> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b5285> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/f43de> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:78679> , <http://identifiers.org/reactome/R-HSA-453137> , <http://identifiers.org/chebi/CHEBI:35425> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-453137> , <http://identifiers.org/chebi/CHEBI:35425> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:78679> .
+
+<http://identifiers.org/pubmed/11283793>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11283793> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b75cc>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/2581946> , <http://identifiers.org/pubmed/7396409> ;
+        dcterms:identifier             "R-HSA-199803"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-199803> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/d4c86> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b906b> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/fc742> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b75cc> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-8957329> , <http://identifiers.org/chebi/CHEBI:17363> , <http://identifiers.org/chebi/CHEBI:57737> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-8957329> , <http://identifiers.org/chebi/CHEBI:57737> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17363> .
+
+<http://identifiers.org/chebi/CHEBI:35425>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "R1P"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/YXJDFQJKERBOBM-SOOFDHNKSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:35425> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:35425"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/aa100> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:35425> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/110299> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/YXJDFQJKERBOBM-SOOFDHNKSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID123732> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27104315> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/e39da> .
+
+<http://identifiers.org/reactome/R-HSA-71322>
+        a                              wp:Complex , wp:DataNode ;
+        rdfs:label                     "TKT dimer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-71322> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/9357955> ;
+        dcterms:identifier             "R-HSA-71322"^^xsd:string ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a0358> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/f4793> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d987a> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a8140> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-71322> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/ffa95> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/e2d05> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a8ba6>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/14988808> ;
+        dcterms:identifier             "R-HSA-177784"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-177784> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/e8c3d> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a6ae0> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a8ba6> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/e4fee> ;
+        wp:participants                <http://identifiers.org/uniprot/P49247> , <http://identifiers.org/chebi/CHEBI:78679> , <http://identifiers.org/chebi/CHEBI:17363> ;
+        wp:source                      <http://identifiers.org/uniprot/P49247> , <http://identifiers.org/chebi/CHEBI:78679> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17363> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b56c5>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/25229427> ;
+        dcterms:identifier             "R-HSA-6787321"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6787321> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/e1280> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b56c5> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/dd69a> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b55bd> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/c3f76> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15343> , <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:16132> , <http://identifiers.org/uniprot/Q9Y315> ;
+        wp:source                      <http://identifiers.org/uniprot/Q9Y315> , <http://identifiers.org/chebi/CHEBI:16132> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:15343> , <http://identifiers.org/chebi/CHEBI:59776> .
+
+<http://identifiers.org/chebi/CHEBI:16802>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Sedo"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/HSNZZMHEPUFJNZ-SHUUEZRQSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16802> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16802"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf3be> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16802> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4573620> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/HSNZZMHEPUFJNZ-SHUUEZRQSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C08355> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5459879> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q1091415> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/aa094> .
+
+<http://identifiers.org/uniprot/Q9Y315>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DERA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9Y315> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9Y315"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b56c5> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000023697> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/51071> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DERA> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E9PML7> , <http://identifiers.org/uniprot/E9PPK3> , <http://identifiers.org/uniprot/G3V158> , <http://identifiers.org/uniprot/E9PJ44> , <http://identifiers.org/uniprot/E9PPM8> , <http://identifiers.org/uniprot/E9PMH9> , <http://identifiers.org/uniprot/Q9Y315> , <http://identifiers.org/uniprot/E9PJB9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/dfda2> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2110>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/3932573> , <http://identifiers.org/pubmed/3994686> , <http://identifiers.org/pubmed/9920387> ;
+        dcterms:identifier             "R-HSA-71299"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-71299> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/f8035> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/e2110> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/ee3f0> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/dd52f> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a5d55> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a41f0> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/d31ef> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/d33ca> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:16526> , <http://identifiers.org/reactome/R-HSA-467365> , <http://identifiers.org/chebi/CHEBI:16863> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:17363> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:18009> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-467365> , <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:16863> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17363> , <http://identifiers.org/chebi/CHEBI:16526> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:16474> .
+
+<http://identifiers.org/pubmed/9920387>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9920387> .
+
+<http://identifiers.org/chebi/CHEBI:16897>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "E4P"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/NGHMDNPXVRFFGS-IUYQGCFVSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16897> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16897"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a0358> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/fafc3> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/f4793> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf44f> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16897> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4573609> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/NGHMDNPXVRFFGS-IUYQGCFVSA-L> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5459862> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q2520005> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/d68f1> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/ComplexBinding/e00e4>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pento_r1/Group/e00e4> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:18420> , <http://identifiers.org/uniprot/Q96G03> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/e00e4> .
+
+<http://identifiers.org/chebi/CHEBI:15378>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "H+"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/GPRLSGONYQIRFK-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15378> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15378"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2110> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2d6c> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf3be> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15378> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/1010> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0059597> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/GPRLSGONYQIRFK-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00080> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1038> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q506710> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/b7a8b> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/f87cf> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/fad1e> .
+
+<http://identifiers.org/chebi/CHEBI:18009>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "NADP+"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XJLXINKUBYWONI-NNYOXOHSSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:18009> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:18009"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2d6c> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2110> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:18009> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5675> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000217> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XJLXINKUBYWONI-NNYOXOHSSA-O> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00006> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5886> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26987754> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/dcc0f> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/dffa5> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/c349a> .
+
+<http://identifiers.org/chebi/CHEBI:16863>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "PDG"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16863> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16863"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2110> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d6444> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16863> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4573614> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5459869> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27102117> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/e10ec> .
+
+<http://identifiers.org/reactome/R-HSA-467365>
+        a                              wp:Complex , wp:DataNode ;
+        rdfs:label                     "PGD dimer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-467365> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/3994686> ;
+        dcterms:identifier             "R-HSA-467365"^^xsd:string ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2110> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-467365> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/d518b> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf44f>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10869557> , <http://identifiers.org/pubmed/11283793> , <http://identifiers.org/pubmed/8300619> ;
+        dcterms:identifier             "R-HSA-163764"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-163764> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/aaabc> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b4d11> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/ee6a8> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/f66c7> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/cf44f> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/fe637> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:16897> , <http://identifiers.org/chebi/CHEBI:57634> , <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:15721> , <http://identifiers.org/reactome/R-HSA-5659970> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-5659970> , <http://identifiers.org/chebi/CHEBI:57634> , <http://identifiers.org/chebi/CHEBI:16897> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:15721> .
+
+<http://identifiers.org/chebi/CHEBI:17363>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "RU5P"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/FNZLKVNUWIIPSJ-UHNVWZDZSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17363> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17363"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b1501> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b75cc> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2110> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a8ba6> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b4aa0> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17363> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/388327> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000618> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/FNZLKVNUWIIPSJ-UHNVWZDZSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00199> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID439184> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q35671055> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/dee08> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a8140>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/9357955> ;
+        dcterms:identifier             "R-HSA-163741"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-163741> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/cd702> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a8140> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/bc6e7> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/fadf7> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/dbe03> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/cda5e> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:78679> , <http://identifiers.org/chebi/CHEBI:57737> , <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:15721> , <http://identifiers.org/reactome/R-HSA-71322> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-71322> , <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:15721> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:57737> , <http://identifiers.org/chebi/CHEBI:78679> .
+
+<http://identifiers.org/pubmed/4328836>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/4328836> .
+
+<http://identifiers.org/pubmed/3790084>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/3790084> .
+
+<http://identifiers.org/chebi/CHEBI:16284>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "dATP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/SUYVUBYJARFZHO-RRKCRQDMSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16284> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16284"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b8464> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16284> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/15194> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001532> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/SUYVUBYJARFZHO-RRKCRQDMSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00131> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID15993> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q201090> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/a68ed> .
+
+<http://identifiers.org/uniprot/O95336>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "PGLS"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O95336> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O95336"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d6444> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000130313> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/25796> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PGLS> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/O95336> , <http://identifiers.org/uniprot/M0R261> , <http://identifiers.org/uniprot/A0A0K0K1K7> , <http://identifiers.org/uniprot/M0R1L2> , <http://identifiers.org/uniprot/M0R0U3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/f6d55> .
+
+<http://identifiers.org/chebi/CHEBI:15377>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "H2O"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XLYOFNOQVPJJNP-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15377> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15377"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d6444> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15377> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/937> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0002111> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XLYOFNOQVPJJNP-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00001> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID962> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q283> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/c7fa0> .
+
+<http://identifiers.org/pubmed/9357955>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9357955> .
+
+<http://identifiers.org/uniprot/P49247>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "RPIA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P49247> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P49247"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b1501> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a8ba6> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000153574> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/22934> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/RPIA> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P49247> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/a5b7f> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/ComplexBinding/a2870>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pento_r1/Group/a2870> ;
+        wp:participants   <http://identifiers.org/uniprot/Q96G03> , <http://identifiers.org/chebi/CHEBI:18420> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/a2870> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b1501>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/14988808> ;
+        dcterms:identifier             "R-HSA-71306"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-71306> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a52ab> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/f0165> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b1501> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/fb321> ;
+        wp:participants                <http://identifiers.org/uniprot/P49247> , <http://identifiers.org/chebi/CHEBI:78679> , <http://identifiers.org/chebi/CHEBI:17363> ;
+        wp:source                      <http://identifiers.org/uniprot/P49247> , <http://identifiers.org/chebi/CHEBI:17363> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:78679> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/ComplexBinding/c168a>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pento_r1/Group/c168a> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:18420> , <http://identifiers.org/uniprot/P29401> , <http://identifiers.org/chebi/CHEBI:58937> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/c168a> .
+
+<http://identifiers.org/pubmed/18560757>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18560757> .
+
+<http://identifiers.org/uniprot/P11908>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "PRPS2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P11908> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P11908"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000101911> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5634> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PRPS2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A140VK41> , <http://identifiers.org/uniprot/D3YTJ7> , <http://identifiers.org/uniprot/P11908> , <http://identifiers.org/uniprot/H7C540> , <http://identifiers.org/uniprot/A6NMS2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/f2918> .
+
+<http://identifiers.org/pubmed/14988808>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/14988808> .
+
+<http://identifiers.org/chebi/CHEBI:17713>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "2'-deoxyadenosine 5'-monophosphate"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/KHWCHTKSEGGWEX-RRKCRQDMSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17713> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17713"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b8464> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17713> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/12079> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000905> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/KHWCHTKSEGGWEX-RRKCRQDMSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00360> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID12599> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q1874427> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/b28f5> .
+
+<http://identifiers.org/chebi/CHEBI:15343>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "CH3CHO"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/IKHGUXGNUITLKF-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15343> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15343"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b56c5> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15343> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/172> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000990> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/IKHGUXGNUITLKF-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00084> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID177> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q61457> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/a618f> .
+
+<http://identifiers.org/pubmed/18987987>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18987987> .
+
+<http://identifiers.org/pubmed/17585908>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17585908> .
+
+<http://identifiers.org/uniprot/Q96AT9>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "RPE"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q96AT9> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q96AT9"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000197713> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/6120> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/RPE> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/C9J6A7> , <http://identifiers.org/uniprot/C9J8S0> , <http://identifiers.org/uniprot/E7ESZ6> , <http://identifiers.org/uniprot/C9JCL8> , <http://identifiers.org/uniprot/C9IYE8> , <http://identifiers.org/uniprot/Q96AT9> , <http://identifiers.org/uniprot/C9IZU8> , <http://identifiers.org/uniprot/F8WBT4> , <http://identifiers.org/uniprot/E9PBG9> , <http://identifiers.org/uniprot/C9J9T0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/cd638> .
+
+<http://identifiers.org/chebi/CHEBI:57634>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Fru(6)P"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/BGWGXPAPYGQALX-ARQDHWQXSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:57634> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:57634"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/f4793> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf44f> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a0358> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/fafc3> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:57634> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/10239172> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/BGWGXPAPYGQALX-ARQDHWQXSA-L> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID21604863> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27124826> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/a0213> .
+
+<http://identifiers.org/uniprot/P52209>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "PGD"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P52209> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P52209"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000142657> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5226> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PGD> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P52209> , <http://identifiers.org/uniprot/K7EMN2> , <http://identifiers.org/uniprot/K7EM49> , <http://identifiers.org/uniprot/K7ELN9> , <http://identifiers.org/uniprot/K7EPF6> , <http://identifiers.org/uniprot/K7EJT3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/a0954> .
+
+<http://identifiers.org/reactome/R-HSA-189812>
+        a                              wp:Complex , wp:DataNode ;
+        rdfs:label                     "PRPS2 dimer, PRPS1L dimer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-189812> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/4328836> ;
+        dcterms:identifier             "R-HSA-189812"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d085a> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-189812> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/ba266> .
+
+<http://identifiers.org/wikipathways//Pento>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Pento_r1> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b4aa0>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/7396409> , <http://identifiers.org/pubmed/20923965> , <http://identifiers.org/pubmed/2581946> ;
+        dcterms:identifier             "R-HSA-71303"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-71303> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b4aa0> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/e5471> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a2e5f> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b6751> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:57737> , <http://identifiers.org/reactome/R-HSA-8957329> , <http://identifiers.org/chebi/CHEBI:17363> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-8957329> , <http://identifiers.org/chebi/CHEBI:17363> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:57737> .
+
+<http://identifiers.org/pubmed/17804405>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17804405> .
+
+<http://identifiers.org/pubmed/3994686>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/3994686> .
+
+<http://identifiers.org/pubmed/18775706>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18775706> .
+
+<http://identifiers.org/chebi/CHEBI:15721>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "SH7P"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/JDTUMPKOJBQPKX-GBNDHIKLSA-N> , <http://identifiers.org/inchikey/CBIDVWSRUUODHL-QTSLKERKSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15721> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15721"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/fafc3> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d987a> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a8140> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf3be> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf44f> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15721> , <http://identifiers.org/chebi/CHEBI:9083> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/17216052> , <http://identifiers.org/chemspider/144663> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001068> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/CBIDVWSRUUODHL-QTSLKERKSA-N> , <http://identifiers.org/inchikey/JDTUMPKOJBQPKX-GBNDHIKLSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C05382> , <http://identifiers.org/kegg.compound/C00281> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID165007> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID22833559> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q3040325> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/c5ca6> .
+
+<http://identifiers.org/reactome/R-HSA-8957329>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "RPE:Fe2+ dimers"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-8957329> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-8957329"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b75cc> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b4aa0> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-8957329> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/d5380> .
+
+<http://identifiers.org/uniprot/Q96G03>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "PGM2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q96G03> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q96G03"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/e00e4> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/a2870> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000169299> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/55276> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PGM2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E7ENQ8> , <http://identifiers.org/uniprot/Q96G03> , <http://identifiers.org/uniprot/H0Y921> , <http://identifiers.org/uniprot/E9PD70> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/f9233> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/b2da7> .
+
+<http://identifiers.org/pubmed/22682222>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22682222> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/f4793>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/9357955> ;
+        dcterms:identifier             "R-HSA-163751"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-163751> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/d9d3f> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/c063d> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/ca55b> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/ae77c> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/ddd0f> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/f4793> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-71322> , <http://identifiers.org/chebi/CHEBI:57634> , <http://identifiers.org/chebi/CHEBI:16897> , <http://identifiers.org/chebi/CHEBI:57737> , <http://identifiers.org/chebi/CHEBI:59776> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:57634> , <http://identifiers.org/reactome/R-HSA-71322> , <http://identifiers.org/chebi/CHEBI:59776> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:57737> , <http://identifiers.org/chebi/CHEBI:16897> .
+
+<http://identifiers.org/pubmed/7396409>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/7396409> .
+
+<http://identifiers.org/pubmed/20923965>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20923965> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/a2870>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pento_r1/Group/a2870> ;
+        wp:participants   <http://identifiers.org/uniprot/Q96G03> , <http://identifiers.org/chebi/CHEBI:18420> .
+
+<http://identifiers.org/reactome/R-HSA-73485>
+        a                              wp:DataNode , wp:Complex ;
+        rdfs:label                     "PRPS1 dimer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-73485> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/4328836> ;
+        dcterms:identifier             "R-HSA-73485"^^xsd:string ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b8464> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-73485> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/a5de4> .
+
+<http://identifiers.org/chebi/CHEBI:16027>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "AMP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/UDMBCSSLTHHNCD-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16027> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16027"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d085a> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16027> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5858> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000045> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/UDMBCSSLTHHNCD-KQYNXXCUSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00020> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6083> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q318369> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/b7346> .
+
+<http://identifiers.org/uniprot/Q2QD12>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "RPEL1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q2QD12> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q2QD12"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000235376> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/729020> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/RPEL1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q2QD12> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/a953f> .
+
+<http://identifiers.org/chebi/CHEBI:16526>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "CO2"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/CURLTUGMZLYLDI-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16526> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16526"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2110> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16526> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/274> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001967> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/CURLTUGMZLYLDI-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00011> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID280> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q1997> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/af5c5> .
+
+<http://identifiers.org/chebi/CHEBI:29033>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Fe2+"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/CWYNVVGOOAEACU-UHFFFAOYSA-N> , <http://identifiers.org/inchikey/XEEYBQQBJWHFJM-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:29033> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:29033"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:29033> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/25394> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0015531> , <http://identifiers.org/hmdb/HMDB0000692> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XEEYBQQBJWHFJM-UHFFFAOYSA-N> , <http://identifiers.org/inchikey/CWYNVVGOOAEACU-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C14818> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID27284> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q428946> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/c5cbc> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/c168a>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pento_r1/Group/c168a> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:18420> , <http://identifiers.org/uniprot/P29401> , <http://identifiers.org/chebi/CHEBI:58937> .
+
+<http://identifiers.org/reactome/R-HSA-464971>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "G6PD dimer and tetramer"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-464971> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-464971"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2d6c> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-464971> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/fd233> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/c782e>
+        a                 wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/c782e> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:18367> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b8464> ;
+        wp:source         <http://identifiers.org/chebi/CHEBI:18367> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b8464> .
+
+<http://identifiers.org/uniprot/Q9H477>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "RBKS"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9H477> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9H477"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/c2ccb> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000171174> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/64080> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/RBKS> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A087X015> , <http://identifiers.org/uniprot/H7C091> , <http://identifiers.org/uniprot/E9PBU0> , <http://identifiers.org/uniprot/E7EQ18> , <http://identifiers.org/uniprot/Q9H477> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/cb7f5> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b8464>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/4328836> ;
+        dcterms:identifier             "R-HSA-111215"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-111215> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/dc9ab> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a39d5> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/ab17c> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/bf0b0> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/f963e> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b8464> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:78679> , <http://identifiers.org/reactome/R-HSA-73485> , <http://identifiers.org/chebi/CHEBI:17111> , <http://identifiers.org/chebi/CHEBI:17713> , <http://identifiers.org/chebi/CHEBI:16284> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:78679> , <http://identifiers.org/reactome/R-HSA-73485> , <http://identifiers.org/chebi/CHEBI:16284> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17111> , <http://identifiers.org/chebi/CHEBI:17713> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/e00e4>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pento_r1/Group/e00e4> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:18420> , <http://identifiers.org/uniprot/Q96G03> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/cf3be>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/22682222> , <http://identifiers.org/pubmed/18775706> , <http://identifiers.org/pubmed/18186520> ;
+        dcterms:identifier             "R-HSA-8959719"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8959719> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/cf3be> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/c2b9c> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/ac90b> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/d11da> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/a7329> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/f6c22> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/e1492> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/chebi/CHEBI:15721> , <http://identifiers.org/uniprot/Q9UHJ6> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/chebi/CHEBI:16802> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:16802> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/Q9UHJ6> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:15721> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:456216> .
+
+<http://identifiers.org/wikipathways//Pento_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Pento> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Pentose phosphate pathway"@en ;
+        dcterms:description  "The pentose phosphate pathway is responsible for the generation of a substantial fraction of the cytoplasmic NADPH required for biosynthetic reactions, and for the generation of ribose 5-phosphate for nucleotide synthesis. Although the pentose phosphate pathway and glycolysis are distinct, they involve three common intermediates, glucose 6-phosphate, glyceraldehyde 3-phosphate, and fructose 6-phosphate, so the two pathways are interconnected. The pentose phosphate pathway consists of eight reactions:1. Conversion glucose 6-phosphate to D-glucono-1,5-lactone 6-phosphate, with the formation of NADPH; 2. Conversion of D-glucono-1,5-lactone 6-phosphate to 6-phospho-D-gluconate; 3. Conversion of 6-phospho-D-gluconate to ribulose 5-phosphate, with the formation of NADPH; 4. Conversion of ribulose 5-phosphate to xylulose 5-phosphate; 5. Conversion of ribulose 5-phosphate to ribose 5-phosphate; 6. Rearrangement of ribose 5-phosphate and xylulose 5-phosphate to form sedoheptulose 7-phosphate and glyceraldehyde 3-phosphate; 7. Rearrangement of sedoheptulose 7-phosphate and glyceraldehyde 3-phosphate to form erythrose  4-phosphate and fructose 6-phosphate; and 8. Rearrangement of xylulose 5-phosphate and erythrose 4-phosphate to form glyceraldehyde 3-phosphate and fructose-6-phosphate.<P>The oxidative branch of the pentose phosphate pathway, reactions 1-3, generates NADPH and pentose 5-phosphate. The non-oxidative branch of the pathway, reactions 4-8, converts pentose 5-phosphate to other sugars.<P>The overall pathway can operate to generate only NADPH (glucose 6-phosphate is converted to pentose 5-phosphates, which are directed to the synthesis of fructose 6-phosphate and glyceraldehyde 3-phosphate, which in turn are converted back to glucose 6-phosphate). The reactions of the non-oxidative branch can operate to generate net amounts of ribose 5-phosphate with no production of NADPH.  Net flux through this network of reactions appears to depend on the metabolic state of the cell and the nature of the biosynthetic reactions underway (Casazza and Veech 1987).<p>G6PD, the enzyme that catalyzes the first reaction of the pathway, is more extensively mutated in human populations than any other enzyme, pehaps because these mutant alleles confer malaria resistance (Luzzatto and Afolayan 1968). Mutations affecting other parts of the pathway are rare, though several have been described and studies of their effects have contributed to our understanding of the normal flux of metabolites through this network of reactions (Wamelink et al. 2008).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=71336 Reactome]." ;
+        dcterms:identifier   "/Pento"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/3790084> , <http://identifiers.org/pubmed/18987987> , <http://identifiers.org/pubmed/5666113> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Pento_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Pento_r1> .
+
+<http://identifiers.org/chebi/CHEBI:16938>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "D-Glucono-1,5-lactone 6-phosphate"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/IJOJIVNDFQSGAB-SQOUGZDYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16938> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16938"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d6444> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2d6c> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16938> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/388559> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001127> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/IJOJIVNDFQSGAB-SQOUGZDYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C01236> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID439452> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q245503> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/ebab4> .
+
+<http://identifiers.org/chebi/CHEBI:58937>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ThDP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/AYEKOFBPNLCAJY-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:58937> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:58937"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/bca8b> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/c168a> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:58937> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/13082024> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/AYEKOFBPNLCAJY-UHFFFAOYSA-L> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID15938963> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27126356> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/f3878> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/e3241> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d6444>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10518023> , <http://identifiers.org/pubmed/3932573> ;
+        dcterms:identifier             "R-HSA-71296"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-71296> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/ef204> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/d8ff4> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/af125> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/d6444> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b4db6> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:16938> , <http://identifiers.org/chebi/CHEBI:16863> , <http://identifiers.org/uniprot/O95336> ;
+        wp:source                      <http://identifiers.org/uniprot/O95336> , <http://identifiers.org/chebi/CHEBI:16938> , <http://identifiers.org/chebi/CHEBI:15377> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:16863> .
+
+<http://identifiers.org/reactome/R-HSA-453137>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "PGM2:Mg2+"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-453137> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-453137"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b51f6> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/aa100> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-453137> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/ea5ff> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/c3fa5> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/fafc3>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11283793> , <http://identifiers.org/pubmed/10869557> , <http://identifiers.org/pubmed/8300619> ;
+        dcterms:identifier             "R-HSA-71334"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-71334> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/af3d4> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/d976a> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/c26a0> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/fafc3> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/c7e5f> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/fc7eb> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:57634> , <http://identifiers.org/chebi/CHEBI:16897> , <http://identifiers.org/reactome/R-HSA-5659970> , <http://identifiers.org/chebi/CHEBI:15721> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/reactome/R-HSA-5659970> , <http://identifiers.org/chebi/CHEBI:15721> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:16897> , <http://identifiers.org/chebi/CHEBI:57634> .
+
+<http://identifiers.org/chebi/CHEBI:18367>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Pi"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:18367> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:18367"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/c782e> , <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:18367> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/1032> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001429> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1061> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q177811> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/f7edc> .
+
+<http://identifiers.org/pubmed/5666113>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/5666113> .
+
+<http://identifiers.org/chebi/CHEBI:16474>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "NADPH"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/ACFIXJIJDZMPPO-NCHANQSKSA-N> , <http://identifiers.org/inchikey/ACFIXJIJDZMPPO-NNYOXOHSSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16474> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16474"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2110> , <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2d6c> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16474> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/17215925> , <http://identifiers.org/chemspider/5673> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000221> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/ACFIXJIJDZMPPO-NNYOXOHSSA-N> , <http://identifiers.org/inchikey/ACFIXJIJDZMPPO-NCHANQSKSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00005> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5884> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID22833512> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26841327> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/e6ada> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/d8c87> .
+
+<http://identifiers.org/chebi/CHEBI:18420>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Mg2+"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/JLVVSXFLKOJNIY-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:18420> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:18420"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/a2870> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/e00e4> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/c168a> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Complex/bca8b> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:18420> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/865> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000547> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/JLVVSXFLKOJNIY-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00305> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID888> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26987404> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/a85c6> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/f3015> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/ba5e6> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/d775e> , <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/bb8ef> .
+
+<http://identifiers.org/chebi/CHEBI:58225>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "G6P"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:58225> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:58225"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/e2d6c> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:58225> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/10239175> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID21604864> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27125625> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/c9248> .
+
+<http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b51f6>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/17804405> ;
+        dcterms:identifier             "R-HSA-8982667"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8982667> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/c4b40> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/af862> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/b51f6> , <http://rdf.wikipathways.org/Pathway//Pento_r1/Interaction/c6af5> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-453137> , <http://identifiers.org/chebi/CHEBI:16132> , <http://identifiers.org/chebi/CHEBI:11563> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-453137> , <http://identifiers.org/chebi/CHEBI:11563> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:16132> .
+
+<http://identifiers.org/pubmed/3932573>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pento_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/3932573> .
+
+<http://identifiers.org/uniprot/P37837>
+        a                              wp:DataNode , wp:Protein ;
+        rdfs:label                     "TALDO1"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/uniprot/P37837> ;
+        dc:source                      "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11283793> ;
+        dcterms:identifier             "P37837"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbEnsembl                  <http://identifiers.org/ensembl/ENSG00000177156> ;
+        wp:bdbEntrezGene               <http://identifiers.org/ncbigene/6888> ;
+        wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/TALDO1> ;
+        wp:bdbUniprot                  <http://identifiers.org/uniprot/A0A140VK56> , <http://identifiers.org/uniprot/E9PM01> , <http://identifiers.org/uniprot/E9PKI8> , <http://identifiers.org/uniprot/F2Z393> , <http://identifiers.org/uniprot/P37837> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/f4936> .
+
+<http://identifiers.org/uniprot/P21108>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "PRPS1L1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P21108> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P21108"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000229937> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/221823> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PRPS1L1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A0B4J207> , <http://identifiers.org/uniprot/P21108> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/ff8b2> .
+
+<http://identifiers.org/chebi/CHEBI:78679>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "R5P"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:78679> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:78679"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pento_r1> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a8ba6> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/c2ccb> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d987a> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/a8140> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/aa100> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b1501> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/b8464> , <http://rdf.wikipathways.org/Pathway//Pento_r1/WP/Interaction/d085a> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:78679> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pento_r1/DataNode/dc901> .

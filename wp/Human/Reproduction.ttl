@@ -1,0 +1,81 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/16467268>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Repro_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16467268> .
+
+<http://identifiers.org/pubmed/12479616>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Repro_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12479616> .
+
+<http://identifiers.org/pubmed/20364103>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Repro_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20364103> .
+
+<http://identifiers.org/pubmed/16543383>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Repro_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16543383> .
+
+<http://identifiers.org/wikipathways//Repro_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Repro> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Reproduction"@en ;
+        dcterms:description  "Human reproduction mixes the genomes of two individuals creating a new organism. The offspring individuals produced by sexual reproduction differ from their parents and from their siblings. Reproduction includes the reproductive system, sperm and egg production (haploid cells), fertilization, and the early stages embryo development.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=1474165 Reactome]." ;
+        dcterms:identifier   "/Repro"^^xsd:string ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Repro_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Repro_r1> .
+
+<http://identifiers.org/wikipathways//Repro>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Repro_r1> .
+
+<http://identifiers.org/reactome/R-HSA-1187000>
+        a                              wp:DataNode ;
+        rdfs:label                     "Fertilization"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-1187000> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12479616> , <http://identifiers.org/pubmed/16467268> ;
+        dcterms:identifier             "R-HSA-1187000"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Repro_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Repro_r1/DataNode/d9414> .
+
+<http://identifiers.org/pubmed/18948708>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Repro_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18948708> .
+
+<http://identifiers.org/reactome/R-HSA-1500620>
+        a                              wp:DataNode ;
+        rdfs:label                     "Meiosis"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-1500620> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/20364103> , <http://identifiers.org/pubmed/18948708> , <http://identifiers.org/pubmed/16543383> , <http://identifiers.org/pubmed/20051984> ;
+        dcterms:identifier             "R-HSA-1500620"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Repro_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Repro_r1/DataNode/d70d9> .
+
+<http://identifiers.org/pubmed/20051984>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Repro_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20051984> .

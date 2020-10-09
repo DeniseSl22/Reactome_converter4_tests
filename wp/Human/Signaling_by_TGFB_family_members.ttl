@@ -1,0 +1,107 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/reactome/R-HSA-201451>
+        a                              wp:DataNode ;
+        rdfs:label                     "Signaling by BMP"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-201451> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/28348038> , <http://identifiers.org/pubmed/19762341> ;
+        dcterms:identifier             "R-HSA-201451"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Signa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Signa_r1/DataNode/ca1ba> .
+
+<http://identifiers.org/reactome/R-HSA-170834>
+        a                              wp:DataNode ;
+        rdfs:label                     "Signaling by TGF-beta Receptor Complex"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-170834> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19648010> ;
+        dcterms:identifier             "R-HSA-170834"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Signa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Signa_r1/DataNode/e0c6a> .
+
+<http://identifiers.org/reactome/R-HSA-1502540>
+        a                              wp:DataNode ;
+        rdfs:label                     "Signaling by Activin"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-1502540> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/22651914> , <http://identifiers.org/pubmed/8622651> , <http://identifiers.org/pubmed/16636301> , <http://identifiers.org/pubmed/8721982> ;
+        dcterms:identifier             "R-HSA-1502540"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Signa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Signa_r1/DataNode/bf4ca> .
+
+<http://identifiers.org/wikipathways//Signa>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Signa_r1> .
+
+<http://identifiers.org/pubmed/8721982>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8721982> .
+
+<http://identifiers.org/pubmed/16636301>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16636301> .
+
+<http://identifiers.org/pubmed/19648010>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19648010> .
+
+<http://identifiers.org/pubmed/22651914>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22651914> .
+
+<http://identifiers.org/pubmed/28552280>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/28552280> .
+
+<http://identifiers.org/wikipathways//Signa_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Signa> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Signaling by TGFB family members"@en ;
+        dcterms:description  "The human genome encodes 33 TGF-beta family members, including TGF-beta itself, as well as bone morphogenetic protein (BMP), activin, nodal and growth and differentiation factors (GDFs). This superfamily of ligands generally binds as dimers to hetero-tetrameric cell-surface receptor serine/threonine kinases to activate SMAD-dependent and SMAD-independent signaling (reviewed in Morikawa et al, 2016; Budi et al, 2017).<br>Signaling by the TGF-beta receptor complex is initiated by TGF-beta. TGF-beta (TGFB1), secreted as a homodimer, binds to TGF-beta receptor II (TGFBR2), inducing its dimerization and formation of a stable hetero-tetrameric complex with TGF-beta receptor I homodimer (TGFBR1). TGFBR2-mediated phosphorylation of TGFBR1 triggers internalization of the heterotetrameric TGF beta receptor complex (TGFBR) into clathrin coated endocytic vesicles and recruitment of cytosolic SMAD2 and SMAD3, which act as R-SMADs for TGF beta receptor complex. TGFBR1 phosphorylates SMAD2 and SMAD3, promoting their association with SMAD4 (known as Co-SMAD). In the nucleus, the SMAD2/3:SMAD4 heterotrimer binds target DNA elements and, in cooperation with other transcription factors, regulates expression of genes involved in cell differentiation. For a review of TGF-beta receptor signaling, please refer to Kang et al. 2009.<br> Signaling by BMP is triggered by bone morphogenetic proteins (BMPs). BMPs can bind type I receptors in the absence of type II receptors, but the presence of both types dramatically increases binding affinity. The type II receptor kinase transphosphorylates the type I receptor, leading to recruitment and phosphorylation of SMAD1, SMAD5 and SMAD8, which function as R-SMADs in BMP signalling pathways. Phosphorylated SMAD1, SMAD5 and SMAD8 form heterotrimeric complexes with SMAD4, the only Co-SMAD in mammals. The SMAD1/5/8:SMAD4 heterotrimer regulates transcription of genes involved in development of many tissues, including bone, cartilage, blood vessels, heart, kidney, neurons, liver and lung. For review of BMP signaling, please refer to Miyazono et al. 2010.<br>Signaling by activin is triggered when an activin dimer (activin A, activin AB or activin B) binds the type II receptor (ACVR2A, ACVR2B). This complex then interacts with the type I receptor (ACVR1B, ACVR1C) and phosphorylates it. The phosphorylated type I receptor phosphorylates SMAD2 and SMAD3. Dimers of phosphorylated SMAD2/3 bind SMAD4 and the resulting ternary complex enters the nucleus and activates target genes. For a review of activin signaling, please refer to Chen et al. 2006.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9006936 Reactome]." ;
+        dcterms:identifier   "/Signa"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/19762341> , <http://identifiers.org/pubmed/27141051> , <http://identifiers.org/pubmed/28552280> , <http://identifiers.org/pubmed/16636301> , <http://identifiers.org/pubmed/19648010> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Signa_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Signa_r1> .
+
+<http://identifiers.org/pubmed/19762341>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19762341> .
+
+<http://identifiers.org/pubmed/8622651>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8622651> .
+
+<http://identifiers.org/pubmed/27141051>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/27141051> .
+
+<http://identifiers.org/pubmed/28348038>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/28348038> .

@@ -1,0 +1,148 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/uniprot/O15379>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "HDAC3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O15379> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O15379"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//NR1D1_r1/WP/Interaction/dea4b> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Complex/cb92c> , <http://identifiers.org/wikipathways//NR1D1_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000171720> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/8841> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/HDAC3> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E7EW19> , <http://identifiers.org/uniprot/O15379> , <http://identifiers.org/uniprot/E7ESJ6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//NR1D1_r1/DataNode/a55cb> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/DataNode/a6c24> .
+
+<http://rdf.wikipathways.org/Pathway//NR1D1_r1/ComplexBinding/cb92c>
+        a                 wp:Interaction , wp:Binding , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//NR1D1_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Group/cb92c> ;
+        wp:participants   <http://identifiers.org/uniprot/P20393> , <http://identifiers.org/uniprot/O75376> , <http://identifiers.org/uniprot/O15379> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Complex/cb92c> , <http://identifiers.org/chebi/CHEBI:36144> , <http://identifiers.org/ensembl/ENSG00000119915> .
+
+<http://identifiers.org/pubmed/20414452>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//NR1D1_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20414452> .
+
+<http://identifiers.org/pubmed/18006707>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//NR1D1_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18006707> .
+
+<http://identifiers.org/uniprot/O75376>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "NCOR1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O75376> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O75376"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//NR1D1_r1> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/WP/Interaction/dea4b> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Complex/cb92c> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000141027> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/9611> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/NCOR1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/J3KT44> , <http://identifiers.org/uniprot/J3KRE4> , <http://identifiers.org/uniprot/H0Y459> , <http://identifiers.org/uniprot/E7EVU5> , <http://identifiers.org/uniprot/O75376> , <http://identifiers.org/uniprot/J3KS51> , <http://identifiers.org/uniprot/E7EW50> , <http://identifiers.org/uniprot/J3KS29> , <http://identifiers.org/uniprot/E7EVK1> , <http://identifiers.org/uniprot/S4R380> , <http://identifiers.org/uniprot/A0A088AWL3> , <http://identifiers.org/uniprot/J3QKP0> , <http://identifiers.org/uniprot/A0A024RD47> , <http://identifiers.org/uniprot/C9JAP0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//NR1D1_r1/DataNode/a5365> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/DataNode/c1f8f> .
+
+<http://identifiers.org/uniprot/P20393>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "NR1D1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P20393> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P20393"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Complex/cb92c> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/WP/Interaction/dea4b> , <http://identifiers.org/wikipathways//NR1D1_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000126368> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/9572> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/NR1D1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P20393> , <http://identifiers.org/uniprot/F1D8S3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//NR1D1_r1/DataNode/d3bf6> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/DataNode/d927d> .
+
+<http://identifiers.org/pubmed/18037887>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//NR1D1_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18037887> .
+
+<http://rdf.wikipathways.org/Pathway//NR1D1_r1/Complex/cb92c>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//NR1D1_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Group/cb92c> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:36144> , <http://identifiers.org/ensembl/ENSG00000119915> , <http://identifiers.org/uniprot/O15379> , <http://identifiers.org/uniprot/O75376> , <http://identifiers.org/uniprot/P20393> .
+
+<http://identifiers.org/chebi/CHEBI:36144>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ferriheme b"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:36144> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:36144"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//NR1D1_r1/WP/Interaction/dea4b> , <http://identifiers.org/wikipathways//NR1D1_r1> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Complex/cb92c> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:36144> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50350118> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//NR1D1_r1/DataNode/b3798> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/DataNode/e9b62> .
+
+<http://identifiers.org/pubmed/20581824>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//NR1D1_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20581824> .
+
+<http://identifiers.org/reactome/R-HSA-5663261>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "NR1D1:heme:Corepressors:ELOVL3 gene"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-5663261> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-5663261"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//NR1D1_r1> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/WP/Interaction/dea4b> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-5663261> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//NR1D1_r1/DataNode/af771> .
+
+<http://identifiers.org/wikipathways//NR1D1_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//NR1D1> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "NR1D1 (REV-ERBA) represses gene expression"@en ;
+        dcterms:description  "REV-ERBA binds DNA elements very similar to those bound by the transcription activator RORA.  RORAREV-ERBA bound to DNA and heme recruits the corepressors NCoR and HDAC3 to repress transcription. Thus REV-ERBA and RORA appear to compete to repress or activate genes, repectively.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=1368071 Reactome]." ;
+        dcterms:identifier   "/NR1D1"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/20414452> , <http://identifiers.org/pubmed/18006707> , <http://identifiers.org/pubmed/18037887> , <http://identifiers.org/pubmed/20581824> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//NR1D1_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//NR1D1_r1> .
+
+<http://identifiers.org/ensembl/ENSG00000119915>
+        a                   wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "ELOVL3 gene"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENSG00000119915> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENSG00000119915"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//NR1D1_r1/WP/Interaction/dea4b> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Complex/cb92c> , <http://identifiers.org/wikipathways//NR1D1_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000119915> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/83401> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/ELOVL3> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9HB03> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//NR1D1_r1/DataNode/ba19b> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/DataNode/b4f2f> .
+
+<http://identifiers.org/wikipathways//NR1D1>
+        pav:hasVersion  <http://identifiers.org/wikipathways//NR1D1_r1> .
+
+<http://rdf.wikipathways.org/Pathway//NR1D1_r1/WP/Interaction/dea4b>
+        a                   wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-5663252"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//NR1D1_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-5663252> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Interaction/e3e8f> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Interaction/bf8f5> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Interaction/ed66b> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Interaction/dda33> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Interaction/a82b9> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Interaction/a45e9> , <http://rdf.wikipathways.org/Pathway//NR1D1_r1/Interaction/dea4b> ;
+        wp:participants     <http://identifiers.org/reactome/R-HSA-5663261> , <http://identifiers.org/uniprot/O75376> , <http://identifiers.org/uniprot/O15379> , <http://identifiers.org/chebi/CHEBI:36144> , <http://identifiers.org/ensembl/ENSG00000119915> , <http://identifiers.org/uniprot/P20393> ;
+        wp:source           <http://identifiers.org/chebi/CHEBI:36144> , <http://identifiers.org/uniprot/P20393> , <http://identifiers.org/uniprot/O75376> , <http://identifiers.org/uniprot/O15379> , <http://identifiers.org/ensembl/ENSG00000119915> ;
+        wp:target           <http://identifiers.org/reactome/R-HSA-5663261> .

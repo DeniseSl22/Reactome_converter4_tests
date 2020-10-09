@@ -1,0 +1,57 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/wikipathways//Paras_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Paras> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Parasite infection"@en ;
+        dcterms:description  "Leishmania parasites are dimorphic protozoa, being extracellular and flagellated (promastigotes) in the vector insect, and intracellular and aflagellated (amastigotes) in the host. While the vector fly feeds on the blood of the host, it transmits the promastigotes which are subsequently phagocytosed. The transition to the non motile form occurs within the phagosomal pathway; this process requires the delay of the maturation of the phagosome in such a way that the pH conditions are not harmful to the promastigote. Once it is in the amastigote form, maturation of the parasitophorous vacuole continues (MartÃ­nez LÃ³pez et al. 2018).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9664407 Reactome]." ;
+        dcterms:identifier   "/Paras"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/29867798> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Paras_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Paras_r1> .
+
+<http://identifiers.org/pubmed/22726697>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Paras_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22726697> .
+
+<http://identifiers.org/wikipathways//Paras>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Paras_r1> .
+
+<http://identifiers.org/pubmed/29867798>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Paras_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/29867798> .
+
+<http://identifiers.org/reactome/R-HSA-9664417>
+        a                              wp:DataNode ;
+        rdfs:label                     "Leishmania phagocytosis"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9664417> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23543768> , <http://identifiers.org/pubmed/22726697> ;
+        dcterms:identifier             "R-HSA-9664417"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Paras_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Paras_r1/DataNode/d6c64> .
+
+<http://identifiers.org/pubmed/23543768>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Paras_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23543768> .

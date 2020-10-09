@@ -1,0 +1,733 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://rdf.wikipathways.org/Pathway//tRNA__r1/Complex/ceb9f>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//tRNA__r1/Group/ceb9f> ;
+        wp:participants   <http://identifiers.org/uniprot/O15091> , <http://identifiers.org/uniprot/Q7L0Y3> , <http://identifiers.org/uniprot/Q99714> .
+
+<http://identifiers.org/chebi/CHEBI:30616>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ATP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:30616> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:30616"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/dbc1f> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4574455> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-J> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5461108> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27113900> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b7c15> .
+
+<http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/25928769> , <http://identifiers.org/pubmed/23042678> , <http://identifiers.org/pubmed/21559454> , <http://identifiers.org/pubmed/21593607> , <http://identifiers.org/pubmed/22336717> , <http://identifiers.org/pubmed/18984158> , <http://identifiers.org/pubmed/21857155> , <http://identifiers.org/pubmed/23849775> , <http://identifiers.org/pubmed/25953853> , <http://identifiers.org/pubmed/22991464> , <http://identifiers.org/pubmed/25925575> , <http://identifiers.org/pubmed/26016801> ;
+        dcterms:identifier             "R-HSA-6786854"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6786854> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/b0161> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/a593e> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/c96ac> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/a6554> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/deded> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/a7b4e> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/c9f30> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/df3e0> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/e694c> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/f47e7> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/ebb60> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/bba34> ;
+        wp:participants                <http://identifiers.org/ensembl/ENST00000387409> , <http://identifiers.org/ensembl/ENST00000387461> , <http://identifiers.org/ensembl/ENST00000387372> , <http://identifiers.org/uniprot/Q9BQ52> , <http://identifiers.org/ensembl/ENST00000387392> , <http://identifiers.org/ensembl/ENST00000387400> , <http://identifiers.org/ensembl/ENST00000361681> , <http://identifiers.org/ensembl/ENST00000387416> , <http://identifiers.org/ensembl/ENST00000387459> , <http://identifiers.org/ensembl/ENST00000387405> ;
+        wp:source                      <http://identifiers.org/uniprot/Q9BQ52> ;
+        wp:target                      <http://identifiers.org/ensembl/ENST00000387405> , <http://identifiers.org/ensembl/ENST00000387409> , <http://identifiers.org/ensembl/ENST00000387459> , <http://identifiers.org/ensembl/ENST00000387392> , <http://identifiers.org/ensembl/ENST00000387372> , <http://identifiers.org/ensembl/ENST00000361681> , <http://identifiers.org/ensembl/ENST00000387400> , <http://identifiers.org/ensembl/ENST00000387461> , <http://identifiers.org/ensembl/ENST00000387416> .
+
+<http://identifiers.org/ensembl/ENST00000387409>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "MT-TY"^^xsd:string , "pre-MT-TY"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387409> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387409"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387409> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/dacf9> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b3fe6> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/d5f50> .
+
+<http://identifiers.org/ensembl/ENST00000361227>
+        a                   wp:Rna , wp:DataNode ;
+        rdfs:label          "MT-ND3 mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000361227> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000361227"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000361227> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b6c8d> .
+
+<http://identifiers.org/ensembl/ENST00000387365>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "pre-MT-TI"^^xsd:string , "MT-TI"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387365> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387365"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387365> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/bc7a3> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/dcfb9> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b1c41> .
+
+<http://identifiers.org/ensembl/ENST00000361739>
+        a                   wp:Rna , wp:DataNode ;
+        rdfs:label          "MT-CO2 mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000361739> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000361739"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000361739> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/a2973> .
+
+<http://identifiers.org/ensembl/ENST00000361390>
+        a                   wp:Rna , wp:DataNode ;
+        rdfs:label          "MT-ND1 mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000361390> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000361390"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000361390> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/a8301> .
+
+<http://identifiers.org/ensembl/ENST00000387416>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "pre-MT-TS1"^^xsd:string , "MT-TS1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387416> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387416"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387416> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/da07a> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c03d2> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c63f9> .
+
+<http://identifiers.org/ensembl/ENST00000387429>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "pre-MT-TG"^^xsd:string , "MT-TG"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387429> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387429"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387429> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/e23a5> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/e85d3> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/d449b> .
+
+<http://identifiers.org/ensembl/ENST00000387372>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "pre-MT-TQ"^^xsd:string , "MT-TQ"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387372> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387372"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387372> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b02cf> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/a97f1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/ded76> .
+
+<http://identifiers.org/ensembl/ENST00000361567>
+        a                   wp:DataNode , wp:Rna ;
+        rdfs:label          "MT-ND5 mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000361567> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000361567"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000361567> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b2cad> .
+
+<http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/e78f3>
+        a                 wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/e78f3> ;
+        wp:participants   <http://identifiers.org/reactome/R-HSA-6785726> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded> ;
+        wp:source         <http://identifiers.org/reactome/R-HSA-6785726> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded> .
+
+<http://identifiers.org/pubmed/21857155>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21857155> .
+
+<http://identifiers.org/chebi/CHEBI:17677>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "CTP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/PCDQPRRSZKQHHS-XVFCMESISA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17677> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17677"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/dbc1f> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17677> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/19952488> , <http://identifiers.org/chemspider/5941> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000082> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/PCDQPRRSZKQHHS-XVFCMESISA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00063> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6176> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q409648> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/f57ac> .
+
+<http://identifiers.org/reactome/R-HSA-6786862>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "5',3' cleaved pre-tRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-6786862> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-6786862"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/dbc1f> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6786862> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c615c> .
+
+<http://identifiers.org/pubmed/25193871>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25193871> .
+
+<http://identifiers.org/pubmed/25692999>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25692999> .
+
+<http://identifiers.org/pubmed/11504732>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11504732> .
+
+<http://identifiers.org/ensembl/ENST00000387449>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "MT-TS2"^^xsd:string , "pre-MT-TS2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387449> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387449"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387449> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/a5d0c> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b81d2> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c7840> .
+
+<http://identifiers.org/ensembl/ENST00000387392>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "pre-MT-TA"^^xsd:string , "MT-TA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387392> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387392"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387392> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c7df8> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/d8130> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/d8c4e> .
+
+<http://identifiers.org/uniprot/Q96Q11>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "TRNT1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q96Q11> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q96Q11"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/dbc1f> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000072756> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/51095> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/TRNT1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/C9JRS7> , <http://identifiers.org/uniprot/Q96Q11> , <http://identifiers.org/uniprot/F8W8C3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/ff4d3> .
+
+<http://identifiers.org/ensembl/ENST00000361681>
+        a                   wp:Rna , wp:DataNode ;
+        rdfs:label          "MT-ND6 mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000361681> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000361681"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000361681> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c875f> .
+
+<http://identifiers.org/ensembl/ENST00000387377>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "pre-MT-TM"^^xsd:string , "MT-TM"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387377> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387377"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387377> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/e7528> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/eb2bd> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/f934a> .
+
+<http://identifiers.org/pubmed/26016801>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26016801> .
+
+<http://identifiers.org/pubmed/25928769>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25928769> .
+
+<http://identifiers.org/pubmed/25953853>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25953853> .
+
+<http://identifiers.org/pubmed/21593607>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21593607> .
+
+<http://identifiers.org/ensembl/ENST00000387456>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "pre-MT-TL2"^^xsd:string , "MT-TL2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387456> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387456"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387456> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/bec33> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/fbc42> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/eb047> .
+
+<http://identifiers.org/ensembl/ENST00000361899>
+        a                   wp:Rna , wp:DataNode ;
+        rdfs:label          "MT-ATP6 mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000361899> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000361899"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000361899> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/ebe1f> .
+
+<http://identifiers.org/chebi/CHEBI:29888>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "PPi"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XPPKVPWEQAFLFU-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:29888> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:29888"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/dbc1f> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:29888> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/996> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000250> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XPPKVPWEQAFLFU-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00013> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1023> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q411092> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/ded63> .
+
+<http://identifiers.org/pubmed/21854988>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21854988> .
+
+<http://identifiers.org/uniprot/Q99714>
+        a                              wp:DataNode , wp:Protein ;
+        rdfs:label                     "HSD17B10"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/uniprot/Q99714> ;
+        dc:source                      "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12696021> ;
+        dcterms:identifier             "Q99714"^^xsd:string ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//tRNA__r1/Complex/ceb9f> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl                  <http://identifiers.org/ensembl/ENSG00000072506> ;
+        wp:bdbEntrezGene               <http://identifiers.org/ncbigene/3028> ;
+        wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/HSD17B10> ;
+        wp:bdbUniprot                  <http://identifiers.org/uniprot/Q5H928> , <http://identifiers.org/uniprot/Q99714> , <http://identifiers.org/uniprot/A0A0S2Z410> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c09e3> .
+
+<http://identifiers.org/pubmed/23042678>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23042678> .
+
+<http://identifiers.org/ensembl/ENST00000361453>
+        a                   wp:Rna , wp:DataNode ;
+        rdfs:label          "MT-ND2 mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000361453> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000361453"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000361453> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/d78d8> .
+
+<http://identifiers.org/pubmed/25652405>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25652405> .
+
+<http://identifiers.org/pubmed/18984158>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18984158> .
+
+<http://identifiers.org/ensembl/ENST00000361381>
+        a                   wp:DataNode , wp:Rna ;
+        rdfs:label          "MT-ND4 mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000361381> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000361381"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000361381> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/aa4b7> .
+
+<http://identifiers.org/reactome/R-HSA-6786887>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "Cleaved tRNA with 3' CCA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-6786887> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-6786887"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/dbc1f> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6786887> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/eba9c> .
+
+<http://identifiers.org/ensembl/ENST00000362079>
+        a                   wp:DataNode , wp:Rna ;
+        rdfs:label          "MT-CO3 mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000362079> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000362079"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000362079> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/f1609> .
+
+<http://identifiers.org/pubmed/12696021>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12696021> .
+
+<http://identifiers.org/reactome/R-HSA-6785726>
+        a                              wp:Complex , wp:DataNode ;
+        rdfs:label                     "mtRNase P"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-6785726> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/18984158> ;
+        dcterms:identifier             "R-HSA-6785726"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/bb893> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/e78f3> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6785726> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/f2bb9> .
+
+<http://identifiers.org/ensembl/ENST00000361624>
+        a                   wp:DataNode , wp:Rna ;
+        rdfs:label          "MT-CO1 mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000361624> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000361624"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000361624> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/dd1ff> .
+
+<http://identifiers.org/ensembl/ENST00000386347>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "pre-MT-TL1"^^xsd:string , "MT-TL1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000386347> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000386347"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000386347> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/abdf2> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/e98c3> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b7bd7> .
+
+<http://identifiers.org/ensembl/ENST00000387342>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "MT-TV"^^xsd:string , "pre-MT-TV"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387342> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387342"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387342> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/d5a0f> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/eaa32> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/eeefb> .
+
+<http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/21857155> , <http://identifiers.org/pubmed/22336717> , <http://identifiers.org/pubmed/18984158> , <http://identifiers.org/pubmed/25928769> , <http://identifiers.org/pubmed/21593607> , <http://identifiers.org/pubmed/22991464> , <http://identifiers.org/pubmed/23849775> , <http://identifiers.org/pubmed/25925575> , <http://identifiers.org/pubmed/26016801> , <http://identifiers.org/pubmed/21559454> , <http://identifiers.org/pubmed/23042678> , <http://identifiers.org/pubmed/25953853> ;
+        dcterms:identifier             "R-HSA-6785722"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6785722> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/f5bd5> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/e62f2> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/f3a9e> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/bf06e> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/c8431> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/e2fd1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/ac0bd> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/c9e19> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/c9eb1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/ca320> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/c86b5> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/b3821> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/caca8> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/deeab> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/c0914> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/a63ee> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/a3c58> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/a893c> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/df102> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/da3a3> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/e395c> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/def0d> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/d1440> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/cf9e7> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/f900c> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/df8c2> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/fb7f0> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/d4cea> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/a20b1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/a5fd8> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/d3d84> ;
+        wp:participants                <http://identifiers.org/ensembl/ENST00000387347> , <http://identifiers.org/ensembl/ENST00000361789> , <http://identifiers.org/ensembl/ENST00000361390> , <http://identifiers.org/ensembl/ENST00000387365> , <http://identifiers.org/ensembl/ENST00000387456> , <http://identifiers.org/ensembl/ENST00000387421> , <http://identifiers.org/ensembl/ENST00000361851> , <http://identifiers.org/ensembl/ENST00000387449> , <http://identifiers.org/ensembl/ENST00000387419> , <http://identifiers.org/ensembl/ENST00000387314> , <http://identifiers.org/ensembl/ENST00000387377> , <http://identifiers.org/ensembl/ENST00000361739> , <http://identifiers.org/ensembl/ENST00000362079> , <http://identifiers.org/ensembl/ENST00000387460> , <http://identifiers.org/ensembl/ENST00000361381> , <http://identifiers.org/uniprot/Q9BQ52> , <http://identifiers.org/ensembl/ENST00000387441> , <http://identifiers.org/ensembl/ENST00000389680> , <http://identifiers.org/ensembl/ENST00000361227> , <http://identifiers.org/ensembl/ENST00000387439> , <http://identifiers.org/ensembl/ENST00000387382> , <http://identifiers.org/ensembl/ENST00000361453> , <http://identifiers.org/ensembl/ENST00000387429> , <http://identifiers.org/ensembl/ENST00000387342> , <http://identifiers.org/ensembl/ENST00000361624> , <http://identifiers.org/ensembl/ENST00000361899> , <http://identifiers.org/ensembl/ENST00000361567> , <http://identifiers.org/ensembl/ENST00000386347> , <http://identifiers.org/ensembl/ENST00000361335> ;
+        wp:source                      <http://identifiers.org/uniprot/Q9BQ52> ;
+        wp:target                      <http://identifiers.org/ensembl/ENST00000362079> , <http://identifiers.org/ensembl/ENST00000361899> , <http://identifiers.org/ensembl/ENST00000387421> , <http://identifiers.org/ensembl/ENST00000387347> , <http://identifiers.org/ensembl/ENST00000387382> , <http://identifiers.org/ensembl/ENST00000361789> , <http://identifiers.org/ensembl/ENST00000387314> , <http://identifiers.org/ensembl/ENST00000387377> , <http://identifiers.org/ensembl/ENST00000389680> , <http://identifiers.org/ensembl/ENST00000361227> , <http://identifiers.org/ensembl/ENST00000387460> , <http://identifiers.org/ensembl/ENST00000361335> , <http://identifiers.org/ensembl/ENST00000387419> , <http://identifiers.org/ensembl/ENST00000387429> , <http://identifiers.org/ensembl/ENST00000387456> , <http://identifiers.org/ensembl/ENST00000361851> , <http://identifiers.org/ensembl/ENST00000361739> , <http://identifiers.org/ensembl/ENST00000387441> , <http://identifiers.org/ensembl/ENST00000361567> , <http://identifiers.org/ensembl/ENST00000361453> , <http://identifiers.org/ensembl/ENST00000361624> , <http://identifiers.org/ensembl/ENST00000386347> , <http://identifiers.org/ensembl/ENST00000361381> , <http://identifiers.org/ensembl/ENST00000387342> , <http://identifiers.org/ensembl/ENST00000387365> , <http://identifiers.org/ensembl/ENST00000387439> , <http://identifiers.org/ensembl/ENST00000387449> , <http://identifiers.org/ensembl/ENST00000361390> .
+
+<http://identifiers.org/ensembl/ENST00000387314>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "pre-MT-TF"^^xsd:string , "MT-TF"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387314> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387314"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387314> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c44c7> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/ee8af> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/ea624> .
+
+<http://identifiers.org/ensembl/ENST00000361851>
+        a                   wp:DataNode , wp:Rna ;
+        rdfs:label          "MT-ATP8 mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000361851> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000361851"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000361851> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/adeef> .
+
+<http://identifiers.org/ensembl/ENST00000387421>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "MT-TK"^^xsd:string , "pre-MT-TK"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387421> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387421"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387421> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b615b> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c9331> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/d1c3a> .
+
+<http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/bb893>
+        a                 wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/bb893> ;
+        wp:participants   <http://identifiers.org/reactome/R-HSA-6785726> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:source         <http://identifiers.org/reactome/R-HSA-6785726> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> .
+
+<http://identifiers.org/pubmed/25734984>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25734984> .
+
+<http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/dbc1f>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/25193871> , <http://identifiers.org/pubmed/12621050> , <http://identifiers.org/pubmed/11504732> , <http://identifiers.org/pubmed/25652405> ;
+        dcterms:identifier             "R-HSA-6786881"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6786881> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/dc31c> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/fba5f> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/dbc1f> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/de05d> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/c3f31> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/ecafd> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Interaction/c9c77> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17677> , <http://identifiers.org/reactome/R-HSA-6786887> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/Q96Q11> , <http://identifiers.org/chebi/CHEBI:29888> , <http://identifiers.org/reactome/R-HSA-6786862> ;
+        wp:source                      <http://identifiers.org/uniprot/Q96Q11> , <http://identifiers.org/reactome/R-HSA-6786862> , <http://identifiers.org/chebi/CHEBI:17677> , <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:29888> , <http://identifiers.org/reactome/R-HSA-6786887> .
+
+<http://identifiers.org/wikipathways//tRNA_>
+        pav:hasVersion  <http://identifiers.org/wikipathways//tRNA__r1> .
+
+<http://identifiers.org/ensembl/ENST00000387419>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "MT-TD"^^xsd:string , "pre-MT-TD"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387419> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387419"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387419> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/a95e8> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/a86b4> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/fde0b> .
+
+<http://identifiers.org/pubmed/25806043>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25806043> .
+
+<http://identifiers.org/ensembl/ENST00000387347>
+        a                   wp:Rna , wp:DataNode ;
+        rdfs:label          "16S rRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387347> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387347"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387347> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c1e56> .
+
+<http://identifiers.org/ensembl/ENST00000387400>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "MT-TN"^^xsd:string , "pre-MT-TN"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387400> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387400"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387400> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/ad53e> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c0205> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b99c3> .
+
+<http://identifiers.org/uniprot/O15091>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "KIAA0391"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O15091> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O15091"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/Complex/ceb9f> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000100890> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/9692> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/KIAA0391> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/O15091> , <http://identifiers.org/uniprot/S4R416> , <http://identifiers.org/uniprot/A0A0A0MTQ0> , <http://identifiers.org/uniprot/S4R3S1> , <http://identifiers.org/uniprot/S4R3T4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/ac314> .
+
+<http://identifiers.org/uniprot/Q7L0Y3>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "TRMT10C"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q7L0Y3> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q7L0Y3"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/Complex/ceb9f> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000174173> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/54931> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/TRMT10C> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/C9JVB6> , <http://identifiers.org/uniprot/Q7L0Y3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c1d70> .
+
+<http://identifiers.org/ensembl/ENST00000387441>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "pre-MT-TH"^^xsd:string , "MT-TH"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387441> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387441"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387441> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b4254> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b1821> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/ef5eb> .
+
+<http://identifiers.org/pubmed/22336717>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22336717> .
+
+<http://identifiers.org/pubmed/23849775>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23849775> .
+
+<http://identifiers.org/ensembl/ENST00000387439>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "MT-TR"^^xsd:string , "pre-MT-TR"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387439> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387439"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387439> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/df60b> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/db37f> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/d231d> .
+
+<http://identifiers.org/ensembl/ENST00000387382>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "pre-MT-TW"^^xsd:string , "MT-TW"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387382> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387382"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387382> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/afc62> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/aed06> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/d038a> .
+
+<http://identifiers.org/ensembl/ENST00000389680>
+        a                   wp:DataNode , wp:Rna ;
+        rdfs:label          "12S rRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000389680> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000389680"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000389680> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/ebb9d> .
+
+<http://identifiers.org/pubmed/12621050>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12621050> .
+
+<http://identifiers.org/pubmed/22137969>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22137969> .
+
+<http://identifiers.org/pubmed/21910628>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21910628> .
+
+<http://identifiers.org/ensembl/ENST00000387461>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "MT-TP"^^xsd:string , "pre-MT-TP"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387461> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387461"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387461> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/dd775> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/c7bbb> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/eef6e> .
+
+<http://identifiers.org/ensembl/ENST00000387405>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "pre-MT-TC"^^xsd:string , "MT-TC"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387405> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387405"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387405> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/d627c> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/f2b6f> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/f57cc> .
+
+<http://identifiers.org/ensembl/ENST00000387459>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "pre-MT-TE"^^xsd:string , "MT-TE"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387459> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387459"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387459> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/bd68c> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/ebf7b> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/a32a7> .
+
+<http://identifiers.org/wikipathways//tRNA__r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//tRNA_> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "tRNA processing in the mitochondrion"@en ;
+        dcterms:description  "Each strand of the circular mitochondrial genome is transcribed to yield long polycistronic transcripts, the heavy strand transcript and the light strand transcript, which are then cleaved to yield tRNAs, rRNAs, and mRNAs (Mercer et al. 2011, reviewed in Suzuki et al. 2011, Rossmanith 2012, Powell et al. 2015). Mitochondrial RNase P, which is completely distinct from nuclear RNase P in having different protein subunits and no RNA component, cleaves at the 5' ends of tRNAs. RNase Z, an isoform of ELAC2 in mitochondria, cleaves at the 3' ends of tRNAs. (A different isoform of ELAC2 serves as RNase Z in the nucleus.) Unknown nucleases make additional cleavages near the 5' end of MT-CO3, the 5' end of CO1, the 5' end of CYB, and the 3' end of ND6. TRNT1 (CCA-adding enzyme) then post-transcriptionally polymerizes the universal acceptor sequence CCA onto the 3' ends of the cleaved tRNAs. In yeast, plants, and protozoa additional tRNAs encoded in the nucleus are imported into mitochondria from the cytosol (reviewed in Schneider 2011), however human mitochondria encode a complete complement of 22 tRNAs required for translation and tRNA import has not been observed in mammals. Mutations that affect mitochondrial tRNA processing cause human diseases that are generally characterized by abnormalities in energy-requiring tissues such as brain and muscle (reviewed in Suzuki et al. 2011, Sarin and Leidel 2014).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=6785470 Reactome]." ;
+        dcterms:identifier   "/tRNA_"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/22137969> , <http://identifiers.org/pubmed/25692999> , <http://identifiers.org/pubmed/26016801> , <http://identifiers.org/pubmed/21854988> , <http://identifiers.org/pubmed/25806043> , <http://identifiers.org/pubmed/21417719> , <http://identifiers.org/pubmed/21910628> , <http://identifiers.org/pubmed/25734984> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//tRNA__r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//tRNA__r1> .
+
+<http://identifiers.org/pubmed/22991464>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22991464> .
+
+<http://identifiers.org/ensembl/ENST00000361789>
+        a                   wp:DataNode , wp:Rna ;
+        rdfs:label          "MT-CYB mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000361789> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000361789"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000361789> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/a3b50> .
+
+<http://rdf.wikipathways.org/Pathway//tRNA__r1/ComplexBinding/ceb9f>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//tRNA__r1/Group/ceb9f> ;
+        wp:participants   <http://identifiers.org/uniprot/O15091> , <http://identifiers.org/uniprot/Q7L0Y3> , <http://identifiers.org/uniprot/Q99714> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/Complex/ceb9f> .
+
+<http://identifiers.org/pubmed/21559454>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21559454> .
+
+<http://identifiers.org/ensembl/ENST00000387460>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "MT-TT"^^xsd:string , "pre-MT-TT"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000387460> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000387460"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000387460> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/bcd92> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/e6012> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/d3bc4> .
+
+<http://identifiers.org/ensembl/ENST00000361335>
+        a                   wp:DataNode , wp:Rna ;
+        rdfs:label          "MT-ND4L mRNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/ensembl/ENST00000361335> ;
+        dc:source           "Ensembl"^^xsd:string ;
+        dcterms:identifier  "ENST00000361335"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> , <http://identifiers.org/wikipathways//tRNA__r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENST00000361335> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/d8c13> .
+
+<http://identifiers.org/pubmed/21417719>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21417719> .
+
+<http://identifiers.org/pubmed/25925575>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//tRNA__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25925575> .
+
+<http://identifiers.org/uniprot/Q9BQ52>
+        a                              wp:Protein , wp:DataNode ;
+        rdfs:label                     "ELAC2"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/uniprot/Q9BQ52> ;
+        dc:source                      "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/21559454> , <http://identifiers.org/pubmed/21593607> ;
+        dcterms:identifier             "Q9BQ52"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//tRNA__r1> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/deded> , <http://rdf.wikipathways.org/Pathway//tRNA__r1/WP/Interaction/f5bd5> ;
+        wp:bdbEnsembl                  <http://identifiers.org/ensembl/ENSG00000006744> ;
+        wp:bdbEntrezGene               <http://identifiers.org/ncbigene/60528> ;
+        wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/ELAC2> ;
+        wp:bdbUniprot                  <http://identifiers.org/uniprot/J3QRS2> , <http://identifiers.org/uniprot/E7ES68> , <http://identifiers.org/uniprot/Q9BQ52> , <http://identifiers.org/uniprot/H7C2I4> , <http://identifiers.org/uniprot/V9GZ72> , <http://identifiers.org/uniprot/J3QL08> , <http://identifiers.org/uniprot/J3QQT1> , <http://identifiers.org/uniprot/V9GYS7> , <http://identifiers.org/uniprot/V9GYU5> , <http://identifiers.org/uniprot/A0A0S2Z5M8> , <http://identifiers.org/uniprot/J3QLK4> , <http://identifiers.org/uniprot/G5E9D5> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//tRNA__r1/DataNode/b3b34> .

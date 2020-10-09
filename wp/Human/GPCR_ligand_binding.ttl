@@ -1,0 +1,102 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/12040175>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//GPCR__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12040175> .
+
+<http://identifiers.org/reactome/R-HSA-420499>
+        a                              wp:DataNode ;
+        rdfs:label                     "Class C/3 (Metabotropic glutamate/pheromone receptors)"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-420499> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/17266540> , <http://identifiers.org/pubmed/12782243> ;
+        dcterms:identifier             "R-HSA-420499"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//GPCR__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//GPCR__r1/DataNode/cff80> .
+
+<http://identifiers.org/reactome/R-HSA-373076>
+        a                              wp:DataNode ;
+        rdfs:label                     "Class A/1 (Rhodopsin-like receptors)"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-373076> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/16902930> ;
+        dcterms:identifier             "R-HSA-373076"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//GPCR__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//GPCR__r1/DataNode/dbccb> .
+
+<http://identifiers.org/reactome/R-HSA-373080>
+        a                              wp:DataNode ;
+        rdfs:label                     "Class B/2 (Secretin family receptors)"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-373080> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11790261> ;
+        dcterms:identifier             "R-HSA-373080"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//GPCR__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//GPCR__r1/DataNode/c59fe> .
+
+<http://identifiers.org/pubmed/16902930>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//GPCR__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16902930> .
+
+<http://identifiers.org/wikipathways//GPCR_>
+        pav:hasVersion  <http://identifiers.org/wikipathways//GPCR__r1> .
+
+<http://identifiers.org/pubmed/15251227>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//GPCR__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15251227> .
+
+<http://identifiers.org/reactome/R-HSA-388396>
+        a                              wp:DataNode ;
+        rdfs:label                     "GPCR downstream signalling"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-388396> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12040175> ;
+        dcterms:identifier             "R-HSA-388396"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//GPCR__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//GPCR__r1/DataNode/cc098> .
+
+<http://identifiers.org/pubmed/12782243>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//GPCR__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12782243> .
+
+<http://identifiers.org/wikipathways//GPCR__r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//GPCR_> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "GPCR ligand binding"@en ;
+        dcterms:description  "There are more than 800 G-protein coupled receptor (GPCRs) in the human genome, making it the largest receptor superfamily. GPCRs are also the largest class of drug targets, involved in virtually all physiological processes (Frederiksson 2003). GPCRs are receptors for a diverse range of ligands from large proteins to photons (Kristiansen et al. 2004) and have an equal diversity of ligand-binding mechanisms (Gether et al. 2002). Classical GPCR signaling involves signal transduction via heterotrimeric G-proteins, though G-protein independent mechanisms have been reported. \n\nRhodopsin-like receptors (class A/1) are by far the largest group of GPCRs and the best studied, though a large proportion of the functional and structural studies have focused on a very few members; many remain functionally uncharacterized. This large family can be subdivided into at least 19 subfamilies (Subfamily A1-19) based on phylogenetic analysis (Joost & Methner 2002). Family A includes receptors for a wide variety of ligands including hormones, light and neurotransmitters, encompassing a wide range of functions including many autocrine, paracrine and endocrine processes.\n\nThe secretin-like family B/2 GPCRs includes receptors for many hormone-like peptides, such as secretin, calcitonin, parathyroid hormone/parathyroid hormone-related peptides and vasoactive intestinal peptide, which activate adenylyl cyclase and the phosphatidyl-inositol-calcium pathway (Harmar 2001).\n\nThe class C/3 GPCRs include the metabotropic glutamate receptors and taste receptors (Brauner-Osborne et al. 2007).  All have a large extracellular N-terminus that structurally resembles a clamshell and has an important role in ligand binding.\n\n\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=500792 Reactome]." ;
+        dcterms:identifier   "/GPCR_"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/15251227> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//GPCR__r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//GPCR__r1> .
+
+<http://identifiers.org/pubmed/11790261>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//GPCR__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11790261> .
+
+<http://identifiers.org/pubmed/17266540>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//GPCR__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17266540> .

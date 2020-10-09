@@ -15,11 +15,11 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 
-<http://rdf.wikipathways.org/Pathway//Choli_r1/ComplexBinding/ba750>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+<http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/bea23>
+        a                 wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Choli_r1/Group/ba750> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:16238> , <http://identifiers.org/uniprot/Q9UI17> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/ba750> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Choli_r1/Group/bea23> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:29105> , <http://identifiers.org/uniprot/Q93088> .
 
 <http://identifiers.org/pubmed/18457970>
         a                 wp:PublicationReference ;
@@ -37,20 +37,38 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-6797933> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-6797933"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b9f33> , <http://identifiers.org/wikipathways//Choli_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f90b3> , <http://identifiers.org/wikipathways//Choli_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6797933> ;
-        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50266887> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/caece> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/be594> .
 
 <http://identifiers.org/chebi/CHEBI:57844>
         a                   wp:DataNode , wp:Metabolite ;
         rdfs:label          "L-Met"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/FFEARJCKVFRZRR-BYPYZUCNSA-N> ;
         dc:identifier       <http://identifiers.org/chebi/CHEBI:57844> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:57844"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b04af> ;
-        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:57844> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/a4305> .
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f94c2> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16643> , <http://identifiers.org/chebi/CHEBI:57844> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5907> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000696> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/FFEARJCKVFRZRR-BYPYZUCNSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00073> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6137> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q22124685> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/a2cb9> .
+
+<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b766a>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/8443213> ;
+        dcterms:identifier             "R-HSA-6797962"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797962> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b766a> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b7540> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/a27fd> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17724> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:17724> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17724> .
 
 <http://identifiers.org/chebi/CHEBI:16238>
         a                   wp:Metabolite , wp:DataNode ;
@@ -59,7 +77,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:16238> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:16238"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/d8290> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/a674b> , <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/ba750> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/f14ed> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/a5be4> , <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/ecdbd> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16238> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/559059> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001248> ;
@@ -67,31 +85,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00016> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID643975> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q28746> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/d4952> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/fb14c> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/bb102> .
-
-<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c347f>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/20207735> ;
-        dcterms:identifier             "R-HSA-6797955"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797955> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/e1fd8> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/c929d> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/d0971> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b1d56> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/bb618> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/c347f> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/e6d09> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:17750> , <http://identifiers.org/chebi/CHEBI:15710> , <http://identifiers.org/chebi/CHEBI:15846> , <http://identifiers.org/chebi/CHEBI:16908> , <http://identifiers.org/uniprot/P49419> , <http://identifiers.org/chebi/CHEBI:15377> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:15846> , <http://identifiers.org/uniprot/P49419> , <http://identifiers.org/chebi/CHEBI:15710> , <http://identifiers.org/chebi/CHEBI:15377> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:17750> , <http://identifiers.org/chebi/CHEBI:16908> .
-
-<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c6691>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19357133> ;
-        dcterms:identifier             "R-HSA-6797956"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797956> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/f3548> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/c6691> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/a67be> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/e0697> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:15354> , <http://identifiers.org/uniprot/Q8WWI5> ;
-        wp:source                      <http://identifiers.org/uniprot/Q8WWI5> , <http://identifiers.org/chebi/CHEBI:15354> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:15354> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/f74e3> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/f7069> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/a608e> .
 
 <http://identifiers.org/uniprot/Q9UL12>
         a                   wp:DataNode , wp:Protein ;
@@ -99,12 +93,12 @@
         dc:identifier       <http://identifiers.org/uniprot/Q9UL12> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q9UL12"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/a674b> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/ecdbd> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000123453> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1757> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SARDH> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q5SYV1> , <http://identifiers.org/uniprot/Q9UL12> , <http://identifiers.org/uniprot/Q9UL10> , <http://identifiers.org/uniprot/Q5SYV2> , <http://identifiers.org/uniprot/A0A0A0MT55> , <http://identifiers.org/uniprot/Q5SYU9> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/a5107> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/e1a6b> .
 
 <http://identifiers.org/uniprot/Q93088>
         a                   wp:DataNode , wp:Protein ;
@@ -112,12 +106,18 @@
         dc:identifier       <http://identifiers.org/uniprot/Q93088> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q93088"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/e31e4> , <http://identifiers.org/wikipathways//Choli_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/bea23> , <http://identifiers.org/wikipathways//Choli_r1> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000145692> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/635> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/BHMT> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q93088> , <http://identifiers.org/uniprot/E5RJH0> , <http://identifiers.org/uniprot/V9HWA4> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/d3fa6> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/a59bf> .
+
+<http://rdf.wikipathways.org/Pathway//Choli_r1/ComplexBinding/bea23>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Choli_r1/Group/bea23> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:29105> , <http://identifiers.org/uniprot/Q93088> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/bea23> .
 
 <http://identifiers.org/pubmed/22825317>
         a                 wp:PublicationReference ;
@@ -134,12 +134,6 @@
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8443213> .
 
-<http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/e31e4>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Choli_r1/Group/e31e4> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:29105> , <http://identifiers.org/uniprot/Q93088> .
-
 <http://identifiers.org/chebi/CHEBI:15611>
         a                   wp:DataNode , wp:Metabolite ;
         rdfs:label          "SARC"^^xsd:string ;
@@ -147,41 +141,36 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:15611> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:15611"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/d5873> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b9f33> ;
-        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15611> , <http://identifiers.org/chebi/CHEBI:57433> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f90b3> , <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/de7a3> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15611> , <http://identifiers.org/chebi/CHEBI:45531> , <http://identifiers.org/chebi/CHEBI:57433> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/1057> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000271> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/FSYKKLYZXJSNPZ-UHFFFAOYSA-N> ;
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00213> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1088> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q414157> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/c3277> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/ddda6> .
 
-<http://identifiers.org/chebi/CHEBI:16908>
-        a                   wp:Metabolite , wp:DataNode ;
-        rdfs:label          "NADH"^^xsd:string ;
-        rdfs:seeAlso        <http://identifiers.org/inchikey/BOPGDPNILDQYTO-NNYOXOHSSA-N> ;
-        dc:identifier       <http://identifiers.org/chebi/CHEBI:16908> ;
-        dc:source           "ChEBI"^^xsd:string ;
-        dcterms:identifier  "CHEBI:16908"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c347f> , <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16908> ;
-        wp:bdbChemspider    <http://identifiers.org/chemspider/903> , <http://identifiers.org/chemspider/388299> ;
-        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001487> ;
-        wp:bdbInChIKey      <http://identifiers.org/inchikey/BOPGDPNILDQYTO-NNYOXOHSSA-N> ;
-        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00004> ;
-        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID928> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID439153> ;
-        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26987453> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/ff318> .
-
-<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f874e>
+<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/de7a3>
         a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10767172> , <http://identifiers.org/pubmed/11231903> ;
+        dcterms:identifier             "R-HSA-6797653"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797653> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/de7a3> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/cd671> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/da17f> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b277e> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/c8987> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/ea72b> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/reactome/R-HSA-6797657> , <http://identifiers.org/chebi/CHEBI:15611> , <http://identifiers.org/chebi/CHEBI:16842> , <http://identifiers.org/chebi/CHEBI:17724> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:17724> , <http://identifiers.org/reactome/R-HSA-6797657> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:16842> , <http://identifiers.org/chebi/CHEBI:15611> .
+
+<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/fe586>
+        a                              wp:Interaction , wp:DirectedInteraction ;
         dc:source                      "Reactome"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/8443213> ;
         dcterms:identifier             "R-HSA-6797957"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> ;
         wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797957> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/f874e> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/af9f4> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b507f> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/cd5c2> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/fe586> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/c4e23> ;
         wp:participants                <http://identifiers.org/chebi/CHEBI:17750> ;
         wp:source                      <http://identifiers.org/chebi/CHEBI:17750> ;
         wp:target                      <http://identifiers.org/chebi/CHEBI:17750> .
@@ -192,22 +181,22 @@
         dc:identifier       <http://identifiers.org/uniprot/Q8WWI5> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q8WWI5"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c6691> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/ddb8f> , <http://identifiers.org/wikipathways//Choli_r1> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000070214> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/23446> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SLC44A1> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q8WWI5> , <http://identifiers.org/uniprot/A0A024R151> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/e2d4e> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/adadd> .
 
-<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/d8290>
-        a                              wp:Interaction , wp:DirectedInteraction ;
+<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/a5be4>
+        a                              wp:DirectedInteraction , wp:Interaction ;
         dc:source                      "Reactome"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12951056> ;
         dcterms:identifier             "R-HSA-6797961"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> ;
         wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797961> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/e02a6> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/a1005> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/a6c93> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/eb42c> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/df313> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/d8290> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:15354> , <http://identifiers.org/uniprot/Q8NE62> , <http://identifiers.org/chebi/CHEBI:15710> , <http://identifiers.org/chebi/CHEBI:17877> , <http://identifiers.org/chebi/CHEBI:16238> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b1958> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/f4b3a> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/a5be4> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b896c> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/aff6f> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b1865> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15354> , <http://identifiers.org/chebi/CHEBI:16238> , <http://identifiers.org/chebi/CHEBI:17877> , <http://identifiers.org/uniprot/Q8NE62> , <http://identifiers.org/chebi/CHEBI:15710> ;
         wp:source                      <http://identifiers.org/chebi/CHEBI:15354> , <http://identifiers.org/uniprot/Q8NE62> , <http://identifiers.org/chebi/CHEBI:16238> ;
         wp:target                      <http://identifiers.org/chebi/CHEBI:15710> , <http://identifiers.org/chebi/CHEBI:17877> .
 
@@ -218,7 +207,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17750> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17750"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b04af> , <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f874e> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c347f> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f94c2> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c984a> , <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/fe586> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17750> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/242> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000043> ;
@@ -226,19 +215,19 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00719> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID247> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q10860583> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/bbd33> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/b253f> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/cd4ab> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/f3fba> .
 
-<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b04af>
+<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f90b3>
         a                              wp:Interaction , wp:DirectedInteraction ;
         dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/18457970> ;
-        dcterms:identifier             "R-HSA-1614654"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10444331> , <http://identifiers.org/pubmed/22825317> ;
+        dcterms:identifier             "R-HSA-6797913"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-1614654> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/a28b1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b2c07> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/dfd68> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/bcaf0> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b04af> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/e6619> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:17724> , <http://identifiers.org/chebi/CHEBI:17230> , <http://identifiers.org/chebi/CHEBI:57844> , <http://identifiers.org/reactome/R-HSA-6798211> , <http://identifiers.org/chebi/CHEBI:17750> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:17230> , <http://identifiers.org/reactome/R-HSA-6798211> , <http://identifiers.org/chebi/CHEBI:17750> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:17724> , <http://identifiers.org/chebi/CHEBI:57844> .
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797913> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/e82fc> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/ec0ba> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/f90b3> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/df2bc> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/e162e> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/c8088> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-6797933> , <http://identifiers.org/chebi/CHEBI:16842> , <http://identifiers.org/chebi/CHEBI:15611> , <http://identifiers.org/chebi/CHEBI:57305> , <http://identifiers.org/chebi/CHEBI:15377> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/reactome/R-HSA-6797933> , <http://identifiers.org/chebi/CHEBI:15611> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:57305> , <http://identifiers.org/chebi/CHEBI:16842> .
 
 <http://identifiers.org/chebi/CHEBI:15710>
         a                   wp:Metabolite , wp:DataNode ;
@@ -247,7 +236,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:15710> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:15710"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/d8290> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c347f> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/a5be4> , <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c984a> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15710> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/244> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001252> ;
@@ -255,7 +244,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00576> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID249> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q10859645> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/c8b15> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/b1ef2> .
 
 <http://identifiers.org/uniprot/Q9UI17>
         a                   wp:Protein , wp:DataNode ;
@@ -263,23 +252,17 @@
         dc:identifier       <http://identifiers.org/uniprot/Q9UI17> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q9UI17"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/ba750> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/f14ed> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000132837> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/29958> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DMGDH> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/E5RK15> , <http://identifiers.org/uniprot/Q8TCC6> , <http://identifiers.org/uniprot/E5RG50> , <http://identifiers.org/uniprot/E5RGI4> , <http://identifiers.org/uniprot/Q9UI17> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/fb01a> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/bf883> .
 
 <http://identifiers.org/pubmed/10444331>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10444331> .
-
-<http://rdf.wikipathways.org/Pathway//Choli_r1/ComplexBinding/e31e4>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Choli_r1/Group/e31e4> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:29105> , <http://identifiers.org/uniprot/Q93088> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/e31e4> .
 
 <http://identifiers.org/pubmed/10767172>
         a                 wp:PublicationReference ;
@@ -293,7 +276,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17877> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17877"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/d8290> , <http://identifiers.org/wikipathways//Choli_r1> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/a5be4> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17877> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/393487> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001197> ;
@@ -301,7 +284,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C01352> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID446013> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27102690> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/d908f> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/de269> .
 
 <http://identifiers.org/chebi/CHEBI:17230>
         a                   wp:DataNode , wp:Metabolite ;
@@ -310,7 +293,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17230> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17230"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b04af> , <http://identifiers.org/wikipathways//Choli_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f94c2> , <http://identifiers.org/wikipathways//Choli_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17230> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/757> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000742> ;
@@ -318,13 +301,23 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C05330> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID778> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q192466> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/fdba0> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/a1eae> .
+
+<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/ddb8f>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19357133> ;
+        dcterms:identifier             "R-HSA-6797956"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797956> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/fb698> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/a90ce> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b9754> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/ddb8f> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15354> , <http://identifiers.org/uniprot/Q8WWI5> ;
+        wp:source                      <http://identifiers.org/uniprot/Q8WWI5> , <http://identifiers.org/chebi/CHEBI:15354> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:15354> .
 
 <http://identifiers.org/pubmed/19885858>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:bdbWikidata    <http://www.wikidata.org/entity/Q35011064> ;
-        owl:sameAs        <https://doi.org/10.1002%2FJCB.22381> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19885858> .
 
 <http://identifiers.org/chebi/CHEBI:16842>
@@ -334,7 +327,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:16842> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:16842"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/d5873> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b9f33> , <http://identifiers.org/wikipathways//Choli_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f90b3> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/de7a3> , <http://identifiers.org/wikipathways//Choli_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16842> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/692> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001426> ;
@@ -342,7 +335,13 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00067> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID712> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q161210> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/aa3f9> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/e95df> .
+
+<http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/ecdbd>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Choli_r1/Group/ecdbd> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:16238> , <http://identifiers.org/uniprot/Q9UL12> .
 
 <http://identifiers.org/uniprot/P49419>
         a                              wp:DataNode , wp:Protein ;
@@ -351,12 +350,12 @@
         dc:source                      "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19885858> ;
         dcterms:identifier             "P49419"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c347f> ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c984a> ;
         wp:bdbEnsembl                  <http://identifiers.org/ensembl/ENSG00000164904> ;
         wp:bdbEntrezGene               <http://identifiers.org/ncbigene/501> ;
         wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/ALDH7A1> ;
         wp:bdbUniprot                  <http://identifiers.org/uniprot/A0A0J9YWK1> , <http://identifiers.org/uniprot/F8VVF2> , <http://identifiers.org/uniprot/A0A1B0GV49> , <http://identifiers.org/uniprot/A0A1B0GVU0> , <http://identifiers.org/uniprot/A0A1B0GUY0> , <http://identifiers.org/uniprot/H0YHM6> , <http://identifiers.org/uniprot/A0A1B0GTY9> , <http://identifiers.org/uniprot/P49419> , <http://identifiers.org/uniprot/A0A1B0GW82> , <http://identifiers.org/uniprot/A0A1B0GW77> , <http://identifiers.org/uniprot/F8WD33> , <http://identifiers.org/uniprot/F8WDY6> , <http://identifiers.org/uniprot/A0A0J9YWM6> , <http://identifiers.org/uniprot/A0A1B0GUA1> , <http://identifiers.org/uniprot/A0A1B0GW65> , <http://identifiers.org/uniprot/A0A1B0GTJ4> , <http://identifiers.org/uniprot/A0A0J9YWF7> , <http://identifiers.org/uniprot/A0A1B0GTG2> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/d873c> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/dcb42> .
 
 <http://identifiers.org/wikipathways//Choli_r1>
         a                    skos:Collection , wp:Pathway ;
@@ -378,7 +377,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:15377> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:15377"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/d5873> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b9f33> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c347f> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/de7a3> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f90b3> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c984a> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15377> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/937> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0002111> ;
@@ -386,7 +385,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00001> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID962> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q283> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/d54d8> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/b22fc> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/c83a3> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/c5617> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/b05a8> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/f6f98> .
 
 <http://identifiers.org/reactome/R-HSA-6797657>
         a                   wp:Complex , wp:DataNode ;
@@ -394,33 +393,20 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-6797657> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-6797657"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/d5873> , <http://identifiers.org/wikipathways//Choli_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/de7a3> , <http://identifiers.org/wikipathways//Choli_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6797657> ;
-        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50266885> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/c35a7> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/a5771> .
 
 <http://identifiers.org/pubmed/11231903>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11231903> .
 
-<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b9f33>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10444331> , <http://identifiers.org/pubmed/22825317> ;
-        dcterms:identifier             "R-HSA-6797913"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797913> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/a33dd> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/d1e2b> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b9f33> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/d138f> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/c7d66> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/a71d6> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:16842> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/reactome/R-HSA-6797933> , <http://identifiers.org/chebi/CHEBI:57305> , <http://identifiers.org/chebi/CHEBI:15611> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-6797933> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:15611> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:16842> , <http://identifiers.org/chebi/CHEBI:57305> .
-
-<http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/a674b>
+<http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/f14ed>
         a                 wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Choli_r1/Group/a674b> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:16238> , <http://identifiers.org/uniprot/Q9UL12> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Choli_r1/Group/f14ed> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:16238> , <http://identifiers.org/uniprot/Q9UI17> .
 
 <http://identifiers.org/reactome/R-HSA-6798211>
         a                   wp:DataNode , wp:Complex ;
@@ -428,10 +414,9 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-6798211> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-6798211"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b04af> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f94c2> , <http://identifiers.org/wikipathways//Choli_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6798211> ;
-        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50266824> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/c0b91> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/e2f59> .
 
 <http://identifiers.org/pubmed/19357133>
         a                 wp:PublicationReference ;
@@ -441,31 +426,31 @@
 <http://identifiers.org/chebi/CHEBI:29105>
         a                   wp:DataNode , wp:Metabolite ;
         rdfs:label          "Zn2+"^^xsd:string ;
-        rdfs:seeAlso        <http://identifiers.org/inchikey/HCHKCACWOHOZIP-UHFFFAOYSA-N> ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/PTFCDOFLOPIGGS-UHFFFAOYSA-N> , <http://identifiers.org/inchikey/HCHKCACWOHOZIP-UHFFFAOYSA-N> ;
         dc:identifier       <http://identifiers.org/chebi/CHEBI:29105> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:29105"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/e31e4> , <http://identifiers.org/wikipathways//Choli_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/bea23> , <http://identifiers.org/wikipathways//Choli_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:29105> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/29723> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0015532> , <http://identifiers.org/hmdb/HMDB0001303> ;
-        wp:bdbInChIKey      <http://identifiers.org/inchikey/HCHKCACWOHOZIP-UHFFFAOYSA-N> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/PTFCDOFLOPIGGS-UHFFFAOYSA-N> , <http://identifiers.org/inchikey/HCHKCACWOHOZIP-UHFFFAOYSA-N> ;
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00038> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID32051> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q26987394> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/ef687> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/e4a8a> .
 
-<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/d5873>
+<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c984a>
         a                              wp:Interaction , wp:DirectedInteraction ;
         dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10767172> , <http://identifiers.org/pubmed/11231903> ;
-        dcterms:identifier             "R-HSA-6797653"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/20207735> ;
+        dcterms:identifier             "R-HSA-6797955"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797653> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/d5873> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/bdb52> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/e53fd> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b6339> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/e40b0> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/fedb8> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-6797657> , <http://identifiers.org/chebi/CHEBI:16842> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:15611> , <http://identifiers.org/chebi/CHEBI:17724> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-6797657> , <http://identifiers.org/chebi/CHEBI:17724> , <http://identifiers.org/chebi/CHEBI:15377> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:16842> , <http://identifiers.org/chebi/CHEBI:15611> .
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797955> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/c0991> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b9306> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/c984a> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/bc404> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/ed711> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/e0c99> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/a8913> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17750> , <http://identifiers.org/chebi/CHEBI:57540> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:15710> , <http://identifiers.org/chebi/CHEBI:57945> , <http://identifiers.org/uniprot/P49419> ;
+        wp:source                      <http://identifiers.org/uniprot/P49419> , <http://identifiers.org/chebi/CHEBI:15710> , <http://identifiers.org/chebi/CHEBI:57540> , <http://identifiers.org/chebi/CHEBI:15377> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:57945> , <http://identifiers.org/chebi/CHEBI:17750> .
 
 <http://identifiers.org/uniprot/Q8NE62>
         a                   wp:Protein , wp:DataNode ;
@@ -473,51 +458,65 @@
         dc:identifier       <http://identifiers.org/uniprot/Q8NE62> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q8NE62"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/d8290> , <http://identifiers.org/wikipathways//Choli_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/a5be4> , <http://identifiers.org/wikipathways//Choli_r1> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000016391> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/55349> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CHDH> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/C9J7D8> , <http://identifiers.org/uniprot/C9JYW4> , <http://identifiers.org/uniprot/Q8NE62> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/c4bb0> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/e8de2> .
 
 <http://identifiers.org/pubmed/20446114>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20446114> .
 
-<http://rdf.wikipathways.org/Pathway//Choli_r1/ComplexBinding/a674b>
+<http://rdf.wikipathways.org/Pathway//Choli_r1/ComplexBinding/f14ed>
         a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Choli_r1/Group/a674b> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:16238> , <http://identifiers.org/uniprot/Q9UL12> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/a674b> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Choli_r1/Group/f14ed> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:16238> , <http://identifiers.org/uniprot/Q9UI17> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/f14ed> .
 
-<http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/ba750>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Choli_r1/Group/ba750> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:16238> , <http://identifiers.org/uniprot/Q9UI17> .
-
-<http://identifiers.org/chebi/CHEBI:15846>
+<http://identifiers.org/chebi/CHEBI:57945>
         a                   wp:Metabolite , wp:DataNode ;
-        rdfs:label          "NAD+"^^xsd:string ;
-        rdfs:seeAlso        <http://identifiers.org/inchikey/BAWFJGJZGIEFAR-NNYOXOHSSA-N> ;
-        dc:identifier       <http://identifiers.org/chebi/CHEBI:15846> ;
+        rdfs:label          "NADH"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/BOPGDPNILDQYTO-NNYOXOHSSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:57945> ;
         dc:source           "ChEBI"^^xsd:string ;
-        dcterms:identifier  "CHEBI:15846"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c347f> , <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15846> ;
-        wp:bdbChemspider    <http://identifiers.org/chemspider/5682> ;
-        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000902> ;
-        wp:bdbInChIKey      <http://identifiers.org/inchikey/BAWFJGJZGIEFAR-NNYOXOHSSA-O> ;
-        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00003> ;
-        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5893> ;
-        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26987253> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/f4f27> .
+        dcterms:identifier  "CHEBI:57945"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c984a> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:57945> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/10239197> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/BOPGDPNILDQYTO-NNYOXOHSSA-L> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID21604869> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27125072> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/a97b2> .
 
 <http://identifiers.org/pubmed/22483274>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22483274> .
+
+<http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f94c2>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/18457970> ;
+        dcterms:identifier             "R-HSA-1614654"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Choli_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-1614654> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/cd0a0> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/f94c2> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/f373c> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/e362a> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/b286b> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Interaction/f29ca> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17750> , <http://identifiers.org/reactome/R-HSA-6798211> , <http://identifiers.org/chebi/CHEBI:57844> , <http://identifiers.org/chebi/CHEBI:17724> , <http://identifiers.org/chebi/CHEBI:17230> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-6798211> , <http://identifiers.org/chebi/CHEBI:17750> , <http://identifiers.org/chebi/CHEBI:17230> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:57844> , <http://identifiers.org/chebi/CHEBI:17724> .
+
+<http://identifiers.org/chebi/CHEBI:57540>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "NAD+"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:57540> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:57540"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c984a> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:57540> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/c2614> .
 
 <http://identifiers.org/chebi/CHEBI:57305>
         a                   wp:Metabolite , wp:DataNode ;
@@ -526,18 +525,24 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:57305> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:57305"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b9f33> , <http://identifiers.org/wikipathways//Choli_r1> ;
-        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15428> , <http://identifiers.org/chebi/CHEBI:57305> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f90b3> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15428> , <http://identifiers.org/chebi/CHEBI:42964> , <http://identifiers.org/chebi/CHEBI:57305> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/730> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000123> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/DHMQDGOQFOQNFH-UHFFFAOYSA-N> ;
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00037> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID750> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q620730> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/d3708> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/af65c> .
 
 <http://identifiers.org/wikipathways//Choli>
         pav:hasVersion  <http://identifiers.org/wikipathways//Choli_r1> .
+
+<http://rdf.wikipathways.org/Pathway//Choli_r1/ComplexBinding/ecdbd>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Choli_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Choli_r1/Group/ecdbd> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:16238> , <http://identifiers.org/uniprot/Q9UL12> , <http://rdf.wikipathways.org/Pathway//Choli_r1/Complex/ecdbd> .
 
 <http://identifiers.org/chebi/CHEBI:17724>
         a                   wp:DataNode , wp:Metabolite ;
@@ -546,15 +551,15 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17724> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17724"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/d5873> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b04af> ;
-        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17724> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Choli_r1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/f94c2> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/b766a> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/de7a3> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17724> , <http://identifiers.org/chebi/CHEBI:41993> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/653> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000092> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/FFDGPVCHZBVARC-UHFFFAOYSA-N> ;
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C01026> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID673> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q4369> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/af66a> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/f371f> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/ffaf1> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/e5947> .
 
 <http://identifiers.org/chebi/CHEBI:15354>
         a                   wp:Metabolite , wp:DataNode ;
@@ -563,7 +568,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:15354> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:15354"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/d8290> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/c6691> , <http://identifiers.org/wikipathways//Choli_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/a5be4> , <http://rdf.wikipathways.org/Pathway//Choli_r1/WP/Interaction/ddb8f> , <http://identifiers.org/wikipathways//Choli_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15354> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/299> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000097> ;
@@ -571,4 +576,4 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00114> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID305> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q193166> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/abf39> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/ff73a> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/e5b65> , <http://rdf.wikipathways.org/Pathway//Choli_r1/DataNode/c7f37> .

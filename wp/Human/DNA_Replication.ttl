@@ -1,0 +1,80 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/reactome/R-HSA-69239>
+        a                   wp:DataNode ;
+        rdfs:label          "Synthesis of DNA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-69239> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-69239"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//DNA_R_r1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//DNA_R_r1/DataNode/c69b5> .
+
+<http://identifiers.org/pubmed/11257218>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//DNA_R_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11257218> .
+
+<http://identifiers.org/pubmed/8223461>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//DNA_R_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8223461> .
+
+<http://identifiers.org/pubmed/1579437>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//DNA_R_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/1579437> .
+
+<http://identifiers.org/reactome/R-HSA-69002>
+        a                   wp:DataNode ;
+        rdfs:label          "DNA Replication Pre-Initiation"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-69002> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-69002"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//DNA_R_r1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//DNA_R_r1/DataNode/e74c4> .
+
+<http://identifiers.org/wikipathways//DNA_R>
+        pav:hasVersion  <http://identifiers.org/wikipathways//DNA_R_r1> .
+
+<http://identifiers.org/pubmed/1536007>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//DNA_R_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/1536007> .
+
+<http://identifiers.org/pubmed/12045100>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//DNA_R_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12045100> .
+
+<http://identifiers.org/wikipathways//DNA_R_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//DNA_R> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "DNA Replication"@en ;
+        dcterms:description  "Studies in the past decade have suggested that the basic mechanism of DNA replication initiation is conserved in all kingdoms of life. Initiation in unicellular eukaryotes, in particular Saccharomyces cerevisiae (budding yeast), is well understood, and has served as a model for studies of DNA replication initiation in multicellular eukaryotes, including humans. In general terms, the first step of initiation is the binding of the replication initiator to the origin of replication. The replicative helicase is then assembled onto the origin, usually by a helicase assembly factor. Either shortly before or shortly after helicase assembly, some local unwinding of the origin of replication occurs in a region rich in adenine and thymine bases (often termed a DNA unwinding element, DUE). The unwound region provides the substrate for primer synthesis and initiation of DNA replication. The best-defined eukaryotic origins are those of S. cerevisiae, which have well-conserved sequence elements for initiator binding, DNA unwinding and binding of accessory proteins. In multicellular eukaryotes, unlike S. cerevisiae, these loci appear not to be defined by the presence of a DNA sequence motif. Indeed, choice of replication origins in a multicellular eukaryote may vary with developmental stage and tissue type. In cell-free models of metazoan DNA replication, such as the one provided by Xenopus egg extracts, there are only limited DNA sequence specificity requirements for replication initiation (Kelly & Brown 2000; Bell & Dutta 2002; Marahrens & Stillman 1992; Cimbora & Groudine 2001; Mahbubani et al 1992, Hyrien & Mechali 1993).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=69306 Reactome]." ;
+        dcterms:identifier   "/DNA_R"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/1579437> , <http://identifiers.org/pubmed/10966477> , <http://identifiers.org/pubmed/12045100> , <http://identifiers.org/pubmed/1536007> , <http://identifiers.org/pubmed/8223461> , <http://identifiers.org/pubmed/11257218> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//DNA_R_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//DNA_R_r1> .
+
+<http://identifiers.org/pubmed/10966477>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//DNA_R_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10966477> .

@@ -1,0 +1,81 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/reactome/R-HSA-5638302>
+        a                              wp:DataNode ;
+        rdfs:label                     "Signaling by Overexpressed Wild-Type EGFR in Cancer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-5638302> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/3477813> ;
+        dcterms:identifier             "R-HSA-5638302"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Signa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Signa_r1/DataNode/de863> .
+
+<http://identifiers.org/wikipathways//Signa>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Signa_r1> .
+
+<http://identifiers.org/reactome/R-HSA-5637812>
+        a                              wp:DataNode ;
+        rdfs:label                     "Signaling by EGFRvIII in Cancer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-5637812> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11087732> ;
+        dcterms:identifier             "R-HSA-5637812"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Signa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Signa_r1/DataNode/bbec7> .
+
+<http://identifiers.org/pubmed/17177598>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17177598> .
+
+<http://identifiers.org/reactome/R-HSA-5637815>
+        a                              wp:DataNode ;
+        rdfs:label                     "Signaling by Ligand-Responsive EGFR Variants in Cancer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-5637815> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/17177598> , <http://identifiers.org/pubmed/16187797> ;
+        dcterms:identifier             "R-HSA-5637815"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Signa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Signa_r1/DataNode/e75cb> .
+
+<http://identifiers.org/wikipathways//Signa_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Signa> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Signaling by EGFR in Cancer"@en ;
+        dcterms:description  "The pathway \"Signaling by EGFR in Cancer\" shows signaling by constitutively active EGFR cancer variants in the context of \"Signaling by EGFR\", allowing users to compare cancer events with the wild-type EGFR events. Red lines emphasize cancer related events and physical entities, while wild-type entities and events are shaded. Please refer to \"Signaling by Ligand-Responsive EGFR Variants in Cancer\", \"Signaling by EGFRvIII in Cancer\" and \"Signaling by Overexpressed Wild-Type EGFR in Cancer\" for detailed pathway summations.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=1643713 Reactome]." ;
+        dcterms:identifier   "/Signa"^^xsd:string ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Signa_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Signa_r1> .
+
+<http://identifiers.org/pubmed/3477813>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/3477813> .
+
+<http://identifiers.org/pubmed/11087732>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11087732> .
+
+<http://identifiers.org/pubmed/16187797>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16187797> .

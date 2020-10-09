@@ -1,0 +1,87 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/23415156>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disor_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23415156> .
+
+<http://identifiers.org/pubmed/16399363>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disor_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16399363> .
+
+<http://identifiers.org/pubmed/21554546>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disor_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21554546> .
+
+<http://identifiers.org/reactome/R-HSA-5619102>
+        a                              wp:DataNode ;
+        rdfs:label                     "SLC transporter disorders"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-5619102> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23506860> ;
+        dcterms:identifier             "R-HSA-5619102"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Disor_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Disor_r1/DataNode/c18be> .
+
+<http://identifiers.org/wikipathways//Disor>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Disor_r1> .
+
+<http://identifiers.org/pubmed/21488864>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disor_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21488864> .
+
+<http://identifiers.org/pubmed/23506860>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disor_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23506860> .
+
+<http://identifiers.org/pubmed/21740521>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disor_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21740521> .
+
+<http://identifiers.org/reactome/R-HSA-5619084>
+        a                              wp:DataNode ;
+        rdfs:label                     "ABC transporter disorders"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-5619084> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/21554546> , <http://identifiers.org/pubmed/16399363> , <http://identifiers.org/pubmed/21389634> , <http://identifiers.org/pubmed/21740521> , <http://identifiers.org/pubmed/21488864> , <http://identifiers.org/pubmed/23415156> ;
+        dcterms:identifier             "R-HSA-5619084"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Disor_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Disor_r1/DataNode/feb3f> .
+
+<http://identifiers.org/wikipathways//Disor_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Disor> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Disorders of transmembrane transporters"@en ;
+        dcterms:description  "Proteins with transporting functions can be roughly classified into 3 categories: ATP hydrolysis-coupled pumps, ion channels, and transporters. Pumps utilize the energy released by ATP hydrolysis to power the movement of substrates across the membrane against their electrochemical gradient. Channels in their open state can transfer substrates (ions or water) down their electrochemical gradient at an extremely high efficiency (up to 108 s-1). Transporters facilitate the movement of a specific substrate either against or with their concentration gradient at a lower speed (about 102 -104 s-1); as generally believed, conformational change of the transporter protein is involved in the transfer process. Diseases caused by defects in these transporter proteins are detailed in this section. Currently, disorders associated with ABC transporters are annotated here (Dean 2005).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5619115 Reactome]." ;
+        dcterms:identifier   "/Disor"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/16399363> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Disor_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Disor_r1> .
+
+<http://identifiers.org/pubmed/21389634>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disor_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21389634> .

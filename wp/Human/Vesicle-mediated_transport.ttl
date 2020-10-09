@@ -1,0 +1,81 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/19659436>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vesic_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19659436> .
+
+<http://identifiers.org/reactome/R-HSA-199991>
+        a                              wp:DataNode ;
+        rdfs:label                     "Membrane Trafficking"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-199991> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11031247> ;
+        dcterms:identifier             "R-HSA-199991"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vesic_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vesic_r1/DataNode/cebaf> .
+
+<http://identifiers.org/pubmed/11031247>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vesic_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11031247> .
+
+<http://identifiers.org/pubmed/15904923>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vesic_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15904923> .
+
+<http://identifiers.org/pubmed/19388903>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vesic_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19388903> .
+
+<http://identifiers.org/reactome/R-HSA-2173782>
+        a                              wp:DataNode ;
+        rdfs:label                     "Binding and Uptake of Ligands by Scavenger Receptors"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-2173782> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19659436> , <http://identifiers.org/pubmed/15904923> , <http://identifiers.org/pubmed/16511968> , <http://identifiers.org/pubmed/19388903> , <http://identifiers.org/pubmed/218198> ;
+        dcterms:identifier             "R-HSA-2173782"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vesic_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vesic_r1/DataNode/e40e2> .
+
+<http://identifiers.org/wikipathways//Vesic>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Vesic_r1> .
+
+<http://identifiers.org/pubmed/218198>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vesic_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/218198> .
+
+<http://identifiers.org/wikipathways//Vesic_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Vesic> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Vesicle-mediated transport"@en ;
+        dcterms:description  "The transit of proteins and other cargo through the cell requires a cellular transport process in which transported substances are moved in membrane-bounded vesicles. Transported substances are enclosed in the vesicle lumen or located in the vesicle membrane. The transport process begins with the formation of the vesicle itself, often triggered by the interaction of the cargo with the vesicle formation machinery. Vesicular transport pathways can include vesicle formation, coating, budding, uncoating and target membrane fusion depending upon the function of the pathway described. Vesicle-mediated transport occurs from within cell via ER and Golgi transport, as well as functioning in the endocytosis of material taken into the cell via scavenger receptors.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5653656 Reactome]." ;
+        dcterms:identifier   "/Vesic"^^xsd:string ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Vesic_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Vesic_r1> .
+
+<http://identifiers.org/pubmed/16511968>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vesic_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16511968> .

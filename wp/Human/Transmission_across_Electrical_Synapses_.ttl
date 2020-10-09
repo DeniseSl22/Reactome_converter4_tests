@@ -1,0 +1,250 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/a90b2>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/14597722> ;
+        dcterms:identifier             "R-HSA-375339"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-375339> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/f41e3> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/eaff3> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/bf80c> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/a90b2> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-375332> , <http://identifiers.org/chebi/CHEBI:29103> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:29103> , <http://identifiers.org/reactome/R-HSA-375332> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:29103> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/dd1c9>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12881038> ;
+        dcterms:identifier             "R-HSA-375340"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-375340> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/dd1c9> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/b3aa6> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/e5112> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/e5dfa> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-375341> , <http://identifiers.org/chebi/CHEBI:29103> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:29103> , <http://identifiers.org/reactome/R-HSA-375341> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:29103> .
+
+<http://identifiers.org/wikipathways//Trans_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Trans> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Transmission across Electrical Synapses "@en ;
+        dcterms:description  "Electrical transmission across nerve cells is accomplished when the current generated in the upstream neuron spreads to the downstream neuron through a path of low electrical resistance. In neurons this is accomplished at gap junctions. Electrical synapses are found in neuronal tissue where the activity of neurons must be highly synchronized. The neurons responsible for hormone secretion from the mammalian hypothalamus are a class of highly synchronized electric neurons.  Gap junctions connecting the presynaptic cell with the postsynaptic cell allow current generated in the presynaptic cell to flow directly into the postsynaptic cell. Transmission speed is dramatically increased in such a system. The junction itself is composed of two hemichannels, one each on the pre- and postsysnaptic cells. These channels are composed of members of the connexin family of proteins.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=112307 Reactome]." ;
+        dcterms:identifier   "/Trans"^^xsd:string ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Trans_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Trans_r1> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/cef62>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Trans_r1/Group/cef62> ;
+        wp:participants   <http://identifiers.org/uniprot/Q96RD6> , <http://identifiers.org/uniprot/Q96RD7> .
+
+<http://identifiers.org/uniprot/Q969M2>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "GJA10"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q969M2> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q969M2"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000135355> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/84694> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/GJA10> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A1W2PS75> , <http://identifiers.org/uniprot/Q969M2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/e5d88> .
+
+<http://identifiers.org/chebi/CHEBI:29103>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "K+"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/NPYPAHLBTDXSSS-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:29103> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:29103"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/a90b2> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/aca8e> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/c029e> , <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/dd1c9> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:29103> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/791> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000586> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/NPYPAHLBTDXSSS-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00238> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID813> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q15901933> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/a16c5> .
+
+<http://identifiers.org/pubmed/10462698>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10462698> .
+
+<http://identifiers.org/uniprot/Q9UKL4>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "GJD2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9UKL4> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9UKL4"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/f4099> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000159248> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/57369> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/GJD2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9UKL4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/b43ad> , <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/a9d73> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/ComplexBinding/cef62>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Trans_r1/Group/cef62> ;
+        wp:participants   <http://identifiers.org/uniprot/Q96RD6> , <http://identifiers.org/uniprot/Q96RD7> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/cef62> .
+
+<http://identifiers.org/reactome/R-HSA-375333>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "Connexin 36/Connexin 45 Gap Junction Complex"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-375333> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-375333"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/c029e> , <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-375333> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/ddd5c> .
+
+<http://identifiers.org/pubmed/14597722>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/14597722> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/f4099>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Trans_r1/Group/f4099> ;
+        wp:participants   <http://identifiers.org/uniprot/Q9UKL4> , <http://identifiers.org/uniprot/P36383> .
+
+<http://identifiers.org/reactome/R-HSA-375351>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "Connexin 36 Gap Junction Complex"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-375351> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-375351"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/aca8e> , <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-375351> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/ac176> .
+
+<http://identifiers.org/pubmed/12881038>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12881038> .
+
+<http://identifiers.org/wikipathways//Trans>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Trans_r1> .
+
+<http://identifiers.org/reactome/R-HSA-375332>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "Pannexin 1/Pannexin 2 Gap Junction Complex"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-375332> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-375332"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/a90b2> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-375332> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/ba49f> .
+
+<http://identifiers.org/pubmed/20930146>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20930146> .
+
+<http://identifiers.org/pubmed/24454290>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24454290> .
+
+<http://identifiers.org/reactome/R-HSA-375341>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "Connexin 62 Gap Junction Complex"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-375341> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-375341"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/dd1c9> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-375341> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/be2d1> .
+
+<http://identifiers.org/uniprot/Q96RD7>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "PANX1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q96RD7> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q96RD7"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/cef62> , <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000110218> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/24145> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PANX1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q96RD7> , <http://identifiers.org/uniprot/A0A024R397> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/cefdc> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/c029e>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/24454290> , <http://identifiers.org/pubmed/20930146> ;
+        dcterms:identifier             "R-HSA-375330"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-375330> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/c029e> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/dfed8> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/f26d4> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/d7f80> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-375333> , <http://identifiers.org/chebi/CHEBI:29103> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:29103> , <http://identifiers.org/reactome/R-HSA-375333> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:29103> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/aca8e>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10462698> ;
+        dcterms:identifier             "R-HSA-375342"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-375342> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/bd438> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/d1952> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/aca8e> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/b9b20> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:29103> , <http://identifiers.org/reactome/R-HSA-375351> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:29103> , <http://identifiers.org/reactome/R-HSA-375351> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:29103> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/ComplexBinding/f4099>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Trans_r1/Group/f4099> ;
+        wp:participants   <http://identifiers.org/uniprot/Q9UKL4> , <http://identifiers.org/uniprot/P36383> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/f4099> .
+
+<http://identifiers.org/uniprot/P36383>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "GJC1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P36383> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P36383"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/f4099> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000182963> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/10052> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/GJC1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/K7EM78> , <http://identifiers.org/uniprot/K7ENT9> , <http://identifiers.org/uniprot/P36383> , <http://identifiers.org/uniprot/Q5H9P2> , <http://identifiers.org/uniprot/K7ERH3> , <http://identifiers.org/uniprot/K7EQ14> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/c34be> .
+
+<http://identifiers.org/uniprot/Q96RD6>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "PANX2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q96RD6> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q96RD6"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/cef62> , <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000073150> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/56666> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PANX2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/F8W8Y4> , <http://identifiers.org/uniprot/Q96RD6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/c87c9> .

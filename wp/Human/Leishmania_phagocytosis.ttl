@@ -1,0 +1,52 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/wikipathways//Leish_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Leish> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Leishmania phagocytosis"@en ;
+        dcterms:description  "The internalization mechanism of leishmania parasites depends on not only the dynamic nature of the parasite's surface, but whether it is a non infective (procyclic) or infective (metacyclic) promastigote or infective amastigote, and also its virulent nature (Ueno et al.  2012 & Lee et al. 2018). Host receptors reported to facilitate Leishmania internalization include the third complement receptor (CR3), first complement receptor (CR1), mannose receptor (MR), Fc gamma receptors (FCGRs) and fibronectin receptors (FNRs) (Ueno et al  2012). The route of entry to the macrophage can affect the fate of the Leishmania parasite (Ueno et al.  2012).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9664417 Reactome]." ;
+        dcterms:identifier   "/Leish"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/23543768> , <http://identifiers.org/pubmed/22726697> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Leish_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Leish_r1> .
+
+<http://identifiers.org/reactome/R-HSA-9664422>
+        a                              wp:DataNode ;
+        rdfs:label                     "FCGR3A-mediated phagocytosis"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9664422> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23543768> , <http://identifiers.org/pubmed/22726697> ;
+        dcterms:identifier             "R-HSA-9664422"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Leish_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Leish_r1/DataNode/a0ab3> .
+
+<http://identifiers.org/pubmed/22726697>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22726697> .
+
+<http://identifiers.org/wikipathways//Leish>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Leish_r1> .
+
+<http://identifiers.org/pubmed/23543768>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23543768> .

@@ -1,0 +1,122 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/wikipathways//Metab_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Metab> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Metabolism of fat-soluble vitamins"@en ;
+        dcterms:description  "Vitamins A, D, E, and K are classified as fat-soluble. Metabolic pathways by which dietary precursors of vitamins A (Harrison 2005) and K (Shearer et al. 2012) are converted to active forms are annotated here. The conversion of 7-dehydrocholesterol is converted to active vitamin D (Dusso et al. 2005) is annotated as part of metabolism of steroids. (Vitamin E (tocopherol) is available in active form from the diet.)\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=6806667 Reactome]." ;
+        dcterms:identifier   "/Metab"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/16011460> , <http://identifiers.org/pubmed/15951480> , <http://identifiers.org/pubmed/22516726> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Metab_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Metab_r1> .
+
+<http://identifiers.org/pubmed/26981194>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26981194> .
+
+<http://identifiers.org/reactome/R-HSA-6806664>
+        a                              wp:DataNode ;
+        rdfs:label                     "Metabolism of vitamin K"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-6806664> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/9845520> , <http://identifiers.org/pubmed/24489112> , <http://identifiers.org/pubmed/24532791> , <http://identifiers.org/pubmed/22516726> , <http://identifiers.org/pubmed/25753038> , <http://identifiers.org/pubmed/24085302> , <http://identifiers.org/pubmed/23928358> ;
+        dcterms:identifier             "R-HSA-6806664"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/c1856> .
+
+<http://identifiers.org/pubmed/25262571>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25262571> .
+
+<http://identifiers.org/pubmed/11340090>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11340090> .
+
+<http://identifiers.org/pubmed/24085302>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24085302> .
+
+<http://identifiers.org/pubmed/25753038>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25753038> .
+
+<http://identifiers.org/wikipathways//Metab>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Metab_r1> .
+
+<http://identifiers.org/reactome/R-HSA-8877627>
+        a                              wp:DataNode ;
+        rdfs:label                     "Vitamin E"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-8877627> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/25262571> , <http://identifiers.org/pubmed/26981194> ;
+        dcterms:identifier             "R-HSA-8877627"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/e0227> .
+
+<http://identifiers.org/pubmed/15951480>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15951480> .
+
+<http://identifiers.org/pubmed/23928358>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23928358> .
+
+<http://identifiers.org/pubmed/16011460>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16011460> .
+
+<http://identifiers.org/pubmed/24489112>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24489112> .
+
+<http://identifiers.org/pubmed/22516726>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22516726> .
+
+<http://identifiers.org/pubmed/24532791>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24532791> .
+
+<http://identifiers.org/pubmed/9845520>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9845520> .
+
+<http://identifiers.org/reactome/R-HSA-975634>
+        a                              wp:DataNode ;
+        rdfs:label                     "Retinoid metabolism and transport"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-975634> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11340090> , <http://identifiers.org/pubmed/16011460> ;
+        dcterms:identifier             "R-HSA-975634"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/c70ec> .

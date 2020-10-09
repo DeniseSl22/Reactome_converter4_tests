@@ -1,0 +1,92 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/wikipathways//Defec>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Defec_r1> .
+
+<http://identifiers.org/pubmed/29522130>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/29522130> .
+
+<http://identifiers.org/reactome/R-HSA-9630222>
+        a                              wp:DataNode ;
+        rdfs:label                     "Defective NTHL1 substrate binding"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9630222> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/25938944> , <http://identifiers.org/pubmed/30753826> , <http://identifiers.org/pubmed/26559593> , <http://identifiers.org/pubmed/27713038> ;
+        dcterms:identifier             "R-HSA-9630222"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Defec_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Defec_r1/DataNode/a540d> .
+
+<http://identifiers.org/pubmed/29105096>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/29105096> .
+
+<http://identifiers.org/pubmed/19346169>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19346169> .
+
+<http://identifiers.org/pubmed/27713038>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/27713038> .
+
+<http://identifiers.org/wikipathways//Defec_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Defec> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Defective Base Excision Repair Associated with NTHL1"@en ;
+        dcterms:description  "NTHL1 is a DNA N-glycosylase that catalyzes the first step in base excision repair (BER), the primary repair pathway for oxidative DNA damage. NTHL1 can recognize and remove oxidized cytosine, adenine and thymine, in the form of cytosine glycol (Cg), 4,6-diamino-5-formamidopyrimidine (FapyA), and thymine glycol (Tg), respectively. NTHL1 can also recognize and remove dihydrouracil (DHU), produced by cytosine deamination. Germline mutations that impair function of NTHL1 predispose affected patients to a cancer syndrome (NTHL1 syndrome) that involves adenomatous polyposis and colorectal cancer, similar to MUTYH-associated polyposis (MAP), but also causes development of tumors in other organs, such as breast, bladder, skin, uterus and brain. Only patients with mutations in both alleles of NTHL1 are affected, indicative of an autosomally recessive inheritance (Weren et al. 2015, Rivera et al. 2015, Broderick et al. 2017, Grolleman et al. 2019). Some common NTHL1 polymorphisms may results in reduced NTHL1 function, but predisposition of affected individuals to cancer has not been studied in full (Galick et al. 2013). Mice that are double knockout for Neil1 and Nthl1 genes accumulate DNA damage in the form of FapyA and FapyG and are more prone to development of lung adenocarcinoma than single Neil1 or Nthl1 gene knockouts (Chan et al. 2009). Biallelic loss-of-function mutations in NTHL1 result in a mutational signature characterized by C>T transitions at non-CpG sites (Grolleman et al. 2019). For review, please refer to Weren et al. 2018.<br>Besides loss-of-function mutations, NTHL1 is amplified and overexpressed in some cancers. NTHL1 overexpression leads to genomic instability in non-transformed human bronchial epithelial cells and may lead to malignant transformation (Limpose et al. 2018).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9616333 Reactome]." ;
+        dcterms:identifier   "/Defec"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/30753826> , <http://identifiers.org/pubmed/29522130> , <http://identifiers.org/pubmed/23940330> , <http://identifiers.org/pubmed/19346169> , <http://identifiers.org/pubmed/27713038> , <http://identifiers.org/pubmed/29105096> , <http://identifiers.org/pubmed/26559593> , <http://identifiers.org/pubmed/25938944> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Defec_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Defec_r1> .
+
+<http://identifiers.org/pubmed/30753826>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/30753826> .
+
+<http://identifiers.org/pubmed/25938944>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25938944> .
+
+<http://identifiers.org/reactome/R-HSA-9630221>
+        a                              wp:DataNode ;
+        rdfs:label                     "Defective NTHL1 substrate processing"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9630221> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23940330> ;
+        dcterms:identifier             "R-HSA-9630221"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Defec_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Defec_r1/DataNode/e62f7> .
+
+<http://identifiers.org/pubmed/23940330>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23940330> .
+
+<http://identifiers.org/pubmed/26559593>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26559593> .

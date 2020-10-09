@@ -1,0 +1,2237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Post-translational modification: synthesis of GPI-anchored proteins" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Glycosylphosphatidyl inositol (GPI) acts as a membrane anchor for many cell surface proteins. GPI is synthesized in the endoplasmic reticulum. In humans, a single pathway consisting of eleven reactions appears to be responsible for the synthesis of the major GPI species involved in membrane protein anchoring.&lt;p&gt;As a nascent protein fated to become GPI-anchored moves into the lumen of the endoplasmic reticulum, it is attacked by a transamidase complex that cleaves it near its carboxy terminus and attaches an acylated GPI moiety. The GPI moiety is deacylated, yielding a protein-GPI conjugate that can be efficiently transported to the Golgi apparatus.
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=163125 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 163125</Comment>
+  <Comment Source="Reactome-version">Reactome version: 73</Comment>
+  <Attribute Key="reactome_id" Value="163125" />
+  <Graphics BoardWidth="1948.0" BoardHeight="2731.0" />
+  <DataNode TextLabel="GDP-Man" GraphId="c096d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="128.5" CenterY="322.5" Width="77.0" Height="41.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15820" />
+  </DataNode>
+  <DataNode TextLabel="dolichyl phosphate" GraphId="e8491" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="242.5" CenterY="220.0" Width="73.0" Height="42.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16214" />
+  </DataNode>
+  <DataNode TextLabel="DOLP-Man" GraphId="bc4c3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of cytoplasmic side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="214.0" CenterY="454.0" Width="64.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15809" />
+  </DataNode>
+  <DataNode TextLabel="DPM1:DPM2:DPM3" GraphId="a2a20" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="253.5" CenterY="388.0" Width="87.0" Height="44.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-162692" />
+  </DataNode>
+  <DataNode TextLabel="DPM1 " GraphId="c8ee8" Type="Protein" GroupRef="a9920">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162692" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1363.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60762" />
+  </DataNode>
+  <DataNode TextLabel="DPM2 " GraphId="fd1de" Type="Protein" GroupRef="a9920">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162692" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1383.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O94777" />
+  </DataNode>
+  <DataNode TextLabel="DPM3 " GraphId="ffb16" Type="Protein" GroupRef="a9920">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162692" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1403.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9P2X0" />
+  </DataNode>
+  <DataNode TextLabel="UDP-GlcNAc" GraphId="fcfec" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="136.5" CenterY="598.0" Width="119.0" Height="44.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16264" />
+  </DataNode>
+  <DataNode TextLabel="UDP" GraphId="b9da4" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="120.5" CenterY="712.0" Width="51.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17659" />
+  </DataNode>
+  <DataNode TextLabel="GPI-GnT" GraphId="e775c" Type="Complex">
+    <BiopaxRef>f15</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="247.5" CenterY="677.0" Width="83.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-162850" />
+  </DataNode>
+  <DataNode TextLabel="DPM2 " GraphId="ea2e7" Type="Protein" GroupRef="c1a17">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162850" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1463.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O94777" />
+  </DataNode>
+  <DataNode TextLabel="PIGA " GraphId="d5adf" Type="Protein" GroupRef="c1a17">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162850" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1483.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P37287" />
+  </DataNode>
+  <DataNode TextLabel="PIGC " GraphId="c29f4" Type="Protein" GroupRef="c1a17">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162850" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1503.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92535" />
+  </DataNode>
+  <DataNode TextLabel="PIGH " GraphId="e22d9" Type="Protein" GroupRef="c1a17">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162850" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1523.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14442" />
+  </DataNode>
+  <DataNode TextLabel="PIGP(26-158) " GraphId="f6093" Type="Protein" GroupRef="c1a17">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162850" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1543.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P57054" />
+  </DataNode>
+  <DataNode TextLabel="PIGQ-2 " GraphId="be8f7" Type="Protein" GroupRef="c1a17">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162850" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1563.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BRB3-2" />
+  </DataNode>
+  <DataNode TextLabel="PIGY " GraphId="c2a0d" Type="Protein" GroupRef="c1a17">
+    <BiopaxRef>f15</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162850" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1583.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q3MUY2" />
+  </DataNode>
+  <DataNode TextLabel="CH3COO-" GraphId="dbb8f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="121.0" CenterY="880.0" Width="70.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15366" />
+  </DataNode>
+  <DataNode TextLabel="PIGL" GraphId="df21b" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="234.0" CenterY="850.0" Width="40.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y2B2" />
+  </DataNode>
+  <DataNode TextLabel="PIGW" GraphId="bc00e" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="238.0" CenterY="975.0" Width="44.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7Z7B1" />
+  </DataNode>
+  <DataNode TextLabel="GPI&#xA;mannosyltransferase&#xA;I" GraphId="a6cbd" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="243.5" CenterY="277.5" Width="145.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-162829" />
+  </DataNode>
+  <DataNode TextLabel="PIGM " GraphId="dcef9" Type="Protein" GroupRef="bf2eb">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162829" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1643.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H3S5" />
+  </DataNode>
+  <DataNode TextLabel="PIGX " GraphId="fafdb" Type="Protein" GroupRef="bf2eb">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162829" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1663.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TBF5" />
+  </DataNode>
+  <DataNode TextLabel="PIGN" GraphId="afc51" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="581.5" CenterY="176.0" Width="43.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95427" />
+  </DataNode>
+  <DataNode TextLabel="PIGV" GraphId="a9d40" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="992.0" CenterY="175.0" Width="42.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NUD9" />
+  </DataNode>
+  <DataNode TextLabel="PIGB" GraphId="d98d7" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1435.5" CenterY="178.0" Width="41.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92521" />
+  </DataNode>
+  <DataNode TextLabel="PIGF:PIGO" GraphId="a4796" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1686.5" CenterY="370.0" Width="77.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-162885" />
+  </DataNode>
+  <DataNode TextLabel="PIGF " GraphId="f6e9a" Type="Protein" GroupRef="bca2b">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162885" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1723.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q07326" />
+  </DataNode>
+  <DataNode TextLabel="PIGO " GraphId="e6169" Type="Protein" GroupRef="bca2b">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162885" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1743.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TEQ8" />
+  </DataNode>
+  <DataNode TextLabel="PIGF:PIGG" GraphId="bc739" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1686.5" CenterY="955.5" Width="77.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-162728" />
+  </DataNode>
+  <DataNode TextLabel="PIGF " GraphId="b90f8" Type="Protein" GroupRef="d0979">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162728" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1803.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q07326" />
+  </DataNode>
+  <DataNode TextLabel="PIGG " GraphId="abe48" Type="Protein" GroupRef="d0979">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162728" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1823.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q5H8A4" />
+  </DataNode>
+  <DataNode TextLabel="PLAUR(23-335)" GraphId="a9756" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1429.0" CenterY="1108.5" Width="70.0" Height="49.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q03405" />
+  </DataNode>
+  <DataNode TextLabel="PLAUR(306-335)" GraphId="c40b3" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="1105.5" CenterY="1000.0" Width="77.0" Height="44.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q03405" />
+  </DataNode>
+  <DataNode TextLabel="N-glycyl-glycosylphosphatidylinositolethanolamine-PLAUR" GraphId="a356c" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1050.5" CenterY="1128.0" Width="295.0" Height="44.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q03405" />
+  </DataNode>
+  <DataNode TextLabel="GPI transamidase" GraphId="b6853" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1285.0" CenterY="1128.0" Width="92.0" Height="44.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-162690" />
+  </DataNode>
+  <DataNode TextLabel="GPAA1 " GraphId="cd4dc" Type="Protein" GroupRef="cb602">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162690" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1883.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43292" />
+  </DataNode>
+  <DataNode TextLabel="PIGK " GraphId="cc425" Type="Protein" GroupRef="cb602">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162690" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1903.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92643" />
+  </DataNode>
+  <DataNode TextLabel="PIGS " GraphId="a37b6" Type="Protein" GroupRef="cb602">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162690" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1923.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96S52" />
+  </DataNode>
+  <DataNode TextLabel="PIGT " GraphId="c3cc5" Type="Protein" GroupRef="cb602">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162690" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1943.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q969N2" />
+  </DataNode>
+  <DataNode TextLabel="PIGU " GraphId="bb95a" Type="Protein" GroupRef="cb602">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-162690" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1963.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H490" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="f0745" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="975.0" CenterY="991.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="PLAUR" GraphId="d3e54" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="743.0" CenterY="1128.5" Width="54.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q03405" />
+  </DataNode>
+  <DataNode TextLabel="PGAP1" GraphId="f9f41" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="850.0" CenterY="1129.0" Width="68.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q75T13" />
+  </DataNode>
+  <DataNode TextLabel="DOLP" GraphId="da481" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of cytoplasmic side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="220.0" CenterY="327.0" Width="48.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16214" />
+  </DataNode>
+  <DataNode TextLabel="DOLP-Man" GraphId="bccb1" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of lumenal side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="257.5" CenterY="563.0" Width="65.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15809" />
+  </DataNode>
+  <DataNode TextLabel="PI" GraphId="ec85d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="236.0" CenterY="613.0" Width="28.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16749" />
+  </DataNode>
+  <DataNode TextLabel="DAG" GraphId="bad62" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="672.5" CenterY="178.5" Width="53.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17815" />
+  </DataNode>
+  <DataNode TextLabel="LCFA(-)" GraphId="d7995" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="660.5" CenterY="1130.5" Width="59.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57560" />
+  </DataNode>
+  <DataNode TextLabel="DAG" GraphId="d6f6b" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1688.5" CenterY="420.5" Width="53.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17815" />
+  </DataNode>
+  <DataNode TextLabel="N-acetylglucosaminyl-PI" GraphId="af841" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of cytoplasmic side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="182.0" CenterY="786.0" Width="126.0" Height="44.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15935" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="c0283" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="123.5" CenterY="819.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="glucosaminyl-PI" GraphId="e3ce3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of cytoplasmic side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="179.5" CenterY="919.0" Width="107.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:24275" />
+  </DataNode>
+  <DataNode TextLabel="glucosaminyl-acyl-PI" GraphId="ee86f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of cytoplasmic side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="181.0" CenterY="1049.0" Width="136.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:52572" />
+  </DataNode>
+  <DataNode TextLabel="glucosaminyl-acyl-PI" GraphId="a322a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of lumenal side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="385.0" CenterY="1108.0" Width="136.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:52572" />
+  </DataNode>
+  <DataNode TextLabel="mannose&#xA;(a1-4)&#xA;glucosaminyl-acyl-PI" GraphId="cb07e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of lumenal side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="386.0" CenterY="192.0" Width="136.0" Height="44.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:53056" />
+  </DataNode>
+  <DataNode TextLabel="(ethanolamineP)&#xA;mannose&#xA;(a1-4)&#xA;glucosaminyl-acyl-PI" GraphId="a0705">
+    <Attribute Key="cellular_location" Value="integral component of lumenal side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="786.0" CenterY="202.0" Width="128.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-8855663" />
+  </DataNode>
+  <DataNode TextLabel="mannose&#xA;(a1-2)&#xA;mannose&#xA;(a1-6)&#xA;(ethanolamineP)&#xA;mannose&#xA;(a1-4)&#xA;glucosaminyl-acyl-PI" GraphId="dd00a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of lumenal side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="1628.5" CenterY="621.0" Width="149.0" Height="112.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:53059" />
+  </DataNode>
+  <DataNode TextLabel="mannose&#xA;(a1)&#xA;mannose&#xA;(a1-2)&#xA;mannose&#xA;(a1-6)&#xA;(ethanolamineP)&#xA;mannose&#xA;(a1-4)&#xA;glucosaminyl-acyl-PI" GraphId="a3b33">
+    <Attribute Key="cellular_location" Value="integral component of lumenal side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="1621.0" CenterY="861.0" Width="128.0" Height="104.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-8855664" />
+  </DataNode>
+  <DataNode TextLabel="(ethanolamineP)&#xA;mannose&#xA;(a1-2)&#xA;(ethanolamineP)&#xA;mannose&#xA;(a1-6)&#xA;(ethanolamineP)&#xA;mannose&#xA;(a1-4)&#xA;glucosaminyl-acyl-PI" GraphId="bf169" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of lumenal side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="1593.0" CenterY="1075.0" Width="196.0" Height="132.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:77364" />
+  </DataNode>
+  <DataNode TextLabel="FACoA" GraphId="b787c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="121.0" CenterY="953.5" Width="48.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37554" />
+  </DataNode>
+  <DataNode TextLabel="CoA-SH" GraphId="bfed3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="120.5" CenterY="1009.5" Width="55.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15346" />
+  </DataNode>
+  <DataNode TextLabel="dolichyl phosphate" GraphId="ebacd" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1100.0" CenterY="179.0" Width="80.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16214" />
+  </DataNode>
+  <DataNode TextLabel="DOLP-Man" GraphId="a8c09" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of lumenal side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="906.5" CenterY="189.0" Width="65.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15809" />
+  </DataNode>
+  <DataNode TextLabel="DOLP-Man" GraphId="d5f18" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of lumenal side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="1366.5" CenterY="189.0" Width="65.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15809" />
+  </DataNode>
+  <DataNode TextLabel="mannose&#xA;(a1-2)&#xA;mannose&#xA;(a1-6)&#xA;(ethanolamineP)&#xA;mannose&#xA;(a1-4)&#xA;glucosaminyl-acyl-PI" GraphId="b2920" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of lumenal side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="1611.5" CenterY="232.0" Width="147.0" Height="118.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:53059" />
+  </DataNode>
+  <DataNode TextLabel="DOLP-Man" GraphId="f4127" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of lumenal side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="1660.0" CenterY="704.0" Width="56.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15809" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="deafb" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="155.0" CenterY="46.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="GPI-anchored&#xA;proteins" GraphId="d07be" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="128.0" CenterY="136.0" Width="88.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8940978" />
+  </DataNode>
+  <DataNode TextLabel="GPI-ART3 " GraphId="d9e35" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1363.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13508" />
+  </DataNode>
+  <DataNode TextLabel="GPI-ART4 " GraphId="b1e98" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1383.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93070" />
+  </DataNode>
+  <DataNode TextLabel="GPI-CD109 " GraphId="cf4f7" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1403.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6YHK3" />
+  </DataNode>
+  <DataNode TextLabel="GPI-CD52 " GraphId="beb56" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1423.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P31358" />
+  </DataNode>
+  <DataNode TextLabel="GPI-CEACAM7 " GraphId="ad74c" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1443.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14002" />
+  </DataNode>
+  <DataNode TextLabel="GPI-CNTN3 " GraphId="c3520" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1463.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9P232" />
+  </DataNode>
+  <DataNode TextLabel="GPI-CNTN4 " GraphId="c5ce3" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1483.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IWV2" />
+  </DataNode>
+  <DataNode TextLabel="GPI-CNTN5 " GraphId="db3a8" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1503.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O94779" />
+  </DataNode>
+  <DataNode TextLabel="GPI-CPM " GraphId="da915" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1523.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P14384" />
+  </DataNode>
+  <DataNode TextLabel="GPI-FCGR3B " GraphId="af978" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1543.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75015" />
+  </DataNode>
+  <DataNode TextLabel="GPI-FOLR2 " GraphId="aae67" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1563.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P14207" />
+  </DataNode>
+  <DataNode TextLabel="GPI-GP2 " GraphId="f99f0" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1583.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P55259" />
+  </DataNode>
+  <DataNode TextLabel="GPI-GPIHBP1 " GraphId="fbf61" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1603.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IV16" />
+  </DataNode>
+  <DataNode TextLabel="GPI-IZUMO1R " GraphId="c762b" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1623.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="A6ND01" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LSAMP " GraphId="f7870" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1643.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13449" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LY6D " GraphId="dcab1" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1663.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14210" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LY6E " GraphId="e8533" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1683.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16553" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LY6G6C " GraphId="de539" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1703.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95867" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LY6H " GraphId="f5e3e" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1723.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O94772" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LY6K " GraphId="bbfc3" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1743.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q17RY6" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LYPD1 " GraphId="d4281" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1763.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N2G4" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LYPD2 " GraphId="abbe9" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1783.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6UXB3" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LYPD3 " GraphId="c825d" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1803.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95274" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LYPD4 " GraphId="f306a" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1823.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6UWN0" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LYPD5 " GraphId="eda1f" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1843.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6UWN5" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LYPD6B " GraphId="c23ef" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1863.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8NI32" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LYPD8 " GraphId="aefc4" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1883.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6UX82" />
+  </DataNode>
+  <DataNode TextLabel="GPI-MDGA1 " GraphId="d7cb1" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1903.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8NFP4" />
+  </DataNode>
+  <DataNode TextLabel="GPI-MDGA2(21-956) " GraphId="a61f1" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1923.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7Z553" />
+  </DataNode>
+  <DataNode TextLabel="GPI-MELTF " GraphId="dc1b4" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1943.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08582" />
+  </DataNode>
+  <DataNode TextLabel="GPI-MSLN " GraphId="c1d06" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1963.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13421" />
+  </DataNode>
+  <DataNode TextLabel="GPI-NEGR1 " GraphId="b27ca" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1983.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7Z3B1" />
+  </DataNode>
+  <DataNode TextLabel="GPI-NRN1 " GraphId="b7c7f" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2003.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NPD7" />
+  </DataNode>
+  <DataNode TextLabel="GPI-NRN1L " GraphId="b340f" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2023.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q496H8" />
+  </DataNode>
+  <DataNode TextLabel="GPI-NTM " GraphId="d72a0" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2043.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9P121" />
+  </DataNode>
+  <DataNode TextLabel="GPI-NTNG1 " GraphId="f29e0" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2063.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y2I2" />
+  </DataNode>
+  <DataNode TextLabel="GPI-NTNG2 " GraphId="edb04" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2083.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96CW9" />
+  </DataNode>
+  <DataNode TextLabel="GPI-OPCML " GraphId="aa0e1" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2103.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14982" />
+  </DataNode>
+  <DataNode TextLabel="GPI-OTOA " GraphId="fbeb5" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2123.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7RTW8" />
+  </DataNode>
+  <DataNode TextLabel="GPI-PLET1 " GraphId="f087c" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2143.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6UQ28" />
+  </DataNode>
+  <DataNode TextLabel="GPI-PRND " GraphId="b9b8f" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2163.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UKY0" />
+  </DataNode>
+  <DataNode TextLabel="GPI-PRSS21 " GraphId="fa7fc" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2183.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y6M0" />
+  </DataNode>
+  <DataNode TextLabel="GPI-PRSS41 " GraphId="cebd1" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2203.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7RTY9" />
+  </DataNode>
+  <DataNode TextLabel="GPI-PSCA " GraphId="de6a9" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2223.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43653" />
+  </DataNode>
+  <DataNode TextLabel="GPI-RAET1G " GraphId="f0bda" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2243.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6H3X3" />
+  </DataNode>
+  <DataNode TextLabel="GPI-RAET1L " GraphId="d834e" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2263.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q5VY80" />
+  </DataNode>
+  <DataNode TextLabel="GPI-RECK " GraphId="fa0a1" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2283.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95980" />
+  </DataNode>
+  <DataNode TextLabel="GPI-RTN4RL1 " GraphId="fe98d" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2303.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86UN2" />
+  </DataNode>
+  <DataNode TextLabel="GPI-RTN4RL2 " GraphId="dd787" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2323.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86UN3" />
+  </DataNode>
+  <DataNode TextLabel="GPI-SPACA4 " GraphId="c5a82" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2343.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TDM5" />
+  </DataNode>
+  <DataNode TextLabel="GPI-SPRN " GraphId="e9012" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2363.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q5BIV9" />
+  </DataNode>
+  <DataNode TextLabel="GPI-TECTA " GraphId="e22b0" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2383.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75443" />
+  </DataNode>
+  <DataNode TextLabel="GPI-TECTB " GraphId="e0612" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2403.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96PL2" />
+  </DataNode>
+  <DataNode TextLabel="GPI-TEX101 " GraphId="fdd73" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2423.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BY14" />
+  </DataNode>
+  <DataNode TextLabel="GPI-THY1 " GraphId="ff436" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2443.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04216" />
+  </DataNode>
+  <DataNode TextLabel="GPI-ULBP2 " GraphId="a1641" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2463.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BZM5" />
+  </DataNode>
+  <DataNode TextLabel="GPI-VNN1 " GraphId="c4aaf" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2483.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95497" />
+  </DataNode>
+  <DataNode TextLabel="GPI-VNN2 " GraphId="a8a46" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2503.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95498" />
+  </DataNode>
+  <DataNode TextLabel="GPI-VNN3 " GraphId="d43b4" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2523.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NY84" />
+  </DataNode>
+  <DataNode TextLabel="GPI-ALPI " GraphId="bd6b8" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="2543.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P09923" />
+  </DataNode>
+  <DataNode TextLabel="GPI-ALPL " GraphId="cef82" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="2563.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P05186" />
+  </DataNode>
+  <DataNode TextLabel="GPI-ALPPL2 " GraphId="f3917" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="2583.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P10696" />
+  </DataNode>
+  <DataNode TextLabel="GPI-BST1 " GraphId="a7ea6" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="240.0" CenterY="2603.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q10588" />
+  </DataNode>
+  <DataNode TextLabel="GPI-CEACAM5 " GraphId="c4f50" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="240.0" CenterY="2623.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P06731" />
+  </DataNode>
+  <DataNode TextLabel="GPI-LY6G6D " GraphId="bb5a2" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="240.0" CenterY="2643.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95868" />
+  </DataNode>
+  <DataNode TextLabel="GPI-XPNPEP2 " GraphId="d3d5e" Type="Protein" GroupRef="fe83e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+    <Attribute Key="copies_num" Value="9" />
+    <Graphics CenterX="240.0" CenterY="2663.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43895" />
+  </DataNode>
+  <DataNode TextLabel="proteins with&#xA;cleaved GPI-anchors" GraphId="baca1" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="402.5" CenterY="31.0" Width="85.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8941069" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-ART3 " GraphId="e6fde" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1363.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13508" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-ART4 " GraphId="a4c7c" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1383.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93070" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-CD109 " GraphId="b3ae2" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1403.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6YHK3" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-CD52 " GraphId="bc9ac" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1423.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P31358" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-CEACAM7 " GraphId="af5d3" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1443.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14002" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-CNTN3 " GraphId="a0d39" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1463.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9P232" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-CNTN4 " GraphId="fe1e3" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1483.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IWV2" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-CNTN5 " GraphId="c2f0e" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1503.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O94779" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-CPM " GraphId="ad319" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1523.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P14384" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-FCGR3B " GraphId="c1182" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1543.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75015" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-FOLR2 " GraphId="fb299" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1563.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P14207" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-GP2 " GraphId="d7c4f" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1583.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P55259" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-GPIHBP1 " GraphId="b3938" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1603.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IV16" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-IZUMO1R " GraphId="f7ef5" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1623.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="A6ND01" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LSAMP " GraphId="aad39" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1643.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13449" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LY6D " GraphId="eabe5" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1663.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14210" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LY6E " GraphId="e4c17" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1683.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16553" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LY6G6C " GraphId="a1e6b" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1703.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95867" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LY6H " GraphId="b930c" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1723.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O94772" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LY6K " GraphId="ce0b2" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1743.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q17RY6" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LYPD1 " GraphId="d2258" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1763.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N2G4" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LYPD2 " GraphId="ebe07" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1783.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6UXB3" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LYPD3 " GraphId="f3589" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1803.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95274" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LYPD4 " GraphId="dbef7" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1823.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6UWN0" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LYPD5 " GraphId="ed410" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1843.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6UWN5" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LYPD6B " GraphId="e2183" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1863.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8NI32" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LYPD8 " GraphId="e431d" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1883.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6UX82" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-MDGA1 " GraphId="cdb10" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1903.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8NFP4" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-MDGA2(21-956) " GraphId="d1d1c" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1943.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7Z553" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-MELTF " GraphId="b116b" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1963.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08582" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-MSLN " GraphId="e2f95" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1983.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13421" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-NEGR1 " GraphId="fe946" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2003.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7Z3B1" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-NRN1 " GraphId="c22d9" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2023.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NPD7" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-NRN1L " GraphId="e91df" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2043.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q496H8" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-NTM " GraphId="f3d17" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2063.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9P121" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-NTNG1 " GraphId="e8240" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2083.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y2I2" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-NTNG2 " GraphId="c3cfb" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2103.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96CW9" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-OPCML " GraphId="efe1e" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2123.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14982" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-OTOA " GraphId="bffd3" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2143.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7RTW8" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-PLET1 " GraphId="db13a" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2163.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6UQ28" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-PRND " GraphId="ed7c6" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2183.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UKY0" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-PRSS21 " GraphId="c3641" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2203.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y6M0" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-PRSS41 " GraphId="ab471" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2223.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7RTY9" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-PSCA " GraphId="d842d" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2243.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43653" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-RAET1G " GraphId="de5e6" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2263.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6H3X3" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-RAET1L " GraphId="cfac6" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2283.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q5VY80" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-RECK " GraphId="ce1bd" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2303.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95980" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-RTN4RL1 " GraphId="ebf71" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2323.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86UN2" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-RTN4RL2 " GraphId="e4ea4" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2343.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86UN3" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-SPACA4 " GraphId="dc571" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2363.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TDM5" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-SPRN " GraphId="b30b1" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2383.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q5BIV9" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-TECTA " GraphId="ebb1a" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2403.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75443" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-TECTB " GraphId="f8fc1" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2423.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96PL2" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-TEX101 " GraphId="a78a1" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2443.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BY14" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-THY1 " GraphId="ff3ae" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2463.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04216" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-ULBP2 " GraphId="e2d48" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2483.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BZM5" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-VNN1 " GraphId="bdbc7" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2503.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95497" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-VNN2 " GraphId="df93f" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2523.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95498" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-VNN3 " GraphId="f95de" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2543.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NY84" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-ALPI " GraphId="bc593" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="2563.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P09923" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-ALPL " GraphId="bd59b" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="380.0" CenterY="2583.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P05186" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-ALPPL2 " GraphId="dd7c1" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="380.0" CenterY="2603.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P10696" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-BST1 " GraphId="c0099" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="380.0" CenterY="2623.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q10588" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-CEACAM5 " GraphId="afe38" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="380.0" CenterY="2643.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P06731" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-LY6G6D " GraphId="ede30" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="2663.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95868" />
+  </DataNode>
+  <DataNode TextLabel="cleaved GPI-XPNPEP2 " GraphId="b0ef9" Type="Protein" GroupRef="efb91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+    <Attribute Key="copies_num" Value="9" />
+    <Graphics CenterX="380.0" CenterY="2683.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43895" />
+  </DataNode>
+  <DataNode TextLabel="PI" GraphId="c988a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="374.0" CenterY="102.0" Width="30.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16749" />
+  </DataNode>
+  <DataNode TextLabel="GPLD1" GraphId="f92ba" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="263.0" CenterY="26.0" Width="50.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P80108" />
+  </DataNode>
+  <DataNode TextLabel="GDP" GraphId="aeb3f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="136.0" CenterY="455.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17552" />
+  </DataNode>
+  <DataNode TextLabel="mannose&#xA;(a1-6)&#xA;(ethanolamineP)&#xA;mannose&#xA;(a1-4)&#xA;glucosaminyl-acyl-PI" GraphId="ea243" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="integral component of lumenal side of endoplasmic reticulum membrane" />
+    <Graphics CenterX="1215.5" CenterY="224.0" Width="149.0" Height="80.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:53058" />
+  </DataNode>
+  <DataNode TextLabel="PIGZ" GraphId="cf4cb" Type="Protein">
+    <BiopaxRef>e3a</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1688.5" CenterY="766.0" Width="35.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86VD9" />
+  </DataNode>
+  <DataNode TextLabel="PE" GraphId="a4da5" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="515.5" CenterY="180.0" Width="31.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16038" />
+  </DataNode>
+  <DataNode TextLabel="PE" GraphId="b4581" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1689.5" CenterY="314.0" Width="31.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16038" />
+  </DataNode>
+  <Interaction GraphId="fb422">
+    <Comment Source="Reactome">Cytosolic GDP-mannose reacts with dolichyl phosphate in the endoplasmic reticulum membrane to form dolichyl phosphate D-mannose (DOLPman). The reaction is catalysed by dolichyl-phosphate mannosyltransferase, a heterotrimeric protein embedded in the endoplasmic reticulum membrane. The first subunit of the heterotrimer (DPM1) appears to be the actual catalyst, and the other two subunits appear to stabilise it (Maeda et al. 2000).</Comment>
+    <BiopaxRef>e59</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="176.0" Y="362.0" />
+      <Point X="176.0" Y="415.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ffa19" />
+      <Anchor Position="0.99" Shape="None" GraphId="d3de9" />
+      <Anchor Position="0.5" Shape="None" GraphId="a68a2" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162721" />
+  </Interaction>
+  <Interaction GraphId="f1518">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="166.0" Y="322.0" GraphRef="c096d" RelX="0.974025974025974" RelY="-0.024390243902439025" />
+      <Point X="176.0" Y="362.0" GraphRef="ffa19" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162721" />
+  </Interaction>
+  <Interaction GraphId="f60e9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="196.0" Y="327.0" GraphRef="da481" RelX="-1.0" RelY="0.0" />
+      <Point X="176.0" Y="362.0" GraphRef="ffa19" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162721" />
+  </Interaction>
+  <Interaction GraphId="a3a79">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="176.0" Y="415.0" GraphRef="d3de9" RelX="0.0" RelY="0.5299999999999727" />
+      <Point X="157.0" Y="455.0" GraphRef="aeb3f" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162721" />
+  </Interaction>
+  <Interaction GraphId="b5be1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="176.0" Y="415.0" GraphRef="d3de9" RelX="0.0" RelY="0.5299999999999727" />
+      <Point X="182.0" Y="454.0" GraphRef="bc4c3" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162721" />
+  </Interaction>
+  <Interaction GraphId="f7d29">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="210.0" Y="388.0" GraphRef="a2a20" RelX="-1.0" RelY="0.0" />
+      <Point X="176.0" Y="395.0" GraphRef="a68a2" RelX="0.0" RelY="6.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162721" />
+  </Interaction>
+  <Interaction GraphId="bea3f">
+    <Comment Source="Reactome">Dolichyl phosphate D-mannose (DOLPman) is flipped in the endoplasmic reticulum membrane so that its mannose moiety is oriented inwards, towards the endoplasmic reticulum lumen, where it is accessible to transferases catalyzing the synthesis of glycolipids and glycoproteins (Kinoshita &amp; Inoue 2000).</Comment>
+    <BiopaxRef>fae</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="221.0" Y="476.0" />
+      <Point X="250.0" Y="544.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ffb4d" />
+      <Anchor Position="0.99" Shape="None" GraphId="d6378" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162715" />
+  </Interaction>
+  <Interaction GraphId="c6dc9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="214.0" Y="473.0" GraphRef="bc4c3" RelX="0.0" RelY="1.0" />
+      <Point X="221.0" Y="476.0" GraphRef="ffb4d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162715" />
+  </Interaction>
+  <Interaction GraphId="f14fb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="250.0" Y="544.0" GraphRef="d6378" RelX="0.28999999999999204" RelY="0.6800000000000637" />
+      <Point X="257.0" Y="547.0" GraphRef="bccb1" RelX="-0.015384615384615385" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162715" />
+  </Interaction>
+  <Interaction GraphId="aeb95">
+    <Comment Source="Reactome">The first step of GPI synthesis is the transfer of N-acetylglucosamine from cytosolic UDP-N-acetylglucosamine to phosphatidyl inositol (PI) in the endoplasmic reticulum membrane. The reaction is catalyzed by a multimeric enzyme, also localized to the endoplasmic reticulum membrane, seven components of which have been identified to date by mutagenesis studies in cultured cells and by co-precipitation and reconstitution studies in vitro (Murakami et al. 2005; Watanabe et al. 1996, 1998, 2000).</Comment>
+    <BiopaxRef>f15</BiopaxRef>
+    <BiopaxRef>c45</BiopaxRef>
+    <BiopaxRef>e20</BiopaxRef>
+    <BiopaxRef>a65</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="177.0" Y="636.0" />
+      <Point X="180.0" Y="730.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ed5c9" />
+      <Anchor Position="0.99" Shape="None" GraphId="ea066" />
+      <Anchor Position="0.5" Shape="None" GraphId="e798a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162730" />
+  </Interaction>
+  <Interaction GraphId="f83da">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="222.0" Y="613.0" GraphRef="ec85d" RelX="-1.0" RelY="0.0" />
+      <Point X="177.0" Y="636.0" GraphRef="ed5c9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162730" />
+  </Interaction>
+  <Interaction GraphId="b28c2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="195.0" Y="598.0" GraphRef="fcfec" RelX="0.9831932773109243" RelY="0.0" />
+      <Point X="177.0" Y="636.0" GraphRef="ed5c9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162730" />
+  </Interaction>
+  <Interaction GraphId="c5a4b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="180.0" Y="730.0" GraphRef="ea066" RelX="0.030000000000001137" RelY="0.9400000000000546" />
+      <Point X="182.0" Y="764.0" GraphRef="af841" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162730" />
+  </Interaction>
+  <Interaction GraphId="a3598">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="180.0" Y="730.0" GraphRef="ea066" RelX="0.030000000000001137" RelY="0.9400000000000546" />
+      <Point X="145.0" Y="712.0" GraphRef="b9da4" RelX="0.9607843137254902" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162730" />
+  </Interaction>
+  <Interaction GraphId="e9091">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="206.0" Y="677.0" GraphRef="e775c" RelX="-1.0" RelY="0.0" />
+      <Point X="179.0" Y="680.0" GraphRef="e798a" RelX="0.5" RelY="-3.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162730" />
+  </Interaction>
+  <Interaction GraphId="a79e7">
+    <Comment Source="Reactome">In the second step of GPI synthesis, N-acetylglucosaminyl-PI is hydrolyzed to yield glucosaminyl-PI and acetate. The phosphatidylinositol (PI) derivatives involved in this reaction are located in the endoplasmic reticulum membrane, as is the PIG-L enzyme that catalyzes it (Sharma et al. 1999; Pottekat and Menon 2004).</Comment>
+    <BiopaxRef>fc7</BiopaxRef>
+    <BiopaxRef>e8e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="179.0" Y="825.0" />
+      <Point X="179.0" Y="874.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c8e12" />
+      <Anchor Position="0.99" Shape="None" GraphId="de124" />
+      <Anchor Position="0.5" Shape="None" GraphId="f2425" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162857" />
+  </Interaction>
+  <Interaction GraphId="d7590">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="182.0" Y="808.0" GraphRef="af841" RelX="0.0" RelY="1.0" />
+      <Point X="179.0" Y="825.0" GraphRef="c8e12" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162857" />
+  </Interaction>
+  <Interaction GraphId="f6291">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="144.0" Y="819.0" GraphRef="c0283" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="179.0" Y="825.0" GraphRef="c8e12" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162857" />
+  </Interaction>
+  <Interaction GraphId="c388f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="179.0" Y="874.0" GraphRef="de124" RelX="0.0" RelY="0.4900000000000091" />
+      <Point X="179.0" Y="904.0" GraphRef="e3ce3" RelX="-0.009345794392523364" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162857" />
+  </Interaction>
+  <Interaction GraphId="a64b1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="179.0" Y="874.0" GraphRef="de124" RelX="0.0" RelY="0.4900000000000091" />
+      <Point X="156.0" Y="880.0" GraphRef="dbb8f" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162857" />
+  </Interaction>
+  <Interaction GraphId="a0f1c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="214.0" Y="850.0" GraphRef="df21b" RelX="-1.0" RelY="0.0" />
+      <Point X="180.0" Y="851.0" GraphRef="f2425" RelX="1.0" RelY="1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162857" />
+  </Interaction>
+  <Interaction GraphId="c8f53">
+    <Comment Source="Reactome">GPI moieties are synthesized anchored to dolichol phosphate in the membrane of the endoplasmic reticulum. The first two steps of the synthetic pathway, leading to the production of glucosaminyl-PI, occur on the cytosolic face of the membrane, while addition of an acyl group (step 4) and all subsequent steps occur on the lumenal face (Murakami et al. 2003). No mutant cell lines defective in the reorientation step have been identified, and the mechanism by which it occurs is unknown.</Comment>
+    <BiopaxRef>fae</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="215.0" Y="1067.0" />
+      <Point X="319.0" Y="1090.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e2edf" />
+      <Anchor Position="0.99" Shape="None" GraphId="ee2d3" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162840" />
+  </Interaction>
+  <Interaction GraphId="c8050">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="181.0" Y="1064.0" GraphRef="ee86f" RelX="0.0" RelY="1.0" />
+      <Point X="215.0" Y="1067.0" GraphRef="e2edf" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162840" />
+  </Interaction>
+  <Interaction GraphId="b84a2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="319.0" Y="1090.0" GraphRef="ee2d3" RelX="1.0400000000000205" RelY="0.2300000000000182" />
+      <Point X="317.0" Y="1108.0" GraphRef="a322a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162840" />
+  </Interaction>
+  <Interaction GraphId="dd20b">
+    <Comment Source="Reactome">In the fourth step of GPI synthesis, an acyl group (typically palmitate) is transferred from acyl CoA to glucosaminyl-PI. Mutagenesis and cloning studies suggest that a single protein, PIG-W, catalyzes this reaction (Murakami et al. 2003).</Comment>
+    <BiopaxRef>c4f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="179.0" Y="954.0" />
+      <Point X="179.0" Y="1003.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f37e9" />
+      <Anchor Position="0.99" Shape="None" GraphId="d785c" />
+      <Anchor Position="0.5" Shape="None" GraphId="d7c6a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162683" />
+  </Interaction>
+  <Interaction GraphId="b2d38">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="179.0" Y="934.0" GraphRef="e3ce3" RelX="-0.009345794392523364" RelY="1.0" />
+      <Point X="179.0" Y="954.0" GraphRef="f37e9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162683" />
+  </Interaction>
+  <Interaction GraphId="bae58">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="145.0" Y="953.0" GraphRef="b787c" RelX="1.0" RelY="-0.034482758620689655" />
+      <Point X="179.0" Y="954.0" GraphRef="f37e9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162683" />
+  </Interaction>
+  <Interaction GraphId="ea9d2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="179.0" Y="1003.0" GraphRef="d785c" RelX="0.0" RelY="0.4900000000000091" />
+      <Point X="181.0" Y="1034.0" GraphRef="ee86f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162683" />
+  </Interaction>
+  <Interaction GraphId="b5753">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="179.0" Y="1003.0" GraphRef="d785c" RelX="0.0" RelY="0.4900000000000091" />
+      <Point X="147.0" Y="1009.0" GraphRef="bfed3" RelX="0.9636363636363636" RelY="-0.034482758620689655" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162683" />
+  </Interaction>
+  <Interaction GraphId="d9e74">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="216.0" Y="975.0" GraphRef="bc00e" RelX="-1.0" RelY="0.0" />
+      <Point X="180.0" Y="977.0" GraphRef="d7c6a" RelX="1.0" RelY="-1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162683" />
+  </Interaction>
+  <Interaction GraphId="a68b5">
+    <Comment Source="Reactome">In the fifth step of GPI synthesis, a mannose residue is added to glucosaminyl-acyl-PI. The reaction takes place at the lumenal surface of the endoplasmic reticulum membrane. It is catalyzed by a complex of at least two components, PIG-M and PIG-X (Maeda et al. 2001; Ashida et al. 2005).</Comment>
+    <BiopaxRef>b38</BiopaxRef>
+    <BiopaxRef>a7e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="383.0" Y="414.0" />
+      <Point X="383.0" Y="243.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bb263" />
+      <Anchor Position="0.99" Shape="None" GraphId="a6526" />
+      <Anchor Position="0.5" Shape="None" GraphId="ac5be" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162830" />
+  </Interaction>
+  <Interaction GraphId="f8be4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="385.0" Y="1093.0" GraphRef="a322a" RelX="0.0" RelY="-1.0" />
+      <Point X="383.0" Y="414.0" GraphRef="bb263" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162830" />
+  </Interaction>
+  <Interaction GraphId="e3d40">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="289.0" Y="563.0" GraphRef="bccb1" RelX="0.9692307692307692" RelY="0.0" />
+      <Point X="383.0" Y="414.0" GraphRef="bb263" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162830" />
+  </Interaction>
+  <Interaction GraphId="eb4e7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="383.0" Y="243.0" GraphRef="a6526" RelX="0.0" RelY="-1.710000000000008" />
+      <Point X="386.0" Y="214.0" GraphRef="cb07e" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162830" />
+  </Interaction>
+  <Interaction GraphId="d0d4b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="383.0" Y="243.0" GraphRef="a6526" RelX="0.0" RelY="-1.710000000000008" />
+      <Point X="278.0" Y="220.0" GraphRef="e8491" RelX="0.9726027397260274" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162830" />
+  </Interaction>
+  <Interaction GraphId="ae87c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="315.0" Y="277.0" GraphRef="a6cbd" RelX="0.9862068965517241" RelY="-0.02857142857142857" />
+      <Point X="383.0" Y="277.0" GraphRef="ac5be" RelX="0.0" RelY="-51.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162830" />
+  </Interaction>
+  <Interaction GraphId="fd647">
+    <Comment Source="Reactome">In the sixth step of GPI synthesis, a phosphoethanolamine group is transferred from phosphatidylethanolamine onto the first mannose of the GPI precursor. The human protein that catalyzes this reaction was first identified because it could complement a yeast mutant strain defective for GPI synthesis (Gaynor et al. 1999); its specific function in phosphoethanolamine transfer is inferred from functional studies of the homologous mouse protein (Hong et al. 1999). The reaction is annotated here with phosphatidylethanolamine as the donor of the phosphoethanolamine group on the basis of studies in yeast (Imhof et al. 2000).</Comment>
+    <BiopaxRef>ee8</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="516.0" Y="225.0" />
+      <Point X="626.0" Y="234.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f1514" />
+      <Anchor Position="0.99" Shape="None" GraphId="eaa81" />
+      <Anchor Position="0.5" Shape="None" GraphId="d30aa" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162798" />
+  </Interaction>
+  <Interaction GraphId="b6947">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="515.0" Y="195.0" GraphRef="a4da5" RelX="-0.03225806451612903" RelY="1.0" />
+      <Point X="516.0" Y="225.0" GraphRef="f1514" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162798" />
+  </Interaction>
+  <Interaction GraphId="fe8ed">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="454.0" Y="192.0" GraphRef="cb07e" RelX="1.0" RelY="0.0" />
+      <Point X="516.0" Y="225.0" GraphRef="f1514" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162798" />
+  </Interaction>
+  <Interaction GraphId="e1208">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="626.0" Y="234.0" GraphRef="eaa81" RelX="1.1000000000000227" RelY="0.09000000000000341" />
+      <Point X="722.0" Y="202.0" GraphRef="a0705" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162798" />
+  </Interaction>
+  <Interaction GraphId="ca75d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="626.0" Y="234.0" GraphRef="eaa81" RelX="1.1000000000000227" RelY="0.09000000000000341" />
+      <Point X="646.0" Y="178.0" GraphRef="bad62" RelX="-1.0" RelY="-0.034482758620689655" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162798" />
+  </Interaction>
+  <Interaction GraphId="b889f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="560.0" Y="176.0" GraphRef="afc51" RelX="-1.0" RelY="0.0" />
+      <Point X="582.0" Y="234.0" GraphRef="d30aa" RelX="11.0" RelY="4.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162798" />
+  </Interaction>
+  <Interaction GraphId="b6ba6">
+    <Comment Source="Reactome">In the seventh reaction of GPI synthesis, a second mannose residue is added to the glycolipid on the lumenal face of the endoplasmic reticulum membrane. PIG-V was identified as the catylyst, or a component of the catalyst, of this reaction, on the basis of its ability to correct the metabolic defects of yeast and mammalian mutant cells arrested at this stage of the GPI synthetic process (Fabre et al. 2005; Kang et al. 2005).</Comment>
+    <BiopaxRef>ffa</BiopaxRef>
+    <BiopaxRef>c2a</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="918.0" Y="236.0" />
+      <Point X="1053.0" Y="238.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a5eda" />
+      <Anchor Position="0.99" Shape="None" GraphId="fe90b" />
+      <Anchor Position="0.5" Shape="None" GraphId="dc669" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162873" />
+  </Interaction>
+  <Interaction GraphId="bc261">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="850.0" Y="202.0" GraphRef="a0705" RelX="1.0" RelY="0.0" />
+      <Point X="918.0" Y="236.0" GraphRef="a5eda" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162873" />
+  </Interaction>
+  <Interaction GraphId="fc68a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="906.0" Y="205.0" GraphRef="a8c09" RelX="-0.015384615384615385" RelY="1.0" />
+      <Point X="918.0" Y="236.0" GraphRef="a5eda" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162873" />
+  </Interaction>
+  <Interaction GraphId="d704b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1053.0" Y="238.0" GraphRef="fe90b" RelX="1.349999999999909" RelY="0.020000000000010232" />
+      <Point X="1141.0" Y="224.0" GraphRef="ea243" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162873" />
+  </Interaction>
+  <Interaction GraphId="e951a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1053.0" Y="238.0" GraphRef="fe90b" RelX="1.349999999999909" RelY="0.020000000000010232" />
+      <Point X="1060.0" Y="179.0" GraphRef="ebacd" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162873" />
+  </Interaction>
+  <Interaction GraphId="d106a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="971.0" Y="175.0" GraphRef="a9d40" RelX="-1.0" RelY="0.0" />
+      <Point X="993.0" Y="236.0" GraphRef="dc669" RelX="7.5" RelY="-1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162873" />
+  </Interaction>
+  <Interaction GraphId="f8166">
+    <Comment Source="Reactome">In the eighth reaction of GPI synthesis, a third mannose residue is added, catalyzed by PIG-B (Takahashi et al. 1996).</Comment>
+    <BiopaxRef>c27</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1328.0" Y="238.0" />
+      <Point X="1503.0" Y="233.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b09d7" />
+      <Anchor Position="0.99" Shape="None" GraphId="d14ea" />
+      <Anchor Position="0.5" Shape="None" GraphId="aa049" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162821" />
+  </Interaction>
+  <Interaction GraphId="c0950">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1289.0" Y="224.0" GraphRef="ea243" RelX="0.9865771812080537" RelY="0.0" />
+      <Point X="1328.0" Y="238.0" GraphRef="b09d7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162821" />
+  </Interaction>
+  <Interaction GraphId="a9d97">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1334.0" Y="189.0" GraphRef="d5f18" RelX="-1.0" RelY="0.0" />
+      <Point X="1328.0" Y="238.0" GraphRef="b09d7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162821" />
+  </Interaction>
+  <Interaction GraphId="e3903">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1503.0" Y="233.0" GraphRef="d14ea" RelX="1.75" RelY="-0.05000000000001137" />
+      <Point X="1140.0" Y="179.0" GraphRef="ebacd" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162821" />
+  </Interaction>
+  <Interaction GraphId="b36cb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1503.0" Y="233.0" GraphRef="d14ea" RelX="1.75" RelY="-0.05000000000001137" />
+      <Point X="1538.0" Y="232.0" GraphRef="b2920" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162821" />
+  </Interaction>
+  <Interaction GraphId="eef57">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1415.0" Y="178.0" GraphRef="d98d7" RelX="-1.0" RelY="0.0" />
+      <Point X="1439.0" Y="234.0" GraphRef="aa049" RelX="23.5" RelY="-1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162821" />
+  </Interaction>
+  <Interaction GraphId="ebdac">
+    <Comment Source="Reactome">The final step in the main pathway for the synthesis of GPI moieties in human cells is the addition of an ethanolamine phosphate to the third mannose residue of the glycolipid, donated by phosphatidylethanolamine. This reaction has been experimentally characterized in the mouse, where studies with mutated cell lines defective in GPI biosynthesis have established the role of two proteins, PIG-F and PIG-O, in this reaction (Hong et al. 2000). While a human PIG-F protein has been identified and shown to be involved in this event (Inoue et al. 1993), the human event has not been fully characterized and is therefore annotated here as inferred from studies of the mouse event.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1565.0" Y="331.0" />
+      <Point X="1566.0" Y="410.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f2e1a" />
+      <Anchor Position="0.99" Shape="None" GraphId="e99a9" />
+      <Anchor Position="0.5" Shape="None" GraphId="a4eaf" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163069" />
+  </Interaction>
+  <Interaction GraphId="c098b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1628.0" Y="565.0" GraphRef="dd00a" RelX="-0.006711409395973154" RelY="-1.0" />
+      <Point X="1565.0" Y="331.0" GraphRef="f2e1a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163069" />
+  </Interaction>
+  <Interaction GraphId="fed77">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1674.0" Y="314.0" GraphRef="b4581" RelX="-1.0" RelY="0.0" />
+      <Point X="1565.0" Y="331.0" GraphRef="f2e1a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163069" />
+  </Interaction>
+  <Interaction GraphId="c439d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1566.0" Y="410.0" GraphRef="e99a9" RelX="0.009999999999990905" RelY="0.7900000000000205" />
+      <Point X="1593.0" Y="1009.0" GraphRef="bf169" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163069" />
+  </Interaction>
+  <Interaction GraphId="abb00">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1566.0" Y="410.0" GraphRef="e99a9" RelX="0.009999999999990905" RelY="0.7900000000000205" />
+      <Point X="1662.0" Y="420.0" GraphRef="d6f6b" RelX="-1.0" RelY="-0.034482758620689655" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163069" />
+  </Interaction>
+  <Interaction GraphId="c156b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1648.0" Y="370.0" GraphRef="a4796" RelX="-1.0" RelY="0.0" />
+      <Point X="1565.0" Y="368.0" GraphRef="a4eaf" RelX="-0.5" RelY="-2.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163069" />
+  </Interaction>
+  <Interaction GraphId="a808b">
+    <Comment Source="Reactome">Most human GPI anchors are thought to contain three mannose residues, while most yeast GPI anchors contain four. Recently, a human homologue of the yeast enzyme responsible for addition of the fourth mannose residue to GPI molecules was identified and shown to mediate synthesis of human GPI molecules with four mannose residues. While the mannose donor and the nature of the bond linking the third and fourth mannose residues have not been established directly in studies with the human enzyme, these features are known for yeast and the normal human gene restores GPI synthesis in mutant yeast. This observation, tegether with the sequence similarities between human PIGZ and and Saccharomyces cerevisiae smp3,supports the inference that the human enzyme uses dolichol-P-mannose as a donor. The functional distinction between GPI anchors with three and four mannose residues is unknown, although the latter appear to be abundant in many human tissues (Taron et al. 2004).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1611.0" Y="717.0" />
+      <Point X="1616.0" Y="806.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f6edd" />
+      <Anchor Position="0.99" Shape="None" GraphId="a7bbe" />
+      <Anchor Position="0.5" Shape="None" GraphId="f0e97" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162797" />
+  </Interaction>
+  <Interaction GraphId="ba164">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1628.0" Y="677.0" GraphRef="dd00a" RelX="-0.006711409395973154" RelY="1.0" />
+      <Point X="1611.0" Y="717.0" GraphRef="f6edd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162797" />
+  </Interaction>
+  <Interaction GraphId="f6123">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1632.0" Y="704.0" GraphRef="f4127" RelX="-1.0" RelY="0.0" />
+      <Point X="1611.0" Y="717.0" GraphRef="f6edd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162797" />
+  </Interaction>
+  <Interaction GraphId="c2d5b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1616.0" Y="806.0" GraphRef="a7bbe" RelX="0.049999999999954525" RelY="0.8899999999999864" />
+      <Point X="1621.0" Y="809.0" GraphRef="a3b33" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162797" />
+  </Interaction>
+  <Interaction GraphId="d08b0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1671.0" Y="766.0" GraphRef="cf4cb" RelX="-1.0" RelY="0.0" />
+      <Point X="1612.0" Y="767.0" GraphRef="f0e97" RelX="-1.5" RelY="5.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162797" />
+  </Interaction>
+  <Interaction GraphId="c3412">
+    <Comment Source="Reactome">Most human GPI anchors have ethanolamine phosphate groups attached to their first and third mannose residues, but GPI anchors with ethanolamine phosphates attached to all three mannose residues have also been identified. Addition of the third ethanolamine phosphate can be catalyzed by a complex of PIG-F and a newly described human protein, GPI7. The donor of the ethanolamine phosphate for this reaction is unknown (Shishioh et al. 2005).</Comment>
+    <BiopaxRef>ac0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1591.0" Y="1006.0" />
+      <Point X="1572.0" Y="1006.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="dc03b" />
+      <Anchor Position="0.99" Shape="None" GraphId="da690" />
+      <Anchor Position="0.5" Shape="None" GraphId="f3422" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162742" />
+  </Interaction>
+  <Interaction GraphId="f5479">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1593.0" Y="1009.0" GraphRef="bf169" RelX="0.0" RelY="-1.0" />
+      <Point X="1591.0" Y="1006.0" GraphRef="dc03b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162742" />
+  </Interaction>
+  <Interaction GraphId="badab">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1572.0" Y="1006.0" GraphRef="da690" RelX="-0.19000000000005457" RelY="0.0" />
+      <Point X="1593.0" Y="1009.0" GraphRef="bf169" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162742" />
+  </Interaction>
+  <Interaction GraphId="bb4ec">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1648.0" Y="955.0" GraphRef="bc739" RelX="-1.0" RelY="-0.04" />
+      <Point X="1556.0" Y="955.0" GraphRef="f3422" RelX="-25.5" RelY="-51.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162742" />
+  </Interaction>
+  <Interaction GraphId="f3524">
+    <Comment Source="Reactome">In the endoplasmic reticulum, the precursor form of urokinase plasminogen activator receptor is transamidated at residue 305, replacing the 30 carboxyterminal residues of the protein with an acylated glucosylphosphatidylinositol (acyl-GPI) moiety. The released carboxyterminal propeptide has no known function. The reaction is catalyzed by GPI transamidase, a complex of at least five proteins associated with the lumenal surface of the endoplasmic reticulum membrane (Yu et al. 1997; Ohishi et al. 2001; Hong et al. 2003).</Comment>
+    <BiopaxRef>f05</BiopaxRef>
+    <BiopaxRef>ba0</BiopaxRef>
+    <BiopaxRef>ce0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1363.0" Y="1056.0" />
+      <Point X="1168.0" Y="1057.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d1443" />
+      <Anchor Position="0.99" Shape="None" GraphId="af1f9" />
+      <Anchor Position="0.5" Shape="None" GraphId="f88b6" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162836" />
+  </Interaction>
+  <Interaction GraphId="c937b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1495.0" Y="1075.0" GraphRef="bf169" RelX="-1.0" RelY="0.0" />
+      <Point X="1363.0" Y="1056.0" GraphRef="d1443" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162836" />
+  </Interaction>
+  <Interaction GraphId="b863c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1394.0" Y="1108.0" GraphRef="a9756" RelX="-1.0" RelY="-0.02040816326530612" />
+      <Point X="1363.0" Y="1056.0" GraphRef="d1443" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162836" />
+  </Interaction>
+  <Interaction GraphId="a8b82">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1168.0" Y="1057.0" GraphRef="af1f9" RelX="-1.9500000000000455" RelY="0.009999999999990905" />
+      <Point X="1143.0" Y="1000.0" GraphRef="c40b3" RelX="0.974025974025974" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162836" />
+  </Interaction>
+  <Interaction GraphId="c19da">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1168.0" Y="1057.0" GraphRef="af1f9" RelX="-1.9500000000000455" RelY="0.009999999999990905" />
+      <Point X="1197.0" Y="1128.0" GraphRef="a356c" RelX="0.9932203389830508" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162836" />
+  </Interaction>
+  <Interaction GraphId="f6bd8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1331.0" Y="1128.0" GraphRef="b6853" RelX="1.0" RelY="0.0" />
+      <Point X="1284.0" Y="1056.0" GraphRef="f88b6" RelX="18.5" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162836" />
+  </Interaction>
+  <Interaction GraphId="d2f0c">
+    <Comment Source="Reactome">The fatty acid group added to inositol in the fourth step of GPI biosynthsis is removed from GPI-conjugated uPAR. This hydrolysis event occurs in the endoplasmic reticulum and appears to be associated with efficient transport of the conjugated protein from the endoplasmic reticulum to the Golgi apparatus (Tanaka et al. 2004).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="915.0" Y="1035.0" />
+      <Point X="754.0" Y="1033.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cace6" />
+      <Anchor Position="0.99" Shape="None" GraphId="bdd55" />
+      <Anchor Position="0.5" Shape="None" GraphId="e2c9c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162729" />
+  </Interaction>
+  <Interaction GraphId="bfb33">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="954.0" Y="991.0" GraphRef="f0745" RelX="-1.0" RelY="0.0" />
+      <Point X="915.0" Y="1035.0" GraphRef="cace6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162729" />
+  </Interaction>
+  <Interaction GraphId="bfbc1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="903.0" Y="1128.0" GraphRef="a356c" RelX="-1.0" RelY="0.0" />
+      <Point X="915.0" Y="1035.0" GraphRef="cace6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162729" />
+  </Interaction>
+  <Interaction GraphId="cb879">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="754.0" Y="1033.0" GraphRef="bdd55" RelX="-1.6100000000000136" RelY="-0.01999999999998181" />
+      <Point X="743.0" Y="1110.0" GraphRef="d3e54" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162729" />
+  </Interaction>
+  <Interaction GraphId="e290c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="754.0" Y="1033.0" GraphRef="bdd55" RelX="-1.6100000000000136" RelY="-0.01999999999998181" />
+      <Point X="689.0" Y="1130.0" GraphRef="d7995" RelX="0.9661016949152542" RelY="-0.034482758620689655" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162729" />
+  </Interaction>
+  <Interaction GraphId="fd90e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="884.0" Y="1129.0" GraphRef="f9f41" RelX="1.0" RelY="0.0" />
+      <Point X="847.0" Y="1035.0" GraphRef="e2c9c" RelX="12.5" RelY="1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-162729" />
+  </Interaction>
+  <Interaction GraphId="cd17d">
+    <Comment Source="Reactome">Some proteins function at the cell's surface, attached to the plasma membrane via GPI (glycosylphosphatidylinositol) anchors and include enzymes, receptors, cell adhesion molecules and antigens. These GPI-anchored proteins participate in many important cellular functions including immune recognition, complement regulation and intracellular signaling. Phosphatidylinositol-glycan-specific phospholipase D (GPLD1) (Schofield et al. 2000) is a secreted protein that specifically cleaves GPI-anchored proteins by cleaving the linkage between the phosphate and inositol in GPI (Davitz et al. 1987, Low &amp; Prasad 1988). In addition, it also localises to the ER where it can cleave GPI anchor intermediates transiting to the plasma membrane (not shown here). GPLD1 may play a role in the regulation of GPI-anchored proteins on (intra)cellular membranes.</Comment>
+    <BiopaxRef>a8c</BiopaxRef>
+    <BiopaxRef>e96</BiopaxRef>
+    <BiopaxRef>af3</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="215.0" Y="69.0" />
+      <Point X="315.0" Y="69.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c5ac7" />
+      <Anchor Position="0.99" Shape="None" GraphId="a1ae6" />
+      <Anchor Position="0.5" Shape="None" GraphId="ba03a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8940388" />
+  </Interaction>
+  <Interaction GraphId="c10d1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="172.0" Y="46.0" GraphRef="deafb" RelX="1.0" RelY="0.0" />
+      <Point X="215.0" Y="69.0" GraphRef="c5ac7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8940388" />
+  </Interaction>
+  <Interaction GraphId="c45bb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="172.0" Y="136.0" GraphRef="d07be" RelX="1.0" RelY="0.0" />
+      <Point X="215.0" Y="69.0" GraphRef="c5ac7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8940388" />
+  </Interaction>
+  <Interaction GraphId="cfb32">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="315.0" Y="69.0" GraphRef="a1ae6" RelX="1.0" RelY="0.0" />
+      <Point X="360.0" Y="31.0" GraphRef="baca1" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8940388" />
+  </Interaction>
+  <Interaction GraphId="d8373">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="315.0" Y="69.0" GraphRef="a1ae6" RelX="1.0" RelY="0.0" />
+      <Point X="359.0" Y="102.0" GraphRef="c988a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8940388" />
+  </Interaction>
+  <Interaction GraphId="aa54a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="238.0" Y="26.0" GraphRef="f92ba" RelX="-1.0" RelY="0.0" />
+      <Point X="263.0" Y="69.0" GraphRef="ba03a" RelX="-2.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8940388" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="f8572" GroupRef="e12e7">
+    <Graphics CenterX="154.0" CenterY="1241.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="endoplasmic reticulum lumen" GraphId="d5091" GroupRef="b4bae">
+    <Graphics CenterX="522.5" CenterY="1002.5" Width="203.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="f6029" GroupRef="e12e7">
+    <Graphics CenterX="982.5" CenterY="711.0" Width="1855.0" Height="1168.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="e6777" GroupRef="b4bae">
+    <Graphics CenterX="961.5" CenterY="654.5" Width="1493.0" Height="985.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="a9920" GraphId="a8575" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-162692" />
+  </Group>
+  <Group GroupId="c1a17" GraphId="e2a21" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-162850" />
+  </Group>
+  <Group GroupId="bf2eb" GraphId="e5718" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-162829" />
+  </Group>
+  <Group GroupId="bca2b" GraphId="d2d81" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-162885" />
+  </Group>
+  <Group GroupId="d0979" GraphId="aec1d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-162728" />
+  </Group>
+  <Group GroupId="cb602" GraphId="b4fc9" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-162690" />
+  </Group>
+  <Group GroupId="fe83e" GraphId="b8174">
+    <Attribute Key="complex_id" Value="R-HSA-8940978" />
+  </Group>
+  <Group GroupId="efb91" GraphId="c5f93">
+    <Attribute Key="complex_id" Value="R-HSA-8941069" />
+  </Group>
+  <Group GroupId="e12e7" GraphId="bbe3c" Style="Group" />
+  <Group GroupId="b4bae" GraphId="d894d" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f15">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16162815</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The initial enzyme for glycosylphosphatidylinositol biosynthesis requires PIG-Y, a seventh component.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murakami Y, Siripanyaphinyo U, Hong Y, Tashima Y, Maeda Y, Kinoshita T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15208306</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Smp3p adds a fourth mannose to yeast and human glycosylphosphatidylinositol precursors in vivo.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taron BW, Colussi PA, Wiedman JM, Orlean P, Taron CH.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e59">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10835346</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human dolichol-phosphate-mannose synthase consists of three subunits, DPM1, DPM2 and DPM3.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maeda Y, Tanaka S, Hino J, Kangawa K, Kinoshita T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fae">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11102867</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dissecting and manipulating the pathway for glycosylphos-phatidylinositol-anchor biosynthesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kinoshita T, Inoue N.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c45">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8900170</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIG-A and PIG-H, which participate in glycosylphosphatidylinositol anchor biosynthesis, form a protein complex in the endoplasmic reticulum.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watanabe R, Kinoshita T, Masaki R, Yamamoto A, Takeda J, Inoue N.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e20">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9463366</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The first step of glycosylphosphatidylinositol biosynthesis is mediated by a complex of PIG-A, PIG-H, PIG-C and GPI1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watanabe R, Inoue N, Westfall B, Taron CH, Orlean P, Takeda J, Kinoshita T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a65">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10944123</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Initial enzyme for glycosylphosphatidylinositol biosynthesis requires PIG-P and is regulated by DPM2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watanabe R, Murakami Y, Marmor MD, Inoue N, Maeda Y, Hino J, Kangawa K, Julius M, Kinoshita T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10089216</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Differences between the trypanosomal and human GlcNAc-PI de-N-acetylases of glycosylphosphatidylinositol membrane anchor biosynthesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharma DK, Smith TK, Weller CT, Crossman A, Brimacombe JS, Ferguson MA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e8e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14742432</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subcellular localization and targeting of N-acetylglucosaminyl phosphatidylinositol de-N-acetylase, the second enzyme in the glycosylphosphatidylinositol biosynthetic pathway.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pottekat A, Menon AK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c4f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14517336</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIG-W is critical for inositol acylation but not for flipping of glycosylphosphatidylinositol-anchor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murakami Y, Siripanyapinyo U, Hong Y, Kang JY, Ishihara S, Nakakuma H, Maeda Y, Kinoshita T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b38">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11226175</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIG-M transfers the first mannose to glycosylphosphatidylinositol on the lumenal side of the ER.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maeda Y, Watanabe R, Harris CL, Hong Y, Ohishi K, Kinoshita K, Kinoshita T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a7e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15635094</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian PIG-X and yeast Pbn1p are the essential components of glycosylphosphatidylinositol-mannosyltransferase I.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ashida H, Hong Y, Murakami Y, Shishioh N, Sugimoto N, Kim YU, Maeda Y, Kinoshita T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ee8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10069808</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCD4 encodes a conserved endoplasmic reticulum membrane protein essential for glycosylphosphatidylinositol anchor synthesis in yeast.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaynor EC, Mondésert G, Grimme SJ, Reed SI, Orlean P, Emr SD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ffa">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15623507</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIG-V involved in transferring the second mannose in glycosylphosphatidylinositol.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kang JY, Hong Y, Ashida H, Shishioh N, Murakami Y, Morita YS, Maeda Y, Kinoshita T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c2a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15720390</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae Ybr004c and its human homologue are required for addition of the second mannose during glycosylphosphatidylinositol precursor assembly.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabre AL, Orlean P, Taron CH.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c27">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8861954</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIG-B, a membrane protein of the endoplasmic reticulum with a large lumenal domain, is involved in transferring the third mannose of the GPI anchor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Takahashi M, Inoue N, Ohishi K, Maeda Y, Nakamura N, Endo Y, Fujita T, Takeda J, Kinoshita T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15632136</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPI7 is the second partner of PIG-F and involved in modification of glycosylphosphatidylinositol.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shishioh N, Hong Y, Ohishi K, Ashida H, Maeda Y, Kinoshita T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f05">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12802054</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human PIG-U and yeast Cdc91p are the fifth subunit of GPI transamidase that attaches GPI-anchors to proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hong Y, Ohishi K, Kang JY, Tanaka S, Inoue N, Nishimura J, Maeda Y, Kinoshita T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11483512</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIG-S and PIG-T, essential for GPI anchor attachment to proteins, form a complex with GAA1 and GPI8.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ohishi K, Inoue N, Kinoshita T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9356492</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The affected gene underlying the class K glycosylphosphatidylinositol (GPI) surface protein defect codes for the GPI transamidase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yu J, Nagarajan S, Knez JJ, Udenfriend S, Chen R, Medof ME.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a8c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11072085</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure and expression of the human glycosylphosphatidylinositol phospholipase D1 (GPLD1) gene.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schofield JN, Rademacher TW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e96">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2443973</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glycan-phosphatidylinositol-specific phospholipase D in human serum.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Davitz MA, Hereld D, Shak S, Krakow J, Englund PT, Nussenzweig V.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3422494</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phospholipase D specific for the phosphatidylinositol anchor of cell-surface proteins is abundant in plasma.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low MG, Prasad AR.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

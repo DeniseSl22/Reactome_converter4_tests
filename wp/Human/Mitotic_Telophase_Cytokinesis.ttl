@@ -1,0 +1,413 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/uniprot/Q9UQE7>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "SMC3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9UQE7> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9UQE7"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d7ed6> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d3b88> , <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000108055> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/9126> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SMC3> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9UQE7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/f1230> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/a8d50> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/a9776> .
+
+<http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/ab8c7>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/17112726> , <http://identifiers.org/pubmed/17113138> , <http://identifiers.org/pubmed/19696148> ;
+        dcterms:identifier             "R-HSA-2468040"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-2468040> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/fb864> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/f7a09> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/ab8c7> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/aa02c> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/bd0b1> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-2468044> , <http://identifiers.org/reactome/R-HSA-1641505> , <http://identifiers.org/uniprot/Q7Z5K2> , <http://identifiers.org/reactome/R-HSA-2468042> ;
+        wp:source                      <http://identifiers.org/uniprot/Q7Z5K2> , <http://identifiers.org/reactome/R-HSA-1641505> , <http://identifiers.org/reactome/R-HSA-2468044> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-2468042> .
+
+<http://identifiers.org/chebi/CHEBI:30616>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ATP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:30616> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:30616"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Mitot_r1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/d44b4> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/ddc55> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4574455> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-J> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5461108> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27113900> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/fd74e> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/e4577> .
+
+<http://identifiers.org/reactome/R-HSA-1641505>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "Cohesin Complex"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-1641505> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-1641505"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Mitot_r1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/ab8c7> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-1641505> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/c799c> .
+
+<http://identifiers.org/uniprot/Q8N3U4>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "STAG2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q8N3U4> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q8N3U4"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Mitot_r1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d7ed6> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d3b88> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000101972> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/10735> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/STAG2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/B1AMT0> , <http://identifiers.org/uniprot/E7ERE6> , <http://identifiers.org/uniprot/B1AMS8> , <http://identifiers.org/uniprot/B1AMT4> , <http://identifiers.org/uniprot/B1AMS9> , <http://identifiers.org/uniprot/B1AMT2> , <http://identifiers.org/uniprot/B1AMT3> , <http://identifiers.org/uniprot/Q8N3U4> , <http://identifiers.org/uniprot/B1AMT1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/ed162> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/f40b5> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/f0924> .
+
+<http://identifiers.org/chebi/CHEBI:456216>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ADP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:456216> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:456216"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/d44b4> , <http://identifiers.org/wikipathways//Mitot_r1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/ddc55> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:456216> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5414423> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-K> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7058055> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27225748> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/df975> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/e6925> .
+
+<http://identifiers.org/pubmed/17112726>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Mitot_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17112726> .
+
+<http://identifiers.org/uniprot/Q8WVM7>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "STAG1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q8WVM7> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q8WVM7"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Mitot_r1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d7ed6> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d3b88> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000118007> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/10274> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/STAG1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/F8WF82> , <http://identifiers.org/uniprot/Q8WVM7> , <http://identifiers.org/uniprot/H7C595> , <http://identifiers.org/uniprot/F8WCB3> , <http://identifiers.org/uniprot/Q68DW7> , <http://identifiers.org/uniprot/C9JJQ0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/e2603> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/f31d5> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/f58bb> .
+
+<http://identifiers.org/reactome/R-HSA-2468044>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "PDS5"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-2468044> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-2468044"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Mitot_r1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/ab8c7> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-2468044> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/aa123> .
+
+<http://identifiers.org/pubmed/12939256>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Mitot_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12939256> .
+
+<http://identifiers.org/uniprot/Q9NTI5>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "PDS5B"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9NTI5> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9NTI5"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d3b88> , <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000083642> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/23047> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PDS5B> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9NTI5> , <http://identifiers.org/uniprot/A9IYQ1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/f7398> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/d702d> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/fba6b> .
+
+<http://rdf.wikipathways.org/Pathway//Mitot_r1/ComplexBinding/d3b88>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Mitot_r1/Group/d3b88> ;
+        wp:participants   <http://identifiers.org/uniprot/Q7Z5K2> , <http://identifiers.org/uniprot/Q9NTI5> , <http://identifiers.org/uniprot/Q29RF7> , <http://identifiers.org/uniprot/Q9UQE7> , <http://identifiers.org/uniprot/Q14683> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d3b88> , <http://identifiers.org/uniprot/O60216> , <http://identifiers.org/uniprot/Q8WVM7> , <http://identifiers.org/uniprot/Q8N3U4> .
+
+<http://identifiers.org/uniprot/Q02241>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "KIF23"^^xsd:string , "p-S904,S905-KIF23"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q02241> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q02241"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Mitot_r1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/ddc55> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000137807> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/9493> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/KIF23> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/H0YME6> , <http://identifiers.org/uniprot/H0YKQ5> , <http://identifiers.org/uniprot/H0YMJ4> , <http://identifiers.org/uniprot/H7BYN4> , <http://identifiers.org/uniprot/Q02241> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/ba109> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/bb145> .
+
+<http://identifiers.org/reactome/R-ALL-2537690>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "Chromatin"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-ALL-2537690> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-ALL-2537690"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Mitot_r1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/f7d97> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-ALL-2537690> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/e5666> .
+
+<http://identifiers.org/uniprot/Q29RF7>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "PDS5A"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q29RF7> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q29RF7"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d3b88> , <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000121892> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/23244> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PDS5A> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q29RF7> , <http://identifiers.org/uniprot/H0Y9L9> , <http://identifiers.org/uniprot/G1UI16> , <http://identifiers.org/uniprot/H0Y9L6> , <http://identifiers.org/uniprot/H0Y9X6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/b7170> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/f12bb> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/a606d> .
+
+<http://identifiers.org/wikipathways//Mitot>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Mitot_r1> .
+
+<http://identifiers.org/pubmed/16682347>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Mitot_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16682347> .
+
+<http://identifiers.org/pubmed/17113138>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Mitot_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17113138> .
+
+<http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/ae077>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Mitot_r1/Group/ae077> ;
+        wp:participants   <http://identifiers.org/uniprot/Q9Y6X3> , <http://identifiers.org/uniprot/Q6KC79> .
+
+<http://rdf.wikipathways.org/Pathway//Mitot_r1/ComplexBinding/d7ed6>
+        a                 wp:Binding , wp:ComplexBinding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Mitot_r1/Group/d7ed6> ;
+        wp:participants   <http://identifiers.org/uniprot/Q9UQE7> , <http://identifiers.org/uniprot/Q8WVM7> , <http://identifiers.org/uniprot/Q8N3U4> , <http://identifiers.org/uniprot/Q14683> , <http://identifiers.org/uniprot/O60216> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d7ed6> .
+
+<http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/ddc55>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15199097> ;
+        dcterms:identifier             "R-HSA-156673"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-156673> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/c923d> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/f965a> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/fccc2> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/ed4fe> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/ddc55> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/c5bb0> ;
+        wp:participants                <http://identifiers.org/uniprot/P53350> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/Q02241> , <http://identifiers.org/chebi/CHEBI:456216> ;
+        wp:source                      <http://identifiers.org/uniprot/Q02241> , <http://identifiers.org/uniprot/P53350> , <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:target                      <http://identifiers.org/uniprot/Q02241> , <http://identifiers.org/chebi/CHEBI:456216> .
+
+<http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/d44b4>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12939256> ;
+        dcterms:identifier             "R-HSA-156723"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-156723> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/aa1f7> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/a89f1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/a3590> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/d44b4> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/d6c17> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/ecd5c> ;
+        wp:participants                <http://identifiers.org/uniprot/O95235> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P53350> , <http://identifiers.org/chebi/CHEBI:456216> ;
+        wp:source                      <http://identifiers.org/uniprot/O95235> , <http://identifiers.org/uniprot/P53350> , <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/uniprot/O95235> .
+
+<http://identifiers.org/reactome/R-HSA-2537688>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "Cohesin:PDS5:WAPAL:NIPBL:MAU2:Chromatin"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-2537688> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-2537688"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Mitot_r1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/f7d97> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-2537688> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/f54fe> .
+
+<http://identifiers.org/reactome/R-HSA-2468042>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "Cohesin:PDS5:WAPAL"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-2468042> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-2468042"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/ab8c7> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/f7d97> , <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-2468042> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/c7c1b> .
+
+<http://identifiers.org/wikipathways//Mitot_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Mitot> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Mitotic Telophase/Cytokinesis"@en ;
+        dcterms:description  "In this final phase of mitosis, new membranes are formed around two sets of chromatids and two daughter cells are formed. The chromosomes and the spindle fibers disperse, and the fiber ring around the center of the cell, composed of actin, contracts, pinching the cell into two daughter cells.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=68884 Reactome]." ;
+        dcterms:identifier   "/Mitot"^^xsd:string ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Mitot_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Mitot_r1> .
+
+<http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/f7d97>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/17113138> , <http://identifiers.org/pubmed/16682347> ;
+        dcterms:identifier             "R-HSA-2470935"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-2470935> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/d48f7> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/a39f0> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/f7d97> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/fb5c4> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Interaction/dbd93> ;
+        wp:participants                <http://identifiers.org/reactome/R-ALL-2537690> , <http://identifiers.org/reactome/R-HSA-2537688> , <http://identifiers.org/reactome/R-HSA-2470930> , <http://identifiers.org/reactome/R-HSA-2468042> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-2470930> , <http://identifiers.org/reactome/R-ALL-2537690> , <http://identifiers.org/reactome/R-HSA-2468042> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-2537688> .
+
+<http://identifiers.org/uniprot/Q6KC79>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "NIPBL"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q6KC79> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q6KC79"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/ae077> , <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000164190> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/25836> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/NIPBL> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/H0Y8M3> , <http://identifiers.org/uniprot/Q6KC79> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/f90af> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/ecd1e> .
+
+<http://identifiers.org/pubmed/15199097>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Mitot_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15199097> .
+
+<http://identifiers.org/reactome/R-HSA-69242>
+        a                   wp:DataNode ;
+        rdfs:label          "S Phase"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-69242> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-69242"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/d7720> .
+
+<http://identifiers.org/uniprot/Q7Z5K2>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "WAPAL"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q7Z5K2> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q7Z5K2"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Mitot_r1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/ab8c7> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d3b88> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000062650> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/23063> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/WAPL> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q7Z5K2> , <http://identifiers.org/uniprot/Q8WVX6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/fb692> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/a722f> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/e757e> .
+
+<http://identifiers.org/reactome/R-HSA-2470930>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "NIPBL:MAU2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-2470930> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-2470930"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/f7d97> , <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-2470930> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/bd486> .
+
+<http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d3b88>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Mitot_r1/Group/d3b88> ;
+        wp:participants   <http://identifiers.org/uniprot/Q8N3U4> , <http://identifiers.org/uniprot/O60216> , <http://identifiers.org/uniprot/Q7Z5K2> , <http://identifiers.org/uniprot/Q8WVM7> , <http://identifiers.org/uniprot/Q9NTI5> , <http://identifiers.org/uniprot/Q14683> , <http://identifiers.org/uniprot/Q9UQE7> , <http://identifiers.org/uniprot/Q29RF7> .
+
+<http://identifiers.org/uniprot/O95235>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "KIF20A"^^xsd:string , "p-S528-KIF20A"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O95235> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O95235"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/d44b4> , <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000112984> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/10112> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/KIF20A> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/O95235> , <http://identifiers.org/uniprot/D6R9E4> , <http://identifiers.org/uniprot/H0YAC9> , <http://identifiers.org/uniprot/D6RBN1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/da9bf> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/bb528> .
+
+<http://identifiers.org/uniprot/O60216>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "RAD21"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O60216> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O60216"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Mitot_r1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d7ed6> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d3b88> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000164754> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5885> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/RAD21> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E5RFZ5> , <http://identifiers.org/uniprot/E5RJK5> , <http://identifiers.org/uniprot/E5RJW1> , <http://identifiers.org/uniprot/E5RG18> , <http://identifiers.org/uniprot/E5RIN7> , <http://identifiers.org/uniprot/A0A024R9J0> , <http://identifiers.org/uniprot/O60216> , <http://identifiers.org/uniprot/E5RI01> , <http://identifiers.org/uniprot/E5RFV8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/daf47> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/dd0c2> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/d4069> .
+
+<http://identifiers.org/uniprot/P53350>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "p-T210-PLK1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P53350> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P53350"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/ddc55> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/WP/Interaction/d44b4> , <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000166851> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5347> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PLK1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/I3L387> , <http://identifiers.org/uniprot/P53350> , <http://identifiers.org/uniprot/I3L309> , <http://identifiers.org/uniprot/I3L2H5> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/e5fd1> .
+
+<http://identifiers.org/uniprot/Q14683>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "SMC1A"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q14683> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q14683"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Mitot_r1> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d7ed6> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d3b88> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000072501> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/8243> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SMC1A> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q14683> , <http://identifiers.org/uniprot/V9GYN9> , <http://identifiers.org/uniprot/H0Y7K8> , <http://identifiers.org/uniprot/V9GY57> , <http://identifiers.org/uniprot/G8JLG1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/d048c> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/c6ea4> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/f5c30> .
+
+<http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/d7ed6>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Mitot_r1/Group/d7ed6> ;
+        wp:participants   <http://identifiers.org/uniprot/Q8N3U4> , <http://identifiers.org/uniprot/Q8WVM7> , <http://identifiers.org/uniprot/O60216> , <http://identifiers.org/uniprot/Q14683> , <http://identifiers.org/uniprot/Q9UQE7> .
+
+<http://identifiers.org/uniprot/Q9Y6X3>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "MAU2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9Y6X3> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9Y6X3"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/ae077> , <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000129933> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/23383> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/MAU2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/V9GZ52> , <http://identifiers.org/uniprot/Q9Y6X3> , <http://identifiers.org/uniprot/V9GYS3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/d25b6> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/DataNode/a8229> .
+
+<http://rdf.wikipathways.org/Pathway//Mitot_r1/ComplexBinding/ae077>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Mitot_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Mitot_r1/Group/ae077> ;
+        wp:participants   <http://identifiers.org/uniprot/Q9Y6X3> , <http://identifiers.org/uniprot/Q6KC79> , <http://rdf.wikipathways.org/Pathway//Mitot_r1/Complex/ae077> .
+
+<http://identifiers.org/pubmed/19696148>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Mitot_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19696148> .

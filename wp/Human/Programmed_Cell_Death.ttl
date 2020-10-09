@@ -1,0 +1,107 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/23770045>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Progr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23770045> .
+
+<http://identifiers.org/pubmed/14634621>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Progr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/14634621> .
+
+<http://identifiers.org/reactome/R-HSA-5218859>
+        a                              wp:DataNode ;
+        rdfs:label                     "Regulated Necrosis"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-5218859> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/24563506> , <http://identifiers.org/pubmed/23770045> , <http://identifiers.org/pubmed/24452471> ;
+        dcterms:identifier             "R-HSA-5218859"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Progr_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Progr_r1/DataNode/a647f> .
+
+<http://identifiers.org/pubmed/12209154>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Progr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12209154> .
+
+<http://identifiers.org/reactome/R-HSA-109581>
+        a                              wp:DataNode ;
+        rdfs:label                     "Apoptosis"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-109581> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/14634621> , <http://identifiers.org/pubmed/12189384> , <http://identifiers.org/pubmed/14561771> , <http://identifiers.org/pubmed/12209154> , <http://identifiers.org/pubmed/12505355> , <http://identifiers.org/pubmed/15218528> , <http://identifiers.org/pubmed/4561027> ;
+        dcterms:identifier             "R-HSA-109581"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Progr_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Progr_r1/DataNode/b113e> .
+
+<http://identifiers.org/pubmed/24563506>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Progr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24563506> .
+
+<http://identifiers.org/pubmed/25236395>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Progr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25236395> .
+
+<http://identifiers.org/pubmed/4561027>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Progr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/4561027> .
+
+<http://identifiers.org/pubmed/12505355>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Progr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12505355> .
+
+<http://identifiers.org/wikipathways//Progr>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Progr_r1> .
+
+<http://identifiers.org/wikipathways//Progr_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Progr> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Programmed Cell Death"@en ;
+        dcterms:description  "Cell death is a fundamental cellular response that has a crucial role in shaping our bodies during development and in regulating tissue homeostasis by eliminating unwanted cells. There are a number of different forms of cell death, each with a corresponding number of complex subprocesses. The first form of regulated or programmed cell death to be characterized was apoptosis. Evidence has emerged for a number of regulated non-apoptotic cell death pathways, including some with morphological features that were previously attributed to necrosis. More recently necrosis has been subdivided into parts including programmed necrotic cell death processes, such as RIP1-mediated regulated necrosis or pyroptosis.<br>Reactome currently represents programmed cell death using the model of extrinsic signalling that leads to a molecular decision point pivoting on caspase-8 activation or inhibition. Caspase-8 activation tilts the cell towards apoptosis, while caspase-8 inhibition tilts the cell towards Regulated Necrosis.<p>The terminology and molecular definitions of cell death-related events annotated here are consistent with the 2015 recommendations of the Nomenclature Committee on Cell Death (NCCD) (Galluzzi L et al. 2015).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5357801 Reactome]." ;
+        dcterms:identifier   "/Progr"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/25236395> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Progr_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Progr_r1> .
+
+<http://identifiers.org/pubmed/14561771>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Progr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/14561771> .
+
+<http://identifiers.org/pubmed/15218528>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Progr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15218528> .
+
+<http://identifiers.org/pubmed/24452471>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Progr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24452471> .
+
+<http://identifiers.org/pubmed/12189384>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Progr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12189384> .

@@ -1,0 +1,635 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/e9971>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/22863804> , <http://identifiers.org/pubmed/2335525> ;
+        dcterms:identifier             "R-HSA-75883"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-75883> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/e9971> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/b01d5> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/f3bf1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/e7350> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/c407e> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/e4bae> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/a5341> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/uniprot/Q6IAN0> , <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:17197> , <http://identifiers.org/chebi/CHEBI:63818> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:17197> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/uniprot/Q6IAN0> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:63818> , <http://identifiers.org/chebi/CHEBI:18009> .
+
+<http://identifiers.org/pubmed/11275267>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11275267> .
+
+<http://rdf.wikipathways.org/Pathway//Wax_a_r1/Complex/c635a>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Group/c635a> ;
+        wp:participants   <http://identifiers.org/uniprot/O00116> , <http://identifiers.org/chebi/CHEBI:16238> , <http://identifiers.org/uniprot/O15228> .
+
+<http://identifiers.org/chebi/CHEBI:15346>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "CoA-SH"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/RGJOEKWQDUBAIZ-DRCCLKDXSA-N> , <http://identifiers.org/inchikey/RGJOEKWQDUBAIZ-IBOSZNHHSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15346> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15346"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/c53f7> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/d0875> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/bb003> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/ffbdb> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/fb56b> , <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/cb4cc> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15346> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/6557> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001423> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/RGJOEKWQDUBAIZ-IBOSZNHHSA-N> , <http://identifiers.org/inchikey/RGJOEKWQDUBAIZ-DRCCLKDXSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00010> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID87642> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6816> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q407635> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/d0b0d> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/f5f90> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/e73a9> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/bd528> .
+
+<http://identifiers.org/uniprot/Q6IAN0>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "DHRS7B"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q6IAN0> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q6IAN0"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/e9971> , <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000109016> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/25979> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DHRS7B> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q6IAN0> , <http://identifiers.org/uniprot/J3QLJ8> , <http://identifiers.org/uniprot/J3KRS1> , <http://identifiers.org/uniprot/J3QLK1> , <http://identifiers.org/uniprot/J3QKT1> , <http://identifiers.org/uniprot/A0A0C4DGQ8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/fd4e0> .
+
+<http://identifiers.org/chebi/CHEBI:15525>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "PALM-CoA"^^xsd:string , "PalmCoA"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/MNBKLUUYKPBKDU-BBECNAHFSA-N> , <http://identifiers.org/inchikey/MNBKLUUYKPBKDU-TZIIWEFPSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15525> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15525"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/c53f7> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/ffbdb> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/bb003> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/d0875> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/fb56b> , <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15525> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/559149> , <http://identifiers.org/chemspider/14902> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0059623> , <http://identifiers.org/hmdb/HMDB0001338> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/MNBKLUUYKPBKDU-TZIIWEFPSA-N> , <http://identifiers.org/inchikey/MNBKLUUYKPBKDU-BBECNAHFSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00154> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMFA07050360> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID15667> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID644109> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28797916> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/a486f> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/ab351> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/b6d1d> .
+
+<http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/fb56b>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15220348> ;
+        dcterms:identifier             "R-HSA-390425"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-390425> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/e9a5f> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/fb56b> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/bcaca> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/de5de> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/f78db> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/a5faa> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/fa047> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/b8ca1> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15346> , <http://identifiers.org/uniprot/Q8WVX9> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:15525> , <http://identifiers.org/chebi/CHEBI:16125> , <http://identifiers.org/chebi/CHEBI:18009> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:15525> , <http://identifiers.org/uniprot/Q8WVX9> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:16125> , <http://identifiers.org/chebi/CHEBI:15346> .
+
+<http://identifiers.org/chebi/CHEBI:16238>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "FAD"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/VWWQXMAJTJZDQX-UYBVJOGSSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16238> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16238"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Complex/c635a> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16238> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/559059> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001248> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/VWWQXMAJTJZDQX-UYBVJOGSSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00016> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID643975> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28746> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/ed3cd> .
+
+<http://identifiers.org/chebi/CHEBI:17616>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "atR-PALM"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/VYGQUTWHTHXGQB-FFHKNEKCSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17616> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17616"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/d0875> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17616> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4444162> , <http://identifiers.org/chemspider/10618934> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0003648> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/VYGQUTWHTHXGQB-FFHKNEKCSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C02588> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMPR01090013> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5280531> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q7316807> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/d8f9d> .
+
+<http://identifiers.org/chebi/CHEBI:16125>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "HXOL"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/BXWNKGSJHAJOGX-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16125> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16125"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/caa1f> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/fb56b> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/c817e> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/ffbdb> , <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/bb003> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16125> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/2581> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0003424> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/BXWNKGSJHAJOGX-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00823> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMFA05000061> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID2682> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q161632> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/c76c4> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/ec873> .
+
+<http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/c817e>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10215861> , <http://identifiers.org/pubmed/10415121> , <http://identifiers.org/pubmed/10692424> ;
+        dcterms:identifier             "R-HSA-390427"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-390427> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/b84b1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/ec1e8> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/c817e> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/bb374> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/c87f2> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/c9665> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17197> , <http://identifiers.org/chebi/CHEBI:17868> , <http://identifiers.org/chebi/CHEBI:16125> , <http://identifiers.org/chebi/CHEBI:15756> , <http://identifiers.org/reactome/R-HSA-76165> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-76165> , <http://identifiers.org/chebi/CHEBI:17868> , <http://identifiers.org/chebi/CHEBI:16125> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17197> , <http://identifiers.org/chebi/CHEBI:15756> .
+
+<http://identifiers.org/wikipathways//Wax_a_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Wax_a> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Wax and plasmalogen biosynthesis"@en ;
+        dcterms:description  "Waxes are esters of long chain fatty acids and long chain fatty alcohols that play an important role in protecting the skin surface from drying and abrasion (Cheng & Russell 2004a,b). Plasmalogens are an abundant subclass of phospholipids. While their functions are not well understood, defects in their metabolism are associated with serious human disease (de Vet et al. 1999; Nagan and Zoeller 2001). The biosynthesis of these two classes of molecules both start with the reduction of palmitoyl-CoA (PALM-CoA) to hexadecan-1-ol (HXOL) so it is convenient to group them here.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=8848584 Reactome]." ;
+        dcterms:identifier   "/Wax_a"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/15220349> , <http://identifiers.org/pubmed/15220348> , <http://identifiers.org/pubmed/10553003> , <http://identifiers.org/pubmed/11275267> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Wax_a_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Wax_a_r1> .
+
+<http://identifiers.org/pubmed/9536089>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9536089> .
+
+<http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/bb003>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/16106050> , <http://identifiers.org/pubmed/15220349> , <http://identifiers.org/pubmed/15671038> ;
+        dcterms:identifier             "R-HSA-8848582"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8848582> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/b306c> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/bb003> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/ccfec> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/ffc06> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/b8255> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/f0683> ;
+        wp:participants                <http://identifiers.org/uniprot/Q6E213> , <http://identifiers.org/chebi/CHEBI:15525> , <http://identifiers.org/chebi/CHEBI:15346> , <http://identifiers.org/chebi/CHEBI:75584> , <http://identifiers.org/chebi/CHEBI:16125> ;
+        wp:source                      <http://identifiers.org/uniprot/Q6E213> , <http://identifiers.org/chebi/CHEBI:15525> , <http://identifiers.org/chebi/CHEBI:16125> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:75584> , <http://identifiers.org/chebi/CHEBI:15346> .
+
+<http://identifiers.org/chebi/CHEBI:10036>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "arachidyl ester"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:10036> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:10036"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/cb4cc> , <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:10036> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C01629> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q3010324> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/ed9a0> .
+
+<http://rdf.wikipathways.org/Pathway//Wax_a_r1/ComplexBinding/c635a>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Group/c635a> ;
+        wp:participants   <http://identifiers.org/uniprot/O00116> , <http://identifiers.org/chebi/CHEBI:16238> , <http://identifiers.org/uniprot/O15228> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Complex/c635a> .
+
+<http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/caa1f>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15220349> ;
+        dcterms:identifier             "R-HSA-8848586"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8848586> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/af350> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/caa1f> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/f828d> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:16125> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:16125> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:16125> .
+
+<http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/ffbdb>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15220348> ;
+        dcterms:identifier             "R-HSA-390438"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-390438> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/d7827> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/f6395> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/f8de1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/de220> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/fc167> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/ffbdb> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/ed93c> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/fc95f> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/uniprot/Q96K12> , <http://identifiers.org/chebi/CHEBI:15346> , <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:16125> , <http://identifiers.org/chebi/CHEBI:15525> , <http://identifiers.org/chebi/CHEBI:15378> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:15525> , <http://identifiers.org/uniprot/Q96K12> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:15378> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:15346> , <http://identifiers.org/chebi/CHEBI:16125> .
+
+<http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/c53f7>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/9536089> , <http://identifiers.org/pubmed/10215861> , <http://identifiers.org/pubmed/8186247> , <http://identifiers.org/pubmed/11237722> ;
+        dcterms:identifier             "R-HSA-75879"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-75879> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/c4309> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/cfb53> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/ce4eb> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/c8722> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/c53f7> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/d8a81> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15346> , <http://identifiers.org/chebi/CHEBI:57642> , <http://identifiers.org/reactome/R-HSA-76165> , <http://identifiers.org/chebi/CHEBI:15525> , <http://identifiers.org/chebi/CHEBI:17868> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:57642> , <http://identifiers.org/reactome/R-HSA-76165> , <http://identifiers.org/chebi/CHEBI:15525> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17868> , <http://identifiers.org/chebi/CHEBI:15346> .
+
+<http://identifiers.org/pubmed/22863804>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22863804> .
+
+<http://identifiers.org/chebi/CHEBI:63818>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "HXDG3P"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XLVRFPVHQPHXAA-LJQANCHMSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:63818> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:63818"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/e9971> , <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:63818> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/10000084> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0062325> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XLVRFPVHQPHXAA-LJQANCHMSA-N> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMGP10060005> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID11825433> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27132823> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/dbba4> .
+
+<http://identifiers.org/pubmed/11237722>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11237722> .
+
+<http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/d0875>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/16106050> , <http://identifiers.org/pubmed/28096191> ;
+        dcterms:identifier             "R-HSA-8848585"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8848585> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/d0875> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/afb87> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/dddac> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/c2d95> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/e9cd8> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/ec5af> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17616> , <http://identifiers.org/uniprot/Q6E213> , <http://identifiers.org/chebi/CHEBI:17336> , <http://identifiers.org/chebi/CHEBI:15346> , <http://identifiers.org/chebi/CHEBI:15525> ;
+        wp:source                      <http://identifiers.org/uniprot/Q6E213> , <http://identifiers.org/chebi/CHEBI:15525> , <http://identifiers.org/chebi/CHEBI:17336> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17616> , <http://identifiers.org/chebi/CHEBI:15346> .
+
+<http://identifiers.org/chebi/CHEBI:17336>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "atROL"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/FPIPGXGPPPQFEQ-OVSJKPMPSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17336> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17336"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/d0875> , <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17336> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/393012> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000305> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/FPIPGXGPPPQFEQ-OVSJKPMPSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C17276> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMPR01090001> , <http://identifiers.org/lipidmaps/LMPR01090000> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID445354> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q424976> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/e08ca> .
+
+<http://identifiers.org/pubmed/28096191>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/28096191> .
+
+<http://identifiers.org/uniprot/Q96K12>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "FAR2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q96K12> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q96K12"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/ffbdb> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000064763> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/55711> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/FAR2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A024RAW7> , <http://identifiers.org/uniprot/Q96K12> , <http://identifiers.org/uniprot/H0YIE0> , <http://identifiers.org/uniprot/F8VPF2> , <http://identifiers.org/uniprot/H0YHP1> , <http://identifiers.org/uniprot/F8VX60> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/ccde5> .
+
+<http://identifiers.org/pubmed/15220349>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15220349> .
+
+<http://identifiers.org/chebi/CHEBI:15378>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "H+"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/GPRLSGONYQIRFK-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15378> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15378"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/fb56b> , <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/ffbdb> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/e9971> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15378> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/1010> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0059597> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/GPRLSGONYQIRFK-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00080> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1038> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q506710> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/e2fa7> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/dd776> .
+
+<http://identifiers.org/chebi/CHEBI:18009>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "NADP+"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XJLXINKUBYWONI-NNYOXOHSSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:18009> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:18009"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/ffbdb> , <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/fb56b> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/e9971> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:18009> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5675> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000217> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XJLXINKUBYWONI-NNYOXOHSSA-O> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00006> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5886> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26987754> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/e754d> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/efced> .
+
+<http://identifiers.org/uniprot/Q6E213>
+        a                              wp:DataNode , wp:Protein ;
+        rdfs:label                     "AWAT2"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/uniprot/Q6E213> ;
+        dc:source                      "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15220349> , <http://identifiers.org/pubmed/15671038> ;
+        dcterms:identifier             "Q6E213"^^xsd:string ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/d0875> , <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/bb003> ;
+        wp:bdbEnsembl                  <http://identifiers.org/ensembl/ENSG00000147160> ;
+        wp:bdbEntrezGene               <http://identifiers.org/ncbigene/158835> ;
+        wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/AWAT2> ;
+        wp:bdbUniprot                  <http://identifiers.org/uniprot/Q6E213> , <http://identifiers.org/uniprot/H0YAL0> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/c8b86> .
+
+<http://identifiers.org/pubmed/16106050>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16106050> .
+
+<http://identifiers.org/chebi/CHEBI:17984>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Acyl-CoA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17984> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17984"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/cb4cc> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17984> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00040> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMFA07050000> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q2699537> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/e8c10> .
+
+<http://identifiers.org/pubmed/15671038>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15671038> .
+
+<http://identifiers.org/reactome/R-HSA-76165>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "GNPAT:AGPS complex"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-76165> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-76165"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/c817e> , <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/c53f7> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-76165> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/cf027> .
+
+<http://identifiers.org/chebi/CHEBI:15756>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "PALM"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/IPCSVZSSVZVIGE-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15756> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15756"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/c817e> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15756> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/960> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000220> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/IPCSVZSSVZVIGE-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00249> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMFA01010001> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID985> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q209727> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/c239e> .
+
+<http://identifiers.org/chebi/CHEBI:17197>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "GO3P"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17197> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17197"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/c817e> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/feb06> , <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/e9971> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17197> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/a2095> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/bbd71> .
+
+<http://identifiers.org/pubmed/8186247>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8186247> .
+
+<http://identifiers.org/chebi/CHEBI:57642>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "DHAP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/GNGACRATGGDKBX-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:57642> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:57642"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/c53f7> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:57642> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/3833110> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/GNGACRATGGDKBX-UHFFFAOYSA-L> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID4643300> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27124834> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/fe40c> .
+
+<http://identifiers.org/pubmed/10692424>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10692424> .
+
+<http://identifiers.org/pubmed/15220348>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15220348> .
+
+<http://identifiers.org/pubmed/10415121>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10415121> .
+
+<http://identifiers.org/uniprot/O15228>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "GNPAT"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O15228> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O15228"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Complex/c635a> , <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000116906> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/8443> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/GNPAT> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/O15228> , <http://identifiers.org/uniprot/Q5TBH6> , <http://identifiers.org/uniprot/Q5TBH8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/bd666> .
+
+<http://identifiers.org/pubmed/10215861>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10215861> .
+
+<http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/cb4cc>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15671038> ;
+        dcterms:identifier             "R-HSA-5696424"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5696424> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/ab96d> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/cb4cc> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/bb1bb> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/afcf1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/c90f6> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/d9357> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17984> , <http://identifiers.org/chebi/CHEBI:10036> , <http://identifiers.org/chebi/CHEBI:75627> , <http://identifiers.org/uniprot/Q58HT5> , <http://identifiers.org/chebi/CHEBI:15346> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:17984> , <http://identifiers.org/chebi/CHEBI:75627> , <http://identifiers.org/uniprot/Q58HT5> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:10036> , <http://identifiers.org/chebi/CHEBI:15346> .
+
+<http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/feb06>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11275267> ;
+        dcterms:identifier             "R-HSA-390402"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-390402> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/bc144> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/feb06> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Interaction/dc2f3> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17197> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:17197> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17197> .
+
+<http://identifiers.org/pubmed/10553003>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10553003> .
+
+<http://identifiers.org/chebi/CHEBI:17868>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "1-Palmitoyl dihydroxyacetone phosphate"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/MLWXSIMRTQAWHY-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17868> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17868"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/c53f7> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/c817e> , <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17868> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/146664> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0062190> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/MLWXSIMRTQAWHY-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C01192> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMGP00000063> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID167650> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27102677> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/bfd54> .
+
+<http://identifiers.org/pubmed/2335525>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/2335525> .
+
+<http://identifiers.org/wikipathways//Wax_a>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Wax_a_r1> .
+
+<http://identifiers.org/chebi/CHEBI:75584>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "PALM-PALM"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/PXDJXZJSCPSGGI-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:75584> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:75584"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/bb003> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:75584> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/10427> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/PXDJXZJSCPSGGI-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C13821> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMFA07010001> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10889> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q409361> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/c0f05> .
+
+<http://identifiers.org/uniprot/Q58HT5>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "AWAT1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q58HT5> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q58HT5"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/cb4cc> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000204195> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/158833> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/AWAT1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q58HT5> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/e6479> .
+
+<http://identifiers.org/uniprot/Q8WVX9>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "FAR1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q8WVX9> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q8WVX9"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/fb56b> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000197601> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/84188> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/FAR1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E9PPB8> , <http://identifiers.org/uniprot/Q8WVX9> , <http://identifiers.org/uniprot/E9PNW8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/f86c7> .
+
+<http://identifiers.org/uniprot/O00116>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "AGPS"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O00116> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O00116"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/Complex/c635a> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000018510> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/8540> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/AGPS> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A1B0GWA2> , <http://identifiers.org/uniprot/B8ZZ81> , <http://identifiers.org/uniprot/O00116> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/e7f82> .
+
+<http://identifiers.org/chebi/CHEBI:16474>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "NADPH"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/ACFIXJIJDZMPPO-NCHANQSKSA-N> , <http://identifiers.org/inchikey/ACFIXJIJDZMPPO-NNYOXOHSSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16474> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16474"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/fb56b> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/e9971> , <http://identifiers.org/wikipathways//Wax_a_r1> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/ffbdb> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16474> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/17215925> , <http://identifiers.org/chemspider/5673> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000221> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/ACFIXJIJDZMPPO-NNYOXOHSSA-N> , <http://identifiers.org/inchikey/ACFIXJIJDZMPPO-NCHANQSKSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00005> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5884> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID22833512> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26841327> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/ce81e> , <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/f5142> .
+
+<http://identifiers.org/chebi/CHEBI:75627>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ARACOH"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/BTFJIXJJCSYFAL-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:75627> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:75627"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Wax_a_r1/WP/Interaction/cb4cc> , <http://identifiers.org/wikipathways//Wax_a_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:75627> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/11898> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0011619> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/BTFJIXJJCSYFAL-UHFFFAOYSA-N> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMFA05000221> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID12404> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q4783532> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Wax_a_r1/DataNode/dfb04> .

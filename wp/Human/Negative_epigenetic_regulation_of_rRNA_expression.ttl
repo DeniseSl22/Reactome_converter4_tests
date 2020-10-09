@@ -1,0 +1,102 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/wikipathways//Negat_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Negat> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Negative epigenetic regulation of rRNA expression"@en ;
+        dcterms:description  "Transcription of rRNA genes is controlled by epigenetic activation and repression (reviewed in McStay and Grummt 2008, Goodfellow and Zomerdijk 2012, Grummt and Langst 2013). About half of the roughly 400 rRNA genes are expressed and these have the modifications of active chromatin: unmethylated DNA and acetylated histones. Repressed genes generally have methylated DNA and histone H3 methylated at lysine-9. Regulators of repression include the eNoSC complex, SIRT1, and the NoRC complex.<br> SIRT1 negatively regulates rRNA expression as a subunit of the eNoSC complex, which deacetylates histone H3 and dimethylates lysine-9 of histone H3 (H3K9me2).<br>NoRC negatively regulates rRNA expression by shifting a nucleosome near the start of rRNA transcription into a more repressive location and recruiting Histone Deacetylase 1 and 2 (HDAC1, HDAC2) and DNA Methyltransferase 1 and 3b (DNMT1, DNMT3b).\n\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5250941 Reactome]." ;
+        dcterms:identifier   "/Negat"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/23063748> , <http://identifiers.org/pubmed/23150253> , <http://identifiers.org/pubmed/18616426> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Negat_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Negat_r1> .
+
+<http://identifiers.org/pubmed/11583633>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Negat_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11583633> .
+
+<http://identifiers.org/pubmed/19010308>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Negat_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19010308> .
+
+<http://identifiers.org/pubmed/20023389>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Negat_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20023389> .
+
+<http://identifiers.org/pubmed/18485871>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Negat_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18485871> .
+
+<http://identifiers.org/wikipathways//Negat>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Negat_r1> .
+
+<http://identifiers.org/pubmed/17439825>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Negat_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17439825> .
+
+<http://identifiers.org/reactome/R-HSA-427413>
+        a                              wp:DataNode ;
+        rdfs:label                     "NoRC negatively regulates rRNA expression"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-427413> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23063748> , <http://identifiers.org/pubmed/17613545> , <http://identifiers.org/pubmed/17439825> , <http://identifiers.org/pubmed/11583633> , <http://identifiers.org/pubmed/18616426> , <http://identifiers.org/pubmed/18631128> ;
+        dcterms:identifier             "R-HSA-427413"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Negat_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Negat_r1/DataNode/f1930> .
+
+<http://identifiers.org/pubmed/17613545>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Negat_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17613545> .
+
+<http://identifiers.org/pubmed/18631128>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Negat_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18631128> .
+
+<http://identifiers.org/reactome/R-HSA-427359>
+        a                              wp:DataNode ;
+        rdfs:label                     "SIRT1 negatively regulates rRNA expression"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-427359> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/18485871> , <http://identifiers.org/pubmed/19010308> , <http://identifiers.org/pubmed/20023389> ;
+        dcterms:identifier             "R-HSA-427359"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Negat_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Negat_r1/DataNode/db897> .
+
+<http://identifiers.org/pubmed/18616426>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Negat_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18616426> .
+
+<http://identifiers.org/pubmed/23063748>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Negat_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23063748> .
+
+<http://identifiers.org/pubmed/23150253>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Negat_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23150253> .

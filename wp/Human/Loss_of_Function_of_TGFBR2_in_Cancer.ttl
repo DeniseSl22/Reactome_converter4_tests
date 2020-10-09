@@ -1,0 +1,97 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/7585632>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Loss__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/7585632> .
+
+<http://identifiers.org/reactome/R-HSA-3645790>
+        a                              wp:DataNode ;
+        rdfs:label                     "TGFBR2 Kinase Domain Mutants in Cancer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-3645790> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/9121777> , <http://identifiers.org/pubmed/10789724> , <http://identifiers.org/pubmed/9927040> , <http://identifiers.org/pubmed/7585632> ;
+        dcterms:identifier             "R-HSA-3645790"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Loss__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Loss__r1/DataNode/d86c9> .
+
+<http://identifiers.org/reactome/R-HSA-3642279>
+        a                              wp:DataNode ;
+        rdfs:label                     "TGFBR2 MSI Frameshift Mutants in Cancer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-3642279> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/7665626> , <http://identifiers.org/pubmed/7761852> ;
+        dcterms:identifier             "R-HSA-3642279"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Loss__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Loss__r1/DataNode/b7922> .
+
+<http://identifiers.org/wikipathways//Loss_>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Loss__r1> .
+
+<http://identifiers.org/pubmed/9927040>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Loss__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9927040> .
+
+<http://identifiers.org/pubmed/15256431>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Loss__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15256431> .
+
+<http://identifiers.org/pubmed/10789724>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Loss__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10789724> .
+
+<http://identifiers.org/wikipathways//Loss__r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Loss_> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Loss of Function of TGFBR2 in Cancer"@en ;
+        dcterms:description  "Loss-of-function of transforming growth factor-beta receptor II (TGFBR2) is most prevalent in colorectal cancer. Over 60% of colorectal cancers with microsatellite instability (MSI) harbor inactivating mutations in both alleles of TGFBR2, mostly 1 or 2 bp deletions in the 10 bp adenine repeat that codes for three lysine residues in the extracellular domain of TGFBR2. These small deletions result in a frameshift and a premature stop codon (Markowitz et al. 1995). TGFBR2 kinase domain (KD) mutations are found in ~20% of microsatellite stable (MSS) colorectal cancers and these are mostly missense mutations that results in substitution of conserved amino acids in the kinase domain (Grady et al. 1999), likely impairing the catalytic activity of TGFBR2 KD mutants. The silencing of TGFBR2 gene via promoter methylation has been reported in B-cell lymphoma (Chen et al. 2007). Knockout of murine Tgfbr2 in colonic epithelium promotes azoxymethane-induced colon cancer formation (Biswas et al. 2004) and increases the number of adenomas and adenocarcinomas in Apc+/- mice (Munoz et al. 2006).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=3642278 Reactome]." ;
+        dcterms:identifier   "/Loss_"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/7761852> , <http://identifiers.org/pubmed/17047044> , <http://identifiers.org/pubmed/17339425> , <http://identifiers.org/pubmed/15256431> , <http://identifiers.org/pubmed/9927040> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Loss__r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Loss__r1> .
+
+<http://identifiers.org/pubmed/9121777>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Loss__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9121777> .
+
+<http://identifiers.org/pubmed/7665626>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Loss__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/7665626> .
+
+<http://identifiers.org/pubmed/17047044>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Loss__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17047044> .
+
+<http://identifiers.org/pubmed/17339425>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Loss__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17339425> .
+
+<http://identifiers.org/pubmed/7761852>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Loss__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/7761852> .

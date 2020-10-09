@@ -1,0 +1,57 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/reactome/R-HSA-9662851>
+        a                              wp:DataNode ;
+        rdfs:label                     "Anti-inflammatory response favouring Leishmania parasite infection"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9662851> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/29247046> ;
+        dcterms:identifier             "R-HSA-9662851"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Leish_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Leish_r1/DataNode/d5d52> .
+
+<http://identifiers.org/wikipathways//Leish_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Leish> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Leishmania parasite growth and survival"@en ;
+        dcterms:description  "Leishmania parasites infecting macrophages are considered a good model to study successful evolutionary mechanisms of evasion of the macrophage mediated immune response (Olivier et al. 2005). To evade killing by the host, Leishmania parasites manipulate the host's cellular signaling mechanisms, to prevent the production of microbicidal molecules and stimulating the activation of protective signaling pathways or to interfere with effective antigen presentation (Liu et al. 2012a). In most natural infections or after the resolution of the disease, a few Leishmania parasites remain in the host, perhaps as a product of a balance between forces favouring parasite persistence and those favouring destruction (Mandell et al.  2017).<br><br>\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9664433 Reactome]." ;
+        dcterms:identifier   "/Leish"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/22919674> , <http://identifiers.org/pubmed/28096392> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Leish_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Leish_r1> .
+
+<http://identifiers.org/pubmed/29247046>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/29247046> .
+
+<http://identifiers.org/pubmed/28096392>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/28096392> .
+
+<http://identifiers.org/wikipathways//Leish>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Leish_r1> .
+
+<http://identifiers.org/pubmed/22919674>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22919674> .

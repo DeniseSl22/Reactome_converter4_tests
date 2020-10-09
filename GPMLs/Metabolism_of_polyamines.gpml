@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Metabolism of polyamines" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Polyamines is a family of molecules (i.e. putrescine, spermine, spermidine) derived from ornithine according to a decarboxylation/condensative process. More recently, it has been demonstrated that arginine can be metabolised according to the same pathway leading to agmatine formation. Polyamines are essential for the growth, the maintenance and the function of normal cells. The complexity of their metabolism and the fact that polyamines homeostasis is tightly regulated support the idea that polyamines are essential to cell survival. Multiple abnormalities in the control of polyamines metabolism might be implicated in several pathological processes (Moinard et al., 2005).  Legend for the following figure:
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=351202 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 351202</Comment>
+  <Comment Source="Reactome-version">Reactome version: 73</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Gopinathrao, G</Comment>
+  <BiopaxRef>daa</BiopaxRef>
+  <BiopaxRef>ac0</BiopaxRef>
+  <BiopaxRef>ace</BiopaxRef>
+  <Attribute Key="reactome_id" Value="351202" />
+  <Graphics BoardWidth="1292.0" BoardHeight="2298.0" />
+  <DataNode TextLabel="L-Orn" GraphId="ed960" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="719.5" CenterY="898.0" Width="51.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15729" />
+  </DataNode>
+  <DataNode TextLabel="L-Arg" GraphId="b8aca" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="489.0" CenterY="892.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:32682" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="a06a0" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="580.5" CenterY="804.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="Urea" GraphId="d0892" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="664.0" CenterY="796.0" Width="44.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16199" />
+  </DataNode>
+  <DataNode TextLabel="AdoMet" GraphId="c25b9" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="929.5" CenterY="217.0" Width="61.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15414" />
+  </DataNode>
+  <DataNode TextLabel="AGM" GraphId="dbdfc" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="515.0" CenterY="765.0" Width="44.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17431" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="b1aec" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="439.0" CenterY="786.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="Putrescine" GraphId="c082e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="719.0" CenterY="663.0" Width="76.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17148" />
+  </DataNode>
+  <DataNode TextLabel="AGMAT(1-?)" GraphId="d7e2b" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrion" />
+    <Graphics CenterX="591.0" CenterY="687.0" Width="80.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BSE5" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K69-ODC1" GraphId="ed08d" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="841.5" CenterY="792.0" Width="109.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11926" />
+  </DataNode>
+  <DataNode TextLabel="dc-AdoMet" GraphId="d7af2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1129.5" CenterY="216.0" Width="75.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15625" />
+  </DataNode>
+  <DataNode TextLabel="AMD1(1-67)" GraphId="bba5d" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1004.5" CenterY="159.0" Width="83.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17707" />
+  </DataNode>
+  <DataNode TextLabel="SPM" GraphId="e194c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="670.0" CenterY="309.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16610" />
+  </DataNode>
+  <DataNode TextLabel="MTAD" GraphId="c733e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="857.0" CenterY="387.0" Width="52.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17509" />
+  </DataNode>
+  <DataNode TextLabel="SRM" GraphId="cc827" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="735.5" CenterY="586.0" Width="35.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P19623" />
+  </DataNode>
+  <DataNode TextLabel="dc-AdoMet" GraphId="aec37" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="670.0" CenterY="435.0" Width="74.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15625" />
+  </DataNode>
+  <DataNode TextLabel="SPN" GraphId="ed34a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="801.5" CenterY="298.0" Width="39.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15746" />
+  </DataNode>
+  <DataNode TextLabel="SMS" GraphId="c4e2c" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="732.5" CenterY="340.0" Width="35.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P52788" />
+  </DataNode>
+  <DataNode TextLabel="Ac-CoA" GraphId="b7d8b" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="735.5" CenterY="263.0" Width="61.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15351" />
+  </DataNode>
+  <DataNode TextLabel="NASPM" GraphId="dee2e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="629.5" CenterY="122.0" Width="57.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17927" />
+  </DataNode>
+  <DataNode TextLabel="SAT1" GraphId="fbc6e" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="739.5" CenterY="209.0" Width="39.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P21673" />
+  </DataNode>
+  <DataNode TextLabel="NASPN" GraphId="cf175" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="547.0" CenterY="202.0" Width="56.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17312" />
+  </DataNode>
+  <DataNode TextLabel="NASPM" GraphId="cd590" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="207.5" CenterY="216.0" Width="57.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17927" />
+  </DataNode>
+  <DataNode TextLabel="NASPN" GraphId="d4e12" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="398.0" CenterY="223.0" Width="56.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17312" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="c5d35" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="295.0" CenterY="268.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="3AAPNAL" GraphId="b0c6e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="296.5" CenterY="414.0" Width="71.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30322" />
+  </DataNode>
+  <DataNode TextLabel="PTCN" GraphId="cd743" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="185.5" CenterY="409.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17148" />
+  </DataNode>
+  <DataNode TextLabel="H2O2" GraphId="adf62" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="294.5" CenterY="338.0" Width="51.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16240" />
+  </DataNode>
+  <DataNode TextLabel="PAOX:FAD" GraphId="c6226" Type="Complex">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="294.0" CenterY="305.0" Width="68.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-141346" />
+  </DataNode>
+  <DataNode TextLabel="FAD " GraphId="d422c" Type="Metabolite" GroupRef="b0fa3">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-141346" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="986.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16238" />
+  </DataNode>
+  <DataNode TextLabel="PAOX " GraphId="e2826" Type="Protein" GroupRef="b0fa3">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-141346" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1006.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6QHF9" />
+  </DataNode>
+  <DataNode TextLabel="SPM" GraphId="fdd3a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="412.0" CenterY="378.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16610" />
+  </DataNode>
+  <DataNode TextLabel="SPN" GraphId="d85ee" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="410.5" CenterY="592.0" Width="39.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15746" />
+  </DataNode>
+  <DataNode TextLabel="3APAL" GraphId="aca3e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="295.0" CenterY="466.0" Width="54.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18090" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="c21bc" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="441.0" CenterY="555.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="OAZ" GraphId="c05c2" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="909.5" CenterY="839.0" Width="35.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-350592" />
+  </DataNode>
+  <DataNode TextLabel="OAZ1 " GraphId="f5672" Type="Protein" GroupRef="de728">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-350592" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1066.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P54368" />
+  </DataNode>
+  <DataNode TextLabel="OAZ2 " GraphId="bc8b7" Type="Protein" GroupRef="de728">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-350592" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1086.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95190" />
+  </DataNode>
+  <DataNode TextLabel="OAZ3 " GraphId="e1521" Type="Protein" GroupRef="de728">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-350592" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1106.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UMX2" />
+  </DataNode>
+  <DataNode TextLabel="ODC:OAZ complex" GraphId="da5f0" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1087.0" CenterY="790.0" Width="120.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-353118" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K69-ODC1 " GraphId="a52a5" Type="Protein" GroupRef="b6409">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-353118" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1166.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11926" />
+  </DataNode>
+  <DataNode TextLabel="OAZ1 " GraphId="f4dfa" Type="Protein" GroupRef="b6409">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-353118" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1186.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P54368" />
+  </DataNode>
+  <DataNode TextLabel="OAZ2 " GraphId="d05c9" Type="Protein" GroupRef="b6409">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-353118" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1206.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95190" />
+  </DataNode>
+  <DataNode TextLabel="OAZ3 " GraphId="f79fb" Type="Protein" GroupRef="b6409">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-353118" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1226.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UMX2" />
+  </DataNode>
+  <DataNode TextLabel="NQO1" GraphId="c2913" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="861.0" CenterY="707.0" Width="44.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P15559" />
+  </DataNode>
+  <DataNode TextLabel="ODC:NQO1 complex" GraphId="eca00" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="990.5" CenterY="736.0" Width="129.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-353103" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K69-ODC1 " GraphId="e69f5" Type="Protein" GroupRef="f250d">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-353103" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1286.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11926" />
+  </DataNode>
+  <DataNode TextLabel="NQO1 " GraphId="ee624" Type="Protein" GroupRef="f250d">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-353103" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1306.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P15559" />
+  </DataNode>
+  <DataNode TextLabel="26S proteasome" GraphId="d4dc3" Type="Complex">
+    <BiopaxRef>c20</BiopaxRef>
+    <BiopaxRef>e5b</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="979.5" CenterY="889.0" Width="113.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-68819" />
+  </DataNode>
+  <DataNode TextLabel="PSMD14 " GraphId="ebb0c" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1366.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00487" />
+  </DataNode>
+  <DataNode TextLabel="PSMA1 " GraphId="b029d" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1386.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P25786" />
+  </DataNode>
+  <DataNode TextLabel="PSMA2 " GraphId="b30e9" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1406.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P25787" />
+  </DataNode>
+  <DataNode TextLabel="PSMA3 " GraphId="a9223" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1426.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P25788" />
+  </DataNode>
+  <DataNode TextLabel="PSMA4 " GraphId="db591" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1446.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P25789" />
+  </DataNode>
+  <DataNode TextLabel="PSMA5 " GraphId="cf394" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1466.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28066" />
+  </DataNode>
+  <DataNode TextLabel="PSMA6 " GraphId="b0a91" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1486.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P60900" />
+  </DataNode>
+  <DataNode TextLabel="PSMA7 " GraphId="ca19b" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1506.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14818" />
+  </DataNode>
+  <DataNode TextLabel="PSMB1 " GraphId="ae584" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1526.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P20618" />
+  </DataNode>
+  <DataNode TextLabel="PSMB10 " GraphId="bb884" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1546.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P40306" />
+  </DataNode>
+  <DataNode TextLabel="PSMB2 " GraphId="fd279" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1566.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49721" />
+  </DataNode>
+  <DataNode TextLabel="PSMB3 " GraphId="ab785" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1586.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49720" />
+  </DataNode>
+  <DataNode TextLabel="PSMB4 " GraphId="b6490" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1606.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28070" />
+  </DataNode>
+  <DataNode TextLabel="PSMB5 " GraphId="a1f8d" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1626.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28074" />
+  </DataNode>
+  <DataNode TextLabel="PSMB6 " GraphId="adb94" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1646.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28072" />
+  </DataNode>
+  <DataNode TextLabel="PSMB7 " GraphId="b072e" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1666.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99436" />
+  </DataNode>
+  <DataNode TextLabel="PSMB8 " GraphId="e6bec" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1686.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28062" />
+  </DataNode>
+  <DataNode TextLabel="PSMB9 " GraphId="febe9" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1706.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28065" />
+  </DataNode>
+  <DataNode TextLabel="PSMC1 " GraphId="c7f15" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1726.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62191" />
+  </DataNode>
+  <DataNode TextLabel="PSMC2 " GraphId="c5c60" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1746.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35998" />
+  </DataNode>
+  <DataNode TextLabel="PSMC3 " GraphId="ebb4e" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1766.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17980" />
+  </DataNode>
+  <DataNode TextLabel="PSMC4 " GraphId="ecfa9" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1786.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P43686" />
+  </DataNode>
+  <DataNode TextLabel="PSMC5 " GraphId="c9ebc" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1806.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62195" />
+  </DataNode>
+  <DataNode TextLabel="PSMC6 " GraphId="feeb9" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1826.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62333" />
+  </DataNode>
+  <DataNode TextLabel="PSMD1 " GraphId="f7ebc" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1846.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99460" />
+  </DataNode>
+  <DataNode TextLabel="PSMD10 " GraphId="c6010" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1866.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75832" />
+  </DataNode>
+  <DataNode TextLabel="PSMD11 " GraphId="ca7d7" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1886.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00231" />
+  </DataNode>
+  <DataNode TextLabel="PSMD12 " GraphId="cbaab" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1906.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00232" />
+  </DataNode>
+  <DataNode TextLabel="PSMD13 " GraphId="c333a" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1926.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UNM6" />
+  </DataNode>
+  <DataNode TextLabel="PSMD2 " GraphId="eb1cc" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1946.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13200" />
+  </DataNode>
+  <DataNode TextLabel="PSMD3 " GraphId="bbe8e" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1966.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43242" />
+  </DataNode>
+  <DataNode TextLabel="PSMD4 " GraphId="afe0d" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1986.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P55036" />
+  </DataNode>
+  <DataNode TextLabel="PSMD5 " GraphId="d508e" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2006.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16401" />
+  </DataNode>
+  <DataNode TextLabel="PSMD6 " GraphId="a5dba" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2026.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15008" />
+  </DataNode>
+  <DataNode TextLabel="PSMD7 " GraphId="bde5d" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2046.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P51665" />
+  </DataNode>
+  <DataNode TextLabel="PSMD8 " GraphId="d52c1" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2066.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P48556" />
+  </DataNode>
+  <DataNode TextLabel="PSMD9 " GraphId="a1507" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2086.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00233" />
+  </DataNode>
+  <DataNode TextLabel="PSME1 " GraphId="d959d" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2106.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q06323" />
+  </DataNode>
+  <DataNode TextLabel="PSME2 " GraphId="c94c1" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2126.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UL46" />
+  </DataNode>
+  <DataNode TextLabel="PSME3 " GraphId="ecbc9" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2146.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61289" />
+  </DataNode>
+  <DataNode TextLabel="PSMF1 " GraphId="aec7a" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2166.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92530" />
+  </DataNode>
+  <DataNode TextLabel="PSME4 " GraphId="c96f0" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2186.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14997" />
+  </DataNode>
+  <DataNode TextLabel="PSMA8 " GraphId="d7ce7" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2206.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TAA3" />
+  </DataNode>
+  <DataNode TextLabel="PSMB11 " GraphId="d47bf" Type="Protein" GroupRef="f58d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2226.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="A5LHX3" />
+  </DataNode>
+  <DataNode TextLabel="SHFM1 " GraphId="a0b32" Type="Protein" GroupRef="f58d4">
+    <BiopaxRef>e5b</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2246.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P60896" />
+  </DataNode>
+  <DataNode TextLabel="AZIN1" GraphId="ba8cc" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1196.0" CenterY="759.0" Width="46.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14977" />
+  </DataNode>
+  <DataNode TextLabel="AZIN1 bound OAZ:ODC&#xA;complex" GraphId="b9c33" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1125.0" CenterY="686.0" Width="124.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-353105" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K69-ODC1 " GraphId="dd7fe" Type="Protein" GroupRef="c1412">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-353105" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1026.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11926" />
+  </DataNode>
+  <DataNode TextLabel="AZIN1 " GraphId="fdecd" Type="Protein" GroupRef="c1412">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-353105" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1046.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14977" />
+  </DataNode>
+  <DataNode TextLabel="OAZ1 " GraphId="d50a3" Type="Protein" GroupRef="c1412">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-353105" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1066.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P54368" />
+  </DataNode>
+  <DataNode TextLabel="OAZ2 " GraphId="d29d1" Type="Protein" GroupRef="c1412">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-353105" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1086.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95190" />
+  </DataNode>
+  <DataNode TextLabel="OAZ3 " GraphId="ed395" Type="Protein" GroupRef="c1412">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-353105" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1106.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UMX2" />
+  </DataNode>
+  <DataNode TextLabel="CoA-SH" GraphId="aefcc" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="749.0" CenterY="118.0" Width="62.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15346" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="d7289" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1109.0" CenterY="145.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="ADC" GraphId="f3049" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="433.0" CenterY="834.0" Width="34.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96A70" />
+  </DataNode>
+  <DataNode TextLabel="SMOX-3" GraphId="c155a" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="357.5" CenterY="505.0" Width="57.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NWM0-3" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="c2bef" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="753.0" CenterY="774.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="c56ad" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="298.5" CenterY="225.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="ca650" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="362.5" CenterY="559.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <Interaction GraphId="e1544">
+    <Comment Source="Reactome">Agmatine is polyamine formed by decarboxylation of L-arginine by arginine decarboxylase (ADC). Human ADC is a 460-amino acid protein that shows about 48% identity to mammalian ornithine decarboxylase (ODC) but has no ODC activity.</Comment>
+    <BiopaxRef>efc</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="488.0" Y="874.0" />
+      <Point X="482.0" Y="808.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c228a" />
+      <Anchor Position="0.99" Shape="None" GraphId="fa200" />
+      <Anchor Position="0.5" Shape="None" GraphId="dd1d1" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350598" />
+  </Interaction>
+  <Interaction GraphId="c0dbc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="489.0" Y="877.0" GraphRef="b8aca" RelX="0.0" RelY="-1.0" />
+      <Point X="488.0" Y="874.0" GraphRef="c228a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350598" />
+  </Interaction>
+  <Interaction GraphId="f5c13">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="482.0" Y="808.0" GraphRef="fa200" RelX="-0.060000000000002274" RelY="-0.6599999999999682" />
+      <Point X="515.0" Y="780.0" GraphRef="dbdfc" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350598" />
+  </Interaction>
+  <Interaction GraphId="e087b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="482.0" Y="808.0" GraphRef="fa200" RelX="-0.060000000000002274" RelY="-0.6599999999999682" />
+      <Point X="460.0" Y="786.0" GraphRef="b1aec" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350598" />
+  </Interaction>
+  <Interaction GraphId="e3d1a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="450.0" Y="834.0" GraphRef="f3049" RelX="1.0" RelY="0.0" />
+      <Point X="487.0" Y="837.0" GraphRef="dd1d1" RelX="2.0" RelY="-4.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350598" />
+  </Interaction>
+  <Interaction GraphId="a79f3">
+    <Comment Source="Reactome">As it hydrolyzes a guanidino group within agmatine and also contains signature amino acid residues that act as ligand binding sites for the potential Mn(++) cofactor, agmatinase is classified as a member of the arginase superfamily (Morris, 2003).</Comment>
+    <BiopaxRef>f7f</BiopaxRef>
+    <BiopaxRef>b18</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="556.0" Y="741.0" />
+      <Point X="625.0" Y="741.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a88d1" />
+      <Anchor Position="0.99" Shape="None" GraphId="f9df9" />
+      <Anchor Position="0.5" Shape="None" GraphId="cde9d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350604" />
+  </Interaction>
+  <Interaction GraphId="ba4d4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="537.0" Y="765.0" GraphRef="dbdfc" RelX="1.0" RelY="0.0" />
+      <Point X="556.0" Y="741.0" GraphRef="a88d1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350604" />
+  </Interaction>
+  <Interaction GraphId="c25a3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="580.0" Y="789.0" GraphRef="a06a0" RelX="-0.023255813953488372" RelY="-1.0" />
+      <Point X="556.0" Y="741.0" GraphRef="a88d1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350604" />
+  </Interaction>
+  <Interaction GraphId="f5654">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="625.0" Y="741.0" GraphRef="f9df9" RelX="0.6900000000000546" RelY="0.0" />
+      <Point X="664.0" Y="781.0" GraphRef="d0892" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350604" />
+  </Interaction>
+  <Interaction GraphId="e1efa">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="625.0" Y="741.0" GraphRef="f9df9" RelX="0.6900000000000546" RelY="0.0" />
+      <Point X="681.0" Y="663.0" GraphRef="c082e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350604" />
+  </Interaction>
+  <Interaction GraphId="a2c6f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="551.0" Y="687.0" GraphRef="d7e2b" RelX="-1.0" RelY="0.0" />
+      <Point X="591.0" Y="741.0" GraphRef="cde9d" RelX="0.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350604" />
+  </Interaction>
+  <Interaction GraphId="dc361">
+    <Comment Source="Reactome">L-ornithine is converted into putrescine by ODC holoenzyme complex.Putrescine is subsequent used for polyamine synthesis.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="718.0" Y="880.0" />
+      <Point X="718.0" Y="816.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e28c4" />
+      <Anchor Position="0.99" Shape="None" GraphId="dee02" />
+      <Anchor Position="0.5" Shape="None" GraphId="c06e9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70692" />
+  </Interaction>
+  <Interaction GraphId="b19de">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="719.0" Y="883.0" GraphRef="ed960" RelX="-0.0196078431372549" RelY="-1.0" />
+      <Point X="718.0" Y="880.0" GraphRef="e28c4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70692" />
+  </Interaction>
+  <Interaction GraphId="fcac0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="718.0" Y="816.0" GraphRef="dee02" RelX="0.0" RelY="-0.6399999999999864" />
+      <Point X="719.0" Y="678.0" GraphRef="c082e" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70692" />
+  </Interaction>
+  <Interaction GraphId="c39be">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="718.0" Y="816.0" GraphRef="dee02" RelX="0.0" RelY="-0.6399999999999864" />
+      <Point X="753.0" Y="789.0" GraphRef="c2bef" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70692" />
+  </Interaction>
+  <Interaction GraphId="f00d2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="787.0" Y="792.0" GraphRef="ed08d" RelX="-1.0" RelY="0.0" />
+      <Point X="718.0" Y="852.0" GraphRef="c06e9" RelX="0.0" RelY="4.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70692" />
+  </Interaction>
+  <Interaction GraphId="c676f">
+    <Comment Source="Reactome">S-Adenosylmethionine decarboxylase belongs to a small class of amino acid decarboxylases that use a covalently bound pyruvate as a prosthetic group. It is an essential enzyme for polyamine biosynthesis and provides an important target for the design of anti-parasitic and cancer chemotherapeutic agents. It catalyzes the formation of the aminopropyl group donor in the biosynthesis of the polyamines spermidine and spermine. These pyruvoyl-dependent decarboxylases also form amines such as histamine, decarboxylated S-adenosylmethionine, phosphatidylethanolamine (a component of membrane phospholipids), and -alanine (a precursor of coenzyme A), which are all of critical importance in cellular physiology and provide important targets for drug design.</Comment>
+    <BiopaxRef>aa5</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="963.0" Y="216.0" />
+      <Point X="1037.0" Y="216.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d4214" />
+      <Anchor Position="0.99" Shape="None" GraphId="ff09f" />
+      <Anchor Position="0.5" Shape="None" GraphId="e2abd" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351222" />
+  </Interaction>
+  <Interaction GraphId="bd4a8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="959.0" Y="217.0" GraphRef="c25b9" RelX="0.9672131147540983" RelY="0.0" />
+      <Point X="963.0" Y="216.0" GraphRef="d4214" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351222" />
+  </Interaction>
+  <Interaction GraphId="a6f0b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1037.0" Y="216.0" GraphRef="ff09f" RelX="0.7400000000000091" RelY="0.0" />
+      <Point X="1092.0" Y="216.0" GraphRef="d7af2" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351222" />
+  </Interaction>
+  <Interaction GraphId="d9c4f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1037.0" Y="216.0" GraphRef="ff09f" RelX="0.7400000000000091" RelY="0.0" />
+      <Point X="1088.0" Y="145.0" GraphRef="d7289" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351222" />
+  </Interaction>
+  <Interaction GraphId="d1338">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="963.0" Y="159.0" GraphRef="bba5d" RelX="-1.0" RelY="0.0" />
+      <Point X="1003.0" Y="216.0" GraphRef="e2abd" RelX="3.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351222" />
+  </Interaction>
+  <Interaction GraphId="aee22">
+    <Comment Source="Reactome">Spermidine synthase is one of four enzymes in the polyamine-biosynthetic pathway and carries out the final step of spermidine biosynthesis. This enzyme catalyzes the conversion of putrescine to spermidine using decarboxylated S-adenosylmethionine as the cofactor.</Comment>
+    <BiopaxRef>e97</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="670.0" Y="532.0" />
+      <Point X="734.0" Y="433.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d9f73" />
+      <Anchor Position="0.99" Shape="None" GraphId="d6345" />
+      <Anchor Position="0.5" Shape="None" GraphId="f9c44" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351215" />
+  </Interaction>
+  <Interaction GraphId="ae6cf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="719.0" Y="648.0" GraphRef="c082e" RelX="0.0" RelY="-1.0" />
+      <Point X="670.0" Y="532.0" GraphRef="d9f73" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351215" />
+  </Interaction>
+  <Interaction GraphId="cc6a1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="670.0" Y="450.0" GraphRef="aec37" RelX="0.0" RelY="1.0" />
+      <Point X="670.0" Y="532.0" GraphRef="d9f73" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351215" />
+  </Interaction>
+  <Interaction GraphId="b4670">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="734.0" Y="433.0" GraphRef="d6345" RelX="0.6399999999999864" RelY="-0.9900000000000091" />
+      <Point X="670.0" Y="324.0" GraphRef="e194c" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351215" />
+  </Interaction>
+  <Interaction GraphId="aeee1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="734.0" Y="433.0" GraphRef="d6345" RelX="0.6399999999999864" RelY="-0.9900000000000091" />
+      <Point X="831.0" Y="387.0" GraphRef="c733e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351215" />
+  </Interaction>
+  <Interaction GraphId="fa83d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="718.0" Y="586.0" GraphRef="cc827" RelX="-1.0" RelY="0.0" />
+      <Point X="734.0" Y="532.0" GraphRef="f9c44" RelX="32.0" RelY="49.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351215" />
+  </Interaction>
+  <Interaction GraphId="d11ed">
+    <Comment Source="Reactome">The protein encoded by this gene belongs to the spermidine/spermine synthases family. This gene encodes an ubiquitous enzyme of polyamine metabolism.  Defects in SMS are the cause of Snyder-Robinson syndrome (SRS).</Comment>
+    <BiopaxRef>f90</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="670.0" Y="387.0" />
+      <Point X="801.0" Y="387.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f4b8c" />
+      <Anchor Position="0.99" Shape="None" GraphId="b042b" />
+      <Anchor Position="0.5" Shape="None" GraphId="cc5ed" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351210" />
+  </Interaction>
+  <Interaction GraphId="ece14">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="670.0" Y="324.0" GraphRef="e194c" RelX="0.0" RelY="1.0" />
+      <Point X="670.0" Y="387.0" GraphRef="f4b8c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351210" />
+  </Interaction>
+  <Interaction GraphId="e3860">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="670.0" Y="420.0" GraphRef="aec37" RelX="0.0" RelY="-1.0" />
+      <Point X="670.0" Y="387.0" GraphRef="f4b8c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351210" />
+  </Interaction>
+  <Interaction GraphId="e13f5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="801.0" Y="387.0" GraphRef="b042b" RelX="1.3099999999999454" RelY="0.0" />
+      <Point X="831.0" Y="387.0" GraphRef="c733e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351210" />
+  </Interaction>
+  <Interaction GraphId="de8c9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="801.0" Y="387.0" GraphRef="b042b" RelX="1.3099999999999454" RelY="0.0" />
+      <Point X="801.0" Y="313.0" GraphRef="ed34a" RelX="-0.02564102564102564" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351210" />
+  </Interaction>
+  <Interaction GraphId="bee41">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="715.0" Y="340.0" GraphRef="c4e2c" RelX="-1.0" RelY="0.0" />
+      <Point X="731.0" Y="387.0" GraphRef="cc5ed" RelX="-4.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351210" />
+  </Interaction>
+  <Interaction GraphId="b6e29">
+    <Comment Source="Reactome">Spermidine/spermine N1-acetyltransferase (Spd/Spm acetyltransferase) is the rate-limiting enzyme in the catabolism of polyamines. Defects in SAT1 may be the cause of keratosis follicularis spinulosa decalvans (KFSD).</Comment>
+    <BiopaxRef>e02</BiopaxRef>
+    <BiopaxRef>a56</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="669.0" Y="246.0" />
+      <Point X="669.0" Y="171.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e89b1" />
+      <Anchor Position="0.99" Shape="None" GraphId="b8fbf" />
+      <Anchor Position="0.5" Shape="None" GraphId="a75ef" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351208" />
+  </Interaction>
+  <Interaction GraphId="f5e2c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="670.0" Y="294.0" GraphRef="e194c" RelX="0.0" RelY="-1.0" />
+      <Point X="669.0" Y="246.0" GraphRef="e89b1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351208" />
+  </Interaction>
+  <Interaction GraphId="bf49d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="705.0" Y="263.0" GraphRef="b7d8b" RelX="-1.0" RelY="0.0" />
+      <Point X="669.0" Y="246.0" GraphRef="e89b1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351208" />
+  </Interaction>
+  <Interaction GraphId="b5a2b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="669.0" Y="171.0" GraphRef="b8fbf" RelX="0.0" RelY="-0.75" />
+      <Point X="657.0" Y="122.0" GraphRef="dee2e" RelX="0.9649122807017544" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351208" />
+  </Interaction>
+  <Interaction GraphId="f1895">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="669.0" Y="171.0" GraphRef="b8fbf" RelX="0.0" RelY="-0.75" />
+      <Point X="718.0" Y="118.0" GraphRef="aefcc" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351208" />
+  </Interaction>
+  <Interaction GraphId="dc1b5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="720.0" Y="209.0" GraphRef="fbc6e" RelX="-1.0" RelY="0.0" />
+      <Point X="669.0" Y="209.0" GraphRef="a75ef" RelX="0.0" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351208" />
+  </Interaction>
+  <Interaction GraphId="cd1eb">
+    <Comment Source="Reactome">The N1-acetylation of spermidine and spermine by spermidine/spermine acetyltransferase (SSAT) is a crucial step in the regulation of the cellular polyamine levels in eukaryotic cells. The kinetics of this enzyme has been already elucidated (Hedge et al. 2007).</Comment>
+    <BiopaxRef>d83</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="598.0" Y="124.0" />
+      <Point X="206.0" Y="198.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f5c20" />
+      <Anchor Position="0.99" Shape="None" GraphId="d48d8" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351201" />
+  </Interaction>
+  <Interaction GraphId="a2620">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="601.0" Y="122.0" GraphRef="dee2e" RelX="-1.0" RelY="0.0" />
+      <Point X="598.0" Y="124.0" GraphRef="f5c20" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351201" />
+  </Interaction>
+  <Interaction GraphId="f91fb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="206.0" Y="198.0" GraphRef="d48d8" RelX="-3.920000000000016" RelY="0.7400000000000091" />
+      <Point X="207.0" Y="201.0" GraphRef="cd590" RelX="-0.017543859649122806" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351201" />
+  </Interaction>
+  <Interaction GraphId="dedcd">
+    <Comment Source="Reactome">Acetylated spermidine (NASPM) is oxidised by the flavoenzyme polyamine oxidase (PAOX, with FAD as cofactor) to produce putrescine (PTCN). PAOX is involved in the back-conversion of polyamines and thus the regulation of their intracellular concentrations (Vujcic et al. 2003).</Comment>
+    <BiopaxRef>a7e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="226.0" Y="267.0" />
+      <Point X="226.0" Y="335.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a0a24" />
+      <Anchor Position="0.99" Shape="None" GraphId="f8ab4" />
+      <Anchor Position="0.5" Shape="None" GraphId="d50e0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141348" />
+  </Interaction>
+  <Interaction GraphId="ceb09">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="277.0" Y="225.0" GraphRef="c56ad" RelX="-1.0" RelY="0.0" />
+      <Point X="226.0" Y="267.0" GraphRef="a0a24" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141348" />
+  </Interaction>
+  <Interaction GraphId="b5380">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="278.0" Y="268.0" GraphRef="c5d35" RelX="-1.0" RelY="0.0" />
+      <Point X="226.0" Y="267.0" GraphRef="a0a24" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141348" />
+  </Interaction>
+  <Interaction GraphId="e46c0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="207.0" Y="231.0" GraphRef="cd590" RelX="-0.017543859649122806" RelY="1.0" />
+      <Point X="226.0" Y="267.0" GraphRef="a0a24" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141348" />
+  </Interaction>
+  <Interaction GraphId="b9f57">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="226.0" Y="335.0" GraphRef="f8ab4" RelX="0.0" RelY="0.6800000000000068" />
+      <Point X="185.0" Y="394.0" GraphRef="cd743" RelX="-0.02040816326530612" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141348" />
+  </Interaction>
+  <Interaction GraphId="ebcd0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="226.0" Y="335.0" GraphRef="f8ab4" RelX="0.0" RelY="0.6800000000000068" />
+      <Point X="269.0" Y="338.0" GraphRef="adf62" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141348" />
+  </Interaction>
+  <Interaction GraphId="d6ea8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="226.0" Y="335.0" GraphRef="f8ab4" RelX="0.0" RelY="0.6800000000000068" />
+      <Point X="261.0" Y="414.0" GraphRef="b0c6e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141348" />
+  </Interaction>
+  <Interaction GraphId="a6857">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="260.0" Y="305.0" GraphRef="c6226" RelX="-1.0" RelY="0.0" />
+      <Point X="225.0" Y="306.0" GraphRef="d50e0" RelX="-1.0" RelY="5.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141348" />
+  </Interaction>
+  <Interaction GraphId="a9148">
+    <Comment Source="Reactome">Spermidine/spermine N1-acetyltransferase (Spd/Spm acetyltransferase) is the rate-limiting enzyme in the catabolism of polyamines. Defects in SAT1 may be the cause of keratosis follicularis spinulosa decalvans (KFSD).</Comment>
+    <BiopaxRef>e02</BiopaxRef>
+    <BiopaxRef>ac0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="801.0" Y="230.0" />
+      <Point X="801.0" Y="184.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e6da5" />
+      <Anchor Position="0.99" Shape="None" GraphId="b9ac5" />
+      <Anchor Position="0.5" Shape="None" GraphId="a4caa" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351207" />
+  </Interaction>
+  <Interaction GraphId="c662b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="801.0" Y="283.0" GraphRef="ed34a" RelX="-0.02564102564102564" RelY="-1.0" />
+      <Point X="801.0" Y="230.0" GraphRef="e6da5" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351207" />
+  </Interaction>
+  <Interaction GraphId="e102d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="765.0" Y="263.0" GraphRef="b7d8b" RelX="0.9672131147540983" RelY="0.0" />
+      <Point X="801.0" Y="230.0" GraphRef="e6da5" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351207" />
+  </Interaction>
+  <Interaction GraphId="ee502">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="801.0" Y="184.0" GraphRef="b9ac5" RelX="0.0" RelY="-0.46000000000000796" />
+      <Point X="575.0" Y="202.0" GraphRef="cf175" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351207" />
+  </Interaction>
+  <Interaction GraphId="ed2f0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="801.0" Y="184.0" GraphRef="b9ac5" RelX="0.0" RelY="-0.46000000000000796" />
+      <Point X="780.0" Y="118.0" GraphRef="aefcc" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351207" />
+  </Interaction>
+  <Interaction GraphId="ecaea">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="758.0" Y="209.0" GraphRef="fbc6e" RelX="0.9487179487179487" RelY="0.0" />
+      <Point X="801.0" Y="208.0" GraphRef="a4caa" RelX="0.0" RelY="1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351207" />
+  </Interaction>
+  <Interaction GraphId="f3ea5">
+    <Comment Source="Reactome">The N1-acetylation of spermidine and spermine by spermidine/spermine acetyltransferase (SSAT) is a crucial step in the regulation of the cellular polyamine levels in eukaryotic cells. The kinetics of this enzyme has been already elucidated (Hedge et al. 2007).</Comment>
+    <BiopaxRef>ac0</BiopaxRef>
+    <BiopaxRef>d83</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="516.0" Y="213.0" />
+      <Point X="429.0" Y="224.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a5fbb" />
+      <Anchor Position="0.99" Shape="None" GraphId="af13e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351229" />
+  </Interaction>
+  <Interaction GraphId="d4099">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="519.0" Y="202.0" GraphRef="cf175" RelX="-1.0" RelY="0.0" />
+      <Point X="516.0" Y="213.0" GraphRef="a5fbb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351229" />
+  </Interaction>
+  <Interaction GraphId="e5ee5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="429.0" Y="224.0" GraphRef="af13e" RelX="-0.8700000000000045" RelY="0.11000000000001364" />
+      <Point X="426.0" Y="223.0" GraphRef="d4e12" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-351229" />
+  </Interaction>
+  <Interaction GraphId="b5518">
+    <Comment Source="Reactome">Acetylated spermine (NASPN) is oxidised by the flavoenzyme polyamine oxidase (PAOX, woth FAD as cofactor) to produce spermidine (SPM). PAOX is involved in the back-conversion of polyamines and thus the regulation of their intracellular concentrations (Vujcic et al. 2003).</Comment>
+    <BiopaxRef>a7e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="362.0" Y="266.0" />
+      <Point X="367.0" Y="333.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f2419" />
+      <Anchor Position="0.99" Shape="None" GraphId="ca4e9" />
+      <Anchor Position="0.5" Shape="None" GraphId="b0c37" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141351" />
+  </Interaction>
+  <Interaction GraphId="ed049">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="312.0" Y="268.0" GraphRef="c5d35" RelX="1.0" RelY="0.0" />
+      <Point X="362.0" Y="266.0" GraphRef="f2419" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141351" />
+  </Interaction>
+  <Interaction GraphId="fbe00">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="370.0" Y="223.0" GraphRef="d4e12" RelX="-1.0" RelY="0.0" />
+      <Point X="362.0" Y="266.0" GraphRef="f2419" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141351" />
+  </Interaction>
+  <Interaction GraphId="a685a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="319.0" Y="225.0" GraphRef="c56ad" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="362.0" Y="266.0" GraphRef="f2419" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141351" />
+  </Interaction>
+  <Interaction GraphId="c9d5a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="367.0" Y="333.0" GraphRef="ca4e9" RelX="0.05000000000001137" RelY="0.6700000000000159" />
+      <Point X="319.0" Y="338.0" GraphRef="adf62" RelX="0.9607843137254902" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141351" />
+  </Interaction>
+  <Interaction GraphId="b6a54">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="367.0" Y="333.0" GraphRef="ca4e9" RelX="0.05000000000001137" RelY="0.6700000000000159" />
+      <Point X="392.0" Y="378.0" GraphRef="fdd3a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141351" />
+  </Interaction>
+  <Interaction GraphId="c6b3b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="367.0" Y="333.0" GraphRef="ca4e9" RelX="0.05000000000001137" RelY="0.6700000000000159" />
+      <Point X="331.0" Y="414.0" GraphRef="b0c6e" RelX="0.971830985915493" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141351" />
+  </Interaction>
+  <Interaction GraphId="cf397">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="328.0" Y="305.0" GraphRef="c6226" RelX="1.0" RelY="0.0" />
+      <Point X="367.0" Y="305.0" GraphRef="b0c37" RelX="2.5" RelY="5.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141351" />
+  </Interaction>
+  <Interaction GraphId="cb9dd">
+    <Comment Source="Reactome">Spermine oxidase (SMOX, PAOh1, SMO) is a polyamine oxidase flavoenzyme that catalyses the oxidation of spermine (SPN) to spermidine (SPM). It plays an important role in the regulation of endogenous polyamine intracellular concentration. Five different isozymes are produced by alternative splicing with isozyme 3 being the major isoform and possessing the highest affinity for spermine. It is highly inducible by specific antitumor polyamine analogues (Wang et al. 2001).</Comment>
+    <BiopaxRef>dfa</BiopaxRef>
+    <BiopaxRef>f27</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="411.0" Y="544.0" />
+      <Point X="411.0" Y="425.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d9bef" />
+      <Anchor Position="0.99" Shape="None" GraphId="fce6d" />
+      <Anchor Position="0.5" Shape="None" GraphId="c98bc" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141341" />
+  </Interaction>
+  <Interaction GraphId="b708f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="410.0" Y="577.0" GraphRef="d85ee" RelX="-0.02564102564102564" RelY="-1.0" />
+      <Point X="411.0" Y="544.0" GraphRef="d9bef" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141341" />
+  </Interaction>
+  <Interaction GraphId="aaeb0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="424.0" Y="555.0" GraphRef="c21bc" RelX="-1.0" RelY="0.0" />
+      <Point X="411.0" Y="544.0" GraphRef="d9bef" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141341" />
+  </Interaction>
+  <Interaction GraphId="cbc39">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="383.0" Y="559.0" GraphRef="ca650" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="411.0" Y="544.0" GraphRef="d9bef" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141341" />
+  </Interaction>
+  <Interaction GraphId="cec03">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="411.0" Y="425.0" GraphRef="fce6d" RelX="0.0" RelY="-1.1899999999999977" />
+      <Point X="322.0" Y="466.0" GraphRef="aca3e" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141341" />
+  </Interaction>
+  <Interaction GraphId="d2870">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="411.0" Y="425.0" GraphRef="fce6d" RelX="0.0" RelY="-1.1899999999999977" />
+      <Point X="412.0" Y="393.0" GraphRef="fdd3a" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141341" />
+  </Interaction>
+  <Interaction GraphId="a0e1c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="411.0" Y="425.0" GraphRef="fce6d" RelX="0.0" RelY="-1.1899999999999977" />
+      <Point X="319.0" Y="338.0" GraphRef="adf62" RelX="0.9607843137254902" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141341" />
+  </Interaction>
+  <Interaction GraphId="aa693">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="385.0" Y="505.0" GraphRef="c155a" RelX="0.9649122807017544" RelY="0.0" />
+      <Point X="412.0" Y="505.0" GraphRef="c98bc" RelX="1.0" RelY="20.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-141341" />
+  </Interaction>
+  <Interaction GraphId="dc241">
+    <Comment Source="Reactome">Antizyme is a non-competitive inhibitor of ODC that is synthesized in response to an increase in polyamine concentration.  Tight binding of the antizyme to the ODC monomer forming a heterodimer prevents enzymatic activity. The region of antizyme interacting with ODC is contained in a section involving residues 106â€“212 in the COOH-terminal half of the antizyme molecule. The induction of antizyme thus leads to a loss of active ODC protein (Pegg, 2006 and references cited in that review). &lt;br&gt;</Comment>
+    <BiopaxRef>d6e</BiopaxRef>
+    <BiopaxRef>fdf</BiopaxRef>
+    <BiopaxRef>b90</BiopaxRef>
+    <BiopaxRef>e82</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="939.0" Y="790.0" />
+      <Point X="1024.0" Y="790.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="caef3" />
+      <Anchor Position="0.99" Shape="None" GraphId="ab7e2" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350567" />
+  </Interaction>
+  <Interaction GraphId="db93f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="895.0" Y="792.0" GraphRef="ed08d" RelX="0.981651376146789" RelY="0.0" />
+      <Point X="939.0" Y="790.0" GraphRef="caef3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350567" />
+  </Interaction>
+  <Interaction GraphId="a4cea">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="909.0" Y="828.0" GraphRef="c05c2" RelX="-0.02857142857142857" RelY="-1.0" />
+      <Point X="939.0" Y="790.0" GraphRef="caef3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350567" />
+  </Interaction>
+  <Interaction GraphId="b31a6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1024.0" Y="790.0" GraphRef="ab7e2" RelX="0.8500000000000227" RelY="0.0" />
+      <Point X="1027.0" Y="790.0" GraphRef="da5f0" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350567" />
+  </Interaction>
+  <Interaction GraphId="dada6">
+    <Comment Source="Reactome">The rapid turnover of ODC is brought about by the 26S proteasome. Proteolytic processing of ODC is highly unusual in that ubiquitination is not required for this degradation. Instead, a non-covalent association with antizyme directs ODC to the proteasome. Antizyme increases the degradation of ODC by enhancing its interaction with the proteasome (Pegg, 2006).</Comment>
+    <BiopaxRef>e82</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1062.0" Y="804.0" />
+      <Point X="933.0" Y="838.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e7b92" />
+      <Anchor Position="0.99" Shape="None" GraphId="ed554" />
+      <Anchor Position="0.5" Shape="None" GraphId="da515" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-353125" />
+  </Interaction>
+  <Interaction GraphId="c3303">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1087.0" Y="801.0" GraphRef="da5f0" RelX="0.0" RelY="1.0" />
+      <Point X="1062.0" Y="804.0" GraphRef="e7b92" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-353125" />
+  </Interaction>
+  <Interaction GraphId="d04b0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="933.0" Y="838.0" GraphRef="ed554" RelX="-1.2899999999999636" RelY="0.34000000000003183" />
+      <Point X="926.0" Y="839.0" GraphRef="c05c2" RelX="0.9428571428571428" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-353125" />
+  </Interaction>
+  <Interaction GraphId="e3651">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1035.0" Y="889.0" GraphRef="d4dc3" RelX="0.9823008849557522" RelY="0.0" />
+      <Point X="979.0" Y="838.0" GraphRef="da515" RelX="-18.5" RelY="17.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-353125" />
+  </Interaction>
+  <Interaction GraphId="f063d">
+    <Comment Source="Reactome">Antizyme inhibitor blocks the effects of antizyme on ODC. It has substantial similarity to ODC itself but has no ODC activity. It binds to antizyme more tightly than ODC  displacing ODC from the antizyme-ODC complex. Recent studies have shown that antizyme inhibitor is able to disrupt the interaction between all forms of mammalian antizyme and ODC (Murakami et al., 1996, Nilsson et al., 2000, Mangold and Leberer, 2005).</Comment>
+    <BiopaxRef>b63</BiopaxRef>
+    <BiopaxRef>ffa</BiopaxRef>
+    <BiopaxRef>a07</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1124.0" Y="758.0" />
+      <Point X="1124.0" Y="707.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e558a" />
+      <Anchor Position="0.99" Shape="None" GraphId="b9d9b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350600" />
+  </Interaction>
+  <Interaction GraphId="ec069">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1147.0" Y="790.0" GraphRef="da5f0" RelX="1.0" RelY="0.0" />
+      <Point X="1124.0" Y="758.0" GraphRef="e558a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350600" />
+  </Interaction>
+  <Interaction GraphId="f7fa7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1173.0" Y="759.0" GraphRef="ba8cc" RelX="-1.0" RelY="0.0" />
+      <Point X="1124.0" Y="758.0" GraphRef="e558a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350600" />
+  </Interaction>
+  <Interaction GraphId="df3c8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1124.0" Y="707.0" GraphRef="b9d9b" RelX="0.0" RelY="-0.5099999999999909" />
+      <Point X="1125.0" Y="704.0" GraphRef="b9c33" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350600" />
+  </Interaction>
+  <Interaction GraphId="bfb74">
+    <Comment Source="Reactome">A novel pathway has been described for ODC degradation during oxidative stress, which is regulated by NAD(P)H quinone oxidoreductase (NQO1). In this pathway, the 20S proteasome has been shown to degrade unfolded ODC monomers. This event does not require the COOH-terminal domain. NQO1 binds to ODC and stabilizes it. If this interaction is disrupted with dicoumarol, it sensitizes ODC monomers to degradation by the 20S proteasome independent of both antizyme and ubiquitin. The details of the role of this pathway remains to be determined, but it could be involved in the nascent ODC chain turnover.</Comment>
+    <BiopaxRef>fec</BiopaxRef>
+    <BiopaxRef>d42</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="881.0" Y="736.0" />
+      <Point X="923.0" Y="736.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f65c4" />
+      <Anchor Position="0.99" Shape="None" GraphId="fd60e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350578" />
+  </Interaction>
+  <Interaction GraphId="fdd9f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="861.0" Y="718.0" GraphRef="c2913" RelX="0.0" RelY="1.0" />
+      <Point X="881.0" Y="736.0" GraphRef="f65c4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350578" />
+  </Interaction>
+  <Interaction GraphId="c31cb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="895.0" Y="792.0" GraphRef="ed08d" RelX="0.981651376146789" RelY="0.0" />
+      <Point X="881.0" Y="736.0" GraphRef="f65c4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350578" />
+  </Interaction>
+  <Interaction GraphId="bb3dc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="923.0" Y="736.0" GraphRef="fd60e" RelX="0.4199999999999591" RelY="0.0" />
+      <Point X="926.0" Y="736.0" GraphRef="eca00" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350578" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="cb446" GroupRef="d335d">
+    <Graphics CenterX="1089.0" CenterY="924.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="peroxisomal matrix" GraphId="bd459" GroupRef="f553f">
+    <Graphics CenterX="396.5" CenterY="621.5" Width="137.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="dd2ab" GroupRef="d335d">
+    <Graphics CenterX="639.0" CenterY="510.5" Width="1230.0" Height="895.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="c5325" GroupRef="f553f">
+    <Graphics CenterX="292.5" CenterY="408.5" Width="389.0" Height="497.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="b0fa3" GraphId="c712c" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-141346" />
+  </Group>
+  <Group GroupId="de728" GraphId="e13c4">
+    <Attribute Key="complex_id" Value="R-HSA-350592" />
+  </Group>
+  <Group GroupId="b6409" GraphId="e5f06" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-353118" />
+  </Group>
+  <Group GroupId="f250d" GraphId="e73b8" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-353103" />
+  </Group>
+  <Group GroupId="f58d4" GraphId="d11d3" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+  </Group>
+  <Group GroupId="c1412" GraphId="d601e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-353105" />
+  </Group>
+  <Group GroupId="d335d" GraphId="e2fac" Style="Group" />
+  <Group GroupId="f553f" GraphId="b2d08" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="daa">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12686127</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decarboxylases involved in polyamine biosynthesis and their inactivation by nitric oxide.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hillary RA, Pegg AE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15784477</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyamines: metabolism and implications in human diseases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moinard C, Cynober L, de Bandt JP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ace">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11564948</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyamine metabolism revisited.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urdiales JL, Medina MA, Sánchez-Jiménez F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18775730</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of a specific motif of the DSS1 protein required for proteasome interaction and p53 protein degradation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wei SJ, Williams JG, Dang H, Darden TA, Betz BL, Humble MM, Chang FM, Trempus CS, Johnson K, Cannon RE, Tennant RW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c20">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10872471</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The 26S proteasome: a molecular machine designed for controlled proteolysis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voges D, Zwickl P, Baumeister W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14738999</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expression of human arginine decarboxylase, the biosynthetic enzyme for agmatine.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu MY, Iyo A, Piletz JE, Regunathan S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f7f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11804860</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloning of human agmatinase. An alternate path for polyamine synthesis induced in liver by hepatitis B virus.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mistry SK, Burwell TJ, Chambers RM, Rudolph-Owen L, Spaltmann F, Cook WJ, Morris SM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b18">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11914032</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloning and characterization of human agmatinase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iyer RK, Kim HK, Tsoa RW, Grody WW, Cederbaum SD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11583147</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The structural basis for substrate specificity and inhibition of human S-adenosylmethionine decarboxylase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tolbert WD, Ekstrom JL, Mathews II, Secrist JA, Kapoor P, Pegg AE, Ealick SE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e97">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2069720</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human spermidine synthase gene: structure and chromosomal localization.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myöhänen S, Kauppinen L, Wahlfors J, Alhonen L, Jänne J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f90">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7546290</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning of a cDNA encoding human spermine synthase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korhonen VP, Halmekytö M, Kauppinen L, Myöhänen S, Wahlfors J, Keinänen T, Hyvönen T, Alhonen L, Eloranta T, Jänne J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e02">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1985966</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isolation and characterization of a cDNA clone that codes for human spermidine/spermine N1-acetyltransferase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Casero RA, Celano P, Ervin SJ, Applegren NB, Wiest L, Pegg AE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a56">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8360194</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyamine and polyamine analog regulation of spermidine/spermine N1-acetyltransferase in MALME-3M human melanoma cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fogel-Petrovic M, Shappell NW, Bergeron RJ, Porter CW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d83">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17516632</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanistic and structural analysis of human spermidine/spermine N1-acetyltransferase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hegde SS, Chandler J, Vetting MW, Yu M, Blanchard JS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a7e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12477380</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genomic identification and biochemical characterization of the mammalian polyamine oxidase involved in polyamine back-conversion.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vujcic S, Liang P, Diegelman P, Kramer DL, Porter CW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dfa">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12141946</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification and characterization of a novel flavin-containing spermine oxidase of mammalian cell origin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vujcic S, Diegelman P, Bacchi CJ, Kramer DL, Porter CW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f27">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12727196</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Properties of purified recombinant human polyamine oxidase, PAOh1/SMO.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang Y, Murray-Stewart T, Devereux W, Hacker A, Frydman B, Woster PM, Casero RA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d6e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12359729</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structural elements of antizymes 1 and 2 are required for proteasomal degradation of ornithine decarboxylase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen H, MacDonald A, Coffino P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fdf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9132164</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molcecular cloning of human antizyme cDNA.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yang D, Takii T, Hayashi H, Itoh S, Hayashi M, Onozaki K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b90">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7811704</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning and sequencing of a human cDNA encoding ornithine decarboxylase antizyme.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tewari DS, Qian Y, Thornton RD, Pieringer J, Taub R, Mochan E, Tewari M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e82">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12660156</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Determinants of proteasome recognition of ornithine decarboxylase, a ubiquitin-independent substrate.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang M, Pickart CM, Coffino P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b63">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9349715</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloning and sequencing of a human cDNA encoding ornithine decarboxylase antizyme inhibitor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Koguchi K, Kobayashi S, Hayashi T, Matsufuji S, Murakami Y, Hayashi S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ffa">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15491992</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Degradation of antizyme inhibitor, an ornithine decarboxylase homologous protein, is ubiquitin-dependent and is inhibited by antizyme.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bercovich Z, Kahana C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a07">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17900240</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human ornithine decarboxylase paralogue (ODCp) is an antizyme inhibitor but not an arginine decarboxylase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kanerva K, Mäkitie LT, Pelander A, Heiskala M, Andersson LC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fec">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15749015</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20S proteasomal degradation of ornithine decarboxylase is regulated by NQO1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asher G, Bercovich Z, Tsvetkov P, Shaul Y, Kahana C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d42">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16205122</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanisms of protein degradation: an odyssey with ODC.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kahana C, Asher G, Shaul Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

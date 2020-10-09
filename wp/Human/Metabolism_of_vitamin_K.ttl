@@ -1,0 +1,364 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/21367861>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21367861> .
+
+<http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/fff38>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12060134> , <http://identifiers.org/pubmed/25639072> , <http://identifiers.org/pubmed/27941861> , <http://identifiers.org/pubmed/27918545> , <http://identifiers.org/pubmed/23919835> , <http://identifiers.org/pubmed/15743920> ;
+        dcterms:identifier             "R-HSA-9026967"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9026967> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/e95ed> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/aebb9> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/bad9e> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/fff38> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9035037> , <http://identifiers.org/reactome/R-HSA-6806371> , <http://identifiers.org/reactome/R-HSA-9035082> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-9035082> , <http://identifiers.org/reactome/R-HSA-6806371> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9035037> .
+
+<http://identifiers.org/pubmed/27941861>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/27941861> .
+
+<http://identifiers.org/chebi/CHEBI:90152>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "MK4 epoxide"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/TUZHANAISKEZFG-GHDNBGIDSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:90152> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:90152"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/da82c> , <http://identifiers.org/wikipathways//Metab_r1> , <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/b128d> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:90152> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/8609835> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/TUZHANAISKEZFG-GHDNBGIDSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10434409> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27162360> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/ae448> .
+
+<http://identifiers.org/reactome/R-HSA-9035082>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "VKORC1 inhibitors"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-9035082> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-9035082"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Metab_r1> , <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/fff38> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9035082> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/a7f5a> .
+
+<http://identifiers.org/reactome/R-HSA-6806371>
+        a                              wp:Complex , wp:DataNode ;
+        rdfs:label                     "VKORC1 dimer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-6806371> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23918929> ;
+        dcterms:identifier             "R-HSA-6806371"^^xsd:string ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/da82c> , <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/fff38> , <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6806371> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/c9f9d> .
+
+<http://identifiers.org/chebi/CHEBI:28869>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "menadione"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/MJVAVZPDRWSRRC-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:28869> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:28869"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/e55bb> , <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:46306> , <http://identifiers.org/chebi/CHEBI:28869> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/3915> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001892> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/MJVAVZPDRWSRRC-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C05377> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID4055> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q192471> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/f5aa8> .
+
+<http://identifiers.org/pubmed/25639072>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25639072> .
+
+<http://identifiers.org/pubmed/24489112>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24489112> .
+
+<http://identifiers.org/pubmed/23918929>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23918929> .
+
+<http://identifiers.org/pubmed/20953171>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20953171> .
+
+<http://identifiers.org/wikipathways//Metab>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Metab_r1> .
+
+<http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/b4a78>
+        a                 wp:Inhibition , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/b4a78> ;
+        wp:participants   <http://identifiers.org/reactome/R-HSA-9035037> , <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/da82c> ;
+        wp:source         <http://identifiers.org/reactome/R-HSA-9035037> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/da82c> .
+
+<http://identifiers.org/chebi/CHEBI:15378>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "H+"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/GPRLSGONYQIRFK-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15378> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15378"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/da82c> , <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/b128d> , <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15378> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/1010> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0059597> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/GPRLSGONYQIRFK-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00080> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1038> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q506710> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/c0456> .
+
+<http://identifiers.org/chebi/CHEBI:29888>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "PPi"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XPPKVPWEQAFLFU-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:29888> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:29888"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/e55bb> , <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:29888> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/996> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000250> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XPPKVPWEQAFLFU-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00013> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1023> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q411092> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/b940d> .
+
+<http://identifiers.org/pubmed/25742604>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25742604> .
+
+<http://identifiers.org/uniprot/Q9BQB6>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "VKORC1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9BQB6> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9BQB6"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000167397> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/79001> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/VKORC1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9BQB6> , <http://identifiers.org/uniprot/H0YF24> , <http://identifiers.org/uniprot/A8MV79> , <http://identifiers.org/uniprot/F2Z3Q2> , <http://identifiers.org/uniprot/F8W9H0> , <http://identifiers.org/uniprot/A0A0S2Z5X7> , <http://identifiers.org/uniprot/I3L1P9> , <http://identifiers.org/uniprot/A0A0S2Z6I4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/e6587> , <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/f3a89> .
+
+<http://identifiers.org/pubmed/23928358>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23928358> .
+
+<http://identifiers.org/pubmed/22516726>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22516726> .
+
+<http://identifiers.org/pubmed/24532791>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24532791> .
+
+<http://identifiers.org/uniprot/Q8N0U8>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "VKORC1L1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q8N0U8> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q8N0U8"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Metab_r1> , <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/b128d> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000196715> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/154807> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/VKORC1L1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q8N0U8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/b674e> .
+
+<http://identifiers.org/pubmed/23919835>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23919835> .
+
+<http://identifiers.org/chebi/CHEBI:78277>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "MK4"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/DKHGMERMDICWDU-GHDNBGIDSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:78277> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:78277"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Metab_r1> , <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/e55bb> , <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/da82c> , <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/b128d> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:78277> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4445530> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0030017> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/DKHGMERMDICWDU-GHDNBGIDSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00828> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5282367> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q192354> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/b5a74> .
+
+<http://identifiers.org/pubmed/25753038>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25753038> .
+
+<http://identifiers.org/reactome/R-HSA-9035037>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "VKORC1 inhibitors:VKORC1 dimer"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-9035037> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-9035037"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Metab_r1> , <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/b4a78> , <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/fff38> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9035037> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/f789b> .
+
+<http://identifiers.org/pubmed/14765195>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/14765195> .
+
+<http://identifiers.org/pubmed/9845520>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9845520> .
+
+<http://identifiers.org/pubmed/12060134>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12060134> .
+
+<http://identifiers.org/pubmed/15743920>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15743920> .
+
+<http://identifiers.org/pubmed/25874989>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25874989> .
+
+<http://identifiers.org/pubmed/14765194>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/14765194> .
+
+<http://identifiers.org/pubmed/24085302>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24085302> .
+
+<http://identifiers.org/chebi/CHEBI:57533>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "GGPP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/OINNEUNVOZHBOX-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:57533> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:57533"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/e55bb> , <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:57533> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/21232850> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/OINNEUNVOZHBOX-UHFFFAOYSA-K> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27124761> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/d448b> .
+
+<http://identifiers.org/wikipathways//Metab_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Metab> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Metabolism of vitamin K"@en ;
+        dcterms:description  "Vitamin K is a required co-factor in a single metabolic reaction, the gamma-carboxylation of glutamate residues of proteins catalyzed by GGCX (gamma-carboxyglutamyl carboxylase). Substrates of GGCX include blood clotting factors, osteocalcin (OCN), and growth arrest-specific protein 6 (GAS6) (Brenner et al. 1998). Vitamin K is derived from green leafy vegetables as phylloquinone and is synthesized by gut flora as menaquinone-7. These molecules are taken up by intestinal enterocytes with other lipids, packaged into chylomicrons, and delivered via the lymphatic and blood circulation to tissues of the body, notably hepatocytes and osteoblasts, via processes of lipoprotein trafficking (Shearer & Newman 2014; Shearer et al. 2012) described elsewhere in Reactome.<P>In these tissues, menadiol (reduced vitamin K3) reacts with geranylgeranyl pyrophosphate to form MK4 (vitamin K hydroquinone), the form of the vitamin required as cofactor for gamma-carboxylation of protein glutamate residues (Hirota et al. 2013). The gamma-carboxylation reactions, annotated elsewhere in Reactome as a part of protein metabolism, convert MK4 to its epoxide form, which is inactive as a cofactor. Two related enzymes, VKORC1 and VKORCL1, can each catalyze the reduction of MK4 epoxide to active MK4. VKORC1 activity is essential for normal operation of the blood clotting cascade and for osteocalcin function (Ferron et al. 2015). A physiological function for VKORCL1 has not yet been definitively established (Hammed et al. 2013; Tie et al. 2014).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=6806664 Reactome]." ;
+        dcterms:identifier   "/Metab"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/24085302> , <http://identifiers.org/pubmed/23928358> , <http://identifiers.org/pubmed/25753038> , <http://identifiers.org/pubmed/24532791> , <http://identifiers.org/pubmed/9845520> , <http://identifiers.org/pubmed/22516726> , <http://identifiers.org/pubmed/24489112> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Metab_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Metab_r1> .
+
+<http://identifiers.org/pubmed/27918545>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/27918545> .
+
+<http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/b128d>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23928358> , <http://identifiers.org/pubmed/24532791> , <http://identifiers.org/pubmed/21367861> ;
+        dcterms:identifier             "R-HSA-6806647"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6806647> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/d9830> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/d7da1> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/daa05> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/b128d> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/cb122> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:90152> , <http://identifiers.org/chebi/CHEBI:78277> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/uniprot/Q8N0U8> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:90152> , <http://identifiers.org/uniprot/Q8N0U8> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:78277> .
+
+<http://identifiers.org/reactome/R-HSA-163841>
+        a                   wp:DataNode ;
+        rdfs:label          "Gamma carboxylation, hypusine formation and arylsulfatase activation"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-163841> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-163841"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/e70ff> .
+
+<http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/e55bb>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/25742604> , <http://identifiers.org/pubmed/24085302> , <http://identifiers.org/pubmed/20953171> , <http://identifiers.org/pubmed/25874989> ;
+        dcterms:identifier             "R-HSA-6806674"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6806674> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/a6f2f> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/b91e5> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/ac4a2> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/fe6ad> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/fc5f1> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/e55bb> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:57533> , <http://identifiers.org/chebi/CHEBI:29888> , <http://identifiers.org/chebi/CHEBI:28869> , <http://identifiers.org/chebi/CHEBI:78277> , <http://identifiers.org/uniprot/Q9Y5Z9> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:28869> , <http://identifiers.org/chebi/CHEBI:57533> , <http://identifiers.org/uniprot/Q9Y5Z9> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:29888> , <http://identifiers.org/chebi/CHEBI:78277> .
+
+<http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/da82c>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/14765195> , <http://identifiers.org/pubmed/14765194> ;
+        dcterms:identifier             "R-HSA-159790"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-159790> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/da82c> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/d7257> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/de105> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/d8dca> , <http://rdf.wikipathways.org/Pathway//Metab_r1/Interaction/db9e3> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:90152> , <http://identifiers.org/chebi/CHEBI:78277> , <http://identifiers.org/reactome/R-HSA-6806371> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:90152> , <http://identifiers.org/reactome/R-HSA-6806371> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:78277> .
+
+<http://identifiers.org/uniprot/Q9Y5Z9>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "UBIAD1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9Y5Z9> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9Y5Z9"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Metab_r1> , <http://rdf.wikipathways.org/Pathway//Metab_r1/WP/Interaction/e55bb> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000120942> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/29914> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/UBIAD1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/R4GNE3> , <http://identifiers.org/uniprot/R4GN21> , <http://identifiers.org/uniprot/Q9Y5Z9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/bd091> .

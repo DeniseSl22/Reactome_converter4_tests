@@ -1,0 +1,520 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/uniprot/Q9H156>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "SLITRK2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9H156> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9H156"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a5ed9> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000185985> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/84631> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SLITRK2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9H156> , <http://identifiers.org/uniprot/B3KTY4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/cc382> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/bca0e> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/ComplexBinding/c69ab>
+        a                 wp:Binding , wp:Interaction , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Recep_r1/Group/c69ab> ;
+        wp:participants   <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/uniprot/Q9NT99> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/c69ab> , <http://identifiers.org/uniprot/P10586> , <http://identifiers.org/uniprot/Q13332> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/e5995>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/21262467> , <http://identifiers.org/pubmed/25385546> ;
+        dcterms:identifier             "R-HSA-6798257"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6798257> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/e5995> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/f1716> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/e6142> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/a646d> ;
+        wp:participants                <http://identifiers.org/uniprot/Q13332> , <http://identifiers.org/uniprot/Q16288> , <http://identifiers.org/reactome/R-HSA-6798231> ;
+        wp:source                      <http://identifiers.org/uniprot/Q16288> , <http://identifiers.org/uniprot/Q13332> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-6798231> .
+
+<http://identifiers.org/pubmed/20139422>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20139422> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/ComplexBinding/fee2c>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Recep_r1/Group/fee2c> ;
+        wp:participants   <http://identifiers.org/uniprot/P10586> , <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/uniprot/Q13332> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/fee2c> .
+
+<http://identifiers.org/pubmed/21940441>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21940441> .
+
+<http://identifiers.org/pubmed/19252495>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19252495> .
+
+<http://identifiers.org/uniprot/Q8IW52>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "SLITRK4"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q8IW52> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q8IW52"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a5ed9> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000179542> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/139065> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SLITRK4> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q8IW52> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/c4924> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/bbaa9> .
+
+<http://identifiers.org/reactome/R-HSA-6797845>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "IL1RAPL1,(IL1RAPL2)"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-6797845> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-6797845"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/cb36e> , <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6797845> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/a3188> .
+
+<http://identifiers.org/reactome/R-HSA-383387>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "LAR,PTPRS,PTPRD:Liprins"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-383387> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-383387"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/a59e3> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-383387> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/f692a> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/fffc2>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/25908590> , <http://identifiers.org/pubmed/22357843> ;
+        dcterms:identifier             "R-HSA-6800380"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6800380> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/e7db4> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/ae414> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/fffc2> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/c3d86> ;
+        wp:participants                <http://identifiers.org/uniprot/Q9NPH3-1> , <http://identifiers.org/reactome/R-HSA-6800384> , <http://identifiers.org/uniprot/P23468> ;
+        wp:source                      <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/uniprot/Q9NPH3-1> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-6800384> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a5ed9>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Recep_r1/Group/a5ed9> ;
+        wp:participants   <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/uniprot/O94933> , <http://identifiers.org/uniprot/Q9H156> , <http://identifiers.org/uniprot/Q8IW52> , <http://identifiers.org/uniprot/Q96PX8> , <http://identifiers.org/uniprot/O94991> , <http://identifiers.org/uniprot/Q9H5Y7> .
+
+<http://identifiers.org/pubmed/23345436>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23345436> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/c0a12>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23345436> , <http://identifiers.org/pubmed/22286174> ;
+        dcterms:identifier             "R-HSA-6797803"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797803> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/c0a12> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/df90d> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/b6b53> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/f2b3d> ;
+        wp:participants                <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/reactome/R-HSA-6797785> , <http://identifiers.org/reactome/R-HSA-6797827> ;
+        wp:source                      <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/reactome/R-HSA-6797785> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-6797827> .
+
+<http://identifiers.org/uniprot/Q9H5Y7>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "SLITRK6"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9H5Y7> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9H5Y7"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a5ed9> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000184564> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/84189> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SLITRK6> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9H5Y7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/f0004> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/e0e29> .
+
+<http://identifiers.org/uniprot/Q96PX8>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "SLITRK1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q96PX8> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q96PX8"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a5ed9> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000178235> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/114798> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SLITRK1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q96PX8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/e240a> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/ed06b> .
+
+<http://identifiers.org/uniprot/Q9NZN1>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "IL1RAPL1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9NZN1> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9NZN1"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a9276> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000169306> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/11141> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/IL1RAPL1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9NZN1> , <http://identifiers.org/uniprot/A0A0A0MR17> , <http://identifiers.org/uniprot/X5DNQ7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/a0ee5> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/f463b> .
+
+<http://identifiers.org/pubmed/21262467>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21262467> .
+
+<http://identifiers.org/wikipathways//Recep_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Recep> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Receptor-type tyrosine-protein phosphatases"@en ;
+        dcterms:description  "Like neurexins, Receptor-like protein tyrosine phosphatases (RPTPs) make trans-synaptic adhesion complexes with multiple postsynaptic binding partners to regulate synapse organization. The type IIa RPTPs include three members, Receptor-type tyrosine-protein phosphatase F (PTPRF) sometimes referred to as leukocyte common antigen-related (LAR), Receptor-type tyrosine-protein phosphatase sigma (PTPRS) and Receptor-type tyrosine-protein phosphatase delta (PTPRD). These proteins contain typical cell adhesion immunoglobulin-like (Ig) and fibronectin III (FNIII) domains, suggesting the involvement of RPTPs in cell-cell and cell-matrix interactions. To date, six different types of postsynaptic organizers for type-IIa RPTPs have been reported: interleukin-1 receptor accessory protein (IL1RAP, IL-1RAcP) (Yoshida et al. 2012), IL-1RAcP-like-1 (IL1RAPL1) (Yoshida et al. 2011), Neurotrophin receptor tyrosine kinase 3 (NTRK3, TrkC) (Takahashi et al. 2011), Leucine-rich repeat-containing protein 4B (LRRC4B, Netrin-G ligand-3, NGL-3) (Woo et al. 2009, Kwon et al. 2010), the Slit- and Trk-like (Slitrk) family proteins (Takahashi et al. 2012, Yim et al. 2013, Yamagata et al. 2015) and the liprins (Serra-PagÃ¨s et al. 1998, Dunah et al. 2005). \n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=388844 Reactome]." ;
+        dcterms:identifier   "/Recep"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/23835198> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Recep_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Recep_r1> .
+
+<http://identifiers.org/uniprot/Q13332>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "PTPRS"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q13332> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q13332"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/c69ab> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/fee2c> , <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/e5995> , <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/e8b65> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000105426> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5802> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PTPRS> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/G8JL96> , <http://identifiers.org/uniprot/K7ESP0> , <http://identifiers.org/uniprot/A0A0A0MR60> , <http://identifiers.org/uniprot/K7ERX4> , <http://identifiers.org/uniprot/Q13332> , <http://identifiers.org/uniprot/Q8NHS7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/c1c8c> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/d4a21> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/df91d> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/e1799> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/a17e9> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/ComplexBinding/a5ed9>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Recep_r1/Group/a5ed9> ;
+        wp:participants   <http://identifiers.org/uniprot/O94991> , <http://identifiers.org/uniprot/Q96PX8> , <http://identifiers.org/uniprot/P23468> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a5ed9> , <http://identifiers.org/uniprot/Q9H5Y7> , <http://identifiers.org/uniprot/Q8IW52> , <http://identifiers.org/uniprot/O94933> , <http://identifiers.org/uniprot/Q9H156> .
+
+<http://identifiers.org/reactome/R-HSA-6797785>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "SLITRK1-6"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-6797785> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-6797785"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/c0a12> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6797785> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/d27a6> .
+
+<http://identifiers.org/uniprot/P10586>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "PTPRF"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P10586> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P10586"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/fee2c> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/c69ab> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000142949> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5792> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PTPRF> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P10586> , <http://identifiers.org/uniprot/H0Y4H1> , <http://identifiers.org/uniprot/H0Y7Z9> , <http://identifiers.org/uniprot/A2A437> , <http://identifiers.org/uniprot/H0Y380> , <http://identifiers.org/uniprot/H0Y6Z7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/b1764> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/f9883> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/f26cb> .
+
+<http://identifiers.org/reactome/R-HSA-6798238>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "PTPRF, PTPRS, PTPRD"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-6798238> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-6798238"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/fd9b2> , <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/a59e3> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6798238> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/f0760> .
+
+<http://identifiers.org/uniprot/O94991>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "SLITRK5"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O94991> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O94991"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a5ed9> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000165300> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/26050> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SLITRK5> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/O94991> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/b33f2> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/afd65> .
+
+<http://identifiers.org/reactome/R-HSA-6800384>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "PTPRD:IL1RAP-1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-6800384> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-6800384"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/fffc2> , <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6800384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/f8649> .
+
+<http://identifiers.org/reactome/R-HSA-6799309>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "Liprins"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-6799309> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-6799309"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/a59e3> , <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6799309> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/e460b> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/fd9b2>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/20139422> , <http://identifiers.org/pubmed/19252495> ;
+        dcterms:identifier             "R-HSA-6798258"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6798258> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/fdf62> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/c6a34> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/f6a84> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/fd9b2> ;
+        wp:participants                <http://identifiers.org/uniprot/Q9NT99> , <http://identifiers.org/reactome/R-HSA-6798251> , <http://identifiers.org/reactome/R-HSA-6798238> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-6798238> , <http://identifiers.org/uniprot/Q9NT99> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-6798251> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/a59e3>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/9624153> , <http://identifiers.org/pubmed/7796809> , <http://identifiers.org/pubmed/15750591> ;
+        dcterms:identifier             "R-HSA-388824"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-388824> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/a94ac> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/a59e3> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/f0c21> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/a8c20> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-383387> , <http://identifiers.org/reactome/R-HSA-6798238> , <http://identifiers.org/reactome/R-HSA-6799309> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-6799309> , <http://identifiers.org/reactome/R-HSA-6798238> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-383387> .
+
+<http://identifiers.org/pubmed/25385546>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25385546> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a9276>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Recep_r1/Group/a9276> ;
+        wp:participants   <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/uniprot/Q9NP60> , <http://identifiers.org/uniprot/Q9NZN1> .
+
+<http://identifiers.org/pubmed/22286174>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22286174> .
+
+<http://identifiers.org/pubmed/25908590>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25908590> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/d6f80>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Recep_r1/Group/d6f80> ;
+        wp:participants   <http://identifiers.org/uniprot/Q9NPH3-1> , <http://identifiers.org/uniprot/P23468> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/e8b65>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Recep_r1/Group/e8b65> ;
+        wp:participants   <http://identifiers.org/uniprot/Q16288> , <http://identifiers.org/uniprot/Q13332> .
+
+<http://identifiers.org/uniprot/Q9NT99>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "LRRC4B"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9NT99> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9NT99"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/c69ab> , <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/fd9b2> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000131409> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/94030> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/LRRC4B> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9NT99> , <http://identifiers.org/uniprot/A0A024R4I8> , <http://identifiers.org/uniprot/M0R2G0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/d2e84> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/aac7d> .
+
+<http://identifiers.org/reactome/R-HSA-6797901>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "PTPRD:IL1RAPL1,(IL1RAPL2)"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-6797901> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-6797901"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/cb36e> , <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6797901> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/c6f55> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/cb36e>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/21940441> ;
+        dcterms:identifier             "R-HSA-6797810"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6797810> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/f4014> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/a495b> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/a53b2> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Interaction/cb36e> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-6797901> , <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/reactome/R-HSA-6797845> ;
+        wp:source                      <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/reactome/R-HSA-6797845> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-6797901> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/ComplexBinding/a9276>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Recep_r1/Group/a9276> ;
+        wp:participants   <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/uniprot/Q9NP60> , <http://identifiers.org/uniprot/Q9NZN1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a9276> .
+
+<http://identifiers.org/wikipathways//Recep>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Recep_r1> .
+
+<http://identifiers.org/reactome/R-HSA-6798231>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "PTPRS:NTRK3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-6798231> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-6798231"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/e5995> , <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6798231> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/d699e> .
+
+<http://identifiers.org/pubmed/22357843>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22357843> .
+
+<http://identifiers.org/uniprot/Q9NP60>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "IL1RAPL2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9NP60> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9NP60"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a9276> , <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000189108> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/26280> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/IL1RAPL2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9NP60> , <http://identifiers.org/uniprot/A0A0A0MRB9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/eebab> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/be831> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/ComplexBinding/d6f80>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Recep_r1/Group/d6f80> ;
+        wp:participants   <http://identifiers.org/uniprot/Q9NPH3-1> , <http://identifiers.org/uniprot/P23468> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/d6f80> .
+
+<http://identifiers.org/reactome/R-HSA-6797827>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "SLITRK1-6:PTPRD"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-6797827> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-6797827"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/c0a12> , <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6797827> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/b9fa3> .
+
+<http://identifiers.org/uniprot/Q16288>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "NTRK3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q16288> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q16288"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/e5995> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/e8b65> , <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000140538> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/4916> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/NTRK3> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A087WX31> , <http://identifiers.org/uniprot/H0YM90> , <http://identifiers.org/uniprot/X5DNW6> , <http://identifiers.org/uniprot/X5D2R1> , <http://identifiers.org/uniprot/B7Z7U4> , <http://identifiers.org/uniprot/R4GNH5> , <http://identifiers.org/uniprot/R4GMR8> , <http://identifiers.org/uniprot/Q96CY4> , <http://identifiers.org/uniprot/Q16288> , <http://identifiers.org/uniprot/R4GN40> , <http://identifiers.org/uniprot/X5D7M5> , <http://identifiers.org/uniprot/A0A0D9SFP6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/b480f> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/f7985> .
+
+<http://identifiers.org/pubmed/23835198>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23835198> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/ComplexBinding/e8b65>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Recep_r1/Group/e8b65> ;
+        wp:participants   <http://identifiers.org/uniprot/Q16288> , <http://identifiers.org/uniprot/Q13332> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/e8b65> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/c69ab>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Recep_r1/Group/c69ab> ;
+        wp:participants   <http://identifiers.org/uniprot/Q13332> , <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/uniprot/Q9NT99> , <http://identifiers.org/uniprot/P10586> .
+
+<http://identifiers.org/pubmed/9624153>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9624153> .
+
+<http://identifiers.org/uniprot/P23468>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "PTPRD"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P23468> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P23468"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a9276> , <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/fffc2> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/fee2c> , <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/c0a12> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/c69ab> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/d6f80> , <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/cb36e> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a5ed9> , <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000153707> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5789> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PTPRD> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/uniprot/Q3KPI9> , <http://identifiers.org/uniprot/C9J6E4> , <http://identifiers.org/uniprot/C9J8S8> , <http://identifiers.org/uniprot/A0A1B0GU15> , <http://identifiers.org/uniprot/F5GWR7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/dea11> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/d91f2> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/c030a> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/c3623> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/e8025> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/e3699> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/d4f01> .
+
+<http://identifiers.org/reactome/R-HSA-6798251>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "LRRC4B:PTPRF,PTPRS,PTPRD"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-6798251> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-6798251"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/fd9b2> , <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6798251> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/a4117> .
+
+<http://identifiers.org/pubmed/15750591>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15750591> .
+
+<http://identifiers.org/pubmed/7796809>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/7796809> .
+
+<http://identifiers.org/uniprot/O94933>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "SLITRK3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O94933> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O94933"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/a5ed9> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000121871> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/22865> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SLITRK3> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/O94933> , <http://identifiers.org/uniprot/C9K0R4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/c0faf> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/f23bf> .
+
+<http://identifiers.org/uniprot/Q9NPH3-1>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "IL1RAP-1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9NPH3-1> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9NPH3-1"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Recep_r1> , <http://rdf.wikipathways.org/Pathway//Recep_r1/WP/Interaction/fffc2> , <http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/d6f80> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9NPH3-1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/a563e> , <http://rdf.wikipathways.org/Pathway//Recep_r1/DataNode/b5151> .
+
+<http://rdf.wikipathways.org/Pathway//Recep_r1/Complex/fee2c>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Recep_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Recep_r1/Group/fee2c> ;
+        wp:participants   <http://identifiers.org/uniprot/P10586> , <http://identifiers.org/uniprot/P23468> , <http://identifiers.org/uniprot/Q13332> .

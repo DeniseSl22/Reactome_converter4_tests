@@ -1,0 +1,1363 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/uniprot/P0DMV8>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "HSPA1A"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P0DMV8> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P0DMV8"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/c2424> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e6828> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/ba575> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/aa237> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d049f> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000204389> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/3303> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/HSPA1A> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/uniprot/V9GZ37> , <http://identifiers.org/uniprot/A8K5I0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e965a> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c5722> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c8f60> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/aa0d3> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c2bf8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f8ffa> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f1c56> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/d99a0>
+        a                 wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/d99a0> ;
+        wp:participants   <http://identifiers.org/reactome/R-HSA-2029135> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/df1d0> ;
+        wp:source         <http://identifiers.org/reactome/R-HSA-2029135> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/df1d0> .
+
+<http://identifiers.org/pubmed/16403413>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16403413> .
+
+<http://identifiers.org/wikipathways//HSP90_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//HSP90> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "HSP90 chaperone cycle for steroid hormone receptors (SHR)"@en ;
+        dcterms:description  "Steroid hormone receptors (SHR) are transcription factors that become activated upon sensing steroid hormones such as glucocorticoids, mineralocorticoids, progesterone, androgens, or estrogen (Escriva et al 2000; Griekspoor A et al. 2007; Eick GN & Thornton JW. 2011). Depending on SHR type and the presence of ligand, they show different subcellular localizations. Whereas both unliganded and liganded estrogen receptors (ERalpha and ERbeta) are predominantly nuclear, unliganded glucocorticoid (GR) and androgen receptors (AR) are mostly located in the cytoplasm and completely translocate to the nucleus only after binding hormone (Htun H et al. 1999; Stenoien D et al. 2000; Tyagi RK et al. 2000; Cadepond F et al. 1992; Jewell CM et al. 1995; Kumar S et al. 2006). The unliganded mineralocorticoid receptor (MR) is partially cytoplasmic but can be found in nucleus in the ligand-bound or ligand-free form (Nishi M & Kawata M 2007). The progesterone receptor (PR) exists in two forms (PRA and PRB) with different ratios of nuclear versus cytoplasmic localization of the unliganded receptor. In most cell contexts, the PRA isoform is a repressor of the shorter PRB isoform, and without hormone induction it is mostly located in the nucleus, whereas PRB distributes both in the nucleus and in the cytoplasm (Lim CS et al. 1999; Griekspoor A et al. 2007). In the absence of ligand, members of the steroid receptor family remain sequestered in the cytoplasm and/or nucleus in the complex with proteins of HSP70/HSP90 chaperone machinery (Pratt WB & Dittmar KD1998). The highly dynamic ATP-dependent interactions of SHRs with HSP90 complexes regulate SHR cellular location, protein stability, competency to bind steroid hormones and transcriptional activity (Echeverria PC & Picard D 2010). Understanding the mechanism of ATPase activity of HSP90 is mostly based on structural and functional studies of the Saccharomyces cerevisiae Hsp90 complexes (Meyer P et al. 2003, 2004; Ali MM et al. 2006; Prodromou C et al. 2000; Prodromou C 2012). The ATPase cycle of human HSP90 is less well understood, however several studies suggest that the underlying enzymatic mechanisms and a set of conformational changes that accompany the ATPase cycle are highly similar in both species (Richter K et al. 2008; Vaughan CK et al. 2009). Nascent SHR proteins are chaperoned by HSP70 and HSP40 to HSP90 cycle via STIP1 (HOP) (and its TPR domains) (HernÃ¡ndez MP et al. 2002a,b; EcheverriaPC & Picard D 2010; Li J et al. 2011). The ATP-bound form of HSP90 leads to the displacement of STIP1 by immunophilins FKBP5 or FKBP4 resulting in conformational changes that allow efficient hormone binding (Li J et al. 2011). PTGES3 (p23) binds to HSP90 complex finally stabilizing it in the conformation with a high hormone binding affinity. After hydrolysis of ATP the hormone bound SHR is released from HSP90 complex. The cytosolic hormone-bound SHR can be transported to the nucleus by several import pathways such as the dynein-based nuclear transport along microtubules involving the transport of the entire HSP90 complex or nuclear localization signals (NLS)-mediated nuclear targeting by importins (Tyagi RK et al. 2000; Cadepond F et al. 1992; Jewell CM et al. 1995; Kumar S et al. 2006). It is worth noting that GR-importin interactions can be ligand-dependent or independent (Freedman & Yamamoto 2004; Picard & Yamamoto 1987). In the nucleus ligand-activated SHR dimerizes, binds specific sequences in the DNA, called Hormone Responsive Elements (HRE), and recruits a number of coregulators that facilitate gene transcription. Nuclear localization is essential for SHRs to transactivate their target genes, but the same receptors also possess non-genomic functions in the cytoplasm.<p>The Reactome module describes the ATPase-driven conformational cycle of HSP90 that regulates ligand-dependent activation of SHRs.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=3371497 Reactome]." ;
+        dcterms:identifier   "/HSP90"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/23806880> , <http://identifiers.org/pubmed/22955504> , <http://identifiers.org/pubmed/20006655> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//HSP90_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//HSP90_r1> .
+
+<http://identifiers.org/uniprot/Q02790>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "FKBP4"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q02790> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q02790"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/bd9f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/b948b> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d8854> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b5daf> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/e5e50> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000004478> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/2288> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/FKBP4> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/F5H1U3> , <http://identifiers.org/uniprot/F5H120> , <http://identifiers.org/uniprot/H0YG86> , <http://identifiers.org/uniprot/H0YFG2> , <http://identifiers.org/uniprot/Q02790> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a1749> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e08db> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c3856> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e0f5e> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ba9d2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e26e8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f1023> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ff6d8> .
+
+<http://identifiers.org/reactome/R-HSA-3371444>
+        a                              wp:DataNode , wp:Complex ;
+        rdfs:label                     "HSP90:STIP1:HSP70:nascent protein"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-3371444> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/21700222> ;
+        dcterms:identifier             "R-HSA-3371444"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b2f33> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/eda1c> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-3371444> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b3832> .
+
+<http://identifiers.org/chebi/CHEBI:30616>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ATP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:30616> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:30616"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/aa237> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/c2424> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/b948b> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e6828> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d8854> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/eaf7a> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b2f33> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4574455> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-J> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5461108> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27113900> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b4a63> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e4344> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/bedff> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d28a8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/bcc3c> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d0514> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c9257> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b2942> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/bd115> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c34c0> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d8b9e> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b0f30>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/18215318> , <http://identifiers.org/pubmed/24012426> ;
+        dcterms:identifier             "R-HSA-3371590"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-3371590> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/ef489> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/e373c> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/a3cfc> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/b0f30> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-3371515> , <http://identifiers.org/reactome/R-HSA-5618079> , <http://identifiers.org/reactome/R-HSA-3371563> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-5618079> , <http://identifiers.org/reactome/R-HSA-3371515> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-3371563> .
+
+<http://identifiers.org/reactome/R-HSA-3371429>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "HSP90:HSP90"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-3371429> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-3371429"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/eda1c> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-3371429> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a55bd> .
+
+<http://identifiers.org/uniprot/P31689>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DNAJA1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P31689> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P31689"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/aa237> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/ba575> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e85e5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000086061> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/3301> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DNAJA1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P31689> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fab2a> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a52e9> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b6167> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a0d38> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/b948b>
+        a                 wp:Interaction , wp:Binding , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/b948b> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/Q02790> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/b948b> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/uniprot/Q15185> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/a6a06>
+        a                 wp:Binding , wp:Interaction , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/a6a06> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/uniprot/P08238> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/uniprot/P34931> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/uniprot/Q13451> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/P31948> , <http://identifiers.org/uniprot/P0DMV8> .
+
+<http://identifiers.org/chebi/CHEBI:456216>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ADP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:456216> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:456216"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e6828> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d049f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/ba575> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b5daf> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:456216> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5414423> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-K> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7058055> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27225748> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/bf9f0> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b57c5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a0bc3> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a1653> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/df6ee> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/eb1ec> .
+
+<http://identifiers.org/uniprot/P11142>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "HSPA8"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P11142> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P11142"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/c2424> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e6828> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/aa237> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/ba575> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d049f> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000109971> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/3312> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/HSPA8> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E9PK54> , <http://identifiers.org/uniprot/E9PNE6> , <http://identifiers.org/uniprot/E9PI65> , <http://identifiers.org/uniprot/E9PPY6> , <http://identifiers.org/uniprot/E9PS65> , <http://identifiers.org/uniprot/E9PN89> , <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/uniprot/E9PLF4> , <http://identifiers.org/uniprot/E9PN25> , <http://identifiers.org/uniprot/A8K7Q2> , <http://identifiers.org/uniprot/E9PM13> , <http://identifiers.org/uniprot/E9PQK7> , <http://identifiers.org/uniprot/E9PQQ4> , <http://identifiers.org/uniprot/E9PKE3> , <http://identifiers.org/uniprot/V9HW22> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e3f37> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fb39a> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e1776> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e1ee2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/be7b4> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e8b9d> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/eefe3> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/eda1c>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/22011577> , <http://identifiers.org/pubmed/21700222> ;
+        dcterms:identifier             "R-HSA-3371503"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-3371503> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/eda1c> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/d19cd> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/b7b0f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/ba0eb> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/a6e9e> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/bf455> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-3371429> , <http://identifiers.org/reactome/R-HSA-3371441> , <http://identifiers.org/uniprot/P31948> , <http://identifiers.org/reactome/R-HSA-3371444> , <http://identifiers.org/reactome/R-HSA-3371594> ;
+        wp:source                      <http://identifiers.org/uniprot/P31948> , <http://identifiers.org/reactome/R-HSA-3371441> , <http://identifiers.org/reactome/R-HSA-3371429> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-3371444> , <http://identifiers.org/reactome/R-HSA-3371594> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/e1fe8>
+        a                 wp:Interaction , wp:ComplexBinding , wp:Binding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/e1fe8> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:27584> , <http://identifiers.org/chebi/CHEBI:17026> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/P10275> , <http://identifiers.org/chebi/CHEBI:17650> , <http://identifiers.org/uniprot/Q15185> , <http://identifiers.org/uniprot/P08235> , <http://identifiers.org/chebi/CHEBI:16330> , <http://identifiers.org/chebi/CHEBI:16973> , <http://identifiers.org/chebi/CHEBI:17347> , <http://identifiers.org/uniprot/P06401> , <http://identifiers.org/uniprot/P04150> , <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/chebi/CHEBI:16422> , <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/chebi/CHEBI:29117> , <http://identifiers.org/chebi/CHEBI:30616> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> .
+
+<http://identifiers.org/reactome/R-HSA-5618103>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "HSP90:ATP:PTGES3:FKBP52:SHR:SH"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-5618103> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-5618103"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/df1d0> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b5daf> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-5618103> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fda77> .
+
+<http://identifiers.org/reactome/R-HSA-3371515>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "HSP40:nascent protein"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-3371515> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-3371515"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b0f30> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-3371515> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f1435> .
+
+<http://identifiers.org/pubmed/20084477>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20084477> .
+
+<http://identifiers.org/reactome/R-HSA-8948980>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "HSP90:ATP:FKBP4:PTGES3:SHR"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-8948980> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-8948980"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/e2060> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-8948980> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e66ee> .
+
+<http://identifiers.org/uniprot/P61163>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "ACTR1A"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P61163> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P61163"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000138107> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/10121> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/ACTR1A> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A1B0GVS3> , <http://identifiers.org/uniprot/R4GMT0> , <http://identifiers.org/uniprot/P61163> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c3dca> .
+
+<http://identifiers.org/pubmed/7828728>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/7828728> .
+
+<http://identifiers.org/uniprot/Q96FJ2>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DYNLL2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q96FJ2> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q96FJ2"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000264364> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/140735> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DYNLL2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q96FJ2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c2228> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/b948b>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/b948b> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/uniprot/Q15185> .
+
+<http://identifiers.org/pubmed/21183720>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21183720> .
+
+<http://identifiers.org/uniprot/P54652>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "HSPA2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P54652> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P54652"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d049f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/c2424> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/ba575> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e6828> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/aa237> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000126803> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/3306> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/HSPA2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/A0A024R6B5> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b63b5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e23f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e6671> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e3e14> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a0c91> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e1301> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fef82> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/f3eb2>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/f3eb2> ;
+        wp:participants   <http://identifiers.org/uniprot/P08235> , <http://identifiers.org/chebi/CHEBI:27584> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://identifiers.org/chebi/CHEBI:16330> , <http://identifiers.org/chebi/CHEBI:17347> , <http://identifiers.org/chebi/CHEBI:17650> , <http://identifiers.org/uniprot/P04150> , <http://identifiers.org/chebi/CHEBI:17026> , <http://identifiers.org/chebi/CHEBI:16973> , <http://identifiers.org/chebi/CHEBI:29117> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/Q15185> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/P10275> , <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/uniprot/P06401> , <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/chebi/CHEBI:16422> .
+
+<http://identifiers.org/uniprot/Q13561>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DCTN2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q13561> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q13561"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000175203> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/10540> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DCTN2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/F8W1I6> , <http://identifiers.org/uniprot/F8W0U6> , <http://identifiers.org/uniprot/H0YHL1> , <http://identifiers.org/uniprot/F8VW18> , <http://identifiers.org/uniprot/Q13561> , <http://identifiers.org/uniprot/V9HW58> , <http://identifiers.org/uniprot/F8VX93> , <http://identifiers.org/uniprot/F8VRV7> , <http://identifiers.org/uniprot/H0YI98> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ed474> .
+
+<http://identifiers.org/uniprot/Q8WW22>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DNAJA4"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q8WW22> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q8WW22"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e85e5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/ba575> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/aa237> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000140403> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/55466> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DNAJA4> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/F5H170> , <http://identifiers.org/uniprot/Q8WW22> , <http://identifiers.org/uniprot/C9JDE6> , <http://identifiers.org/uniprot/F5H300> , <http://identifiers.org/uniprot/F8WF76> , <http://identifiers.org/uniprot/F5GWV1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/cc7ac> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b5c6f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/aed74> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c06d8> .
+
+<http://identifiers.org/pubmed/27462449>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/27462449> .
+
+<http://identifiers.org/uniprot/P25685>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DNAJB1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P25685> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P25685"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e85e5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/aa237> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/ba575> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000132002> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/3337> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DNAJB1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/M0R128> , <http://identifiers.org/uniprot/M0R080> , <http://identifiers.org/uniprot/M0QYT3> , <http://identifiers.org/uniprot/M0QZD0> , <http://identifiers.org/uniprot/M0R1D6> , <http://identifiers.org/uniprot/M0QXK0> , <http://identifiers.org/uniprot/P25685> , <http://identifiers.org/uniprot/Q6FHS4> , <http://identifiers.org/uniprot/A0A1B0GX60> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ff97c> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d43c0> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f74c7> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c9c9f> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b5daf>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/22318716> ;
+        dcterms:identifier             "R-HSA-5618093"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5618093> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/b296f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/e9f30> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/ae0d4> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/d2fff> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/e0885> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/fcacd> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/b5daf> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/be8a9> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/c0a10> ;
+        wp:participants                <http://identifiers.org/uniprot/Q15185> , <http://identifiers.org/reactome/R-HSA-5618077> , <http://identifiers.org/chebi/CHEBI:18367> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/reactome/R-HSA-5618103> , <http://identifiers.org/reactome/R-HSA-5082395> , <http://identifiers.org/uniprot/Q02790> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-5618103> ;
+        wp:target                      <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/reactome/R-HSA-5082395> , <http://identifiers.org/reactome/R-HSA-5618077> , <http://identifiers.org/uniprot/Q15185> , <http://identifiers.org/chebi/CHEBI:18367> .
+
+<http://identifiers.org/pubmed/20072699>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20072699> .
+
+<http://identifiers.org/uniprot/P63167>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DYNLL1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P63167> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P63167"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000088986> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/8655> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DYNLL1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q6FGH9> , <http://identifiers.org/uniprot/P63167> , <http://identifiers.org/uniprot/F8VXI7> , <http://identifiers.org/uniprot/F8VRV5> , <http://identifiers.org/uniprot/F8VXL2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a10bd> .
+
+<http://identifiers.org/pubmed/20006655>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20006655> .
+
+<http://identifiers.org/reactome/R-HSA-3371563>
+        a                              wp:DataNode , wp:Complex ;
+        rdfs:label                     "HSP40:HSP70:ATP:nascent protein"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-3371563> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/20084477> , <http://identifiers.org/pubmed/7828728> , <http://identifiers.org/pubmed/20809635> ;
+        dcterms:identifier             "R-HSA-3371563"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b0f30> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/d2fd8> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-3371563> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d501f> .
+
+<http://identifiers.org/pubmed/15591061>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15591061> .
+
+<http://identifiers.org/pubmed/22955504>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22955504> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/ba215>
+        a                 wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/ba215> ;
+        wp:participants   <http://identifiers.org/reactome/R-ALL-5618094> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/bd9f5> ;
+        wp:source         <http://identifiers.org/reactome/R-ALL-5618094> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/bd9f5> .
+
+<http://identifiers.org/uniprot/P34931>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "HSPA1L"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P34931> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P34931"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d049f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/ba575> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/aa237> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e6828> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/c2424> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000204390> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/3305> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/HSPA1L> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A1U9X7W7> , <http://identifiers.org/uniprot/P34931> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/afa1d> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c5b43> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a050e> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/cc517> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ee758> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a6b81> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d33b2> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8>
+        a                 wp:DataNode , wp:Complex ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/e1fe8> ;
+        wp:participants   <http://identifiers.org/uniprot/Q15185> , <http://identifiers.org/uniprot/P06401> , <http://identifiers.org/chebi/CHEBI:17026> , <http://identifiers.org/chebi/CHEBI:29117> , <http://identifiers.org/chebi/CHEBI:27584> , <http://identifiers.org/uniprot/P04150> , <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/uniprot/P10275> , <http://identifiers.org/chebi/CHEBI:17650> , <http://identifiers.org/chebi/CHEBI:16330> , <http://identifiers.org/chebi/CHEBI:16973> , <http://identifiers.org/uniprot/P08235> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/chebi/CHEBI:17347> , <http://identifiers.org/chebi/CHEBI:16422> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b2f33>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/22318716> ;
+        dcterms:identifier             "R-HSA-5618107"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5618107> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/fd0a6> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/c4b06> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/cd485> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/b2f33> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-3371444> , <http://identifiers.org/reactome/R-HSA-5618106> , <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-3371444> , <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-5618106> .
+
+<http://identifiers.org/uniprot/P10275>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "AR"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P10275> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P10275"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d8854> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000169083> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/367> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/AR> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/F5GZG9> , <http://identifiers.org/uniprot/E9PEG3> , <http://identifiers.org/uniprot/P10275> , <http://identifiers.org/uniprot/A0A087X1B6> , <http://identifiers.org/uniprot/A0A087WZ66> , <http://identifiers.org/uniprot/A0A087WUX9> , <http://identifiers.org/uniprot/F1D8N5> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d6de0> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c27c5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c7346> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ea8dc> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/f82ed>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/24694367> ;
+        dcterms:identifier             "R-HSA-5618105"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5618105> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/d2269> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/c2eed> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/f0512> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/f82ed> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-5618106> , <http://identifiers.org/uniprot/Q13451> , <http://identifiers.org/reactome/R-HSA-5618095> ;
+        wp:source                      <http://identifiers.org/uniprot/Q13451> , <http://identifiers.org/reactome/R-HSA-5618106> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-5618095> .
+
+<http://identifiers.org/pubmed/20038533>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20038533> .
+
+<http://identifiers.org/uniprot/P47756>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "CAPZB"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P47756> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P47756"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000077549> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/832> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CAPZB> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/B1AK85> , <http://identifiers.org/uniprot/B1AK88> , <http://identifiers.org/uniprot/P47756> , <http://identifiers.org/uniprot/B1AK87> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/eec84> .
+
+<http://identifiers.org/reactome/R-HSA-5618077>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "SHR:SH"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-5618077> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-5618077"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b5daf> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-5618077> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fa8a3> .
+
+<http://identifiers.org/uniprot/O75935>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "DCTN3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O75935> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O75935"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000137100> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/11258> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DCTN3> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/X6RLR1> , <http://identifiers.org/uniprot/O75935> , <http://identifiers.org/uniprot/X6RA56> , <http://identifiers.org/uniprot/A0A0A0MRV8> , <http://identifiers.org/uniprot/X6RCK5> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a2069> .
+
+<http://identifiers.org/uniprot/Q9UJW0>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DCTN4"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9UJW0> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9UJW0"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000132912> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/51164> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DCTN4> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9UJW0> , <http://identifiers.org/uniprot/H9KVE0> , <http://identifiers.org/uniprot/E5RI97> , <http://identifiers.org/uniprot/A0A0S2Z5D4> , <http://identifiers.org/uniprot/E5RK21> , <http://identifiers.org/uniprot/E5RGG1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a1eb4> .
+
+<http://identifiers.org/chebi/CHEBI:17650>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "CORT"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/JYGXADMDTFJGBT-VWUMJDOOSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17650> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17650"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17650> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5551> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000063> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/JYGXADMDTFJGBT-VWUMJDOOSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00735> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST02030001> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5754> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q190875> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d3f49> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/de1bb> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a9c16> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/de022> .
+
+<http://identifiers.org/wikipathways//HSP90>
+        pav:hasVersion  <http://identifiers.org/wikipathways//HSP90_r1> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/e6828>
+        a                 wp:Interaction , wp:ComplexBinding , wp:Binding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/e6828> ;
+        wp:participants   <http://identifiers.org/uniprot/P34931> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/P07900> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e6828> , <http://identifiers.org/uniprot/P31948> , <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/uniprot/P0DMV9> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/aa237>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/aa237> ;
+        wp:participants   <http://identifiers.org/uniprot/Q8WW22> , <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/uniprot/P34931> , <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/uniprot/P31689> , <http://identifiers.org/uniprot/O60884> , <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/P25685> .
+
+<http://identifiers.org/pubmed/22011577>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22011577> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/eaf7a>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/eaf7a> ;
+        wp:participants   <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/uniprot/Q15185> , <http://identifiers.org/uniprot/Q13451> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/chebi/CHEBI:30616> .
+
+<http://identifiers.org/pubmed/18635947>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18635947> .
+
+<http://identifiers.org/pubmed/23806880>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23806880> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/e2060>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/22433123> , <http://identifiers.org/pubmed/20006655> ;
+        dcterms:identifier             "R-HSA-5618099"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5618099> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/baa8d> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/d3a44> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/e2060> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/f2982> ;
+        wp:participants                <http://identifiers.org/reactome/R-ALL-5618094> , <http://identifiers.org/reactome/R-HSA-8948980> , <http://identifiers.org/reactome/R-HSA-8948970> ;
+        wp:source                      <http://identifiers.org/reactome/R-ALL-5618094> , <http://identifiers.org/reactome/R-HSA-8948980> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-8948970> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/d2fd8>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/20072699> , <http://identifiers.org/pubmed/24012426> ;
+        dcterms:identifier             "R-HSA-3371422"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-3371422> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/ef6be> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/d2fd8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/b5df4> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/b7874> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/f61a4> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-3371563> , <http://identifiers.org/reactome/R-HSA-3371441> , <http://identifiers.org/chebi/CHEBI:18367> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-3371563> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:18367> , <http://identifiers.org/reactome/R-HSA-3371441> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/d8854>
+        a                 wp:Binding , wp:Interaction , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/d8854> ;
+        wp:participants   <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/uniprot/Q15185> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/P10275> , <http://identifiers.org/uniprot/P08235> , <http://identifiers.org/uniprot/P06401> , <http://identifiers.org/uniprot/P04150> , <http://identifiers.org/uniprot/P08238> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d8854> .
+
+<http://identifiers.org/chebi/CHEBI:27584>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "ALDO"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/PQSUYGKTWSAVDQ-ZVIOFETBSA-N> , <http://identifiers.org/inchikey/PQSUYGKTWSAVDQ-SRPWZAMTSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:27584> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:27584"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:40919> , <http://identifiers.org/chebi/CHEBI:27584> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/24774738> , <http://identifiers.org/chemspider/5633> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000037> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/PQSUYGKTWSAVDQ-SRPWZAMTSA-N> , <http://identifiers.org/inchikey/PQSUYGKTWSAVDQ-ZVIOFETBSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C01780> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST02030026> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5839> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID24758425> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q184564> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ac46d> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c8d24> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/cf2ae> .
+
+<http://identifiers.org/uniprot/P08235>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "NR3C2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P08235> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P08235"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d8854> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000151623> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/4306> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/NR3C2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/B0ZBF6> , <http://identifiers.org/uniprot/P08235> , <http://identifiers.org/uniprot/B0ZBF8> , <http://identifiers.org/uniprot/A0A0D9SFL9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f9db7> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f5dc8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/dca14> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b30b4> .
+
+<http://identifiers.org/uniprot/Q14204>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DYNC1H1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q14204> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q14204"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000197102> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1778> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DYNC1H1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/H0YJ21> , <http://identifiers.org/uniprot/Q14204> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f0073> .
+
+<http://identifiers.org/pubmed/24012426>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24012426> .
+
+<http://identifiers.org/pubmed/15159550>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15159550> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06>
+        a                 wp:DataNode , wp:Complex ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/a6a06> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/Q13451> , <http://identifiers.org/uniprot/P34931> , <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/uniprot/P31948> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/df1d0>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15591061> , <http://identifiers.org/pubmed/20038533> ;
+        dcterms:identifier             "R-HSA-5618080"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5618080> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/e2b9f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/df1d0> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/f522e> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-8948970> , <http://identifiers.org/reactome/R-HSA-5618103> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-8948970> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-5618103> .
+
+<http://identifiers.org/uniprot/O43237>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "DYNC1LI2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O43237> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O43237"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000135720> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1783> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DYNC1LI2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/J3KRI4> , <http://identifiers.org/uniprot/J3KSD2> , <http://identifiers.org/uniprot/J3QKK5> , <http://identifiers.org/uniprot/J3KRZ2> , <http://identifiers.org/uniprot/A0A024R6Z0> , <http://identifiers.org/uniprot/H3BU48> , <http://identifiers.org/uniprot/B4E2E0> , <http://identifiers.org/uniprot/H3BUM4> , <http://identifiers.org/uniprot/O43237> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d2c60> .
+
+<http://identifiers.org/chebi/CHEBI:16330>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "DHTEST"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/NVKAWKQGWWIWPM-ABEVXSGRSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16330> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16330"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16330> , <http://identifiers.org/chebi/CHEBI:41876> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/10189> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0002961> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/NVKAWKQGWWIWPM-ABEVXSGRSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C03917> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST02020042> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10635> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q411054> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b4330> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f3df7> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f6c73> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a34cf> .
+
+<http://identifiers.org/pubmed/20809635>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20809635> .
+
+<http://identifiers.org/pubmed/22433123>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22433123> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e6828>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/e6828> ;
+        wp:participants   <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/uniprot/P31948> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/uniprot/P34931> , <http://identifiers.org/uniprot/P11142> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/c2424>
+        a                 wp:Binding , wp:Interaction , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/c2424> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P34931> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/c2424> , <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/P11142> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/e57f5>
+        a                 wp:Binding , wp:Interaction , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/e57f5> ;
+        wp:participants   <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/uniprot/P34931> , <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/P31948> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/P08238> .
+
+<http://identifiers.org/uniprot/Q9NZ32>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "ACTR10"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9NZ32> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9NZ32"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000131966> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/55860> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/ACTR10> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/G3V5Y4> , <http://identifiers.org/uniprot/H0YJE8> , <http://identifiers.org/uniprot/V9GYX7> , <http://identifiers.org/uniprot/F6S9Y6> , <http://identifiers.org/uniprot/H0YJD9> , <http://identifiers.org/uniprot/G3V4K6> , <http://identifiers.org/uniprot/G3V524> , <http://identifiers.org/uniprot/Q9NZ32> , <http://identifiers.org/uniprot/G3V2Q5> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a5963> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/ba575>
+        a                 wp:Interaction , wp:Binding , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/ba575> ;
+        wp:participants   <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/ba575> , <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/uniprot/O60884> , <http://identifiers.org/uniprot/Q8WW22> , <http://identifiers.org/uniprot/P25685> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/P31689> , <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/uniprot/P34931> .
+
+<http://identifiers.org/uniprot/P47755>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "CAPZA2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P47755> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P47755"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000198898> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/830> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CAPZA2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/C9JUG7> , <http://identifiers.org/uniprot/A0A0D9SET8> , <http://identifiers.org/uniprot/P47755> , <http://identifiers.org/uniprot/A4D0V4> , <http://identifiers.org/uniprot/C9J7V0> , <http://identifiers.org/uniprot/C9JCZ4> , <http://identifiers.org/uniprot/F8WED3> , <http://identifiers.org/uniprot/F8W9N7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e899a> .
+
+<http://identifiers.org/uniprot/P07900>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "HSP90AA1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P07900> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P07900"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d8854> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/eaf7a> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/b948b> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d049f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e6828> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000080824> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/3320> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/HSP90AA1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A0U1RR69> , <http://identifiers.org/uniprot/G3V2J8> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/K9JA46> , <http://identifiers.org/uniprot/H0YJF5> , <http://identifiers.org/uniprot/G3V592> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ffdd2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/badc6> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a2c12> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/de83b> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e1ff8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fb425> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f3ba5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c7367> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c2296> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c54f0> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ac523> .
+
+<http://identifiers.org/reactome/R-HSA-5618076>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "HSP90:ATP:FKBP4:STIP1:HSP70:nascent protein"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-5618076> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-5618076"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/e5e50> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/ba3f1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-5618076> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fa434> .
+
+<http://identifiers.org/pubmed/22318716>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22318716> .
+
+<http://identifiers.org/reactome/R-HSA-5618101>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "HSP90:ATP:FKBP4:PTGES3:nascent protein:"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-5618101> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-5618101"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/bd9f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/ba3f1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-5618101> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c9646> .
+
+<http://identifiers.org/uniprot/Q9Y6G9>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "DYNC1LI1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9Y6G9> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9Y6G9"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000144635> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/51143> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DYNC1LI1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/C9JLW1> , <http://identifiers.org/uniprot/Q9Y6G9> , <http://identifiers.org/uniprot/E9PHI6> , <http://identifiers.org/uniprot/C9JGM7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d4d26> .
+
+<http://identifiers.org/chebi/CHEBI:16422>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "androst-4-en-3,17-dione"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/AEMFNILZOJDQLW-QAGGRKNESA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16422> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16422"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16422> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5898> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000053> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/AEMFNILZOJDQLW-QAGGRKNESA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00280> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST02020007> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6128> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q411064> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e532d> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f47df> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d890a> .
+
+<http://identifiers.org/uniprot/Q15185>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "PTGES3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q15185> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q15185"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b5daf> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/ba3f1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d8854> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/b948b> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/eaf7a> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/cee11> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000110958> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/10728> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PTGES3> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A087WYT3> , <http://identifiers.org/uniprot/A0A024RB32> , <http://identifiers.org/uniprot/B4DDC6> , <http://identifiers.org/uniprot/Q15185> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d4744> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b3821> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c0dc1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a856f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/bb7bb> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d22f1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/dfe7d> .
+
+<http://identifiers.org/pubmed/18215318>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18215318> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/aaf68>
+        a                 wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/aaf68> ;
+        wp:participants   <http://identifiers.org/reactome/R-HSA-3371594> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/d2fd8> ;
+        wp:source         <http://identifiers.org/reactome/R-HSA-3371594> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/d2fd8> .
+
+<http://identifiers.org/reactome/R-HSA-3371441>
+        a                              wp:DataNode , wp:Complex ;
+        rdfs:label                     "HSP40:HSP70:ADP:nascent protein"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-3371441> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/20084477> , <http://identifiers.org/pubmed/20809635> , <http://identifiers.org/pubmed/7828728> ;
+        dcterms:identifier             "R-HSA-3371441"^^xsd:string ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/d2fd8> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/eda1c> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-3371441> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c8f3d> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/e9533>
+        a                 wp:Interaction , wp:ComplexBinding , wp:Binding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/e9533> ;
+        wp:participants   <http://identifiers.org/uniprot/Q9NZ32> , <http://identifiers.org/uniprot/Q96KX2> , <http://identifiers.org/uniprot/Q14203> , <http://identifiers.org/uniprot/O75935> , <http://identifiers.org/uniprot/O43237> , <http://identifiers.org/uniprot/P47756> , <http://identifiers.org/uniprot/Q9Y6G9> , <http://identifiers.org/uniprot/Q96FJ2> , <http://identifiers.org/uniprot/Q13409> , <http://identifiers.org/uniprot/O00399> , <http://identifiers.org/uniprot/Q9UJW0> , <http://identifiers.org/uniprot/Q13561> , <http://identifiers.org/uniprot/P52907> , <http://identifiers.org/uniprot/Q9BTE1> , <http://identifiers.org/uniprot/P47755> , <http://identifiers.org/uniprot/P61163> , <http://identifiers.org/uniprot/P63167> , <http://identifiers.org/uniprot/O14576> , <http://identifiers.org/uniprot/Q14204> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> .
+
+<http://identifiers.org/uniprot/Q13409>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "DYNC1I2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q13409> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q13409"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000077380> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1781> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DYNC1I2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E7EMU4> , <http://identifiers.org/uniprot/A0A140VKE9> , <http://identifiers.org/uniprot/E7EV09> , <http://identifiers.org/uniprot/E7ET01> , <http://identifiers.org/uniprot/E7EU01> , <http://identifiers.org/uniprot/E7ESD3> , <http://identifiers.org/uniprot/E9PGG1> , <http://identifiers.org/uniprot/E7EQU2> , <http://identifiers.org/uniprot/E7ETL8> , <http://identifiers.org/uniprot/Q13409> , <http://identifiers.org/uniprot/E7EUM4> , <http://identifiers.org/uniprot/E7EQL5> , <http://identifiers.org/uniprot/E7ERR6> , <http://identifiers.org/uniprot/E7ERH4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/aff76> .
+
+<http://identifiers.org/uniprot/Q14203>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DCTN1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q14203> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q14203"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000204843> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1639> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DCTN1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/C9JZA4> , <http://identifiers.org/uniprot/E9PCY0> , <http://identifiers.org/uniprot/Q14203> , <http://identifiers.org/uniprot/E7EX90> , <http://identifiers.org/uniprot/C9JJD0> , <http://identifiers.org/uniprot/C9J1B7> , <http://identifiers.org/uniprot/C9JKG6> , <http://identifiers.org/uniprot/Q6AWB1> , <http://identifiers.org/uniprot/C9JTE5> , <http://identifiers.org/uniprot/C9JJN7> , <http://identifiers.org/uniprot/C9JUI8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d6f99> .
+
+<http://identifiers.org/pubmed/24694367>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24694367> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/f3eb2> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:16973> , <http://identifiers.org/chebi/CHEBI:17347> , <http://identifiers.org/chebi/CHEBI:17026> , <http://identifiers.org/uniprot/P10275> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/chebi/CHEBI:16422> , <http://identifiers.org/uniprot/Q15185> , <http://identifiers.org/chebi/CHEBI:29117> , <http://identifiers.org/chebi/CHEBI:17650> , <http://identifiers.org/uniprot/P04150> , <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/uniprot/P08235> , <http://identifiers.org/uniprot/P06401> , <http://identifiers.org/chebi/CHEBI:27584> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/chebi/CHEBI:16330> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/e57f5> ;
+        wp:participants   <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/P31948> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/uniprot/P34931> , <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/uniprot/P0DMV9> .
+
+<http://identifiers.org/uniprot/P06401>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "PGR"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P06401> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P06401"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d8854> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000082175> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5241> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PGR> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q8NG42> , <http://identifiers.org/uniprot/A0A0J9YVP1> , <http://identifiers.org/uniprot/Q8NG44> , <http://identifiers.org/uniprot/A0A087WXR4> , <http://identifiers.org/uniprot/Q8NG45> , <http://identifiers.org/uniprot/P06401> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b7df9> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c4d1e> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/dd8c8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/eb466> .
+
+<http://identifiers.org/uniprot/O14576>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "DYNC1I1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O14576> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O14576"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000158560> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1780> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DYNC1I1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A0A0MTG2> , <http://identifiers.org/uniprot/O14576> , <http://identifiers.org/uniprot/E5RFE1> , <http://identifiers.org/uniprot/A4D1I7> , <http://identifiers.org/uniprot/C9J3E7> , <http://identifiers.org/uniprot/E5RJ75> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ddd37> .
+
+<http://identifiers.org/uniprot/O00399>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "DCTN6"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O00399> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O00399"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000104671> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/10671> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DCTN6> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E5RIK5> , <http://identifiers.org/uniprot/E5RFU3> , <http://identifiers.org/uniprot/E5RGW9> , <http://identifiers.org/uniprot/O00399> , <http://identifiers.org/uniprot/E5RK00> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ef3ea> .
+
+<http://identifiers.org/reactome/R-HSA-8948970>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "HSP90:ATP:FKBP4:PTGES3:SHR:SH"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-8948970> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-8948970"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/e2060> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/df1d0> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-8948970> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c4d2d> .
+
+<http://identifiers.org/reactome/R-HSA-5618106>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "HSP90:ATP:STIP1:HSP70:nascent protein"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-5618106> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-5618106"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b2f33> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/e5e50> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/f82ed> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-5618106> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f07e5> .
+
+<http://identifiers.org/pubmed/15381148>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15381148> .
+
+<http://identifiers.org/chebi/CHEBI:17347>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "TEST"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/MUMGGOZAMZWBJJ-DYKIIFRCSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17347> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17347"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:45798> , <http://identifiers.org/chebi/CHEBI:17347> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5791> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000234> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/MUMGGOZAMZWBJJ-DYKIIFRCSA-N> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST02020002> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6013> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q1318776> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fc210> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/cdf0e> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e911f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ce33b> .
+
+<http://identifiers.org/uniprot/Q96KX2>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "CAPZA3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q96KX2> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q96KX2"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000177938> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/93661> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CAPZA3> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q96KX2> , <http://identifiers.org/uniprot/A0A140VKF6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c5cc4> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/e85e5>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/e85e5> ;
+        wp:participants   <http://identifiers.org/uniprot/O60884> , <http://identifiers.org/uniprot/Q8WW22> , <http://identifiers.org/uniprot/P25685> , <http://identifiers.org/uniprot/P31689> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e85e5> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/bd9f5>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/27462449> , <http://identifiers.org/pubmed/11751894> ;
+        dcterms:identifier             "R-HSA-5618073"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5618073> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/a5586> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/d601b> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/fde08> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/ed309> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/bd9f5> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-5618074> , <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/reactome/R-HSA-5618101> , <http://identifiers.org/uniprot/Q13451> ;
+        wp:source                      <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/reactome/R-HSA-5618074> ;
+        wp:target                      <http://identifiers.org/uniprot/Q13451> , <http://identifiers.org/reactome/R-HSA-5618101> .
+
+<http://identifiers.org/uniprot/P52907>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "CAPZA1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P52907> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P52907"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000116489> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/829> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CAPZA1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P52907> , <http://identifiers.org/uniprot/A0A024R0E5> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b9a85> .
+
+<http://identifiers.org/uniprot/Q13451>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "FKBP5"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q13451> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q13451"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/f82ed> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/bd9f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/eaf7a> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000096060> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/2289> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/FKBP5> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q13451> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/de479> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/db035> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b7975> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/eed00> .
+
+<http://identifiers.org/reactome/R-HSA-3371594>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "HSP40s"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-3371594> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-3371594"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/aaf68> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/eda1c> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-3371594> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a9845> .
+
+<http://identifiers.org/pubmed/21700222>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21700222> .
+
+<http://identifiers.org/uniprot/O60884>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "DNAJA2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O60884> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O60884"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/aa237> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/ba575> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e85e5> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000069345> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/10294> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DNAJA2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/I3L320> , <http://identifiers.org/uniprot/O60884> , <http://identifiers.org/uniprot/A0A087WT48> , <http://identifiers.org/uniprot/A0A024R6S1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c1748> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c2074> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/aaa35> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a5e52> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d8854>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/d8854> ;
+        wp:participants   <http://identifiers.org/uniprot/P10275> , <http://identifiers.org/uniprot/P04150> , <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/Q15185> , <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P08235> , <http://identifiers.org/uniprot/P06401> .
+
+<http://identifiers.org/reactome/R-ALL-5618094>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "SH"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-ALL-5618094> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-ALL-5618094"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/e2060> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/ba215> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/fec17> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-ALL-5618094> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b7951> .
+
+<http://identifiers.org/reactome/R-HSA-5618095>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "HSP90:ATP:FKBP5:STIP1:HSP70:nascent protein"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-5618095> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-5618095"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/f82ed> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/cee11> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-5618095> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/bed4c> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/fec17>
+        a                 wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/fec17> ;
+        wp:participants   <http://identifiers.org/reactome/R-ALL-5618094> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b5daf> ;
+        wp:source         <http://identifiers.org/reactome/R-ALL-5618094> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b5daf> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/cee11>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/21183720> , <http://identifiers.org/pubmed/16403413> ;
+        dcterms:identifier             "R-HSA-5618098"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5618098> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/b86c8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/cee11> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/b8ffb> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/c1892> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/b7897> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/a882c> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-5618079> , <http://identifiers.org/reactome/R-HSA-5618095> , <http://identifiers.org/reactome/R-HSA-5618074> , <http://identifiers.org/uniprot/P31948> , <http://identifiers.org/uniprot/Q15185> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-5618095> , <http://identifiers.org/uniprot/Q15185> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-5618074> , <http://identifiers.org/reactome/R-HSA-5618079> , <http://identifiers.org/uniprot/P31948> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e85e5>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/e85e5> ;
+        wp:participants   <http://identifiers.org/uniprot/P25685> , <http://identifiers.org/uniprot/O60884> , <http://identifiers.org/uniprot/Q8WW22> , <http://identifiers.org/uniprot/P31689> .
+
+<http://identifiers.org/uniprot/Q9BTE1>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "DCTN5"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9BTE1> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9BTE1"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000166847> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/84516> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DCTN5> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/H3BR94> , <http://identifiers.org/uniprot/H3BS05> , <http://identifiers.org/uniprot/H3BUD2> , <http://identifiers.org/uniprot/I3L0U8> , <http://identifiers.org/uniprot/Q9BTE1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e72f9> .
+
+<http://identifiers.org/pubmed/11751894>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11751894> .
+
+<http://identifiers.org/uniprot/P0DMV9>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "HSPA1B"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P0DMV9> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P0DMV9"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/ba575> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/aa237> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d049f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/c2424> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e6828> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000204388> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/3304> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/HSPA1B> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/uniprot/A8K5I0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d0989> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fc940> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/cced2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/d169a> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c07ac> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f628f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e99ea> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/d049f>
+        a                 wp:Binding , wp:ComplexBinding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/d049f> ;
+        wp:participants   <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/P34931> , <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/uniprot/P31948> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d049f> , <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/uniprot/P07900> .
+
+<http://identifiers.org/uniprot/P04150>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "NR3C1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P04150> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P04150"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d8854> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000113580> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/2908> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/NR3C1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P04150> , <http://identifiers.org/uniprot/F1D8N4> , <http://identifiers.org/uniprot/D6RDA9> , <http://identifiers.org/uniprot/E5KQF6> , <http://identifiers.org/uniprot/Q3MSN4> , <http://identifiers.org/uniprot/E5KQF5> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a7ae5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a14ce> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c2082> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b9cfe> .
+
+<http://identifiers.org/chebi/CHEBI:17026>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "P4"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/RJKFOVLPORLFTN-LEKSSAKUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17026> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17026"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:45786> , <http://identifiers.org/chebi/CHEBI:17026> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5773> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001830> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/RJKFOVLPORLFTN-LEKSSAKUSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00410> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST02030159> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5994> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26963> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/df13f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b3bd7> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/cf223> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a8e45> .
+
+<http://identifiers.org/reactome/R-HSA-5618074>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "HSP90:ATP:FKBP5:PTGES3:nascent protein:"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-5618074> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-5618074"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/bd9f5> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/cee11> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-5618074> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/efaaa> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/c2424>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/c2424> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/uniprot/P34931> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/e5e50>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15159550> , <http://identifiers.org/pubmed/18635947> , <http://identifiers.org/pubmed/15381148> ;
+        dcterms:identifier             "R-HSA-5618085"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5618085> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/c5252> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/bd2d8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/e5e50> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/f0beb> ;
+        wp:participants                <http://identifiers.org/uniprot/Q02790> , <http://identifiers.org/reactome/R-HSA-5618076> , <http://identifiers.org/reactome/R-HSA-5618106> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-5618106> , <http://identifiers.org/uniprot/Q02790> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-5618076> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/ba575>
+        a                 wp:DataNode , wp:Complex ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/ba575> ;
+        wp:participants   <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/uniprot/O60884> , <http://identifiers.org/uniprot/P34931> , <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/uniprot/P25685> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/uniprot/P31689> , <http://identifiers.org/uniprot/Q8WW22> .
+
+<http://identifiers.org/uniprot/P08238>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "HSP90AB1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P08238> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P08238"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/eaf7a> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/b948b> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d049f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d8854> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e6828> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000096384> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/3326> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/HSP90AB1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/uniprot/A0A024RD80> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fba96> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b8b11> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ef39c> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e0601> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b0def> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e3e13> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a0ccf> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b9cc9> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/aecf0> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f749a> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a8c2b> .
+
+<http://identifiers.org/reactome/R-HSA-5082395>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "HSP90:HSP90"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-5082395> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-5082395"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b5daf> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-5082395> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/b57e2> .
+
+<http://identifiers.org/chebi/CHEBI:16973>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "11DCORST"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/ZESRJSPZRDMNHY-YFWFAHHUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16973> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16973"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16973> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5932> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000016> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/ZESRJSPZRDMNHY-YFWFAHHUSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C03205> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST02030087> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6166> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q948846> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f4a04> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ef31d> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fb0bf> .
+
+<http://identifiers.org/chebi/CHEBI:18367>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Pi"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:18367> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:18367"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b5daf> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/d2fd8> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:18367> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/1032> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001429> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1061> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q177811> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fbf23> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/a4e82> .
+
+<http://identifiers.org/reactome/R-HSA-2029135>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "Dynein:Dynactin:microtubule"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-2029135> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-2029135"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/d99a0> , <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-2029135> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/eac9d> .
+
+<http://identifiers.org/uniprot/P31948>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "STIP1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P31948> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P31948"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/cee11> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e6828> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d049f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/a6a06> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e57f5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/eda1c> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/ba3f1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000168439> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/10963> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/STIP1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/V9HW72> , <http://identifiers.org/uniprot/F5H783> , <http://identifiers.org/uniprot/H0YGI8> , <http://identifiers.org/uniprot/F5GXD8> , <http://identifiers.org/uniprot/P31948> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/dcb58> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/ce2d0> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c35d3> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/fa6fc> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/e26cd> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e9533>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/e9533> ;
+        wp:participants   <http://identifiers.org/uniprot/Q13561> , <http://identifiers.org/uniprot/Q96KX2> , <http://identifiers.org/uniprot/Q14204> , <http://identifiers.org/uniprot/Q13409> , <http://identifiers.org/uniprot/P63167> , <http://identifiers.org/uniprot/O14576> , <http://identifiers.org/uniprot/O43237> , <http://identifiers.org/uniprot/P47756> , <http://identifiers.org/uniprot/Q9NZ32> , <http://identifiers.org/uniprot/P61163> , <http://identifiers.org/uniprot/Q96FJ2> , <http://identifiers.org/uniprot/Q14203> , <http://identifiers.org/uniprot/Q9Y6G9> , <http://identifiers.org/uniprot/O00399> , <http://identifiers.org/uniprot/Q9BTE1> , <http://identifiers.org/uniprot/Q9UJW0> , <http://identifiers.org/uniprot/P47755> , <http://identifiers.org/uniprot/P52907> , <http://identifiers.org/uniprot/O75935> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/d049f>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/d049f> ;
+        wp:participants   <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/uniprot/P31948> , <http://identifiers.org/uniprot/P0DMV8> , <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/uniprot/P54652> , <http://identifiers.org/uniprot/P34931> , <http://identifiers.org/uniprot/P07900> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/ba3f1>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/16403413> , <http://identifiers.org/pubmed/21183720> ;
+        dcterms:identifier             "R-HSA-5618110"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5618110> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/d147f> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/f8589> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/bd22d> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/c249e> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/f50d5> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Interaction/ba3f1> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-5618079> , <http://identifiers.org/uniprot/P31948> , <http://identifiers.org/reactome/R-HSA-5618101> , <http://identifiers.org/reactome/R-HSA-5618076> , <http://identifiers.org/uniprot/Q15185> ;
+        wp:source                      <http://identifiers.org/uniprot/Q15185> , <http://identifiers.org/reactome/R-HSA-5618076> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-5618101> , <http://identifiers.org/uniprot/P31948> , <http://identifiers.org/reactome/R-HSA-5618079> .
+
+<http://identifiers.org/chebi/CHEBI:29117>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "6-Dehydrotestosterone"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/UMDCOKNNLDEKJB-DYKIIFRCSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:29117> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:29117"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/f3eb2> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/e1fe8> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:29117> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/16290> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/UMDCOKNNLDEKJB-DYKIIFRCSA-N> ;
+        wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST02020082> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID17209> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27109951> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f0c03> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/f2b19> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/cde35> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/aa237>
+        a                 wp:Interaction , wp:ComplexBinding , wp:Binding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/aa237> ;
+        wp:participants   <http://identifiers.org/uniprot/P0DMV9> , <http://identifiers.org/uniprot/P34931> , <http://identifiers.org/uniprot/O60884> , <http://identifiers.org/uniprot/P31689> , <http://identifiers.org/uniprot/Q8WW22> , <http://identifiers.org/uniprot/P25685> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P11142> , <http://identifiers.org/uniprot/P54652> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/aa237> , <http://identifiers.org/uniprot/P0DMV8> .
+
+<http://identifiers.org/reactome/R-HSA-5618079>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "HSP70:ATP"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-5618079> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-5618079"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/b0f30> , <http://identifiers.org/wikipathways//HSP90_r1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/ba3f1> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/WP/Interaction/cee11> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-5618079> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//HSP90_r1/DataNode/c9111> .
+
+<http://rdf.wikipathways.org/Pathway//HSP90_r1/ComplexBinding/eaf7a>
+        a                 wp:Interaction , wp:Binding , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//HSP90_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//HSP90_r1/Group/eaf7a> ;
+        wp:participants   <http://identifiers.org/uniprot/P08238> , <http://identifiers.org/uniprot/Q15185> , <http://identifiers.org/uniprot/P07900> , <http://identifiers.org/uniprot/Q13451> , <http://identifiers.org/chebi/CHEBI:30616> , <http://rdf.wikipathways.org/Pathway//HSP90_r1/Complex/eaf7a> .

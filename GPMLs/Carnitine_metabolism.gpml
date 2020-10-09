@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Carnitine metabolism" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The mitochondrial carnitine system catalyzes the transport of long-chain fatty acids  into the mitochondrial matrix where they undergo beta oxidation. This transport system consists of the malonyl-CoA sensitive carnitine palmitoyltransferase I (CPT-I) localized in the mitochondrial outer membrane, the carnitine:acylcarnitine translocase, an integral inner membrane protein, and carnitine palmitoyltransferase II localized on the matrix side of the inner membrane. (Kerner and Hoppel, 2000).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=200425 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 200425</Comment>
+  <Comment Source="Reactome-version">Reactome version: 73</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Gopinathrao, G</Comment>
+  <BiopaxRef>b64</BiopaxRef>
+  <Attribute Key="reactome_id" Value="200425" />
+  <Graphics BoardWidth="1495.0" BoardHeight="1014.0" />
+  <DataNode TextLabel="Mal-CoA" GraphId="b5ba3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="801.0" CenterY="239.0" Width="68.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15531" />
+  </DataNode>
+  <DataNode TextLabel="PALM-CoA" GraphId="a02b4" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="647.5" CenterY="248.0" Width="85.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15525" />
+  </DataNode>
+  <DataNode TextLabel="L-PCARN" GraphId="cc226" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial intermembrane space" />
+    <Graphics CenterX="613.5" CenterY="419.0" Width="77.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17490" />
+  </DataNode>
+  <DataNode TextLabel="CPT1A,B" GraphId="cae6d" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial outer membrane" />
+    <Graphics CenterX="741.0" CenterY="379.0" Width="60.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-549205" />
+  </DataNode>
+  <DataNode TextLabel="CPT1A " GraphId="e759c" Type="Protein" GroupRef="ccd55">
+    <Attribute Key="cellular_location" Value="mitochondrial outer membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-549205" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="882.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P50416" />
+  </DataNode>
+  <DataNode TextLabel="CPT1B " GraphId="cf11f" Type="Protein" GroupRef="ccd55">
+    <Attribute Key="cellular_location" Value="mitochondrial outer membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-549205" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="902.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92523" />
+  </DataNode>
+  <DataNode TextLabel="CoA-SH" GraphId="b23c1" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="698.0" CenterY="290.0" Width="68.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15346" />
+  </DataNode>
+  <DataNode TextLabel="CAR" GraphId="d6ede" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="304.0" CenterY="497.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17126" />
+  </DataNode>
+  <DataNode TextLabel="L-PCARN" GraphId="e96b2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="363.5" CenterY="632.5" Width="79.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17490" />
+  </DataNode>
+  <DataNode TextLabel="SLC25A20" GraphId="f6840" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Graphics CenterX="373.5" CenterY="442.0" Width="77.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43772" />
+  </DataNode>
+  <DataNode TextLabel="CoA-SH" GraphId="cfaf8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="232.0" CenterY="633.0" Width="68.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15346" />
+  </DataNode>
+  <DataNode TextLabel="PalmCoA" GraphId="fea21" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="228.0" CenterY="498.0" Width="68.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15525" />
+  </DataNode>
+  <DataNode TextLabel="CPT2" GraphId="facca" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Graphics CenterX="173.5" CenterY="562.0" Width="43.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23786" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="c4b61" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1122.0" CenterY="184.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="af398" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="821.0" CenterY="289.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="Pi" GraphId="f3fa0" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="826.5" CenterY="196.0" Width="25.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18367" />
+  </DataNode>
+  <DataNode TextLabel="Ac-CoA" GraphId="f603a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1149.0" CenterY="238.0" Width="68.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15351" />
+  </DataNode>
+  <DataNode TextLabel="HCO3-" GraphId="b3c16" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1133.0" CenterY="291.0" Width="60.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17544" />
+  </DataNode>
+  <DataNode TextLabel="AMPK heterotrimer&#xA;(active)" GraphId="b719b" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1280.5" CenterY="311.0" Width="91.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-200408" />
+  </DataNode>
+  <DataNode TextLabel="p-T172-PRKAA2 " GraphId="d50f5" Type="Protein" GroupRef="eb1d7">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-200408" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="922.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P54646" />
+  </DataNode>
+  <DataNode TextLabel="PRKAB2 " GraphId="a01e8" Type="Protein" GroupRef="eb1d7">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-200408" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="942.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43741" />
+  </DataNode>
+  <DataNode TextLabel="PRKAG2 " GraphId="b25da" Type="Protein" GroupRef="eb1d7">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-200408" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="962.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UGJ0" />
+  </DataNode>
+  <DataNode TextLabel="RXRA:PPARD:atRA" GraphId="d804b" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="488.5" CenterY="298.0" Width="97.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5634107" />
+  </DataNode>
+  <DataNode TextLabel="RXRA " GraphId="b179c" Type="Protein" GroupRef="b760c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5634107" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="922.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P19793" />
+  </DataNode>
+  <DataNode TextLabel="PPARD " GraphId="cdbe7" Type="Protein" GroupRef="b760c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5634107" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="942.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q03181" />
+  </DataNode>
+  <DataNode TextLabel="atRA " GraphId="e3515" Type="Metabolite" GroupRef="b760c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5634107" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="962.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15367" />
+  </DataNode>
+  <DataNode TextLabel="Btn-ACACA:2Mn2+&#xA;polymer" GraphId="d90be">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="975.5" CenterY="146.0" Width="115.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-8876883" />
+  </DataNode>
+  <DataNode TextLabel="Btn-ACACB:2Mn2+&#xA;polymer" GraphId="e5d93">
+    <Attribute Key="cellular_location" Value="mitochondrial outer membrane" />
+    <Graphics CenterX="986.0" CenterY="377.0" Width="102.0" Height="42.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-8867341" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="ee1c8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1130.0" CenterY="331.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="e8850" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1306.5" CenterY="450.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="Btn-p-S79-ACACB:2Mn2+ polymer" GraphId="d00c9">
+    <Attribute Key="cellular_location" Value="mitochondrial outer membrane" />
+    <Graphics CenterX="1240.5" CenterY="507.0" Width="95.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-8876893" />
+  </DataNode>
+  <DataNode TextLabel="CIT" GraphId="e52c8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1041.0" CenterY="306.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30769" />
+  </DataNode>
+  <DataNode TextLabel="MID1IP1:THRSP" GraphId="fd4f0" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1085.0" CenterY="137.0" Width="78.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8867329" />
+  </DataNode>
+  <DataNode TextLabel="MID1IP1 " GraphId="d2518" Type="Protein" GroupRef="c7713">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8867329" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="922.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NPA3" />
+  </DataNode>
+  <DataNode TextLabel="THRSP " GraphId="de28e" Type="Protein" GroupRef="c7713">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8867329" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="942.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92748" />
+  </DataNode>
+  <DataNode TextLabel="MID1IP1" GraphId="c1138" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1243.5" CenterY="137.0" Width="57.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NPA3" />
+  </DataNode>
+  <DataNode TextLabel="THRSP" GraphId="bcf7c" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1218.5" CenterY="176.0" Width="47.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92748" />
+  </DataNode>
+  <DataNode TextLabel="CAR" GraphId="a11a1" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="255.0" CenterY="36.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17126" />
+  </DataNode>
+  <DataNode TextLabel="Na+" GraphId="bead1" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="194.5" CenterY="57.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  </DataNode>
+  <DataNode TextLabel="Na+" GraphId="c016f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="167.5" CenterY="159.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  </DataNode>
+  <DataNode TextLabel="CAR" GraphId="d0ff7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="237.0" CenterY="219.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17126" />
+  </DataNode>
+  <DataNode TextLabel="CAR" GraphId="e4c39" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial intermembrane space" />
+    <Graphics CenterX="440.0" CenterY="410.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17126" />
+  </DataNode>
+  <DataNode TextLabel="SLC22A5" GraphId="b79b7" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="303.5" CenterY="97.0" Width="61.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O76082" />
+  </DataNode>
+  <Interaction GraphId="b9533">
+    <Comment Source="Reactome">Carnitine palmitoyl transferase 1 (CPT1) associated with the inner mitochondrial membrane, catalyzes the reaction of palmitoyl-CoA (PALM-CoA) from the cytosol with carnitine (CAR) in the mitochondrial intermembrane space to form palmitoylcarnitine (L-PCARN) and CoA-SH. Three CPT1 isoforms exist; CPT1A, B and C. In the body, CPT1A is most abundant in liver while CPT1B is abundant in muscle. CPT1C is mainly expressed in neurons and localises to the ER and not to the mitochondria. It has little or no enzymatic activity in fatty acid oxidation. Both CPT1A and CPT1B are inhibited by malonyl-CoA (Morillas et al. 2002, 2004; Zammit et al. 2001; Zhu et al. 1997). Mutations in CPT1A are associated with defects in fatty acid metabolism and fasting intolerance, consistent with the role assigned to CPT1 from studies in vitro and in animal models (IJlst et al. 1998; Gobin et al. 2003).&lt;br&gt;In the nucleus, cellular retinoic acid-binding protein 1 or 2 (CRABP1 or 2), bound to all-trans-retinoic acid (atRA), directly binds to the heterodimeric complex of retinoic acid receptor alpha RXRA) and peroxisome proliferator-activated receptor delta (PPARD). When bound to PPARD, atRA can significantly increase the expression of proteins involved in fatty acid oxidation such as CPT1A via its induction of PPARD (Amengual et al. 2012).</Comment>
+    <BiopaxRef>f2e</BiopaxRef>
+    <BiopaxRef>c0e</BiopaxRef>
+    <BiopaxRef>d2b</BiopaxRef>
+    <BiopaxRef>b17</BiopaxRef>
+    <BiopaxRef>a90</BiopaxRef>
+    <BiopaxRef>aba</BiopaxRef>
+    <BiopaxRef>ce2</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="671.0" Y="377.0" />
+      <Point X="672.0" Y="379.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a191c" />
+      <Anchor Position="0.99" Shape="None" GraphId="fbc2e" />
+      <Anchor Position="0.5" Shape="None" GraphId="b9193" />
+      <Anchor Position="0.5" Shape="None" GraphId="ac6ff" />
+      <Anchor Position="0.5" Shape="None" GraphId="a25fb" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200406" />
+  </Interaction>
+  <Interaction GraphId="aa9a8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="647.0" Y="263.0" GraphRef="a02b4" RelX="-0.011764705882352941" RelY="1.0" />
+      <Point X="671.0" Y="377.0" GraphRef="a191c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200406" />
+  </Interaction>
+  <Interaction GraphId="d9917">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="461.0" Y="410.0" GraphRef="e4c39" RelX="1.0" RelY="0.0" />
+      <Point X="671.0" Y="377.0" GraphRef="a191c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200406" />
+  </Interaction>
+  <Interaction GraphId="ab94d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="672.0" Y="379.0" GraphRef="fbc2e" RelX="0.009999999999990905" RelY="0.01999999999998181" />
+      <Point X="651.0" Y="419.0" GraphRef="cc226" RelX="0.974025974025974" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200406" />
+  </Interaction>
+  <Interaction GraphId="b68b3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="672.0" Y="379.0" GraphRef="fbc2e" RelX="0.009999999999990905" RelY="0.01999999999998181" />
+      <Point X="698.0" Y="305.0" GraphRef="b23c1" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200406" />
+  </Interaction>
+  <Interaction GraphId="c814b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="711.0" Y="379.0" GraphRef="cae6d" RelX="-1.0" RelY="0.0" />
+      <Point X="667.0" Y="378.0" GraphRef="b9193" RelX="-4.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200406" />
+  </Interaction>
+  <Interaction GraphId="d16ff">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="767.0" Y="239.0" GraphRef="b5ba3" RelX="-1.0" RelY="0.0" />
+      <Point X="667.0" Y="378.0" GraphRef="ac6ff" RelX="-4.5" RelY="0.0" ArrowHead="TBar" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200406" />
+  </Interaction>
+  <Interaction GraphId="fb3ef">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="536.0" Y="298.0" GraphRef="d804b" RelX="0.979381443298969" RelY="0.0" />
+      <Point X="667.0" Y="378.0" GraphRef="a25fb" RelX="-4.5" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200406" />
+  </Interaction>
+  <Interaction GraphId="f9e6d">
+    <Comment Source="Reactome">The carnitine-acylcarnitine transporter (SLC25A20 / CACT), embedded in the inner mitochondrial membrane, mediates the exchange of palmitoyl-carnitine (and other acylcarnitine esters) and carnitine across the inner mitochondrial membrane (Huizing et al., 1997).</Comment>
+    <BiopaxRef>eca</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="374.0" Y="495.0" />
+      <Point X="376.0" Y="493.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b1536" />
+      <Anchor Position="0.99" Shape="None" GraphId="f982b" />
+      <Anchor Position="0.5" Shape="None" GraphId="da2bd" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200424" />
+  </Interaction>
+  <Interaction GraphId="d2c43">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="325.0" Y="497.0" GraphRef="d6ede" RelX="1.0" RelY="0.0" />
+      <Point X="374.0" Y="495.0" GraphRef="b1536" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200424" />
+  </Interaction>
+  <Interaction GraphId="fe0ce">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="575.0" Y="419.0" GraphRef="cc226" RelX="-1.0" RelY="0.0" />
+      <Point X="374.0" Y="495.0" GraphRef="b1536" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200424" />
+  </Interaction>
+  <Interaction GraphId="b02a0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="376.0" Y="493.0" GraphRef="f982b" RelX="0.01999999999998181" RelY="-0.01999999999998181" />
+      <Point X="363.0" Y="616.0" GraphRef="e96b2" RelX="-0.012658227848101266" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200424" />
+  </Interaction>
+  <Interaction GraphId="d96c5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="376.0" Y="493.0" GraphRef="f982b" RelX="0.01999999999998181" RelY="-0.01999999999998181" />
+      <Point X="440.0" Y="425.0" GraphRef="e4c39" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200424" />
+  </Interaction>
+  <Interaction GraphId="ddde0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="373.0" Y="453.0" GraphRef="f6840" RelX="-0.012987012987012988" RelY="1.0" />
+      <Point X="374.0" Y="493.0" GraphRef="da2bd" RelX="-1.0" RelY="-1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200424" />
+  </Interaction>
+  <Interaction GraphId="af7b9">
+    <Comment Source="Reactome">CPT2, associated with the inner mitochondrial membrane, catalyzes the reaction of palmitoylcarnitine and CoASH to form palmitoyl-CoA and carnitine (Verderio et al. 1995).</Comment>
+    <BiopaxRef>abc</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="276.0" Y="598.0" />
+      <Point X="274.0" Y="537.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="de158" />
+      <Anchor Position="0.99" Shape="None" GraphId="e9565" />
+      <Anchor Position="0.5" Shape="None" GraphId="d57e2" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200410" />
+  </Interaction>
+  <Interaction GraphId="a197a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="266.0" Y="633.0" GraphRef="cfaf8" RelX="1.0" RelY="0.0" />
+      <Point X="276.0" Y="598.0" GraphRef="de158" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200410" />
+  </Interaction>
+  <Interaction GraphId="c77e2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="324.0" Y="632.0" GraphRef="e96b2" RelX="-1.0" RelY="-0.030303030303030304" />
+      <Point X="276.0" Y="598.0" GraphRef="de158" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200410" />
+  </Interaction>
+  <Interaction GraphId="b3389">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="274.0" Y="537.0" GraphRef="e9565" RelX="-0.01999999999998181" RelY="-0.6100000000000136" />
+      <Point X="304.0" Y="512.0" GraphRef="d6ede" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200410" />
+  </Interaction>
+  <Interaction GraphId="aa480">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="274.0" Y="537.0" GraphRef="e9565" RelX="-0.01999999999998181" RelY="-0.6100000000000136" />
+      <Point X="262.0" Y="498.0" GraphRef="fea21" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200410" />
+  </Interaction>
+  <Interaction GraphId="a3001">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="194.0" Y="562.0" GraphRef="facca" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="275.0" Y="563.0" GraphRef="d57e2" RelX="0.0" RelY="-4.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200410" />
+  </Interaction>
+  <Interaction GraphId="fcf70">
+    <Comment Source="Reactome">Cytosolic acetyl-CoA carboxylase 1 (ACACA) catalyzes the reaction of bicarbonate, ATP, and acetyl-CoA to form malonyl-CoA, ADP, and orthophosphate. The reaction is positively regulated by citrate. The human ACACA cDNA has been cloned (Abu-Elheiga et al. 1995) and the biochemical properties of the human enzyme have recently been described (Cheng et al. 2007; Locke et al. 2008). Four ACACA isoforms generated by alternative splicing have been identified as mRNAs - the protein product of the first has been characterized experimentally. ACACA uses biotin (Btn) and two Mn2+ ions per subunit as cofactors and its activity is increased by polymerisation (Kim et al. 2010, Ingaramo &amp; Beckett 2012). Cytosolic ACACA is thought to maintain regulation of fatty acid synthesis in all tissues but especially lipogenic tissues such as adipose tissue and lactating mammary glands.&lt;br&gt;&lt;br&gt;Mid1-interacting protein 1 (MID1IP1, aka MIG12, SPOT14R, S14R) plays a role in the regulation of lipogenesis in the liver. It is rapidly upregulated by processes that induce lipogenesis (enhanced glucose metabolism, thyroid hormone administration) (Tsatsos et al. 2008). MID1IP1 forms a heterodimer with thyroid hormone-inducible hepatic protein (THRSP, aka SPOT14, S14), proposed to play the same role in lipogenesis as MID1IP1 (Aipoalani et al. 2010). This complex can polymerise acetyl-CoA carboxylases 1 and 2 (ACACA and B), the first committed enzymes in fatty acid (FA) synthesis. Polymerisation enhances ACACA and ACACB enzyme activities (Kim et al. 2010).</Comment>
+    <BiopaxRef>cbc</BiopaxRef>
+    <BiopaxRef>e03</BiopaxRef>
+    <BiopaxRef>c24</BiopaxRef>
+    <BiopaxRef>e69</BiopaxRef>
+    <BiopaxRef>db6</BiopaxRef>
+    <BiopaxRef>b23</BiopaxRef>
+    <BiopaxRef>bd2</BiopaxRef>
+    <BiopaxRef>b8f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1055.0" Y="218.0" />
+      <Point X="919.0" Y="217.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d94cd" />
+      <Anchor Position="0.99" Shape="None" GraphId="a5601" />
+      <Anchor Position="0.5" Shape="None" GraphId="d3c51" />
+      <Anchor Position="0.5" Shape="None" GraphId="abb81" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75851" />
+  </Interaction>
+  <Interaction GraphId="b39eb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1101.0" Y="184.0" GraphRef="c4b61" RelX="-1.0" RelY="0.0" />
+      <Point X="1055.0" Y="218.0" GraphRef="d94cd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75851" />
+  </Interaction>
+  <Interaction GraphId="f1a98">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1115.0" Y="238.0" GraphRef="f603a" RelX="-1.0" RelY="0.0" />
+      <Point X="1055.0" Y="218.0" GraphRef="d94cd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75851" />
+  </Interaction>
+  <Interaction GraphId="d9462">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1103.0" Y="291.0" GraphRef="b3c16" RelX="-1.0" RelY="0.0" />
+      <Point X="1055.0" Y="218.0" GraphRef="d94cd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75851" />
+  </Interaction>
+  <Interaction GraphId="fedd4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="919.0" Y="217.0" GraphRef="a5601" RelX="-1.3600000000000136" RelY="-0.009999999999990905" />
+      <Point X="842.0" Y="289.0" GraphRef="af398" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75851" />
+  </Interaction>
+  <Interaction GraphId="f4435">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="919.0" Y="217.0" GraphRef="a5601" RelX="-1.3600000000000136" RelY="-0.009999999999990905" />
+      <Point X="838.0" Y="196.0" GraphRef="f3fa0" RelX="0.92" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75851" />
+  </Interaction>
+  <Interaction GraphId="b1d32">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="919.0" Y="217.0" GraphRef="a5601" RelX="-1.3600000000000136" RelY="-0.009999999999990905" />
+      <Point X="835.0" Y="239.0" GraphRef="b5ba3" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75851" />
+  </Interaction>
+  <Interaction GraphId="fc966">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1032.0" Y="146.0" GraphRef="d90be" RelX="0.9826086956521739" RelY="0.0" />
+      <Point X="975.0" Y="218.0" GraphRef="d3c51" RelX="-12.0" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75851" />
+  </Interaction>
+  <Interaction GraphId="b2650">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1041.0" Y="291.0" GraphRef="e52c8" RelX="0.0" RelY="-1.0" />
+      <Point X="975.0" Y="218.0" GraphRef="abb81" RelX="-12.0" RelY="0.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75851" />
+  </Interaction>
+  <Interaction GraphId="e2ed9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1041.0" Y="291.0" GraphRef="fd4f0" RelX="-1.1282051282051282" RelY="7.7" />
+      <Point X="975.0" Y="218.0" GraphRef="abb81" RelX="-12.0" RelY="0.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75851" />
+  </Interaction>
+  <Interaction GraphId="eabd4">
+    <Comment Source="Reactome">Acetyl-CoA carboxylase 2 (ACACB, ACC2) is involved in the regulation of mitochondrial fatty acid oxidation through the inhibition of carnitine palmitoyltransferase 1 by its product malonyl-CoA. Phosphorylated AMPK inactivates ACACB in muscle cells by phosphorylation. This results in decreased levels of malonyl CoA, contributing to the homeostasis of mitochondrial beta oxidation (Ruderman &amp; Prentki 2004).</Comment>
+    <BiopaxRef>e91</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1183.0" Y="378.0" />
+      <Point X="1240.0" Y="432.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a6e3b" />
+      <Anchor Position="0.99" Shape="None" GraphId="f169b" />
+      <Anchor Position="0.5" Shape="None" GraphId="df33f" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200423" />
+  </Interaction>
+  <Interaction GraphId="ae74a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1037.0" Y="377.0" GraphRef="e5d93" RelX="1.0" RelY="0.0" />
+      <Point X="1183.0" Y="378.0" GraphRef="a6e3b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200423" />
+  </Interaction>
+  <Interaction GraphId="cc162">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1150.0" Y="331.0" GraphRef="ee1c8" RelX="1.0" RelY="0.0" />
+      <Point X="1183.0" Y="378.0" GraphRef="a6e3b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200423" />
+  </Interaction>
+  <Interaction GraphId="d289d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1240.0" Y="432.0" GraphRef="f169b" RelX="0.5699999999999363" RelY="0.5399999999999636" />
+      <Point X="1286.0" Y="450.0" GraphRef="e8850" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200423" />
+  </Interaction>
+  <Interaction GraphId="e7329">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1240.0" Y="432.0" GraphRef="f169b" RelX="0.5699999999999363" RelY="0.5399999999999636" />
+      <Point X="1240.0" Y="482.0" GraphRef="d00c9" RelX="-0.010526315789473684" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200423" />
+  </Interaction>
+  <Interaction GraphId="bbf3e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1235.0" Y="311.0" GraphRef="b719b" RelX="-1.0" RelY="0.0" />
+      <Point X="1238.0" Y="378.0" GraphRef="df33f" RelX="26.5" RelY="-27.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-200423" />
+  </Interaction>
+  <Interaction GraphId="ee4c0">
+    <Comment Source="Reactome">Mitochondrial acetyl-CoA carboxylase 2 (ACACB, ACC2) (Kim et al. 2007) catalyses the reaction of bicarbonate, ATP, and acetyl-CoA to form malonyl-CoA, ADP, and orthophosphate. The reaction is positively regulated by citrate. ACACB uses biotin (Btn) and two Mn2+ ions per subunit as cofactors and its activity is increased by polymerisation (Kim et al. 2010, Ingaramo &amp; Beckett 2012). ACACB is located on the outer mitochondrial membrane and is involved in the regulation of mitochondrial fatty acid oxidation through the inhibition of carnitine palmitoyltransferase 1 by its product malonyl-CoA (Abu-Elheiga et al. 2000).&lt;br&gt;&lt;br&gt;Mid1-interacting protein 1 (MID1IP1, aka MIG12, SPOT14R, S14R) plays a role in the regulation of lipogenesis in the liver. It is rapidly upregulated by processes that induce lipogenesis (enhanced glucose metabolism, thyroid hormone administration) (Tsatsos et al. 2008). MID1IP1 forms a heterodimer with thyroid hormone-inducible hepatic protein (THRSP, aka SPOT14, S14), proposed to play the same role in lipogenesis as MID1IP1 (Aipoalani et al. 2010). This complex can polymerise acetyl-CoA carboxylases 1 and 2 (ACACA and B), the first committed enzymes in fatty acid (FA) synthesis. Polymerisation enhances ACACA and ACACB enzyme activities (Kim et al. 2010).</Comment>
+    <BiopaxRef>cbc</BiopaxRef>
+    <BiopaxRef>c24</BiopaxRef>
+    <BiopaxRef>e69</BiopaxRef>
+    <BiopaxRef>db6</BiopaxRef>
+    <BiopaxRef>b23</BiopaxRef>
+    <BiopaxRef>b8f</BiopaxRef>
+    <BiopaxRef>bd2</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1057.0" Y="270.0" />
+      <Point X="923.0" Y="269.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bb75e" />
+      <Anchor Position="0.99" Shape="None" GraphId="b7864" />
+      <Anchor Position="0.5" Shape="None" GraphId="ab199" />
+      <Anchor Position="0.5" Shape="None" GraphId="ce511" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8876889" />
+  </Interaction>
+  <Interaction GraphId="b1acf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1115.0" Y="238.0" GraphRef="f603a" RelX="-1.0" RelY="0.0" />
+      <Point X="1057.0" Y="270.0" GraphRef="bb75e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8876889" />
+  </Interaction>
+  <Interaction GraphId="f4d39">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1103.0" Y="291.0" GraphRef="b3c16" RelX="-1.0" RelY="0.0" />
+      <Point X="1057.0" Y="270.0" GraphRef="bb75e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8876889" />
+  </Interaction>
+  <Interaction GraphId="deb9c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1122.0" Y="199.0" GraphRef="c4b61" RelX="0.0" RelY="1.0" />
+      <Point X="1057.0" Y="270.0" GraphRef="bb75e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8876889" />
+  </Interaction>
+  <Interaction GraphId="c624e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="923.0" Y="269.0" GraphRef="b7864" RelX="-1.3400000000000318" RelY="-0.009999999999990905" />
+      <Point X="835.0" Y="239.0" GraphRef="b5ba3" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8876889" />
+  </Interaction>
+  <Interaction GraphId="c6f83">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="923.0" Y="269.0" GraphRef="b7864" RelX="-1.3400000000000318" RelY="-0.009999999999990905" />
+      <Point X="838.0" Y="196.0" GraphRef="f3fa0" RelX="0.92" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8876889" />
+  </Interaction>
+  <Interaction GraphId="ce7a1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="923.0" Y="269.0" GraphRef="b7864" RelX="-1.3400000000000318" RelY="-0.009999999999990905" />
+      <Point X="842.0" Y="289.0" GraphRef="af398" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8876889" />
+  </Interaction>
+  <Interaction GraphId="e26d7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1037.0" Y="377.0" GraphRef="e5d93" RelX="1.0" RelY="0.0" />
+      <Point X="980.0" Y="270.0" GraphRef="ab199" RelX="-10.0" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8876889" />
+  </Interaction>
+  <Interaction GraphId="a2511">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1041.0" Y="291.0" GraphRef="e52c8" RelX="0.0" RelY="-1.0" />
+      <Point X="980.0" Y="270.0" GraphRef="ce511" RelX="-10.0" RelY="0.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8876889" />
+  </Interaction>
+  <Interaction GraphId="f1d37">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1041.0" Y="291.0" GraphRef="fd4f0" RelX="-1.1282051282051282" RelY="7.7" />
+      <Point X="980.0" Y="270.0" GraphRef="ce511" RelX="-10.0" RelY="0.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8876889" />
+  </Interaction>
+  <Interaction GraphId="fd870">
+    <Comment Source="Reactome">Mid1-interacting protein 1 (MID1IP1, aka MIG12, SPOT14R, S14R) plays a role in the regulation of lipogenesis in the liver. It is rapidly upregulated by processes that induce lipogenesis (enhanced glucose metabolism, thyroid hormone administration) (Tsatsos et al. 2008). MID1IP1 forms a heterodimer with thyroid hormone-inducible hepatic protein (THRSP, aka SPOT14, S14), proposed to play the same role in lipogenesis as MID1IP1 (Aipoalani et al. 2010). This complex can polymerise acetyl-CoA carboxylases 1 and 2 (ACACA and B), the first committed enzymes in fatty acid (FA) synthesis. Polymerisation enhances ACACA and ACACB enzyme activities (Kim et al. 2010, Park et al. 2013).</Comment>
+    <BiopaxRef>b23</BiopaxRef>
+    <BiopaxRef>bd2</BiopaxRef>
+    <BiopaxRef>b8f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1186.0" Y="136.0" />
+      <Point X="1127.0" Y="137.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c6170" />
+      <Anchor Position="0.99" Shape="None" GraphId="cbec3" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8866941" />
+  </Interaction>
+  <Interaction GraphId="f0223">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1215.0" Y="137.0" GraphRef="c1138" RelX="-1.0" RelY="0.0" />
+      <Point X="1186.0" Y="136.0" GraphRef="c6170" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8866941" />
+  </Interaction>
+  <Interaction GraphId="e1b5a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1195.0" Y="176.0" GraphRef="bcf7c" RelX="-1.0" RelY="0.0" />
+      <Point X="1186.0" Y="136.0" GraphRef="c6170" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8866941" />
+  </Interaction>
+  <Interaction GraphId="ec62c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1127.0" Y="137.0" GraphRef="cbec3" RelX="-0.5899999999999181" RelY="0.009999999999990905" />
+      <Point X="1124.0" Y="137.0" GraphRef="fd4f0" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8866941" />
+  </Interaction>
+  <Interaction GraphId="cfbeb">
+    <Comment Source="Reactome">OCTN2 (organic cation transporter novel 2, encoded by the SLC22A5 gene) mediates the sodium-dependent transport of CAR (carnitine) from the extracellular space into the cytosol.&lt;p&gt;While humans are capable of synthesizing carnitine de novo, the enzyme that catalyzes the last reaction of the biosynthetic pathway is found only in liver and kidney cells, and at very low levels in brain cells. Other tissues that require carnitine, such as muscle, are dependent on transport systems that mediate its export from the liver and uptake by other tissues (Kerner &amp; Hoppel 1998). The specific transport systems responsible for liver export have been characterized biochemically in model organisms but specific transport proteins have not yet been identified. OCTN2 is the major transporter responsible for carnitine uptake in extrahepatic tissues, as demonstrated both by the biochemical characterization of overexpressed recombinant human protein (Tamai et al. 1998) and by the appearance of symptoms of carnitine deficiency in humans lacking a functional SLC22A5 gene (Seth et al. 1999; reviewed by Longo et al. 2016).</Comment>
+    <BiopaxRef>b22</BiopaxRef>
+    <BiopaxRef>e34</BiopaxRef>
+    <BiopaxRef>d51</BiopaxRef>
+    <BiopaxRef>b27</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="232.0" Y="70.0" />
+      <Point X="234.0" Y="122.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a672a" />
+      <Anchor Position="0.99" Shape="None" GraphId="a88c8" />
+      <Anchor Position="0.5" Shape="None" GraphId="b19be" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-165026" />
+  </Interaction>
+  <Interaction GraphId="b6286">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="255.0" Y="51.0" GraphRef="a11a1" RelX="0.0" RelY="1.0" />
+      <Point X="232.0" Y="70.0" GraphRef="a672a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-165026" />
+  </Interaction>
+  <Interaction GraphId="b20df">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="215.0" Y="57.0" GraphRef="bead1" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="232.0" Y="70.0" GraphRef="a672a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-165026" />
+  </Interaction>
+  <Interaction GraphId="e11a5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="234.0" Y="122.0" GraphRef="a88c8" RelX="0.020000000000010232" RelY="0.5200000000000102" />
+      <Point X="188.0" Y="159.0" GraphRef="c016f" RelX="0.9534883720930233" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-165026" />
+  </Interaction>
+  <Interaction GraphId="dd629">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="234.0" Y="122.0" GraphRef="a88c8" RelX="0.020000000000010232" RelY="0.5200000000000102" />
+      <Point X="237.0" Y="204.0" GraphRef="d0ff7" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-165026" />
+  </Interaction>
+  <Interaction GraphId="d5e5e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="273.0" Y="97.0" GraphRef="b79b7" RelX="-1.0" RelY="0.0" />
+      <Point X="233.0" Y="96.0" GraphRef="b19be" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-165026" />
+  </Interaction>
+  <Interaction GraphId="e38db">
+    <Comment Source="Reactome">CAR (carnitine) diffuses across the mitochondrial outer membrane from the cytosol to the mitochondrial intermembrane space, presumably via porin channels in the outer membrane (Bay &amp; Court 2002).</Comment>
+    <BiopaxRef>fac</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="237.0" Y="237.0" />
+      <Point X="416.0" Y="406.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bd064" />
+      <Anchor Position="0.99" Shape="None" GraphId="b6a48" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8949399" />
+  </Interaction>
+  <Interaction GraphId="bf363">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="237.0" Y="234.0" GraphRef="d0ff7" RelX="0.0" RelY="1.0" />
+      <Point X="237.0" Y="237.0" GraphRef="bd064" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8949399" />
+  </Interaction>
+  <Interaction GraphId="d1ebc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="416.0" Y="406.0" GraphRef="b6a48" RelX="1.7900000000000205" RelY="1.6900000000000546" />
+      <Point X="419.0" Y="410.0" GraphRef="e4c39" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8949399" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="fc1d7" GroupRef="fdaca">
+    <Graphics CenterX="231.0" CenterY="807.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="mitochondrial matrix" GraphId="b6129" GroupRef="a3151">
+    <Graphics CenterX="509.5" CenterY="651.5" Width="147.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="nucleoplasm" GraphId="c4f52" GroupRef="d0867">
+    <Graphics CenterX="472.5" CenterY="245.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="mitochondrial intermembrane space" GraphId="db50f" GroupRef="f62c2">
+    <Graphics CenterX="403.5" CenterY="722.5" Width="247.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="b0cb4" GroupRef="fdaca">
+    <Graphics CenterX="758.5" CenterY="473.0" Width="1397.0" Height="762.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="b1d0f" GroupRef="a3151">
+    <Graphics CenterX="675.5" CenterY="563.0" Width="1017.0" Height="248.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="d0786" GroupRef="d0867">
+    <Graphics CenterX="449.5" CenterY="262.0" Width="157.0" Height="92.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="c01e8" GroupRef="f62c2">
+    <Graphics CenterX="690.5" CenterY="566.0" Width="1113.0" Height="390.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="ccd55" GraphId="ce048">
+    <Attribute Key="complex_id" Value="R-HSA-549205" />
+  </Group>
+  <Group GroupId="eb1d7" GraphId="a1f56" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-200408" />
+  </Group>
+  <Group GroupId="b760c" GraphId="c2c76" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5634107" />
+  </Group>
+  <Group GroupId="c7713" GraphId="ccb78" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8867329" />
+  </Group>
+  <Group GroupId="fdaca" GraphId="cb7cd" Style="Group" />
+  <Group GroupId="a3151" GraphId="b9ae0" Style="Group" />
+  <Group GroupId="d0867" GraphId="c3657" Style="Group" />
+  <Group GroupId="f62c2" GraphId="b2a6c" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b64">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11257506</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular enzymology of carnitine transfer and transport.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramsay RR, Gandour RD, van der Leij FR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14517221</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional and structural basis of carnitine palmitoyltransferase 1A deficiency.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gobin S, Thuillier L, Jogl G, Faye A, Tong L, Chi M, Bonnefont JP, Girard J, Prip-Buus C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9691089</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular basis of hepatic carnitine palmitoyltransferase I deficiency.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IJlst L, Mandel H, Oostheim W, Ruiter JP, Gutman A, Wanders RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11790793</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structural model of a malonyl-CoA-binding site of carnitine octanoyltransferase and carnitine palmitoyltransferase I: mutational analysis of a malonyl-CoA affinity domain.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morillas M, Gómez-Puertas P, Rubí B, Clotet J, Ariño J, Valencia A, Hegardt FG, Serra D, Asins G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b17">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14711372</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structural model of carnitine palmitoyltransferase I based on the carnitine acetyltransferase crystal.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morillas M, López-Viñas E, Valencia A, Serra D, Gómez-Puertas P, Hegardt FG, Asins G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a90">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11356169</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure-function relationships of the liver and muscle isoforms of carnitine palmitoyltransferase I.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zammit VA, Price NT, Fraser F, Jackson VN.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aba">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9344464</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional studies of yeast-expressed human heart muscle carnitine palmitoyltransferase I.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu H, Shi J, de Vries Y, Arvidson DN, Cregg JM, Woldegiorgis G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22871568</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Induction of carnitine palmitoyl transferase 1 and fatty acid oxidation by retinoic acid in HepG2 cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amengual J, Petrov P, Bonet ML, Ribot J, Palou A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eca">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9399886</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloning of the human carnitine-acylcarnitine carrier cDNA and identification of the molecular defect in a patient.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huizing M, Iacobazzi V, Ijlst L, Savelkoul P, Ruitenbeek W, van den Heuvel L, Indiveri C, Smeitink J, Trijbels F, Wanders R, Palmieri F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="abc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7711730</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carnitine palmitoyltransferase II deficiency: structure of the gene and characterization of two novel disease-causing mutations.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verderio E, Cavadini P, Montermini L, Wang H, Lamantea E, Finocchiaro G, DiDonato S, Gellera C, Taroni F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cbc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17223360</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expression, purification, and characterization of human acetyl-CoA carboxylase 2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim KW, Yamane H, Zondlo J, Busby J, Wang M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e03">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9099716</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human acetyl-CoA carboxylase 2. Molecular cloning, characterization, chromosomal mapping, and evidence for two isoforms.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abu-Elheiga L, Almarza-Ortega DB, Baldini A, Wakil SJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c24">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10677481</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The subcellular localization of acetyl-CoA carboxylase 2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abu-Elheiga L, Brinkley WR, Zhong L, Chirala SS, Woldegiorgis G, Wakil SJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e69">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20457939</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Induced polymerization of mammalian acetyl-CoA carboxylase by MIG12 provides a tertiary level of regulation of fatty acid synthesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim CW, Moon YA, Park SW, Cheng D, Kwon HJ, Horton JD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22123817</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selectivity in post-translational biotin addition to five human carboxylases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingaramo M, Beckett D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b23">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18556348</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepatic expression of the SPOT 14 (S14) paralog S14-related (Mid1 interacting protein) is regulated by dietary carbohydrate.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tsatsos NG, Augustin LB, Anderson GW, Towle HC, Mariash CN.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20233797</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overlapping roles of the glucose-responsive genes, S14 and S14R, in hepatic lipogenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aipoalani DL, O'Callaghan BL, Mashek DG, Mariash CN, Towle HC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b8f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24277613</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spot14/Mig12 heterocomplex sequesters polymerization and restrains catalytic function of human acetyl-CoA carboxylase 2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Park S, Hwang IW, Makishima Y, Perales-Clemente E, Kato T, Niederländer NJ, Park EY, Terzic A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e91">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15060529</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMP kinase and malonyl-CoA: targets for therapy of the metabolic syndrome.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruderman N, Prentki M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b22">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9706223</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic disorders of carnitine metabolism and their nutritional management.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kerner J, Hoppel C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e34">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26828774</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carnitine transport and fatty acid oxidation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Longo N, Frigeni M, Pasquali M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d51">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10559218</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutations in novel organic cation transporter (OCTN2), an organic cation/carnitine transporter, with differential effects on the organic cation transport function and the carnitine transport function.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seth P, Wu X, Huang W, Leibach FH, Ganapathy V.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b27">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9685390</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular and functional identification of sodium ion-dependent, high affinity human carnitine transporter OCTN2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamai I, Ohashi R, Nezu J, Yabuuchi H, Oku A, Shimane M, Sai Y, Tsuji A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fac">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12440696</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Origami in the outer membrane: the transmembrane arrangement of mitochondrial porins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay DC, Court DA.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

@@ -1,0 +1,253 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/b0e4c>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23103841> ;
+        dcterms:identifier             "R-HSA-9645134"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9645134> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/e14ac> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/b0e4c> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/feb6e> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/d1757> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9645129> , <http://identifiers.org/reactome/R-HSA-9645119> , <http://identifiers.org/reactome/R-HSA-507929> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-9645119> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-507929> , <http://identifiers.org/reactome/R-HSA-9645129> .
+
+<http://identifiers.org/reactome/R-HSA-9645129>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "Activators of STAT5"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-9645129> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-9645129"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/b0e4c> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/b8f13> , <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9645129> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/c9543> .
+
+<http://identifiers.org/reactome/R-HSA-1295523>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "STAT5"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-1295523> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-1295523"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/b8f13> , <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-1295523> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/bd823> .
+
+<http://identifiers.org/uniprot/Q06124>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "PTPN11"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q06124> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q06124"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//STAT5_r1> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Complex/f730c> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000179295> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5781> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PTPN11> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/H0YF12> , <http://identifiers.org/uniprot/Q06124> , <http://identifiers.org/uniprot/A0A0U1RRI0> , <http://identifiers.org/uniprot/A0A1W2PPU4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/d277f> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/bf2f3> .
+
+<http://identifiers.org/reactome/R-HSA-9645119>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "Activators of STAT5:p-STAT5"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-9645119> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-9645119"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//STAT5_r1> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/b0e4c> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/ee60c> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9645119> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/a2e4f> .
+
+<http://rdf.wikipathways.org/Pathway//STAT5_r1/Complex/f730c>
+        a                 wp:DataNode , wp:Complex ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//STAT5_r1/Group/f730c> ;
+        wp:participants   <http://identifiers.org/uniprot/Q9UQC2> , <http://identifiers.org/uniprot/P51692> , <http://identifiers.org/uniprot/P36888> , <http://identifiers.org/uniprot/P49771> , <http://identifiers.org/uniprot/P42229> , <http://identifiers.org/uniprot/P62993-1> , <http://identifiers.org/uniprot/Q06124> .
+
+<http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/ee60c>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23103841> ;
+        dcterms:identifier             "R-HSA-9645137"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9645137> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/ee60c> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/db4d9> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/f1e3c> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/c4435> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/ebe17> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9645118> , <http://identifiers.org/reactome/R-HSA-9645119> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/chebi/CHEBI:456216> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-9645118> , <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/reactome/R-HSA-9645119> .
+
+<http://identifiers.org/reactome/R-HSA-507929>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "p-STAT5A, p-STAT5B"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-507929> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-507929"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/b0e4c> , <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-507929> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/ef5b2> .
+
+<http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/b8f13>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23103841> ;
+        dcterms:identifier             "R-HSA-9645126"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9645126> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/dc54e> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/ac350> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/bc382> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Interaction/b8f13> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-1295523> , <http://identifiers.org/reactome/R-HSA-9645118> , <http://identifiers.org/reactome/R-HSA-9645129> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-9645129> , <http://identifiers.org/reactome/R-HSA-1295523> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9645118> .
+
+<http://identifiers.org/reactome/R-HSA-9645118>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "Activators of STAT5:STAT5"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-9645118> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-9645118"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/ee60c> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/b8f13> , <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9645118> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/c237a> .
+
+<http://identifiers.org/chebi/CHEBI:30616>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ATP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:30616> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:30616"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//STAT5_r1> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/ee60c> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4574455> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-J> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5461108> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27113900> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/b0880> .
+
+<http://identifiers.org/uniprot/P36888>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "Autophosphorylated FLT3"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P36888> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P36888"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//STAT5_r1/Complex/f730c> , <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000122025> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/2322> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/FLT3> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E7ER61> , <http://identifiers.org/uniprot/P36888> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/b59d5> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/fca0f> .
+
+<http://identifiers.org/chebi/CHEBI:456216>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ADP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:456216> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:456216"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//STAT5_r1> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/WP/Interaction/ee60c> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:456216> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5414423> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-K> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7058055> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27225748> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/b1f3e> .
+
+<http://identifiers.org/uniprot/P49771>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "FLT3LG"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P49771> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P49771"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//STAT5_r1> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Complex/f730c> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000090554> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/2323> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/FLT3LG> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/M0R3A6> , <http://identifiers.org/uniprot/M0R2K0> , <http://identifiers.org/uniprot/M0QYM9> , <http://identifiers.org/uniprot/M0QXI0> , <http://identifiers.org/uniprot/P49771> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/df486> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/e71f3> .
+
+<http://identifiers.org/uniprot/P51692>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "STAT5B"^^xsd:string , "p-Y699-STAT5B"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P51692> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P51692"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//STAT5_r1/Complex/f730c> , <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000173757> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/6777> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/STAT5B> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P51692> , <http://identifiers.org/uniprot/C9J4I3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/aae5c> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/bbf8c> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/da005> .
+
+<http://identifiers.org/wikipathways//STAT5>
+        pav:hasVersion  <http://identifiers.org/wikipathways//STAT5_r1> .
+
+<http://identifiers.org/uniprot/P62993-1>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "GRB2-1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P62993-1> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P62993-1"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//STAT5_r1> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Complex/f730c> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/P62993-1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/ff9a5> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/bdada> .
+
+<http://identifiers.org/uniprot/Q9UQC2>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "p-Y-GAB2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9UQC2> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9UQC2"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//STAT5_r1/Complex/f730c> , <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000033327> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/9846> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/GAB2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E9PJE2> , <http://identifiers.org/uniprot/E9PJ26> , <http://identifiers.org/uniprot/Q9UQC2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/d5230> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/cf79c> .
+
+<http://identifiers.org/uniprot/P42229>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "STAT5A"^^xsd:string , "p-Y694-STAT5A"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P42229> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P42229"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//STAT5_r1/Complex/f730c> , <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000126561> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/6776> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/STAT5A> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/K7EM17> , <http://identifiers.org/uniprot/C9JVV6> , <http://identifiers.org/uniprot/P42229> , <http://identifiers.org/uniprot/K7EIF9> , <http://identifiers.org/uniprot/K7EK35> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/fdb07> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/d8508> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/DataNode/c79e6> .
+
+<http://rdf.wikipathways.org/Pathway//STAT5_r1/ComplexBinding/f730c>
+        a                 wp:Interaction , wp:Binding , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//STAT5_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//STAT5_r1/Group/f730c> ;
+        wp:participants   <http://identifiers.org/uniprot/Q06124> , <http://identifiers.org/uniprot/P49771> , <http://identifiers.org/uniprot/P62993-1> , <http://identifiers.org/uniprot/P42229> , <http://rdf.wikipathways.org/Pathway//STAT5_r1/Complex/f730c> , <http://identifiers.org/uniprot/P51692> , <http://identifiers.org/uniprot/P36888> , <http://identifiers.org/uniprot/Q9UQC2> .
+
+<http://identifiers.org/wikipathways//STAT5_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//STAT5> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "STAT5 Activation"@en ;
+        dcterms:description  "Signal transducer and activator of transcription (STAT) constitutes a family of universal transcription factors. STAT5 refers to two highly related proteins, STAT5A and STAT5B, with critical function in cell survival and proliferation. Several upstream signals including cytokines and growth factors can trigger STAT5 activation.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9645135 Reactome]." ;
+        dcterms:identifier   "/STAT5"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/23103841> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//STAT5_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//STAT5_r1> .
+
+<http://identifiers.org/pubmed/23103841>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//STAT5_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23103841> .

@@ -1,0 +1,77 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/12040175>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12040175> .
+
+<http://identifiers.org/wikipathways//Signa>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Signa_r1> .
+
+<http://identifiers.org/pubmed/18043707>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18043707> .
+
+<http://identifiers.org/pubmed/10202136>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10202136> .
+
+<http://identifiers.org/pubmed/15251227>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15251227> .
+
+<http://identifiers.org/pubmed/16902930>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16902930> .
+
+<http://identifiers.org/wikipathways//Signa_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Signa> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Signaling by GPCR"@en ;
+        dcterms:description  "G protein-coupled receptors (GPCRs; 7TM receptors; seven transmembrane domain receptors; heptahelical receptors; G protein-linked receptors [GPLR]) are the largest family of transmembrane receptors in humans, accounting for more than 1% of the protein-coding capacity of the human genome. All known GPCRs share a common architecture of seven membrane-spanning helices connected by intra- and extracellular loops. The extracellular loops contain two highly-conserved cysteine residues that form disulphide bonds to stabilize the structure of the receptor. They recognize diverse messengers such as light, odorants, small molecules, hormones and neurotransmitters. Most GPCRs act as guanine nucleotide exchange factors; activated by ligand binding, they promote GDP-GTP exchange on associated heterotrimeric guanine nucleotide-binding (G) proteins. There are two models for GPCR-G Protein interactions: 1) ligand-GPCR binding first, then binding to G Proteins; 2) \"Pre-coupling\" of GPCRs and G Proteins before ligand binding (review Oldham WM and Hamm HE, 2008). These in turn activate effector enzymes or ion channels. GPCRs are involved in a range of physiological roles which include the visual sense, smell, behavioural regulation, functions of the autonomic nervous system and regulation of the immune system and inflammation.<br>GPCRs are divided into  classes based on sequence homology and functional similarity.  The main mammalian classes, in order of size, are the Rhodopsin-like family A, the Secretin receptor family B, and the Metabotropic glutamate/pheromone receptor family C. \n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=372790 Reactome]." ;
+        dcterms:identifier   "/Signa"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/18043707> , <http://identifiers.org/pubmed/10202136> , <http://identifiers.org/pubmed/16902930> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Signa_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Signa_r1> .
+
+<http://identifiers.org/reactome/R-HSA-388396>
+        a                              wp:DataNode ;
+        rdfs:label                     "GPCR downstream signalling"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-388396> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12040175> ;
+        dcterms:identifier             "R-HSA-388396"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Signa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Signa_r1/DataNode/e3bd1> .
+
+<http://identifiers.org/reactome/R-HSA-500792>
+        a                              wp:DataNode ;
+        rdfs:label                     "GPCR ligand binding"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-500792> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15251227> ;
+        dcterms:identifier             "R-HSA-500792"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Signa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Signa_r1/DataNode/f268b> .

@@ -1,0 +1,72 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/20051984>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Meios_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20051984> .
+
+<http://identifiers.org/reactome/R-HSA-1221632>
+        a                              wp:DataNode ;
+        rdfs:label                     "Meiotic synapsis"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-1221632> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/18948708> , <http://identifiers.org/pubmed/20364103> ;
+        dcterms:identifier             "R-HSA-1221632"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Meios_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Meios_r1/DataNode/d480a> .
+
+<http://identifiers.org/pubmed/20364103>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Meios_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20364103> .
+
+<http://identifiers.org/pubmed/16543383>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Meios_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16543383> .
+
+<http://identifiers.org/wikipathways//Meios_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Meios> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Meiosis"@en ;
+        dcterms:description  "During meiosis the replicated chromosomes of a single diploid cell are segregated into 4 haploid daughter cells by two successive divisions, meiosis I and meiosis II. In meiosis I, the distinguishing event of meiosis, pairs (bivalents) of homologous chromosomes in the form of sister chromatids are paired by <b>synapsis</b> along their regions of homologous DNA (Yang and Wang 2009), and then segregated, resulting in haploid daughters containing sister chromatids paired at their centromeres (Cohen et al. 2006, Handel and Schimenti 2010). The sister chromatids are then separated and segregated during meiosis II.<p><b>Recombination</b> between chromosomal homologues but not between sister chromatids occurs during prophase of meiosis I (Inagaki et al. 2010). Though hundreds of recombination events are initiated, most are resolved without crossovers and only tens proceed to become crossovers. In mammals recombination events are required between homologues for normal pairing, synapsis, and segregation.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=1500620 Reactome]." ;
+        dcterms:identifier   "/Meios"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/20051984> , <http://identifiers.org/pubmed/20364103> , <http://identifiers.org/pubmed/18948708> , <http://identifiers.org/pubmed/16543383> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Meios_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Meios_r1> .
+
+<http://identifiers.org/wikipathways//Meios>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Meios_r1> .
+
+<http://identifiers.org/pubmed/18948708>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Meios_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18948708> .
+
+<http://identifiers.org/reactome/R-HSA-912446>
+        a                              wp:DataNode ;
+        rdfs:label                     "Meiotic recombination"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-912446> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/20364103> , <http://identifiers.org/pubmed/20051984> , <http://identifiers.org/pubmed/16543383> ;
+        dcterms:identifier             "R-HSA-912446"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Meios_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Meios_r1/DataNode/f6116> .

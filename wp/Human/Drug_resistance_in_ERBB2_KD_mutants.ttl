@@ -1,0 +1,152 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/reactome/R-HSA-9665249>
+        a                              wp:DataNode ;
+        rdfs:label                     "Resistance of ERBB2 KD mutants to afatinib"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9665249> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/28274957> , <http://identifiers.org/pubmed/23948973> ;
+        dcterms:identifier             "R-HSA-9665249"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Drug__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Drug__r1/DataNode/f9bad> .
+
+<http://identifiers.org/reactome/R-HSA-9665233>
+        a                              wp:DataNode ;
+        rdfs:label                     "Resistance of ERBB2 KD mutants to trastuzumab"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9665233> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/28274957> , <http://identifiers.org/pubmed/23948973> , <http://identifiers.org/pubmed/29967253> , <http://identifiers.org/pubmed/23220880> ;
+        dcterms:identifier             "R-HSA-9665233"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Drug__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Drug__r1/DataNode/adafb> .
+
+<http://identifiers.org/pubmed/30301790>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Drug__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/30301790> .
+
+<http://identifiers.org/reactome/R-HSA-9665251>
+        a                              wp:DataNode ;
+        rdfs:label                     "Resistance of ERBB2 KD mutants to lapatinib"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9665251> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/29967253> , <http://identifiers.org/pubmed/23220880> , <http://identifiers.org/pubmed/30301790> , <http://identifiers.org/pubmed/25620423> , <http://identifiers.org/pubmed/18413839> , <http://identifiers.org/pubmed/23948973> , <http://identifiers.org/pubmed/28274957> , <http://identifiers.org/pubmed/22046346> ;
+        dcterms:identifier             "R-HSA-9665251"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Drug__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Drug__r1/DataNode/a017f> .
+
+<http://identifiers.org/pubmed/28274957>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Drug__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/28274957> .
+
+<http://identifiers.org/wikipathways//Drug__r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Drug_> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Drug resistance in ERBB2 KD mutants"@en ;
+        dcterms:description  "ERBB2 kinase domain (KD) mutants vary in their resistance to various tyrosine kinase inhibitors and therapeutic antibody trastuzumab (herceptin).\r\nThe following ERBB2 KD mutants are resistant to the therapeutic antibody trastuzumab (herceptin):<br><br>ERBB2 L755P (Nagano et al. 2018);<br>ERBB2 L755S (Nagano et al. 2018);<br>ERBB2 I767M (Bose et al. 2013);<br>ERBB2 D769Y (Nagano et al. 2018);<br>ERBB2 V777L (Nagano et al. 2018);<br>ERBB2 P780_Y781insGSP (Bose et al. 2013, Nagano et al. 2018);<br>ERBB2 T798M (Rexer et al. 2013);<br>ERBB2 V842I (Nagano et al. 2018);<br>ERBB2 T862A (Nagano et al. 2018);<br>ERBB2 L869R (Hanker et al. 2017);<br><br>For ERBB2 R896C, both resistance (Bose et al. 2013) and sensitivity (Nagano et al. 2018) to trastuzumab have been reported.<br>\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9665230 Reactome]." ;
+        dcterms:identifier   "/Drug_"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/23948973> , <http://identifiers.org/pubmed/23220880> , <http://identifiers.org/pubmed/28274957> , <http://identifiers.org/pubmed/29967253> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Drug__r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Drug__r1> .
+
+<http://identifiers.org/pubmed/18413839>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Drug__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18413839> .
+
+<http://identifiers.org/wikipathways//Drug_>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Drug__r1> .
+
+<http://identifiers.org/reactome/R-HSA-9665247>
+        a                              wp:DataNode ;
+        rdfs:label                     "Resistance of ERBB2 KD mutants to osimertinib"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9665247> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/28274957> ;
+        dcterms:identifier             "R-HSA-9665247"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Drug__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Drug__r1/DataNode/e64a6> .
+
+<http://identifiers.org/pubmed/25620423>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Drug__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25620423> .
+
+<http://identifiers.org/reactome/R-HSA-9665250>
+        a                              wp:DataNode ;
+        rdfs:label                     "Resistance of ERBB2 KD mutants to AEE788"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9665250> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/22046346> ;
+        dcterms:identifier             "R-HSA-9665250"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Drug__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Drug__r1/DataNode/e4c16> .
+
+<http://identifiers.org/pubmed/23220880>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Drug__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23220880> .
+
+<http://identifiers.org/reactome/R-HSA-9665246>
+        a                              wp:DataNode ;
+        rdfs:label                     "Resistance of ERBB2 KD mutants to neratinib"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9665246> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/28274957> ;
+        dcterms:identifier             "R-HSA-9665246"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Drug__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Drug__r1/DataNode/d0f1e> .
+
+<http://identifiers.org/pubmed/23948973>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Drug__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23948973> .
+
+<http://identifiers.org/pubmed/22046346>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Drug__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22046346> .
+
+<http://identifiers.org/reactome/R-HSA-9665245>
+        a                              wp:DataNode ;
+        rdfs:label                     "Resistance of ERBB2 KD mutants to tesevatinib"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9665245> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/18413839> ;
+        dcterms:identifier             "R-HSA-9665245"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Drug__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Drug__r1/DataNode/a8895> .
+
+<http://identifiers.org/pubmed/29967253>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Drug__r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/29967253> .
+
+<http://identifiers.org/reactome/R-HSA-9665244>
+        a                              wp:DataNode ;
+        rdfs:label                     "Resistance of ERBB2 KD mutants to sapitinib"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9665244> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/29967253> ;
+        dcterms:identifier             "R-HSA-9665244"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Drug__r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Drug__r1/DataNode/e24db> .

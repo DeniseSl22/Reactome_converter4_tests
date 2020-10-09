@@ -1,0 +1,180 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/19096781>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19096781> .
+
+<http://identifiers.org/wikipathways//Trans_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Trans> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Transport of glycerol from adipocytes to the liver by Aquaporins"@en ;
+        dcterms:description  "Triglycerides stored in adipocytes are hydrolyzed to yield fatty acids and glycerol. The glycerol is passively transported out of the adipocyte and into the bloodstream by Aquaporin-7 (AQP7) located in the plasma membrane of adipocytes. Glycerol in the bloodstream is passively transported into liver cells by AQP9 located in the plasma membrane of hepatocytes. Once inside the liver cell the glycerol is a substrate for gluconeogenesis.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=432030 Reactome]." ;
+        dcterms:identifier   "/Trans"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/19096781> , <http://identifiers.org/pubmed/16764946> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Trans_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Trans_r1> .
+
+<http://identifiers.org/pubmed/16325777>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16325777> .
+
+<http://identifiers.org/pubmed/16764946>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16764946> .
+
+<http://identifiers.org/pubmed/11952783>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11952783> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/d12b2>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19590626> , <http://identifiers.org/pubmed/10564231> , <http://identifiers.org/pubmed/11027599> , <http://identifiers.org/pubmed/18762715> , <http://identifiers.org/pubmed/17961083> ;
+        dcterms:identifier             "R-HSA-432049"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-432049> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/ae1c3> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/d7ba5> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/b2c1d> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/d12b2> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-432249> , <http://identifiers.org/chebi/CHEBI:17754> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:17754> , <http://identifiers.org/reactome/R-HSA-432249> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17754> .
+
+<http://identifiers.org/pubmed/10564231>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10564231> .
+
+<http://identifiers.org/pubmed/19590626>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19590626> .
+
+<http://identifiers.org/reactome/R-HSA-432243>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "AQP7 tetramer"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-432243> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-432243"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/dee1b> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-432243> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/ec1cb> .
+
+<http://identifiers.org/reactome/R-HSA-432249>
+        a                              wp:DataNode , wp:Complex ;
+        rdfs:label                     "AQP9 tetramer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-432249> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/17239399> ;
+        dcterms:identifier             "R-HSA-432249"^^xsd:string ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/d12b2> , <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-432249> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/dd302> .
+
+<http://identifiers.org/pubmed/18555844>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18555844> .
+
+<http://identifiers.org/pubmed/17239399>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17239399> .
+
+<http://identifiers.org/pubmed/11027599>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11027599> .
+
+<http://identifiers.org/pubmed/9405233>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9405233> .
+
+<http://identifiers.org/uniprot/O43315>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "AQP9"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O43315> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O43315"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000103569> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/366> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/AQP9> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/O43315> , <http://identifiers.org/uniprot/H0YK62> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/f5f5f> .
+
+<http://identifiers.org/pubmed/17961083>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17961083> .
+
+<http://identifiers.org/wikipathways//Trans>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Trans_r1> .
+
+<http://identifiers.org/chebi/CHEBI:17754>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "glycerol"^^xsd:string , "Glycerol"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/PEDCQBHIVMGVHV-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17754> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17754"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/d12b2> , <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/dee1b> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17754> , <http://identifiers.org/chebi/CHEBI:42998> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/733> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000131> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/PEDCQBHIVMGVHV-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00116> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID753> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q132501> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/b4411> , <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/c6e5f> , <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/f40ed> .
+
+<http://identifiers.org/uniprot/O14520>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "AQP7"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O14520> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O14520"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000165269> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/364> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/AQP7> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A096LP23> , <http://identifiers.org/uniprot/Q6P5T0> , <http://identifiers.org/uniprot/Q5T5M1> , <http://identifiers.org/uniprot/A0A096LNK2> , <http://identifiers.org/uniprot/Q5T5L3> , <http://identifiers.org/uniprot/A0A096LNV7> , <http://identifiers.org/uniprot/O14520> , <http://identifiers.org/uniprot/Q5T5M0> , <http://identifiers.org/uniprot/B7Z4U2> , <http://identifiers.org/uniprot/A0A096LP64> , <http://identifiers.org/uniprot/A0A096LNN5> , <http://identifiers.org/uniprot/A0A096LNU3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/a514a> .
+
+<http://identifiers.org/pubmed/18762715>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18762715> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/dee1b>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/16325777> , <http://identifiers.org/pubmed/9405233> , <http://identifiers.org/pubmed/18555844> , <http://identifiers.org/pubmed/11952783> , <http://identifiers.org/pubmed/17961083> ;
+        dcterms:identifier             "R-HSA-432074"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-432074> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/fa630> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/d6a50> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/e5175> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/dee1b> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-432243> , <http://identifiers.org/chebi/CHEBI:17754> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:17754> , <http://identifiers.org/reactome/R-HSA-432243> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17754> .

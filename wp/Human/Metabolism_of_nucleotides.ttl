@@ -1,0 +1,127 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/wikipathways//Metab_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Metab> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Metabolism of nucleotides"@en ;
+        dcterms:description  "Nucleotides and their derivatives are used for short-term energy storage (ATP, GTP), for intra- and extra-cellular signaling (cAMP; adenosine), as enzyme cofactors (NAD, FAD), and for the synthesis of DNA and RNA. Most dietary nucleotides are consumed by gut flora; the human body's own supply of these molecules is synthesized de novo. Additional metabolic pathways allow the interconversion of nucleotides, the salvage and reutilization of nucleotides released by degradation of DNA and RNA, the catabolism of excess nucleotides, and the transport of these molecules between the cytosol and the nucleus (Rudolph 1994). These pathways are regulated to control the total size of the intracellular nucleotide pool, to balance the relative amounts of individual nucleotides, and to couple the synthesis of deoxyribonucleotides to the onset of DNA replication (S phase of the cell cycle).<P>These pathways are also of major clinical interest as they are the means by which nucleotide analogues used as anti-viral and anti-tumor drugs are taken up by cells, activated, and catabolized (Weilin and Nordlund 2010). As well, differences in nucleotide metabolic pathways between humans and aplicomplexan parasites like Plasmodium have been exploited to design drugs to attack the latter (Hyde 2007).<p>The movement of nucleotides and purine and pyrimidine bases across lipid bilayer membranes, mediated by SLC transporters, is annotated as part of the module \"transmembrane transport of small molecules\".\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=15869 Reactome]." ;
+        dcterms:identifier   "/Metab"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/20494131> , <http://identifiers.org/pubmed/8283301> , <http://identifiers.org/pubmed/17266529> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Metab_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Metab_r1> .
+
+<http://identifiers.org/pubmed/177353>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/177353> .
+
+<http://identifiers.org/reactome/R-HSA-8956320>
+        a                              wp:DataNode ;
+        rdfs:label                     "Nucleobase biosynthesis"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-8956320> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/1574589> , <http://identifiers.org/pubmed/6105839> ;
+        dcterms:identifier             "R-HSA-8956320"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/f45b8> .
+
+<http://identifiers.org/pubmed/4620886>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/4620886> .
+
+<http://identifiers.org/pubmed/8283301>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8283301> .
+
+<http://identifiers.org/reactome/R-HSA-8956319>
+        a                              wp:DataNode ;
+        rdfs:label                     "Nucleobase catabolism"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-8956319> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/4620886> , <http://identifiers.org/pubmed/10989446> , <http://identifiers.org/pubmed/3090932> ;
+        dcterms:identifier             "R-HSA-8956319"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/c7c97> .
+
+<http://identifiers.org/pubmed/20494131>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20494131> .
+
+<http://identifiers.org/pubmed/17266529>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17266529> .
+
+<http://identifiers.org/pubmed/1574589>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/1574589> .
+
+<http://identifiers.org/pubmed/10989446>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10989446> .
+
+<http://identifiers.org/wikipathways//Metab>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Metab_r1> .
+
+<http://identifiers.org/reactome/R-HSA-8956321>
+        a                              wp:DataNode ;
+        rdfs:label                     "Nucleotide salvage"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-8956321> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/4620886> ;
+        dcterms:identifier             "R-HSA-8956321"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/a9287> .
+
+<http://identifiers.org/reactome/R-HSA-499943>
+        a                              wp:DataNode ;
+        rdfs:label                     "Interconversion of nucleotide di- and triphosphates"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-499943> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11008000> , <http://identifiers.org/pubmed/177353> , <http://identifiers.org/pubmed/5940> ;
+        dcterms:identifier             "R-HSA-499943"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Metab_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Metab_r1/DataNode/e854d> .
+
+<http://identifiers.org/pubmed/5940>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/5940> .
+
+<http://identifiers.org/pubmed/3090932>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/3090932> .
+
+<http://identifiers.org/pubmed/11008000>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11008000> .
+
+<http://identifiers.org/pubmed/6105839>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Metab_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/6105839> .

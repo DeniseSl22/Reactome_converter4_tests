@@ -1,0 +1,55 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/7555019>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Diges_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/7555019> .
+
+<http://identifiers.org/reactome/R-HSA-8935690>
+        a                              wp:DataNode ;
+        rdfs:label                     "Digestion"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-8935690> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/7555019> ;
+        dcterms:identifier             "R-HSA-8935690"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Diges_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Diges_r1/DataNode/c357e> .
+
+<http://identifiers.org/wikipathways//Diges_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Diges> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Digestion and absorption"@en ;
+        dcterms:description  "Fats, carbohydrates, and proteins are broken down to small molecules - fatty acids, cholesterol, and glycerol, monosaccharides, and amino acids - within the lumen of the gastrointestinal tract and absorbed into the body principally through enterocytes in the small intestine. Some of the hydrolases that catalyze these reactions are secreted into the gastrointestinal tract; others are associated with the luminal surfaces of enterocytes. Movement of the final products of digestion out of the intestinal lumen is mediated by arrays of transporters associated with the lumenal and basolateral surfaces of enterocytes (Yamada 2015).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=8963743 Reactome]." ;
+        dcterms:identifier   "/Diges"^^xsd:string ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Diges_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Diges_r1> .
+
+<http://identifiers.org/reactome/R-HSA-8963676>
+        a                   wp:DataNode ;
+        rdfs:label          "Intestinal absorption"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-8963676> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-8963676"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Diges_r1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Diges_r1/DataNode/a7e89> .
+
+<http://identifiers.org/wikipathways//Diges>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Diges_r1> .

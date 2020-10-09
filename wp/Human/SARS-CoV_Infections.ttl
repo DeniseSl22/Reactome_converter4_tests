@@ -1,0 +1,72 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/wikipathways//SARS-_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//SARS-> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "SARS-CoV Infections"@en ;
+        dcterms:description  "Coronaviruses (CoVs) are large, enveloped, positive strand RNA viruses that can be classified into four genera: alpha, beta, delta, and gamma. Coronaviruses are ecologically diverse, infecting animals including camels, cattle, cats, and bats, with the greatest variety seen in bats, suggesting that bats are the reservoirs for many of these viruses. Rarely, A and B lineage beta coronaviruses of non-human origin can infect people and then spread directly between people. Four human coronaviruses (HCoVs), HCoV 229E, NL63, OC43, and HKU1, are endemic globally and account for 10% to 30% of upper respiratory tract infections in adults, typically presenting as common colds (van der Hoek 2007). However, in the 21st century, three highly pathogenic HCoVs - severe acute respiratory syndrome coronavirus (SARS-CoV-1) in 2003, Middle East Respiratory Syndrome coronavirus (MERS CoV) in 2012, and SARS-CoV-2 in 2019 - emerged from animal reservoirs to cause global epidemics with alarming morbidity and mortality (De Wit et al. 2016; Fung & Liu 2019; Marra et al. 2003; Paules et al. 2020).<br><br>During the 2003 outbreak of SARS-CoV-1, 8,098 people worldwide became sick. Of these, 774 died. In the United States, only eight people had laboratory evidence of SARS CoV-1 infection. All of these people had traveled to other parts of the world where the disease was spreading. Community spread was not observed in the United States (De Wit et al. 2016; WHO - SARS). A second human coronavirus, MERS-CoV, first observed in 2012, has been identified in 2,494 patients with respiratory distress of whom 858 have died. Human-to-human transmission of the virus appears to be limited (De Wit et al. 2016; WHO â€“ MERS). <br><br>In December 2019, yet another pathogenic HCoV, 2019 novel coronavirus (2019 nCoV), was recognized, initially in Wuhan, China. The World Health Organization has named the disease caused by the 2019 novel coronavirus COronaVIrus Disease 2019, or COVID 19. The disease has also been referred to as 2019 novel coronavirus or 2019 nCoV. <br><br>SARS-CoV-1 and SARS-CoV-2 viral infection pathways are or will be annotated in this section, as are drugs that potentially modulate the infection processes. Many of the steps of SARS-CoV-1 infection have been characterized experimentally in the past 15 years (Fung & Liu 2019; Masters 2006), and this experimental work has allowed the annotation here of the infection process and interactions with host proteins in molecular detail. Few comparable data are yet available for SARS-CoV-2 infection, but the similarity in the genomes and predicted proteomes of the two viruses will allow the inference of a detailed infection pathway for SARS-CoV-2.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9679506 Reactome]." ;
+        dcterms:identifier   "/SARS-"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/12730501> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//SARS-_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//SARS-_r1> .
+
+<http://identifiers.org/pubmed/32205870>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//SARS-_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/32205870> .
+
+<http://identifiers.org/reactome/R-HSA-9679191>
+        a                              wp:DataNode ;
+        rdfs:label                     "Potential therapeutics for SARS"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9679191> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/32205870> , <http://identifiers.org/pubmed/32256547> ;
+        dcterms:identifier             "R-HSA-9679191"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//SARS-_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//SARS-_r1/DataNode/a2c01> .
+
+<http://identifiers.org/pubmed/31226023>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//SARS-_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/31226023> .
+
+<http://identifiers.org/reactome/R-HSA-9678108>
+        a                              wp:DataNode ;
+        rdfs:label                     "SARS-CoV-1 Infection"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9678108> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/31226023> , <http://identifiers.org/pubmed/12730501> ;
+        dcterms:identifier             "R-HSA-9678108"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//SARS-_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//SARS-_r1/DataNode/ac333> .
+
+<http://identifiers.org/pubmed/12730501>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//SARS-_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12730501> .
+
+<http://identifiers.org/pubmed/32256547>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//SARS-_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/32256547> .
+
+<http://identifiers.org/wikipathways//SARS->
+        pav:hasVersion  <http://identifiers.org/wikipathways//SARS-_r1> .

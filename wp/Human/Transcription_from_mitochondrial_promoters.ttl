@@ -1,0 +1,228 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/6883508>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/6883508> .
+
+<http://identifiers.org/wikipathways//Trans_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Trans> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Transcription from mitochondrial promoters"@en ;
+        dcterms:description  "Thirteen of the ~80 different proteins present in the respiratory chain of human mitochondria are encoded by the mitochondrial genome (mtDNA). The circular mtDNA, which is present in 1000 to 10000 copies in the human cell, also encodes for 2 ribosomal RNAs, and 22 transfer RNAs. The double-stranded mitochondrial genome lacks introns and the longer non-coding region contains the control elements for transcription and replication of mtDNA  (Shadel and Clayton,  1997).   The two mtDNA strands are referred to as the heavy  (H-strand) and the light  (L-strand) due to their differing  G+T content.  In human cells, each strand contains one single promoter for transcriptional initiation, the light-strand promoter (LSP) or the heavy-strand promoter (HSP). Transcription from the mitochondrial promoters produce polycistronic precursor RNA encompassing all the genetic information encoded in each of the specific strands. The primary transcripts are processed to produce the individual tRNA and mRNA molecules (Clayton, 1991; Ojala et al., 1981). There is likely a second initiation site for heavy strand transcription, which produces RNAs spanning the rDNA region. The resulting transcript  including  the genes for the two mitochondrial rRNAs and ends at the boundary between the 16 S rRNA and the tRNALeu(UUR) genes (Montoya et al., 1982; Montoya et al.,1983; Christianson and Clayton 1986). The existence of such a separate transcription unit may explain why the steady-state levels of rRNAs are much higher than the steady state levels of mRNAs.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=75944 Reactome]." ;
+        dcterms:identifier   "/Trans"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/7219536> , <http://identifiers.org/pubmed/9242913> , <http://identifiers.org/pubmed/6883508> , <http://identifiers.org/pubmed/6185947> , <http://identifiers.org/pubmed/1809353> , <http://identifiers.org/pubmed/3018722> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Trans_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Trans_r1> .
+
+<http://identifiers.org/pubmed/3018722>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/3018722> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/ComplexBinding/f7a89>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Trans_r1/Group/f7a89> ;
+        wp:participants   <http://identifiers.org/uniprot/O00411> , <http://identifiers.org/uniprot/Q9H5Q4> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/f7a89> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/e0cd1>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12068295> , <http://identifiers.org/pubmed/15526033> ;
+        dcterms:identifier             "R-HSA-163296"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-163296> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/d008d> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/fa975> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/e0cd1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/dfa2d> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-163298> , <http://identifiers.org/reactome/R-HSA-163306> , <http://identifiers.org/reactome/R-HSA-163307> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-163298> , <http://identifiers.org/reactome/R-HSA-163306> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-163307> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/bf0ad>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/3594571> ;
+        dcterms:identifier             "R-HSA-163310"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-163310> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/dc9d4> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/bf0ad> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/c7fbe> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/f7c80> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-163298> , <http://identifiers.org/uniprot/Q00059> ;
+        wp:source                      <http://identifiers.org/uniprot/Q00059> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-163298> .
+
+<http://identifiers.org/pubmed/3594571>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/3594571> .
+
+<http://identifiers.org/pubmed/7219536>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/7219536> .
+
+<http://identifiers.org/pubmed/1809353>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/1809353> .
+
+<http://identifiers.org/uniprot/Q99551>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "MTERF"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q99551> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q99551"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/fd2cc> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000127989> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/7978> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/MTERF1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/C9JNM8> , <http://identifiers.org/uniprot/C9JE25> , <http://identifiers.org/uniprot/Q99551> , <http://identifiers.org/uniprot/C9JU79> , <http://identifiers.org/uniprot/B4DPR9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/e9ced> , <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/dcc38> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/fd2cc>
+        a                   wp:DirectedInteraction , wp:Interaction ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-163320"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-163320> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/e8bfe> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/fb0e8> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/fd2cc> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Interaction/dfbeb> ;
+        wp:participants     <http://identifiers.org/uniprot/Q99551> , <http://identifiers.org/reactome/R-HSA-163321> ;
+        wp:source           <http://identifiers.org/uniprot/Q99551> ;
+        wp:target           <http://identifiers.org/reactome/R-HSA-163321> .
+
+<http://identifiers.org/pubmed/12068295>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12068295> .
+
+<http://identifiers.org/reactome/R-HSA-163321>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "mTERF:mitochondrial transcription termination sequence"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-163321> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-163321"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/fd2cc> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-163321> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/cdddc> .
+
+<http://identifiers.org/pubmed/6185947>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/6185947> .
+
+<http://identifiers.org/uniprot/O00411>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "POLRMT"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O00411> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O00411"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/f7a89> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/e2ab4> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000099821> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5442> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/POLRMT> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/K7EMH3> , <http://identifiers.org/uniprot/K7ESD1> , <http://identifiers.org/uniprot/O00411> , <http://identifiers.org/uniprot/R4GN79> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/accc1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/c5c5a> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/e2ab4>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Trans_r1/Group/e2ab4> ;
+        wp:participants   <http://identifiers.org/uniprot/O00411> , <http://identifiers.org/uniprot/Q00059> , <http://identifiers.org/uniprot/Q9H5Q4> .
+
+<http://identifiers.org/wikipathways//Trans>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Trans_r1> .
+
+<http://identifiers.org/reactome/R-HSA-163307>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "POLRMT:TFB2M:TFAM:mitochondrial promoter complex"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-163307> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-163307"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/e0cd1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-163307> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/e52ef> .
+
+<http://identifiers.org/pubmed/15526033>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15526033> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/ComplexBinding/e2ab4>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Trans_r1/Group/e2ab4> ;
+        wp:participants   <http://identifiers.org/uniprot/O00411> , <http://identifiers.org/uniprot/Q00059> , <http://identifiers.org/uniprot/Q9H5Q4> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/e2ab4> .
+
+<http://identifiers.org/reactome/R-HSA-163298>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "TFAM:mitochondrial promoter complex"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-163298> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-163298"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/bf0ad> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/e0cd1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-163298> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/fcb93> .
+
+<http://identifiers.org/pubmed/9242913>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9242913> .
+
+<http://identifiers.org/reactome/R-HSA-163306>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "POLRMT:TFB2M complex"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-163306> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-163306"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/e0cd1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-163306> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/e0ad1> .
+
+<http://identifiers.org/uniprot/Q00059>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "TFAM"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q00059> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q00059"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/e2ab4> , <http://rdf.wikipathways.org/Pathway//Trans_r1/WP/Interaction/bf0ad> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000108064> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/7019> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/TFAM> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E5KSU5> , <http://identifiers.org/uniprot/H7BYN3> , <http://identifiers.org/uniprot/Q00059> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/d6ae1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/f24f8> , <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/d9b87> .
+
+<http://identifiers.org/uniprot/Q9H5Q4>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "TFB2M"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9H5Q4> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9H5Q4"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Trans_r1> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/e2ab4> , <http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/f7a89> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000162851> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/64216> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/TFB2M> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q9H5Q4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/ca366> , <http://rdf.wikipathways.org/Pathway//Trans_r1/DataNode/f4882> .
+
+<http://rdf.wikipathways.org/Pathway//Trans_r1/Complex/f7a89>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Trans_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Trans_r1/Group/f7a89> ;
+        wp:participants   <http://identifiers.org/uniprot/O00411> , <http://identifiers.org/uniprot/Q9H5Q4> .

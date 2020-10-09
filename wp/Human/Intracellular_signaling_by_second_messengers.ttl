@@ -1,0 +1,81 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/25056711>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Intra_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25056711> .
+
+<http://identifiers.org/wikipathways//Intra_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Intra> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Intracellular signaling by second messengers"@en ;
+        dcterms:description  "Second messengers are generated within the cell as a downstream step in signal transduction cascades initiated by the interaction of an external stimulus with a  cell surface receptor.  Common second messengers include DAG,  cAMP, cGMP, IP3, Ca2+ and phosphatidylinositols (reviewed in Kang et al, 2015; Raker et al, 2016; Li and Marshall, 2015; Pinto et al, 2015; Ahmad et al, 2015).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9006925 Reactome]." ;
+        dcterms:identifier   "/Intra"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/26275497> , <http://identifiers.org/pubmed/26922871> , <http://identifiers.org/pubmed/26588873> , <http://identifiers.org/pubmed/25056711> , <http://identifiers.org/pubmed/27065076> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Intra_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Intra_r1> .
+
+<http://identifiers.org/reactome/R-HSA-1257604>
+        a                   wp:DataNode ;
+        rdfs:label          "PIP3 activates AKT signaling"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-1257604> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-1257604"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Intra_r1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Intra_r1/DataNode/e6f3d> .
+
+<http://identifiers.org/pubmed/16260143>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Intra_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16260143> .
+
+<http://identifiers.org/wikipathways//Intra>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Intra_r1> .
+
+<http://identifiers.org/pubmed/27065076>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Intra_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/27065076> .
+
+<http://identifiers.org/reactome/R-HSA-1489509>
+        a                              wp:DataNode ;
+        rdfs:label                     "DAG and IP3 signaling"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-1489509> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/16260143> ;
+        dcterms:identifier             "R-HSA-1489509"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Intra_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Intra_r1/DataNode/df666> .
+
+<http://identifiers.org/pubmed/26588873>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Intra_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26588873> .
+
+<http://identifiers.org/pubmed/26922871>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Intra_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26922871> .
+
+<http://identifiers.org/pubmed/26275497>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Intra_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26275497> .

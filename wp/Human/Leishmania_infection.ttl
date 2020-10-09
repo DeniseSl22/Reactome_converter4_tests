@@ -1,0 +1,117 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/24752514>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24752514> .
+
+<http://identifiers.org/reactome/R-HSA-9664424>
+        a                              wp:DataNode ;
+        rdfs:label                     "Cell recruitment (pro-inflammatory response)"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9664424> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26922909> , <http://identifiers.org/pubmed/24752514> , <http://identifiers.org/pubmed/18782031> ;
+        dcterms:identifier             "R-HSA-9664424"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Leish_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Leish_r1/DataNode/d98d5> .
+
+<http://identifiers.org/reactome/R-HSA-9664407>
+        a                              wp:DataNode ;
+        rdfs:label                     "Parasite infection"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9664407> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/29867798> ;
+        dcterms:identifier             "R-HSA-9664407"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Leish_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Leish_r1/DataNode/a79bf> .
+
+<http://identifiers.org/wikipathways//Leish_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Leish> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Leishmania infection"@en ;
+        dcterms:description  "Intracellular parasites of the genus Leishmania constitute the etiologic agent of a disease complex called Leishmaniasis. Leishmania parasites alternate between two distinct developmental stages: the insect-adapted, flagellated, extracellular â€œpromastigoteâ€� and the mammal-adapted, non flagellated, intracellular â€œamastigoteâ€� form, where the later resides within phagolysosomal vesicles of the phagocytic cell (Liu et al. 2012a). Paradoxically, the macrophage, which is the main host cell where the parasite replicates and grows, is at the same time the main cell responsible for its elimination.<br><br>The uptake of Leishmania promastigotes by host cells is a receptor mediated process that initiates phagocytosis (Ueno et al. 2012). Some parasites differentiate and survive within the macrophage phagolysosomes; others are killed by the acidic and higher temperature environment (Rossi et al. 2018). In the end, it is the balance between the host and parasitic factors that control the activation/deactivation of macrophages that determines the fate of the parasites as well as the infection outcome (Liu et al. 2012b).<br><br>The pathways curated here summarize the major steps of parasite internalization by the macrophage, the defence mechanisms that are turned on and the mechanisms of evasion of the parasite to counteract them.<br><br>\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9658195 Reactome]." ;
+        dcterms:identifier   "/Leish"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/22919674> , <http://identifiers.org/pubmed/29294040> , <http://identifiers.org/pubmed/22726697> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Leish_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Leish_r1> .
+
+<http://identifiers.org/pubmed/18782031>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18782031> .
+
+<http://identifiers.org/reactome/R-HSA-9664433>
+        a                              wp:DataNode ;
+        rdfs:label                     "Leishmania parasite growth and survival"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9664433> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/28096392> , <http://identifiers.org/pubmed/22919674> ;
+        dcterms:identifier             "R-HSA-9664433"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Leish_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Leish_r1/DataNode/e2597> .
+
+<http://identifiers.org/pubmed/29294040>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/29294040> .
+
+<http://identifiers.org/pubmed/22726697>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22726697> .
+
+<http://identifiers.org/reactome/R-HSA-9664420>
+        a                              wp:DataNode ;
+        rdfs:label                     "Killing mechanisms"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9664420> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26226952> , <http://identifiers.org/pubmed/29294040> ;
+        dcterms:identifier             "R-HSA-9664420"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Leish_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Leish_r1/DataNode/b9bb2> .
+
+<http://identifiers.org/pubmed/26226952>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26226952> .
+
+<http://identifiers.org/pubmed/26922909>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26922909> .
+
+<http://identifiers.org/pubmed/28096392>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/28096392> .
+
+<http://identifiers.org/pubmed/29867798>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/29867798> .
+
+<http://identifiers.org/wikipathways//Leish>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Leish_r1> .
+
+<http://identifiers.org/pubmed/22919674>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Leish_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22919674> .

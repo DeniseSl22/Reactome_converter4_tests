@@ -1,0 +1,87 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/wikipathways//Disea_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Disea> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Diseases of programmed cell death"@en ;
+        dcterms:description  "Programmed cell death is frequently impaired in cancer and is thought to significantly contribute to resistance to chemotherapy. Mutations and perturbations in expression of different proteins involved in programmed cell death, such as TP53 (p53), BH3-only family proteins, caspases and their regulators enable malignant cells to evade apoptosis (Ghavami et al. 2009, Chao et al. 2011, Wong 2011, Fernald and Kurokawa 2013, Ichim and Tait 2016). \n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9645723 Reactome]." ;
+        dcterms:identifier   "/Disea"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/27364482> , <http://identifiers.org/pubmed/21943236> , <http://identifiers.org/pubmed/23958396> , <http://identifiers.org/pubmed/19505876> , <http://identifiers.org/pubmed/22158022> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Disea_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Disea_r1> .
+
+<http://identifiers.org/pubmed/23958396>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disea_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23958396> .
+
+<http://identifiers.org/pubmed/18538737>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disea_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18538737> .
+
+<http://identifiers.org/reactome/R-HSA-9645722>
+        a                              wp:DataNode ;
+        rdfs:label                     "Defective Intrinsic Pathway for Apoptosis Due to p14ARF Loss of Function"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9645722> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/18538737> ;
+        dcterms:identifier             "R-HSA-9645722"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Disea_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Disea_r1/DataNode/dde8c> .
+
+<http://identifiers.org/pubmed/21943236>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disea_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21943236> .
+
+<http://identifiers.org/pubmed/19505876>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disea_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19505876> .
+
+<http://identifiers.org/pubmed/26848654>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disea_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26848654> .
+
+<http://identifiers.org/wikipathways//Disea>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Disea_r1> .
+
+<http://identifiers.org/pubmed/27364482>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disea_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/27364482> .
+
+<http://identifiers.org/reactome/R-HSA-8863678>
+        a                              wp:DataNode ;
+        rdfs:label                     "Neurodegenerative Diseases"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-8863678> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26848654> ;
+        dcterms:identifier             "R-HSA-8863678"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Disea_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Disea_r1/DataNode/de9dc> .
+
+<http://identifiers.org/pubmed/22158022>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Disea_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22158022> .

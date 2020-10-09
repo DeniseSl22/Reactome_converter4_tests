@@ -1,0 +1,92 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/8413249>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Aberr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8413249> .
+
+<http://identifiers.org/pubmed/12459729>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Aberr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12459729> .
+
+<http://identifiers.org/wikipathways//Aberr>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Aberr_r1> .
+
+<http://identifiers.org/pubmed/8336704>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Aberr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8336704> .
+
+<http://identifiers.org/pubmed/15469821>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Aberr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15469821> .
+
+<http://identifiers.org/pubmed/1826560>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Aberr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/1826560> .
+
+<http://identifiers.org/reactome/R-HSA-9661070>
+        a                              wp:DataNode ;
+        rdfs:label                     "Defective translocation of RB1 mutants to the nucleus"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9661070> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/8336704> , <http://identifiers.org/pubmed/9326321> ;
+        dcterms:identifier             "R-HSA-9661070"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Aberr_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Aberr_r1/DataNode/bd4c1> .
+
+<http://identifiers.org/reactome/R-HSA-9661069>
+        a                              wp:DataNode ;
+        rdfs:label                     "Defective binding of RB1 mutants to E2F1,(E2F2, E2F3)"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9661069> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/1826560> , <http://identifiers.org/pubmed/15469821> , <http://identifiers.org/pubmed/8413249> , <http://identifiers.org/pubmed/9342358> ;
+        dcterms:identifier             "R-HSA-9661069"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Aberr_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Aberr_r1/DataNode/b3de3> .
+
+<http://identifiers.org/pubmed/9342358>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Aberr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9342358> .
+
+<http://identifiers.org/pubmed/17854503>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Aberr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17854503> .
+
+<http://identifiers.org/wikipathways//Aberr_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Aberr> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Aberrant regulation of mitotic G1/S transition in cancer due to RB1 defects"@en ;
+        dcterms:description  "RB1 protein, also known as pRB or retinoblastoma protein, is a nuclear protein that plays a major role in the regulation of the G1/S transition during mitotic cell cycle in multicellular eukaryotes. RB1 performs this function by binding to activating E2Fs (E2F1, E2F2 and E2F3), and preventing transcriptional activation of E2F1/2/3 target genes, which include a number of genes involved in DNA synthesis. RB1 binds E2F1/2/3 through the so-called pocket region, which is formed by two parts, pocket domain A (amino acid residues 373-579) and pocket domain B (amino acid residues 640-771). Besides intact pocket domains, RB1 requires an intact nuclear localization signal (NLS) at its C-terminus (amino acid residues 860-876) to be fully functional (reviewed by Classon and Harlow 2002, Dick 2007). Functionally characterized RB1 mutations mostly affect pocket domains A and B and the NLS. RB1 mutations reported in cancer are, however, scattered over the entire RB1 coding sequence and the molecular consequences of the vast majority of these mutations have not been studied (reviewed by Dick 2007).<br><br>Many viral oncoproteins inactivate RB1 by competing with E2F1/2/3 for binding to the pocket region of RB1. RB1 protein is targeted by the large T antigen of the Simian virus 40 (SV40), the adenoviral E1A protein, and the E7 protein of oncogenic human papilloma viruses (HPVs) (reviewed by Classon and Harlow 2002).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9659787 Reactome]." ;
+        dcterms:identifier   "/Aberr"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/12459729> , <http://identifiers.org/pubmed/17854503> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Aberr_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Aberr_r1> .
+
+<http://identifiers.org/pubmed/9326321>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Aberr_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9326321> .

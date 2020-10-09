@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Erythrocytes take up carbon dioxide and release oxygen" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Carbon dioxide (CO2) in plasma is hydrated to yield protons (H+) and bicarbonate (HCO3-) by carbonic anhydrase IV (CA4) located on the apical plasma membranes of endothelial cells. Plasma CO2 is also taken up by erythrocytes via AQP1 and RhAG. Within erythrocytes CA1 and, predominantly, CA2 hydrate CO2 to HCO3- and protons (reviewed in Geers &amp; Gros 2000, Jensen 2004, Boron 2010). The HCO3- is transferred out of the erythrocyte by the band 3 anion exchange protein (AE1, SLC4A1) which cotransports a chloride ion (Cl-) into the erythrocyte.&lt;br&gt;Also within the erythrocyte, CO2 combines with the N-terminal alpha amino groups of HbA to form carbamates while protons bind histidine residues in HbA. The net result is the Bohr effect, a conformational change in HbA that reduces its affinity for O2 and hence assists the delivery of O2 to tissues.
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=1237044 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 1237044</Comment>
+  <Comment Source="Reactome-version">Reactome version: 73</Comment>
+  <Comment Source="Reactome Author">Reactome Author: May, Bruce</Comment>
+  <BiopaxRef>b17</BiopaxRef>
+  <BiopaxRef>a95</BiopaxRef>
+  <BiopaxRef>b86</BiopaxRef>
+  <Attribute Key="reactome_id" Value="1237044" />
+  <Graphics BoardWidth="952.0" BoardHeight="1554.0" />
+  <DataNode TextLabel="CO2" GraphId="bf154" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="182.0" CenterY="66.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="cfb65" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="316.0" CenterY="142.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="ce4c8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="549.5" CenterY="59.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="HCO3-" GraphId="e297f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="836.5" CenterY="92.0" Width="55.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17544" />
+  </DataNode>
+  <DataNode TextLabel="CA4:Zn2+" GraphId="f4a5f" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="426.5" CenterY="227.0" Width="73.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1237308" />
+  </DataNode>
+  <DataNode TextLabel="N-seryl-glycosylphosphatidylinositolethanolamine-CA4 " GraphId="c9790" Type="Protein" GroupRef="d6a31">
+    <BiopaxRef>eb6</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1237308" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="822.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P22748" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="f1143" Type="Metabolite" GroupRef="d6a31">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1237308" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="842.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="f954e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="189.0" CenterY="390.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="AQP1 tetramer" GraphId="ef074" Type="Complex">
+    <BiopaxRef>c56</BiopaxRef>
+    <BiopaxRef>fee</BiopaxRef>
+    <BiopaxRef>c5f</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="295.0" CenterY="228.0" Width="106.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-432246" />
+  </DataNode>
+  <DataNode TextLabel="AQP1 " GraphId="e1ada" Type="Protein" GroupRef="e1956">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-432246" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="902.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P29972" />
+  </DataNode>
+  <DataNode TextLabel="RHAG" GraphId="d762f" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="98.0" CenterY="231.0" Width="52.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q02094" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="c97a7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="330.0" CenterY="309.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="e0c00" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="409.5" CenterY="434.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="HCO3-" GraphId="cd231" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="558.5" CenterY="429.0" Width="55.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17544" />
+  </DataNode>
+  <DataNode TextLabel="Cl-" GraphId="c7287" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="533.5" CenterY="149.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17996" />
+  </DataNode>
+  <DataNode TextLabel="Cl-" GraphId="b9dc8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="814.5" CenterY="344.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17996" />
+  </DataNode>
+  <DataNode TextLabel="SLC4A1 dimer" GraphId="a479f" Type="Complex">
+    <BiopaxRef>e6f</BiopaxRef>
+    <BiopaxRef>e52</BiopaxRef>
+    <BiopaxRef>eb5</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="684.0" CenterY="214.0" Width="106.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1244330" />
+  </DataNode>
+  <DataNode TextLabel="SLC4A1 " GraphId="ac91f" Type="Protein" GroupRef="d84a8">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1244330" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="962.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P02730" />
+  </DataNode>
+  <DataNode TextLabel="OxyHbA" GraphId="ccfc8" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="242.0" CenterY="550.0" Width="70.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1237320" />
+  </DataNode>
+  <DataNode TextLabel="HBA1 " GraphId="a617b" Type="Protein" GroupRef="c1bb4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1237320" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1022.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P69905" />
+  </DataNode>
+  <DataNode TextLabel="O2 " GraphId="ab2ff" Type="Metabolite" GroupRef="c1bb4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1237320" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="100.0" CenterY="1042.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="heme " GraphId="e5261" Type="Metabolite" GroupRef="c1bb4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1237320" />
+    <Attribute Key="copies_num" Value="8" />
+    <Graphics CenterX="100.0" CenterY="1062.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17627" />
+  </DataNode>
+  <DataNode TextLabel="HBB " GraphId="f5211" Type="Protein" GroupRef="c1bb4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1237320" />
+    <Attribute Key="copies_num" Value="9" />
+    <Graphics CenterX="100.0" CenterY="1082.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P68871" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="be2db" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="771.0" CenterY="543.0" Width="32.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="Protonated Carbamino&#xA;DeoxyHbA" GraphId="c1dfb" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="758.5" CenterY="478.0" Width="85.0" Height="48.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1237312" />
+  </DataNode>
+  <DataNode TextLabel="CO-H+-HBA1 " GraphId="dc9dd" Type="Protein" GroupRef="f8c4a">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1237312" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1142.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P69905" />
+  </DataNode>
+  <DataNode TextLabel="heme " GraphId="bb146" Type="Metabolite" GroupRef="f8c4a">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1237312" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="100.0" CenterY="1162.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17627" />
+  </DataNode>
+  <DataNode TextLabel="CO-H+-HBB " GraphId="ce473" Type="Protein" GroupRef="f8c4a">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1237312" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="100.0" CenterY="1182.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P68871" />
+  </DataNode>
+  <DataNode TextLabel="CA1,2" GraphId="a6382" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="448.0" CenterY="321.0" Width="60.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1475437" />
+  </DataNode>
+  <DataNode TextLabel="CA1 " GraphId="bfa85" Type="Protein" GroupRef="ccd34">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1475437" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1242.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P00915" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="f4712" Type="Metabolite" GroupRef="ccd34">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1475437" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1262.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="CA2 " GraphId="ca1a3" Type="Protein" GroupRef="ccd34">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1475437" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1282.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P00918" />
+  </DataNode>
+  <DataNode TextLabel="NADH" GraphId="f64c0" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="251.0" CenterY="706.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57945" />
+  </DataNode>
+  <DataNode TextLabel="NAD+" GraphId="d816d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="440.0" CenterY="705.0" Width="52.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57540" />
+  </DataNode>
+  <DataNode TextLabel="CYB5Rs" GraphId="d1af7" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="359.0" CenterY="604.0" Width="54.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-6806851" />
+  </DataNode>
+  <DataNode TextLabel="CYB5R1 " GraphId="ba759" Type="Protein" GroupRef="de008">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-6806851" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1342.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UHQ9" />
+  </DataNode>
+  <DataNode TextLabel="CYB5R2 " GraphId="d7d46" Type="Protein" GroupRef="de008">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-6806851" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1362.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6BCY4" />
+  </DataNode>
+  <DataNode TextLabel="CYB5R4 " GraphId="af28b" Type="Protein" GroupRef="de008">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-6806851" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1382.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7L1T6" />
+  </DataNode>
+  <DataNode TextLabel="CYB5RL " GraphId="a27aa" Type="Protein" GroupRef="de008">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-6806851" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1402.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6IPT4" />
+  </DataNode>
+  <DataNode TextLabel="MetHb" GraphId="fa19b" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="195.5" CenterY="658.0" Width="47.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9033251" />
+  </DataNode>
+  <DataNode TextLabel="HBA1 " GraphId="a1f72" Type="Protein" GroupRef="c7b90">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9033251" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1462.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P69905" />
+  </DataNode>
+  <DataNode TextLabel="FeHM " GraphId="fc7fa" Type="Metabolite" GroupRef="c7b90">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9033251" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="100.0" CenterY="1482.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:36144" />
+  </DataNode>
+  <DataNode TextLabel="HBB " GraphId="e35d6" Type="Protein" GroupRef="c7b90">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9033251" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="100.0" CenterY="1502.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P68871" />
+  </DataNode>
+  <DataNode TextLabel="HbA" GraphId="ab464" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="531.0" CenterY="658.0" Width="34.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9033252" />
+  </DataNode>
+  <DataNode TextLabel="HBA1 " GraphId="da4c5" Type="Protein" GroupRef="a09d6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9033252" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="832.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P69905" />
+  </DataNode>
+  <DataNode TextLabel="heme " GraphId="eabbb" Type="Metabolite" GroupRef="a09d6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9033252" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="240.0" CenterY="852.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17627" />
+  </DataNode>
+  <DataNode TextLabel="HBB " GraphId="ace14" Type="Protein" GroupRef="a09d6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9033252" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="240.0" CenterY="872.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P68871" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="a6b1d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="459.5" CenterY="623.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <Interaction GraphId="bfc7e">
+    <Comment Source="Reactome">Carbonic anhydrase IV (CA4) anchored to extracellular face of the plasma membrane (Wistrand et al. 1999) hydrates carbon dioxide (CO2) to yield bicarbonate (HCO3-) and a proton (H+) (Zhu &amp; Sly 1990, Okayuma et al. 1992, Baird et al. 1997, Innocenti et al. 2004). During the reaction a hydroxyl group bound by the zinc ion (Zn2+) of CA4 attacks the CO2 molecule to directly form HCO3- (reviewed in Lindskog 1997). The HCO3- is displaced by water, which is then deprotonated by a histidine residue to recreate the Zn2+:hydroxyl group. Depending on the concentrations of reactants the reaction is reversible.</Comment>
+    <BiopaxRef>a78</BiopaxRef>
+    <BiopaxRef>d29</BiopaxRef>
+    <BiopaxRef>a23</BiopaxRef>
+    <BiopaxRef>ce7</BiopaxRef>
+    <BiopaxRef>cf8</BiopaxRef>
+    <BiopaxRef>a15</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="385.0" Y="109.0" />
+      <Point X="451.0" Y="106.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="eb88b" />
+      <Anchor Position="0.99" Shape="None" GraphId="d7e10" />
+      <Anchor Position="0.5" Shape="None" GraphId="b9be8" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237047" />
+  </Interaction>
+  <Interaction GraphId="adcda">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="202.0" Y="66.0" GraphRef="bf154" RelX="1.0" RelY="0.0" />
+      <Point X="385.0" Y="109.0" GraphRef="eb88b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237047" />
+  </Interaction>
+  <Interaction GraphId="db26a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="336.0" Y="142.0" GraphRef="cfb65" RelX="1.0" RelY="0.0" />
+      <Point X="385.0" Y="109.0" GraphRef="eb88b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237047" />
+  </Interaction>
+  <Interaction GraphId="d11a8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="451.0" Y="106.0" GraphRef="d7e10" RelX="0.6599999999999682" RelY="-0.030000000000001137" />
+      <Point X="532.0" Y="59.0" GraphRef="ce4c8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237047" />
+  </Interaction>
+  <Interaction GraphId="f3212">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="451.0" Y="106.0" GraphRef="d7e10" RelX="0.6599999999999682" RelY="-0.030000000000001137" />
+      <Point X="809.0" Y="92.0" GraphRef="e297f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237047" />
+  </Interaction>
+  <Interaction GraphId="e9157">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="426.0" Y="216.0" GraphRef="f4a5f" RelX="-0.0136986301369863" RelY="-1.0" />
+      <Point X="424.0" Y="109.0" GraphRef="b9be8" RelX="6.0" RelY="1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237047" />
+  </Interaction>
+  <Interaction GraphId="f5524">
+    <Comment Source="Reactome">Aquaporin-1 (AQP1) passively transports carbon dioxide (CO2) across the plasma membrane according to the concentration gradient (Nakhoul et al. 1998, Blank &amp; Ehmke et al. 2003, Endeward et al. 2006, Musa-Aziz et al. 2009). The pore in AQP1 that conducts CO2 may be distinct from the pore that conducts water.</Comment>
+    <BiopaxRef>bb3</BiopaxRef>
+    <BiopaxRef>ab9</BiopaxRef>
+    <BiopaxRef>bcf</BiopaxRef>
+    <BiopaxRef>e0d</BiopaxRef>
+    <BiopaxRef>c04</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="183.0" Y="84.0" />
+      <Point X="189.0" Y="372.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c1e3d" />
+      <Anchor Position="0.99" Shape="None" GraphId="cc2c7" />
+      <Anchor Position="0.5" Shape="None" GraphId="f925a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237042" />
+  </Interaction>
+  <Interaction GraphId="e9f31">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="182.0" Y="81.0" GraphRef="bf154" RelX="0.0" RelY="1.0" />
+      <Point X="183.0" Y="84.0" GraphRef="c1e3d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237042" />
+  </Interaction>
+  <Interaction GraphId="c6d42">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="189.0" Y="372.0" GraphRef="cc2c7" RelX="0.060000000000002274" RelY="2.8799999999999955" />
+      <Point X="189.0" Y="375.0" GraphRef="f954e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237042" />
+  </Interaction>
+  <Interaction GraphId="bd8e8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="242.0" Y="228.0" GraphRef="ef074" RelX="-1.0" RelY="0.0" />
+      <Point X="193.0" Y="230.0" GraphRef="f925a" RelX="7.0" RelY="2.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237042" />
+  </Interaction>
+  <Interaction GraphId="c7edd">
+    <Comment Source="Reactome">The Rhesus blood group type A glycoprotein (RhAG) passively transports carbon dioxide (CO2) across the plasma membrane according to the concentration gradient (Endeward et al. 2006, Endeward et al. 2008, Musa-Aziz et al. 2009).</Comment>
+    <BiopaxRef>bf6</BiopaxRef>
+    <BiopaxRef>ab9</BiopaxRef>
+    <BiopaxRef>bcf</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="181.0" Y="84.0" />
+      <Point X="187.0" Y="372.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cab2f" />
+      <Anchor Position="0.99" Shape="None" GraphId="ac8ac" />
+      <Anchor Position="0.5" Shape="None" GraphId="ea158" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237069" />
+  </Interaction>
+  <Interaction GraphId="d5b56">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="182.0" Y="81.0" GraphRef="bf154" RelX="0.0" RelY="1.0" />
+      <Point X="181.0" Y="84.0" GraphRef="cab2f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237069" />
+  </Interaction>
+  <Interaction GraphId="e104e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="187.0" Y="372.0" GraphRef="ac8ac" RelX="0.060000000000002274" RelY="2.8799999999999955" />
+      <Point X="189.0" Y="375.0" GraphRef="f954e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237069" />
+  </Interaction>
+  <Interaction GraphId="c7545">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="124.0" Y="231.0" GraphRef="d762f" RelX="1.0" RelY="0.0" />
+      <Point X="177.0" Y="230.0" GraphRef="ea158" RelX="-7.0" RelY="2.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237069" />
+  </Interaction>
+  <Interaction GraphId="dfbb2">
+    <Comment Source="Reactome">The band 3 anion exchange protein (AE1, SLC4A1) exchanges chloride (Cl-) for bicarbonate (HCO3-) across the plasma membrane according to the concentration gradients of the anions (Knauf et al. 1996, Dahl et al. 2003). SLC4A1 may be part of a complex ("metabolon") with carbonic anhydrase II (CA2) which would facilitate the transport of HCO3- (Sterling et al. 2001).</Comment>
+    <BiopaxRef>e4d</BiopaxRef>
+    <BiopaxRef>b85</BiopaxRef>
+    <BiopaxRef>ea0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="645.0" Y="260.0" />
+      <Point X="735.0" Y="259.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f2c17" />
+      <Anchor Position="0.99" Shape="None" GraphId="fc3e0" />
+      <Anchor Position="0.5" Shape="None" GraphId="e7748" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237038" />
+  </Interaction>
+  <Interaction GraphId="a158d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="550.0" Y="149.0" GraphRef="c7287" RelX="0.9428571428571428" RelY="0.0" />
+      <Point X="645.0" Y="260.0" GraphRef="f2c17" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237038" />
+  </Interaction>
+  <Interaction GraphId="fab8d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="558.0" Y="414.0" GraphRef="cd231" RelX="-0.01818181818181818" RelY="-1.0" />
+      <Point X="645.0" Y="260.0" GraphRef="f2c17" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237038" />
+  </Interaction>
+  <Interaction GraphId="a3600">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="735.0" Y="259.0" GraphRef="fc3e0" RelX="0.8999999999999773" RelY="-0.009999999999990905" />
+      <Point X="797.0" Y="344.0" GraphRef="b9dc8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237038" />
+  </Interaction>
+  <Interaction GraphId="cff49">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="735.0" Y="259.0" GraphRef="fc3e0" RelX="0.8999999999999773" RelY="-0.009999999999990905" />
+      <Point X="836.0" Y="107.0" GraphRef="e297f" RelX="-0.01818181818181818" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237038" />
+  </Interaction>
+  <Interaction GraphId="b3869">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="631.0" Y="214.0" GraphRef="a479f" RelX="-1.0" RelY="0.0" />
+      <Point X="686.0" Y="259.0" GraphRef="e7748" RelX="-4.0" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237038" />
+  </Interaction>
+  <Interaction GraphId="b2674">
+    <Comment Source="Reactome">The Bohr effect refers to the observation that carbon dioxide (CO2) decreases the affinity of hemoglobin (HbA) for oxygen (O2) (Rossi-Bernardi &amp; Roughton 1967, Kwant et al. 1988, Dash &amp; Bassingthwaighte 2010). The Bohr effect has two components: protonation of histidines in HbA (Chatake et al. 2007, Kovalevsky et al. 2010, Fang et al. 1999) and chemical reaction (carbamation) of the N-terminal valines of HbA by CO2 (Ferguson &amp; Roughton 1934, Forster et al. 1968, Bauer &amp; Schroder 1972, Morrow et al. 1973, Morrow et al. 1976, Mathew et al. 1977, Acharya et al. 1994). The protons (H+) for this reaction are produced by carbonic anhydrase acting on water and CO2 to produce bicarbonate (HCO3-) and H+ (Kernohan &amp; Roughton 1968).</Comment>
+    <BiopaxRef>f7c</BiopaxRef>
+    <BiopaxRef>d2b</BiopaxRef>
+    <BiopaxRef>ab4</BiopaxRef>
+    <BiopaxRef>d95</BiopaxRef>
+    <BiopaxRef>c41</BiopaxRef>
+    <BiopaxRef>bb5</BiopaxRef>
+    <BiopaxRef>f26</BiopaxRef>
+    <BiopaxRef>a18</BiopaxRef>
+    <BiopaxRef>eb3</BiopaxRef>
+    <BiopaxRef>a33</BiopaxRef>
+    <BiopaxRef>c69</BiopaxRef>
+    <BiopaxRef>dde</BiopaxRef>
+    <BiopaxRef>d9f</BiopaxRef>
+    <BiopaxRef>bb9</BiopaxRef>
+    <BiopaxRef>fdc</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="430.0" Y="492.0" />
+      <Point X="622.0" Y="494.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a3f18" />
+      <Anchor Position="0.99" Shape="None" GraphId="d4ede" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237325" />
+  </Interaction>
+  <Interaction GraphId="e14ec">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="277.0" Y="550.0" GraphRef="ccfc8" RelX="1.0" RelY="0.0" />
+      <Point X="430.0" Y="492.0" GraphRef="a3f18" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237325" />
+  </Interaction>
+  <Interaction GraphId="c9eda">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="409.0" Y="449.0" GraphRef="e0c00" RelX="-0.02857142857142857" RelY="1.0" />
+      <Point X="430.0" Y="492.0" GraphRef="a3f18" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237325" />
+  </Interaction>
+  <Interaction GraphId="f913e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="209.0" Y="390.0" GraphRef="f954e" RelX="1.0" RelY="0.0" />
+      <Point X="430.0" Y="492.0" GraphRef="a3f18" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237325" />
+  </Interaction>
+  <Interaction GraphId="ef55b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="622.0" Y="494.0" GraphRef="d4ede" RelX="1.9200000000000728" RelY="0.01999999999998181" />
+      <Point X="716.0" Y="478.0" GraphRef="c1dfb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237325" />
+  </Interaction>
+  <Interaction GraphId="fa09c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="622.0" Y="494.0" GraphRef="d4ede" RelX="1.9200000000000728" RelY="0.01999999999998181" />
+      <Point X="755.0" Y="543.0" GraphRef="be2db" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1237325" />
+  </Interaction>
+  <Interaction GraphId="c8256">
+    <Comment Source="Reactome">Carbonic anhydrase I (CA1, Khalifah 1971, Pesando 1975, Simonsson et al. 1982, Ren &amp; Lindskog 1992) and carbonic anhydrase II (CA2, Tibell et al. 1984, Jones &amp; Shaw 1983, Ghannam et al. 1986) hydrate carbon dioxide (CO2) to yield bicarbonate (HCO3-) and a proton (H+). During the reaction a hydroxyl group bound by the zinc ion (Zn2+) attacks the CO2 molecule in the active site to directly form HCO3- (reviewed in Lindskog 1997). The HCO3- is displaced by water, which is then deprotonated by a histidine residue to recreate the Zn2+:hydroxyl group. Depending on the concentrations of reactants the reaction is reversible.</Comment>
+    <BiopaxRef>f5f</BiopaxRef>
+    <BiopaxRef>c95</BiopaxRef>
+    <BiopaxRef>b0f</BiopaxRef>
+    <BiopaxRef>cf8</BiopaxRef>
+    <BiopaxRef>e54</BiopaxRef>
+    <BiopaxRef>b3c</BiopaxRef>
+    <BiopaxRef>dc6</BiopaxRef>
+    <BiopaxRef>cd8</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="358.0" Y="352.0" />
+      <Point X="468.0" Y="413.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bfb16" />
+      <Anchor Position="0.99" Shape="None" GraphId="a979f" />
+      <Anchor Position="0.5" Shape="None" GraphId="a0465" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1475435" />
+  </Interaction>
+  <Interaction GraphId="c74c5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="209.0" Y="390.0" GraphRef="f954e" RelX="1.0" RelY="0.0" />
+      <Point X="358.0" Y="352.0" GraphRef="bfb16" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1475435" />
+  </Interaction>
+  <Interaction GraphId="de77d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="330.0" Y="324.0" GraphRef="c97a7" RelX="0.0" RelY="1.0" />
+      <Point X="358.0" Y="352.0" GraphRef="bfb16" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1475435" />
+  </Interaction>
+  <Interaction GraphId="c2f45">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="468.0" Y="413.0" GraphRef="a979f" RelX="1.1000000000000227" RelY="0.6100000000000136" />
+      <Point X="531.0" Y="429.0" GraphRef="cd231" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1475435" />
+  </Interaction>
+  <Interaction GraphId="e23d1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="468.0" Y="413.0" GraphRef="a979f" RelX="1.1000000000000227" RelY="0.6100000000000136" />
+      <Point X="426.0" Y="434.0" GraphRef="e0c00" RelX="0.9428571428571428" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1475435" />
+  </Interaction>
+  <Interaction GraphId="d86bc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="418.0" Y="321.0" GraphRef="a6382" RelX="-1.0" RelY="0.0" />
+      <Point X="451.0" Y="372.0" GraphRef="a0465" RelX="38.0" RelY="-10.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1475435" />
+  </Interaction>
+  <Interaction GraphId="ccb26">
+    <Comment Source="Reactome">NADH-Cytochrome b5 reductases (CYB5Rs), flavoproteins consisting of NADH and flavin adenine dinucleotide (FAD) binding domains, catalyse electron transfer from the two-electron carrier NADH to the one-electron carrier ferricytochrome b5 ((Fe(3+)Cb5), forming ferrocytochrome b5 ((Fe(2+)Cb5) (Zhu et al. 1999, Baker et al. 2005, Zhu et al. 2004). CYB5Rs participate in fatty acid synthesis, cholesterol synthesis and xenobiotic oxidation as members of the electron transport chain on the endoplasmic reticulum membrane. In erythrocytes, CYB5Rs participate in the reduction of methemoglobin (MetHb) to hemoglobin A (HbA).</Comment>
+    <BiopaxRef>e70</BiopaxRef>
+    <BiopaxRef>e29</BiopaxRef>
+    <BiopaxRef>d0d</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="312.0" Y="658.0" />
+      <Point X="425.0" Y="658.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bceea" />
+      <Anchor Position="0.99" Shape="None" GraphId="a6c4d" />
+      <Anchor Position="0.5" Shape="None" GraphId="a96dc" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806831" />
+  </Interaction>
+  <Interaction GraphId="f963b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="276.0" Y="706.0" GraphRef="f64c0" RelX="1.0" RelY="0.0" />
+      <Point X="312.0" Y="658.0" GraphRef="bceea" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806831" />
+  </Interaction>
+  <Interaction GraphId="b9505">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="218.0" Y="658.0" GraphRef="fa19b" RelX="0.9574468085106383" RelY="0.0" />
+      <Point X="312.0" Y="658.0" GraphRef="bceea" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806831" />
+  </Interaction>
+  <Interaction GraphId="e21a5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="425.0" Y="658.0" GraphRef="a6c4d" RelX="1.1299999999999955" RelY="0.0" />
+      <Point X="514.0" Y="658.0" GraphRef="ab464" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806831" />
+  </Interaction>
+  <Interaction GraphId="b1ba7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="425.0" Y="658.0" GraphRef="a6c4d" RelX="1.1299999999999955" RelY="0.0" />
+      <Point X="440.0" Y="690.0" GraphRef="d816d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806831" />
+  </Interaction>
+  <Interaction GraphId="f7eac">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="425.0" Y="658.0" GraphRef="a6c4d" RelX="1.1299999999999955" RelY="0.0" />
+      <Point X="442.0" Y="623.0" GraphRef="a6b1d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806831" />
+  </Interaction>
+  <Interaction GraphId="caf97">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="332.0" Y="604.0" GraphRef="d1af7" RelX="-1.0" RelY="0.0" />
+      <Point X="360.0" Y="658.0" GraphRef="a96dc" RelX="-8.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806831" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="dc385" GroupRef="f3fcc">
+    <Graphics CenterX="118.0" CenterY="586.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="fe75b" GroupRef="f3fcc">
+    <Graphics CenterX="475.0" CenterY="474.0" Width="878.0" Height="580.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="d6a31" GraphId="ab3ca" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-1237308" />
+  </Group>
+  <Group GroupId="e1956" GraphId="de74c" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-432246" />
+  </Group>
+  <Group GroupId="d84a8" GraphId="b505b" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-1244330" />
+  </Group>
+  <Group GroupId="c1bb4" GraphId="d5d76" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-1237320" />
+  </Group>
+  <Group GroupId="f8c4a" GraphId="c9ba7" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-1237312" />
+  </Group>
+  <Group GroupId="ccd34" GraphId="df8a1">
+    <Attribute Key="complex_id" Value="R-HSA-1475437" />
+  </Group>
+  <Group GroupId="de008" GraphId="b3162">
+    <Attribute Key="complex_id" Value="R-HSA-6806851" />
+  </Group>
+  <Group GroupId="c7b90" GraphId="d4130" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9033251" />
+  </Group>
+  <Group GroupId="a09d6" GraphId="a4476" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9033252" />
+  </Group>
+  <Group GroupId="f3fcc" GraphId="d8556" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b17">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19879980</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaluating the role of carbonic anhydrases in the transport of HCO3--related species.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boron WF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a95">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15491402</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red blood cell pH, the Bohr effect, and other oxygenation-linked phenomena in blood O2 and CO2 transport.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jensen FB.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b86">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10747205</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbon dioxide transport and carbonic anhydrase in blood and muscle.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geers C, Gros G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7625839</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbonic anhydrase IV: role of removal of C-terminal domain in glycosylphosphatidylinositol anchoring and realization of enzyme activity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okuyama T, Waheed A, Kusumoto W, Zhu XL, Sly WS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c56">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11034202</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structural determinants of water permeation through aquaporin-1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murata K, Mitsuoka K, Hirai T, Walz T, Agre P, Heymann JB, Engel A, Fujiyoshi Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fee">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9177353</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The three-dimensional structure of aquaporin-1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walz T, Hirai T, Murata K, Heymann JB, Mitsuoka K, Fujiyoshi Y, Smith BL, Agre P, Engel A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11532455</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A refined structure of human aquaporin-1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Groot BL, Engel A, Grubmüller H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10096900</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrodynamic properties of human erythrocyte band 3 solubilized in reduced Triton X-100.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taylor AM, Boulter J, Harding SE, Cölfen H, Watts A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e52">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9253766</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gel filtration chromatographic studies of the isolated membrane domain of band 3.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salhany JM, Cordes KA, Sloan RL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7742555</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Association state of human red blood cell band 3 and its interaction with ankyrin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinder JC, Pekrun A, Maggs AM, Brain AP, Gratzer WB.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a78">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2111324</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbonic anhydrase IV from human lung. Purification, characterization, and comparison with membrane carbonic anhydrase from human kidney.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu XL, Sly WS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d29">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1311094</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human carbonic anhydrase IV: cDNA cloning, sequence comparison, and expression in COS cell membranes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okuyama T, Sato S, Zhu XL, Waheed A, Sly WS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a23">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15501038</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbonic anhydrase inhibitors: inhibition of the membrane-bound human isozyme IV with anions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Innocenti A, Firnges MA, Antel J, Wurl M, Scozzafava A, Supuran CT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9054574</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalysis and inhibition of human carbonic anhydrase IV.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baird TT, Waheed A, Okuyama T, Sly WS, Fierke CA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9336012</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure and mechanism of carbonic anhydrase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lindskog S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a15">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10090333</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbonic anhydrase IV activity is localized on the exterior surface of human erythrocytes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistrand PJ, Carter ND, Conroy CW, Mahieu I.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12754312</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquaporin-1 and HCO3(-)-Cl- transporter-mediated transport of CO2 across the human erythrocyte membrane.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blank ME, Ehmke H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19273840</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relative CO2/NH3 selectivities of AQP1, AQP4, AQP5, AmtB, and RhAG.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Musa-Aziz R, Chen LM, Pelletier MF, Boron WF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bcf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16563834</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red cell membrane CO2 permeability in normal human blood and in blood deficient in various blood groups, and effect of DIDS.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endeward V, Cartron JP, Ripoche P, Gros G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e0d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17012249</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence that aquaporin 1 is a major pathway for CO2 transport across the human erythrocyte membrane.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endeward V, Musa-Aziz R, Cooper GJ, Chen LM, Pelletier MF, Virkki LV, Supuran CT, King LS, Boron WF, Gros G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c04">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9486145</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Effect of expressing the water channel aquaporin-1 on the CO2 permeability of Xenopus oocytes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakhoul NL, Davis BA, Romero MF, Boron WF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17712059</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RhAG protein of the Rhesus complex is a CO2 channel in the human red cell membrane.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endeward V, Cartron JP, Ripoche P, Gros G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11606574</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transport metabolon. Functional interaction of carbonic anhydrase II and chloride/bicarbonate exchangers.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sterling D, Reithmeier RA, Casey JR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b85">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12933803</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deficient HCO3- transport in an AE1 mutant with normal Cl- transport can be rescued by carbonic anhydrase II presented on an adjacent AE1 protomer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dahl NK, Jiang L, Chernova MN, Stuart-Tilley AK, Shmukler BE, Alper SL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8972395</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The asymmetry of chloride transport at 38 degrees C in human red blood cell membranes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knauf PA, Gasbjerg PK, Brahm J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f7c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3136125</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human whole-blood O2 affinity: effect of CO2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kwant G, Oeseburg B, Zwart A, Zijlstra WG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16992238</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The specific influence of carbon dioxide and carbamate compounds on the buffer power and Bohr effects in human haemoglobin solutions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rossi-Bernardi L, Roughton FJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8300612</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrostatic modification at the amino termini of hemoglobin A.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acharya AS, Bobelis DJ, White SP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d95">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1395</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbon 13 resonances of 13CO2 carbamino adducts of alpha and beta chains in human adult hemoglobin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morrow JS, Matthew JB, Wittebort RJ, Gurd FR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c41">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14958</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative determination of carbamino adducts of alpha and beta chains in human adult hemoglobin in presence and absence of carbon monoxide and 2,3-diphosphoglycerate.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matthew JB, Morrow JS, Wittebort RJ, Gurd FR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4514311</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interaction of  13 CO 2  and bicarbonate with human hemoglobin preparations.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morrow JS, Keim P, Visscher RB, Marshall RC, Gurd FR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f26">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4647257</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbamino compounds of haemoglobin in human adult and foetal blood.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bauer C, Schröder E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a18">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17990881</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protonation states of buried histidine residues in human deoxyhemoglobin revealed by neutron crystallography.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chatake T, Shibayama N, Park SY, Kurihara K, Tamada T, Tanaka I, Niimura N, Kuroki R, Morimoto Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20230836</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct determination of protonation states of histidine residues in a 2 A neutron structure of deoxy-human normal adult hemoglobin and implications for the Bohr effect.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kovalevsky AY, Chatake T, Shibayama N, Park SY, Ishikawa T, Mustyakimov M, Fisher Z, Langan P, Morimoto Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a33">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21041929</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protonation states of histidine and other key residues in deoxy normal human adult hemoglobin by neutron protein crystallography.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kovalevsky A, Chatake T, Shibayama N, Park SY, Ishikawa T, Mustyakimov M, Fisher SZ, Langan P, Morimoto Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c69">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10529219</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assessment of roles of surface histidyl residues in the molecular basis of the Bohr effect and of beta 143 histidine in the binding of 2,3-bisphosphoglycerate in human normal adult hemoglobin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fang TY, Zou M, Simplaceanu V, Ho NT, Ho C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dde">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20162361</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erratum to: Blood HbO2 and HbCO2 dissociation curves at varied O2, CO2, pH, 2,3-DPG and temperature levels.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dash RK, Bassingthwaighte JB.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4975618</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermal studies of the rates of the reactions of carbon dioxide in concentrated haemoglobin solutions and in red blood cells. A. The reactions catalysed by carbonic anhydrase. B. The carbamino reactions of oxygenated and deoxygenated haemoglobin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kernohan JC, Roughton FJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16994616</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical relationships and physiological importance of carbamino compounds of CO(2) with haemoglobin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ferguson JK, Roughton FJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fdc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5656372</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaction of CO2 with human hemoglobin solution.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forster RE, Constantine HP, Craw MR, Rotman HH, Klocke RA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f5f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4994926</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The carbon dioxide hydration activity of carbonic anhydrase. I. Stop-flow kinetic studies on the native human isoenzymes B and C.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khalifah RG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c95">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6819139</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 13C nuclear magnetic resonance study of CO2/HCO-3 exchange catalyzed by human carbonic anhydrase I.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simonsson I, Jonsson BH, Lindskog S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1554744</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buffer dependence of CO2 hydration catalyzed by human carbonic anhydrase I.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ren X, Lindskog S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e54">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6433979</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anion inhibition of CO2 hydration catalyzed by human carbonic anhydrase II. Mechanistic implications.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tibell L, Forsman C, Simonsson I, Lindskog S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6407977</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical and enzymological comparison of the common major human erythrocyte carbonic anhydrase II, its minor component, and a new genetic variant, CA II Melbourne (237 Pro leads to His).</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jones GL, Shaw DC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">234739</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proton magnetic resonance studies of carbonic anhydrase. II. Group controlling catalytic activity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pesando JM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3080418</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation parameters for the carbonic anhydrase II-catalyzed hydration of CO2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghannam AF, Tsen W, Rowlett RS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e70">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10611283</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of a cytochrome b-type NAD(P)H oxidoreductase ubiquitously expressed in human cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu H, Qiu H, Yoon HW, Huang S, Bunn HF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e29">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15858218</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of cytochrome-b5 reductase as the enzyme responsible for NADH-dependent lucigenin chemiluminescence in human spermatozoa.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baker MA, Krutskikh A, Curry BJ, Hetherington L, Aitken RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15131110</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCB5OR is a novel soluble NAD(P)H reductase localized in the endoplasmic reticulum.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu H, Larade K, Jackson TA, Xie J, Ladoux A, Acker H, Berchner-Pfannschmidt U, Fandrey J, Cross AR, Lukat-Rodgers GS, Rodgers KR, Bunn HF.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

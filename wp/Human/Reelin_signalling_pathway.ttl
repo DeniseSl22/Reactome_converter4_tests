@@ -1,0 +1,313 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/a8d3d>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23506116> ;
+        dcterms:identifier             "R-HSA-8855259"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8855259> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/a50cd> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/a8d3d> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/be8c3> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/c242b> ;
+        wp:participants                <http://identifiers.org/uniprot/Q96B97> , <http://identifiers.org/reactome/R-HSA-8855258> , <http://identifiers.org/reactome/R-HSA-8855235> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-8855235> , <http://identifiers.org/uniprot/Q96B97> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-8855258> .
+
+<http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/e7d70>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10571241> , <http://identifiers.org/pubmed/9861036> , <http://identifiers.org/pubmed/9049633> ;
+        dcterms:identifier             "R-HSA-8854466"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8854466> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/b403e> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/b067a> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/e7d70> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/e7e14> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-8854471> , <http://identifiers.org/uniprot/P78509> , <http://identifiers.org/uniprot/P98155> ;
+        wp:source                      <http://identifiers.org/uniprot/P98155> , <http://identifiers.org/uniprot/P78509> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-8854471> .
+
+<http://rdf.wikipathways.org/Pathway//Reeli_r1/ComplexBinding/fc881>
+        a                 wp:ComplexBinding , wp:Interaction , wp:Binding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Reeli_r1/Group/fc881> ;
+        wp:participants   <http://identifiers.org/uniprot/P98155> , <http://identifiers.org/uniprot/P78509> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/fc881> , <http://identifiers.org/uniprot/O75553> , <http://identifiers.org/uniprot/Q96B97> .
+
+<http://rdf.wikipathways.org/Pathway//Reeli_r1/ComplexBinding/a6eea>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Reeli_r1/Group/a6eea> ;
+        wp:participants   <http://identifiers.org/uniprot/P78509> , <http://identifiers.org/uniprot/P98155> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/a6eea> .
+
+<http://identifiers.org/pubmed/22981949>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22981949> .
+
+<http://identifiers.org/uniprot/Q96B97>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "SH3KBP1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q96B97> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q96B97"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/a8d3d> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/fc881> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/c0f44> , <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000147010> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/30011> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SH3KBP1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q5JPT6> , <http://identifiers.org/uniprot/Q96B97> , <http://identifiers.org/uniprot/Q5JPT1> , <http://identifiers.org/uniprot/Q5JPT3> , <http://identifiers.org/uniprot/Q5VSN0> , <http://identifiers.org/uniprot/Q5JPT2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/a4bae> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/f4b7d> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/b0a92> .
+
+<http://identifiers.org/pubmed/23352928>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23352928> .
+
+<http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/c0f44>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Reeli_r1/Group/c0f44> ;
+        wp:participants   <http://identifiers.org/uniprot/O75553> , <http://identifiers.org/uniprot/P98155> , <http://identifiers.org/uniprot/P78509> , <http://identifiers.org/uniprot/Q96B97> .
+
+<http://identifiers.org/wikipathways//Reeli_r1>
+        a                    skos:Collection , wp:Pathway ;
+        dc:identifier        <http://identifiers.org/wikipathways//Reeli> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Reelin signalling pathway"@en ;
+        dcterms:description  "Reelin (RELN) is an extracellular, multifunctional signal glycoprotein that controls not only the positioning of neurons in the developing brain, but also their growth, maturation, and synaptic activity in the adult brain (Stranahan et al. 2013). Abnormal Reelin expression in the brain is implicated in a number of neuropsychiatric disorders including autism, schizophrenia, bipolar disorder and Alzheimer's disease (Folsom & Fatemi  2013).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=8866376 Reactome]." ;
+        dcterms:identifier   "/Reeli"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/23352928> , <http://identifiers.org/pubmed/22981949> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Reeli_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Reeli_r1> .
+
+<http://identifiers.org/reactome/R-HSA-8855226>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "RELN:VLDLR:p-Y198,220,232-DAB1:SH3KBP1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-8855226> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-8855226"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Reeli_r1> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/a516e> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-8855226> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/fe070> .
+
+<http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/ce7a1>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12446734> , <http://identifiers.org/pubmed/23052211> ;
+        dcterms:identifier             "R-HSA-8855232"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8855232> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/ce7a1> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/eee7f> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/b3355> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/fdfad> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-8854471> , <http://identifiers.org/reactome/R-HSA-8855235> , <http://identifiers.org/uniprot/O75553> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-8854471> , <http://identifiers.org/uniprot/O75553> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-8855235> .
+
+<http://identifiers.org/reactome/R-HSA-8855235>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "RELN:VLDLR:DAB1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-8855235> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-8855235"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/ce7a1> , <http://identifiers.org/wikipathways//Reeli_r1> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/a8d3d> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-8855235> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/cba4e> .
+
+<http://identifiers.org/pubmed/9049633>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9049633> .
+
+<http://identifiers.org/chebi/CHEBI:30616>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ATP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:30616> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:30616"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/a516e> , <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4574455> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-J> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5461108> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27113900> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/a75f7> .
+
+<http://identifiers.org/uniprot/P78509>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "RELN"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P78509> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P78509"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/e7d70> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/e359c> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/c0f44> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/a6eea> , <http://identifiers.org/wikipathways//Reeli_r1> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/fc881> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000189056> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5649> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/RELN> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/H7C2B0> , <http://identifiers.org/uniprot/P78509> , <http://identifiers.org/uniprot/J3KQ66> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/c2cd5> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/e8c84> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/e55b1> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/b9c73> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/d0945> .
+
+<http://identifiers.org/chebi/CHEBI:456216>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "ADP"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:456216> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:456216"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/a516e> , <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:456216> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/5414423> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-K> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7058055> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27225748> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/eccdf> .
+
+<http://rdf.wikipathways.org/Pathway//Reeli_r1/ComplexBinding/e359c>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Reeli_r1/Group/e359c> ;
+        wp:participants   <http://identifiers.org/uniprot/O75553> , <http://identifiers.org/uniprot/P78509> , <http://identifiers.org/uniprot/P98155> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/e359c> .
+
+<http://identifiers.org/uniprot/P98155>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "VLDLR"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P98155> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P98155"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/c0f44> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/fc881> , <http://identifiers.org/wikipathways//Reeli_r1> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/e7d70> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/a6eea> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/e359c> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000147852> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/7436> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/VLDLR> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q5VVF8> , <http://identifiers.org/uniprot/Q5VVF5> , <http://identifiers.org/uniprot/P98155> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/da8e6> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/a49c6> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/a4d13> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/ac422> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/fe343> .
+
+<http://identifiers.org/pubmed/23506116>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23506116> .
+
+<http://identifiers.org/pubmed/16529723>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16529723> .
+
+<http://identifiers.org/pubmed/17350651>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17350651> .
+
+<http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/fc881>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Reeli_r1/Group/fc881> ;
+        wp:participants   <http://identifiers.org/uniprot/P78509> , <http://identifiers.org/uniprot/O75553> , <http://identifiers.org/uniprot/P98155> , <http://identifiers.org/uniprot/Q96B97> .
+
+<http://identifiers.org/reactome/R-HSA-8854471>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "RELN:VLDLR"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-8854471> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-8854471"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Reeli_r1> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/ce7a1> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/e7d70> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-8854471> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/bd3dd> .
+
+<http://identifiers.org/reactome/R-HSA-8855258>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "RELN:VLDLR:DAB1:SH3KBP1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-8855258> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-8855258"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/a516e> , <http://identifiers.org/wikipathways//Reeli_r1> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/a8d3d> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-8855258> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/f5135> .
+
+<http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/a516e>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23506116> , <http://identifiers.org/pubmed/23052211> , <http://identifiers.org/pubmed/17350651> , <http://identifiers.org/pubmed/16529723> ;
+        dcterms:identifier             "R-HSA-8855237"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8855237> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/ae54f> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/afdfa> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/a9a2b> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/c5b2e> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/e819f> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Interaction/a516e> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-8855258> , <http://identifiers.org/reactome/R-HSA-8855226> , <http://identifiers.org/uniprot/P06241> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/chebi/CHEBI:456216> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-8855258> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/P06241> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/reactome/R-HSA-8855226> .
+
+<http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/a6eea>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Reeli_r1/Group/a6eea> ;
+        wp:participants   <http://identifiers.org/uniprot/P78509> , <http://identifiers.org/uniprot/P98155> .
+
+<http://rdf.wikipathways.org/Pathway//Reeli_r1/ComplexBinding/c0f44>
+        a                 wp:Interaction , wp:Binding , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Reeli_r1/Group/c0f44> ;
+        wp:participants   <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/c0f44> , <http://identifiers.org/uniprot/Q96B97> , <http://identifiers.org/uniprot/P98155> , <http://identifiers.org/uniprot/P78509> , <http://identifiers.org/uniprot/O75553> .
+
+<http://identifiers.org/uniprot/O75553>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "p-Y198,220,232-DAB1"^^xsd:string , "DAB1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/O75553> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "O75553"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Reeli_r1> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/c0f44> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/fc881> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/e359c> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/ce7a1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000173406> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1600> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/DAB1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/O75553> , <http://identifiers.org/uniprot/X6R4J9> , <http://identifiers.org/uniprot/A0A075B6G7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/c387c> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/cad9c> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/b2943> , <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/dc6a0> .
+
+<http://identifiers.org/pubmed/23052211>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23052211> .
+
+<http://identifiers.org/pubmed/9861036>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9861036> .
+
+<http://identifiers.org/pubmed/10571241>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10571241> .
+
+<http://identifiers.org/uniprot/P06241>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "FYN"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P06241> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P06241"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Reeli_r1/WP/Interaction/a516e> , <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000010810> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/2534> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/FYN> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E5RH71> , <http://identifiers.org/uniprot/E5RHF7> , <http://identifiers.org/uniprot/E5RI25> , <http://identifiers.org/uniprot/P06241> , <http://identifiers.org/uniprot/E5RHX7> , <http://identifiers.org/uniprot/E5RFM4> , <http://identifiers.org/uniprot/E5RGT0> , <http://identifiers.org/uniprot/E5RFS5> , <http://identifiers.org/uniprot/E5RJX7> , <http://identifiers.org/uniprot/E5RIX5> , <http://identifiers.org/uniprot/E5RK23> , <http://identifiers.org/uniprot/E5RFM0> , <http://identifiers.org/uniprot/E5RGM6> , <http://identifiers.org/uniprot/E5RFM6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Reeli_r1/DataNode/c7d23> .
+
+<http://identifiers.org/pubmed/12446734>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12446734> .
+
+<http://rdf.wikipathways.org/Pathway//Reeli_r1/Complex/e359c>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Reeli_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Reeli_r1/Group/e359c> ;
+        wp:participants   <http://identifiers.org/uniprot/O75553> , <http://identifiers.org/uniprot/P78509> , <http://identifiers.org/uniprot/P98155> .
+
+<http://identifiers.org/wikipathways//Reeli>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Reeli_r1> .

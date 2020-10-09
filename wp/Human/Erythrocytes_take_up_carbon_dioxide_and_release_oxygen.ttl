@@ -1,0 +1,843 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/reactome/R-HSA-1244330>
+        a                              wp:DataNode , wp:Complex ;
+        rdfs:label                     "SLC4A1 dimer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-1244330> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/9253766> , <http://identifiers.org/pubmed/7742555> , <http://identifiers.org/pubmed/10096900> ;
+        dcterms:identifier             "R-HSA-1244330"^^xsd:string ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/dfbb2> , <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-1244330> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/a479f> .
+
+<http://identifiers.org/pubmed/4647257>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/4647257> .
+
+<http://identifiers.org/pubmed/10090333>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10090333> .
+
+<http://identifiers.org/pubmed/10611283>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10611283> .
+
+<http://identifiers.org/pubmed/10096900>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10096900> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/ccb26>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15131110> , <http://identifiers.org/pubmed/15858218> , <http://identifiers.org/pubmed/10611283> ;
+        dcterms:identifier             "R-HSA-6806831"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6806831> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/e21a5> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/b9505> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/caf97> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/f7eac> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/f963b> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/b1ba7> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/ccb26> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9033252> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/reactome/R-HSA-9033251> , <http://identifiers.org/reactome/R-HSA-6806851> , <http://identifiers.org/chebi/CHEBI:57945> , <http://identifiers.org/chebi/CHEBI:57540> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:57945> , <http://identifiers.org/reactome/R-HSA-9033251> , <http://identifiers.org/reactome/R-HSA-6806851> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9033252> , <http://identifiers.org/chebi/CHEBI:57540> , <http://identifiers.org/chebi/CHEBI:15378> .
+
+<http://identifiers.org/uniprot/P68871>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "HBB"^^xsd:string , "CO-H+-HBB"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P68871> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P68871"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/c9ba7> , <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/d4130> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/a4476> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/d5d76> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000244734> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/3043> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/HBB> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/F8W6P5> , <http://identifiers.org/uniprot/D9YZU5> , <http://identifiers.org/uniprot/P68871> , <http://identifiers.org/uniprot/A0A0J9YWK4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/f5211> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/ace14> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/ce473> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/e35d6> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/bfc7e>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/9054574> , <http://identifiers.org/pubmed/2111324> , <http://identifiers.org/pubmed/9336012> , <http://identifiers.org/pubmed/1311094> , <http://identifiers.org/pubmed/15501038> , <http://identifiers.org/pubmed/10090333> ;
+        dcterms:identifier             "R-HSA-1237047"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-1237047> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/f3212> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/d11a8> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/e9157> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/adcda> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/db26a> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/bfc7e> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:16526> , <http://identifiers.org/reactome/R-HSA-1237308> , <http://identifiers.org/chebi/CHEBI:17544> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/reactome/R-HSA-1237308> , <http://identifiers.org/chebi/CHEBI:16526> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17544> , <http://identifiers.org/chebi/CHEBI:15378> .
+
+<http://identifiers.org/pubmed/1311094>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/1311094> .
+
+<http://identifiers.org/pubmed/9177353>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9177353> .
+
+<http://identifiers.org/uniprot/Q6IPT4>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "CYB5RL"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q6IPT4> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q6IPT4"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000215883> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/606495> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CYB5RL> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q6IPT4> , <http://identifiers.org/uniprot/E9PMD3> , <http://identifiers.org/uniprot/F8VW03> , <http://identifiers.org/uniprot/E9PL89> , <http://identifiers.org/uniprot/F8WDU4> , <http://identifiers.org/uniprot/H0YDY7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/a27aa> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/c9ba7>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Eryth_r1/Group/c9ba7> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:17627> , <http://identifiers.org/uniprot/P69905> , <http://identifiers.org/uniprot/P68871> .
+
+<http://identifiers.org/chebi/CHEBI:17544>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "HCO3-"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17544> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17544"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/c8256> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/bfc7e> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/dfbb2> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17544> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/749> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000595> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00288> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID769> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q409202> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/cd231> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/e297f> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/ComplexBinding/d5d76>
+        a                 wp:Interaction , wp:Binding , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Eryth_r1/Group/d5d76> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:17627> , <http://identifiers.org/uniprot/P68871> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/d5d76> , <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/uniprot/P69905> .
+
+<http://identifiers.org/wikipathways//Eryth>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Eryth_r1> .
+
+<http://identifiers.org/pubmed/11532455>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11532455> .
+
+<http://identifiers.org/pubmed/11606574>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11606574> .
+
+<http://identifiers.org/pubmed/12933803>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12933803> .
+
+<http://identifiers.org/pubmed/9054574>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9054574> .
+
+<http://identifiers.org/pubmed/15501038>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15501038> .
+
+<http://identifiers.org/chebi/CHEBI:15379>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "O2"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/MYMOFIZGZYHOMD-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15379> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15379"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/b2674> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/d5d76> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15379> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/952> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001377> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/MYMOFIZGZYHOMD-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00007> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID977> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q5203615> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/ab2ff> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/be2db> .
+
+<http://identifiers.org/pubmed/17990881>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17990881> .
+
+<http://identifiers.org/pubmed/5656372>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/5656372> .
+
+<http://identifiers.org/pubmed/6819139>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/6819139> .
+
+<http://identifiers.org/pubmed/8300612>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8300612> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/b2674>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/4647257> , <http://identifiers.org/pubmed/4975618> , <http://identifiers.org/pubmed/21041929> , <http://identifiers.org/pubmed/4514311> , <http://identifiers.org/pubmed/1395> , <http://identifiers.org/pubmed/3136125> , <http://identifiers.org/pubmed/10529219> , <http://identifiers.org/pubmed/17990881> , <http://identifiers.org/pubmed/5656372> , <http://identifiers.org/pubmed/20162361> , <http://identifiers.org/pubmed/8300612> , <http://identifiers.org/pubmed/16992238> , <http://identifiers.org/pubmed/16994616> , <http://identifiers.org/pubmed/20230836> , <http://identifiers.org/pubmed/14958> ;
+        dcterms:identifier             "R-HSA-1237325"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-1237325> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/fa09c> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/f913e> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/c9eda> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/e14ec> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/b2674> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/ef55b> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/reactome/R-HSA-1237320> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/reactome/R-HSA-1237312> , <http://identifiers.org/chebi/CHEBI:16526> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/reactome/R-HSA-1237320> , <http://identifiers.org/chebi/CHEBI:16526> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/reactome/R-HSA-1237312> .
+
+<http://identifiers.org/reactome/R-HSA-1237320>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "OxyHbA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-1237320> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-1237320"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/b2674> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-1237320> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/ccfc8> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/c7edd>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/17712059> , <http://identifiers.org/pubmed/16563834> , <http://identifiers.org/pubmed/19273840> ;
+        dcterms:identifier             "R-HSA-1237069"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-1237069> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/e104e> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/d5b56> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/c7545> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/c7edd> ;
+        wp:participants                <http://identifiers.org/uniprot/Q02094> , <http://identifiers.org/chebi/CHEBI:16526> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:16526> , <http://identifiers.org/uniprot/Q02094> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:16526> .
+
+<http://identifiers.org/pubmed/6407977>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/6407977> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/f5524>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19273840> , <http://identifiers.org/pubmed/16563834> , <http://identifiers.org/pubmed/9486145> , <http://identifiers.org/pubmed/17012249> , <http://identifiers.org/pubmed/12754312> ;
+        dcterms:identifier             "R-HSA-1237042"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-1237042> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/bd8e8> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/c6d42> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/e9f31> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/f5524> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-432246> , <http://identifiers.org/chebi/CHEBI:16526> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-432246> , <http://identifiers.org/chebi/CHEBI:16526> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:16526> .
+
+<http://identifiers.org/pubmed/2111324>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/2111324> .
+
+<http://identifiers.org/pubmed/3080418>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/3080418> .
+
+<http://identifiers.org/chebi/CHEBI:15378>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "H+"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/GPRLSGONYQIRFK-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15378> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15378"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/b2674> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/ccb26> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/bfc7e> , <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/c8256> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15378> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/1010> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0059597> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/GPRLSGONYQIRFK-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00080> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1038> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q506710> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/ce4c8> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/e0c00> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/a6b1d> .
+
+<http://identifiers.org/uniprot/Q7L1T6>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CYB5R4"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q7L1T6> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q7L1T6"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000065615> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/51167> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CYB5R4> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/Q7L1T6> , <http://identifiers.org/uniprot/A0A0A0MRM6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/af28b> .
+
+<http://identifiers.org/uniprot/P69905>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "HBA1"^^xsd:string , "CO-H+-HBA1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P69905> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P69905"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/d5d76> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/a4476> , <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/c9ba7> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/d4130> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000206172> , <http://identifiers.org/ensembl/ENSG00000188536> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/3040> , <http://identifiers.org/ncbigene/3039> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/HBA2> , <http://identifiers.org/hgnc.symbol/HBA1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/D1MGQ2> , <http://identifiers.org/uniprot/G3V1N2> , <http://identifiers.org/uniprot/P69905> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/da4c5> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/a1f72> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/dc9dd> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/a617b> .
+
+<http://identifiers.org/pubmed/15131110>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15131110> .
+
+<http://identifiers.org/pubmed/6433979>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/6433979> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/c8256>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/1554744> , <http://identifiers.org/pubmed/3080418> , <http://identifiers.org/pubmed/6433979> , <http://identifiers.org/pubmed/4994926> , <http://identifiers.org/pubmed/6407977> , <http://identifiers.org/pubmed/9336012> , <http://identifiers.org/pubmed/234739> , <http://identifiers.org/pubmed/6819139> ;
+        dcterms:identifier             "R-HSA-1475435"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-1475435> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/c8256> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/e23d1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/de77d> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/c74c5> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/c2f45> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/d86bc> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/reactome/R-HSA-1475437> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:17544> , <http://identifiers.org/chebi/CHEBI:16526> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:16526> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/reactome/R-HSA-1475437> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:17544> .
+
+<http://identifiers.org/pubmed/10529219>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10529219> .
+
+<http://identifiers.org/reactome/R-HSA-1237312>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "Protonated Carbamino DeoxyHbA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-1237312> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-1237312"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/b2674> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-1237312> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/c1dfb> .
+
+<http://identifiers.org/pubmed/9336012>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9336012> .
+
+<http://identifiers.org/uniprot/P00918>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CA2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P00918> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P00918"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000104267> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/760> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CA2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E5RK37> , <http://identifiers.org/uniprot/V9HW21> , <http://identifiers.org/uniprot/E5RID5> , <http://identifiers.org/uniprot/P00918> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/ca1a3> .
+
+<http://identifiers.org/pubmed/7625839>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/7625839> .
+
+<http://identifiers.org/wikipathways//Eryth_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Eryth> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Erythrocytes take up carbon dioxide and release oxygen"@en ;
+        dcterms:description  "Carbon dioxide (CO2) in plasma is hydrated to yield protons (H+) and bicarbonate (HCO3-) by carbonic anhydrase IV (CA4) located on the apical plasma membranes of endothelial cells. Plasma CO2 is also taken up by erythrocytes via AQP1 and RhAG. Within erythrocytes CA1 and, predominantly, CA2 hydrate CO2 to HCO3- and protons (reviewed in Geers & Gros 2000, Jensen 2004, Boron 2010). The HCO3- is transferred out of the erythrocyte by the band 3 anion exchange protein (AE1, SLC4A1) which cotransports a chloride ion (Cl-) into the erythrocyte.<br>Also within the erythrocyte, CO2 combines with the N-terminal alpha amino groups of HbA to form carbamates while protons bind histidine residues in HbA. The net result is the Bohr effect, a conformational change in HbA that reduces its affinity for O2 and hence assists the delivery of O2 to tissues.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=1237044 Reactome]." ;
+        dcterms:identifier   "/Eryth"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/15491402> , <http://identifiers.org/pubmed/19879980> , <http://identifiers.org/pubmed/10747205> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Eryth_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Eryth_r1> .
+
+<http://identifiers.org/pubmed/15491402>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15491402> .
+
+<http://identifiers.org/chebi/CHEBI:17627>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "heme"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/KABFMIBPWCXCRK-RGGAHWMASA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17627> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17627"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/c9ba7> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/a4476> , <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/d5d76> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17627> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0003178> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/KABFMIBPWCXCRK-RGGAHWMASA-L> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00032> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50350121> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/bb146> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/e5261> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/eabbb> .
+
+<http://identifiers.org/pubmed/9253766>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9253766> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/dfbb2>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11606574> , <http://identifiers.org/pubmed/12933803> , <http://identifiers.org/pubmed/8972395> ;
+        dcterms:identifier             "R-HSA-1237038"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-1237038> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/cff49> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/b3869> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/a158d> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/dfbb2> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/a3600> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Interaction/fab8d> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17544> , <http://identifiers.org/chebi/CHEBI:17996> , <http://identifiers.org/reactome/R-HSA-1244330> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:17996> , <http://identifiers.org/chebi/CHEBI:17544> , <http://identifiers.org/reactome/R-HSA-1244330> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17544> , <http://identifiers.org/chebi/CHEBI:17996> .
+
+<http://identifiers.org/reactome/R-HSA-432246>
+        a                              wp:Complex , wp:DataNode ;
+        rdfs:label                     "AQP1 tetramer"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-432246> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11034202> , <http://identifiers.org/pubmed/9177353> , <http://identifiers.org/pubmed/11532455> ;
+        dcterms:identifier             "R-HSA-432246"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/f5524> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-432246> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/ef074> .
+
+<http://identifiers.org/pubmed/11034202>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11034202> .
+
+<http://identifiers.org/chebi/CHEBI:15377>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "H2O"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/XLYOFNOQVPJJNP-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:15377> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:15377"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/c8256> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/bfc7e> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15377> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/937> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0002111> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/XLYOFNOQVPJJNP-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00001> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID962> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q283> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/c97a7> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/cfb65> .
+
+<http://identifiers.org/pubmed/8972395>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8972395> .
+
+<http://identifiers.org/chebi/CHEBI:36144>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "FeHM"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:36144> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:36144"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/d4130> , <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:36144> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50350118> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/fc7fa> .
+
+<http://identifiers.org/uniprot/Q9UHQ9>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "CYB5R1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q9UHQ9> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q9UHQ9"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000159348> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/51706> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CYB5R1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/H7C0R7> , <http://identifiers.org/uniprot/Q9UHQ9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/ba759> .
+
+<http://identifiers.org/uniprot/Q02094>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "RHAG"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q02094> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q02094"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/c7edd> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000112077> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/6005> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/RHAG> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A087WZZ4> , <http://identifiers.org/uniprot/Q02094> , <http://identifiers.org/uniprot/A0A0A0MQS8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/d762f> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/d4130>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Eryth_r1/Group/d4130> ;
+        wp:participants   <http://identifiers.org/uniprot/P68871> , <http://identifiers.org/uniprot/P69905> , <http://identifiers.org/chebi/CHEBI:36144> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/ab3ca>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Eryth_r1/Group/ab3ca> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:29105> , <http://identifiers.org/uniprot/P22748> .
+
+<http://identifiers.org/pubmed/9486145>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9486145> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/a4476>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Eryth_r1/Group/a4476> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:17627> , <http://identifiers.org/uniprot/P68871> , <http://identifiers.org/uniprot/P69905> .
+
+<http://identifiers.org/pubmed/4994926>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/4994926> .
+
+<http://identifiers.org/pubmed/1395>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/1395> .
+
+<http://identifiers.org/chebi/CHEBI:17996>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Cl-"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/VEXZGXHMUGYJMC-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:17996> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:17996"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/dfbb2> , <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17996> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/4514529> , <http://identifiers.org/chemspider/306> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000492> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/VEXZGXHMUGYJMC-UHFFFAOYSA-M> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00698> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID312> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID24526> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q108200> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/c7287> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/b9dc8> .
+
+<http://identifiers.org/pubmed/14958>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/14958> .
+
+<http://identifiers.org/reactome/R-HSA-9033252>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "HbA"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-9033252> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-9033252"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/ccb26> , <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9033252> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/ab464> .
+
+<http://identifiers.org/uniprot/P29972>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "AQP1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P29972> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P29972"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000240583> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/358> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/AQP1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/A0A024RA31> , <http://identifiers.org/uniprot/P29972> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/e1ada> .
+
+<http://identifiers.org/pubmed/234739>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/234739> .
+
+<http://identifiers.org/pubmed/20230836>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20230836> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/ComplexBinding/c9ba7>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Eryth_r1/Group/c9ba7> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:17627> , <http://identifiers.org/uniprot/P69905> , <http://identifiers.org/uniprot/P68871> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/c9ba7> .
+
+<http://identifiers.org/pubmed/15858218>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15858218> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/d5d76>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Eryth_r1/Group/d5d76> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/chebi/CHEBI:17627> , <http://identifiers.org/uniprot/P69905> , <http://identifiers.org/uniprot/P68871> .
+
+<http://identifiers.org/chebi/CHEBI:29105>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Zn2+"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/PTFCDOFLOPIGGS-UHFFFAOYSA-N> , <http://identifiers.org/inchikey/HCHKCACWOHOZIP-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:29105> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:29105"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/ab3ca> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:29105> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/29723> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0015532> , <http://identifiers.org/hmdb/HMDB0001303> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/PTFCDOFLOPIGGS-UHFFFAOYSA-N> , <http://identifiers.org/inchikey/HCHKCACWOHOZIP-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00038> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID32051> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26987394> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/f1143> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/f4712> .
+
+<http://identifiers.org/reactome/R-HSA-1475437>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "CA1,2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-1475437> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-1475437"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/c8256> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-1475437> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/a6382> .
+
+<http://identifiers.org/uniprot/P02730>
+        a                   wp:Protein , wp:DataNode ;
+        rdfs:label          "SLC4A1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P02730> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P02730"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000004939> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/6521> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SLC4A1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/V9H0V9> , <http://identifiers.org/uniprot/A0A0A0MS98> , <http://identifiers.org/uniprot/P02730> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/ac91f> .
+
+<http://identifiers.org/pubmed/21041929>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21041929> .
+
+<http://identifiers.org/pubmed/16994616>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16994616> .
+
+<http://identifiers.org/pubmed/7742555>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/7742555> .
+
+<http://identifiers.org/chebi/CHEBI:16526>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "CO2"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/CURLTUGMZLYLDI-UHFFFAOYSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:16526> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:16526"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/f5524> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/b2674> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/bfc7e> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/c7edd> , <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/c8256> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16526> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/274> ;
+        wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001967> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/CURLTUGMZLYLDI-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00011> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID280> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q1997> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/f954e> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/bf154> .
+
+<http://identifiers.org/reactome/R-HSA-1237308>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "CA4:Zn2+"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-1237308> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-1237308"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/bfc7e> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-1237308> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/f4a5f> .
+
+<http://identifiers.org/pubmed/4975618>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/4975618> .
+
+<http://identifiers.org/uniprot/P22748>
+        a                              wp:Protein , wp:DataNode ;
+        rdfs:label                     "N-seryl-glycosylphosphatidylinositolethanolamine-CA4"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/uniprot/P22748> ;
+        dc:source                      "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/7625839> ;
+        dcterms:identifier             "P22748"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/ab3ca> ;
+        wp:bdbEnsembl                  <http://identifiers.org/ensembl/ENSG00000167434> ;
+        wp:bdbEntrezGene               <http://identifiers.org/ncbigene/762> ;
+        wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/CA4> ;
+        wp:bdbUniprot                  <http://identifiers.org/uniprot/P22748> , <http://identifiers.org/uniprot/K7EIH9> , <http://identifiers.org/uniprot/K7EKY5> , <http://identifiers.org/uniprot/K7ENI8> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/c9790> .
+
+<http://identifiers.org/pubmed/10747205>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10747205> .
+
+<http://identifiers.org/reactome/R-HSA-9033251>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "MetHb"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-9033251> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-9033251"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/ccb26> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9033251> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/fa19b> .
+
+<http://identifiers.org/uniprot/Q6BCY4>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CYB5R2"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/Q6BCY4> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "Q6BCY4"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000166394> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/51700> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CYB5R2> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E9PIV9> , <http://identifiers.org/uniprot/E9PRM4> , <http://identifiers.org/uniprot/E9PQW2> , <http://identifiers.org/uniprot/Q6BCY4> , <http://identifiers.org/uniprot/E9PMI2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/d7d46> .
+
+<http://identifiers.org/pubmed/17012249>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17012249> .
+
+<http://identifiers.org/chebi/CHEBI:57945>
+        a                   wp:Metabolite , wp:DataNode ;
+        rdfs:label          "NADH"^^xsd:string ;
+        rdfs:seeAlso        <http://identifiers.org/inchikey/BOPGDPNILDQYTO-NNYOXOHSSA-N> ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:57945> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:57945"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/ccb26> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:57945> ;
+        wp:bdbChemspider    <http://identifiers.org/chemspider/10239197> ;
+        wp:bdbInChIKey      <http://identifiers.org/inchikey/BOPGDPNILDQYTO-NNYOXOHSSA-L> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID21604869> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27125072> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/f64c0> .
+
+<http://identifiers.org/pubmed/16992238>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16992238> .
+
+<http://identifiers.org/chebi/CHEBI:57540>
+        a                   wp:DataNode , wp:Metabolite ;
+        rdfs:label          "NAD+"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/chebi/CHEBI:57540> ;
+        dc:source           "ChEBI"^^xsd:string ;
+        dcterms:identifier  "CHEBI:57540"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/ccb26> ;
+        wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:57540> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/d816d> .
+
+<http://identifiers.org/pubmed/3136125>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/3136125> .
+
+<http://identifiers.org/reactome/R-HSA-6806851>
+        a                   wp:Complex , wp:DataNode ;
+        rdfs:label          "CYB5Rs"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-6806851> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-6806851"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/WP/Interaction/ccb26> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-6806851> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/d1af7> .
+
+<http://identifiers.org/pubmed/17712059>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17712059> .
+
+<http://identifiers.org/pubmed/19879980>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19879980> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/ComplexBinding/d4130>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Eryth_r1/Group/d4130> ;
+        wp:participants   <http://identifiers.org/uniprot/P68871> , <http://identifiers.org/uniprot/P69905> , <http://identifiers.org/chebi/CHEBI:36144> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/d4130> .
+
+<http://identifiers.org/uniprot/P00915>
+        a                   wp:DataNode , wp:Protein ;
+        rdfs:label          "CA1"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/uniprot/P00915> ;
+        dc:source           "Uniprot-TrEMBL"^^xsd:string ;
+        dcterms:identifier  "P00915"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000133742> ;
+        wp:bdbEntrezGene    <http://identifiers.org/ncbigene/759> ;
+        wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CA1> ;
+        wp:bdbUniprot       <http://identifiers.org/uniprot/E5RJI8> , <http://identifiers.org/uniprot/E5RG81> , <http://identifiers.org/uniprot/E5RHS7> , <http://identifiers.org/uniprot/P00915> , <http://identifiers.org/uniprot/E5RG43> , <http://identifiers.org/uniprot/E5RHP7> , <http://identifiers.org/uniprot/E5RH81> , <http://identifiers.org/uniprot/H0YBE2> , <http://identifiers.org/uniprot/E5RII2> , <http://identifiers.org/uniprot/V9HWE3> , <http://identifiers.org/uniprot/E5RFL2> , <http://identifiers.org/uniprot/E5RFE7> , <http://identifiers.org/uniprot/E5RIF9> , <http://identifiers.org/uniprot/E5RGU8> , <http://identifiers.org/uniprot/E5RJF6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Eryth_r1/DataNode/bfa85> .
+
+<http://identifiers.org/pubmed/16563834>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16563834> .
+
+<http://identifiers.org/pubmed/19273840>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19273840> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/ComplexBinding/ab3ca>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Eryth_r1/Group/ab3ca> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:29105> , <http://identifiers.org/uniprot/P22748> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/ab3ca> .
+
+<http://identifiers.org/pubmed/4514311>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/4514311> .
+
+<http://identifiers.org/pubmed/1554744>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/1554744> .
+
+<http://identifiers.org/pubmed/12754312>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12754312> .
+
+<http://identifiers.org/pubmed/20162361>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20162361> .
+
+<http://rdf.wikipathways.org/Pathway//Eryth_r1/ComplexBinding/a4476>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Eryth_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Eryth_r1/Group/a4476> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:17627> , <http://identifiers.org/uniprot/P68871> , <http://identifiers.org/uniprot/P69905> , <http://rdf.wikipathways.org/Pathway//Eryth_r1/Complex/a4476> .
