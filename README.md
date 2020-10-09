@@ -8,7 +8,7 @@ Current solution:
 ```
 for x in *" "*; do mv -- "$x" "${x// /_}" ; done
 ```
-1.(Again) in bash command line, use the following statement to remove all items brackets "()" in the file titles:
+2. (Again) in bash command line, use the following statement to remove all items brackets "()" in the file titles:
 ```
 for file in ./*; do mv "$file" "${file/ (*)/}"; done
 ```
