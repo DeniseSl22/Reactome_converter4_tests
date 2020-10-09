@@ -10,7 +10,7 @@ for x in *" "*; do mv -- "$x" "${x// /_}" ; done
 ```
 2. (Again) in bash command line, use the following statement to remove all items brackets "()" in the file titles:
 ```
-for file in ./*; do mv "$file" "${file/ (*)/}"; done
+ls -d -- *\(*\)* | sed 's/\(.*\) (.*)\(.*\)/mv -- "&" "\1\2"/'
 ```
 
 Saved in the `GPMLs` folder.
