@@ -36,5 +36,6 @@ make check : creates ttl files for each GPML (from the folder GPMLs) (ttls store
 Move to the folder where the test reports are located, and obtain the content over all files for specific tests, test classes and specific tests.
 ```
 cd reports
+grep entrezGeneIdentifiersNotNumber *.md | grep -v  "\.\."
 grep "Number of fails" *.md | sort | uniq -c | sort -n
 ```
