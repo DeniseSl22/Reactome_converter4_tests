@@ -20,11 +20,13 @@ Save all PWs in the `GPMLs` folder from this repository.
 
 # Generating Turtle and test reports
 
-Generate the Turtle files (and unit test report) with the commands below.(GNU/Linux):
+Generate the Turtle files (and unit test report) with the commands below.
+"/PATH/TO/BRIDGEDB/MAPPINGFILES/" should be a folder, containing 3 mapping files (Human gene mappings, Interaction mappings and Metabolite mappings; ending at .bridge).
+(GNU/Linux):
 
 ```shell
 mkdir -p /tmp/OPSBRIDGEDB
-echo "bridgefiles=/PATH/TO/BRIDGEDB/MAPPINGFILES/file" > /tmp/OPSBRIDGEDB/config.properties
+echo "bridgefiles=/PATH/TO/BRIDGEDB/MAPPINGFILES/" > /tmp/OPSBRIDGEDB/config.properties
 make
 ```
 make : creates the ttl file for each GPML (in the folder GPMLs)
