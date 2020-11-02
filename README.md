@@ -18,15 +18,37 @@ Check if all files are renamed accordingly (search for files with "(" or ")" ; (
 
 Save all PWs in the `GPMLs` folder from this repository.
 
-# Generating Turtle
+# Generating Turtle and test reports
 
-Generate the Turtle files (and unit test report) with the commands below.(GNU/Linux):
+Generate the Turtle files (and unit test report) with the commands below.
+"/PATH/TO/BRIDGEDB/MAPPINGFILES/" should be a folder, containing 3 mapping files (Human gene mappings, Interaction mappings and Metabolite mappings; ending at .bridge).
+(GNU/Linux):
 
 ```shell
 mkdir -p /tmp/OPSBRIDGEDB
-echo "bridgefiles=/PATH/TO/BRIDGEDB/MAPPINGFILES/file" > /tmp/OPSBRIDGEDB/config.properties
+echo "bridgefiles=/PATH/TO/BRIDGEDB/MAPPINGFILES/" > /tmp/OPSBRIDGEDB/config.properties
 make
 ```
 make : creates the ttl file for each GPML (in the folder GPMLs)
 
 make check : creates ttl files for each GPML (from the folder GPMLs) (ttls stored in /wp/Human) ; and a unit test report to check the content of the ttl (in /report).
+
+
+# Exploring the test reports
+Move to the folder where the test reports are located, and obtain the content over all files for specific tests (entrezGeneIdentifiersNotNumber), test classes (Number of assertions) and total number of fails (Number of fails).
+```
+cd reports
+grep entrezGeneIdentifiersNotNumber *.md | grep -v  "\.\."
+grep "Number of Number of test classes" *.md | sort | uniq -c | sort -n
+grep "Number of fails" *.md | sort | uniq -c | sort -n
+```
+
+Specific tests available currently:
+- entrezGeneIdentifiersNotNumber
+- affyProbeIdentifiersNotCorrect
+- nonNumericPubMedIDs
+- zeroPubMedIDs
+- atLeastOneReference
+- noMetaboliteToNonMetaboliteConversions
+- noNonMetaboliteToMetaboliteConversions
+- noGeneProteinConversions
