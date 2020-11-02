@@ -1,6 +1,6 @@
-# WikiPathways Immunoregulatory_interactions_between_a_Lymphoid_and_a_non-Lymphoid_cell
+# WikiPathways SARS-CoV-2_Infection
 
-GPML file: [wp/Human/Immunoregulatory_interactions_between_a_Lymphoid_and_a_non-Lymphoid_cell.ttl](../wp/Human/Immunoregulatory_interactions_between_a_Lymphoid_and_a_non-Lymphoid_cell.ttl)
+GPML file: [wp/Human/SARS-CoV-2_Infection.ttl](../wp/Human/SARS-CoV-2_Infection.ttl)
 
 ## Tests
 

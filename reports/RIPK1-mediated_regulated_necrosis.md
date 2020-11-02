@@ -1,6 +1,6 @@
-# WikiPathways Ion_channel_transport
+# WikiPathways RIPK1-mediated_regulated_necrosis
 
-GPML file: [wp/Human/Ion_channel_transport.ttl](../wp/Human/Ion_channel_transport.ttl)
+GPML file: [wp/Human/RIPK1-mediated_regulated_necrosis.ttl](../wp/Human/RIPK1-mediated_regulated_necrosis.ttl)
 
 ## Tests
 

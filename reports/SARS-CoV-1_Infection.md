@@ -1,6 +1,6 @@
-# WikiPathways Phase_I_-_Functionalization_of_compounds
+# WikiPathways SARS-CoV-1_Infection
 
-GPML file: [wp/Human/Phase_I_-_Functionalization_of_compounds.ttl](../wp/Human/Phase_I_-_Functionalization_of_compounds.ttl)
+GPML file: [wp/Human/SARS-CoV-1_Infection.ttl](../wp/Human/SARS-CoV-1_Infection.ttl)
 
 ## Tests
 

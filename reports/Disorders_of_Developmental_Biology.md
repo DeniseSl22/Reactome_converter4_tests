@@ -1,6 +1,6 @@
-# WikiPathways Abacavir_transport_and_metabolism
+# WikiPathways Disorders_of_Developmental_Biology
 
-GPML file: [wp/Human/Abacavir_transport_and_metabolism.ttl](../wp/Human/Abacavir_transport_and_metabolism.ttl)
+GPML file: [wp/Human/Disorders_of_Developmental_Biology.ttl](../wp/Human/Disorders_of_Developmental_Biology.ttl)
 
 ## Tests
 

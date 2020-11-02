@@ -1,6 +1,6 @@
-# WikiPathways Toll-like_Receptor_Cascades
+# WikiPathways Disorders_of_Nervous_System_Development
 
-GPML file: [wp/Human/Toll-like_Receptor_Cascades.ttl](../wp/Human/Toll-like_Receptor_Cascades.ttl)
+GPML file: [wp/Human/Disorders_of_Nervous_System_Development.ttl](../wp/Human/Disorders_of_Nervous_System_Development.ttl)
 
 ## Tests
 
