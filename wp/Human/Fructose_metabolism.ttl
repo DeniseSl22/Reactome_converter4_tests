@@ -22,12 +22,12 @@
         dc:source                      "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/8281941> ;
         dcterms:identifier             "P15121"^^xsd:string ;
-        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb547> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/dadb1> ;
         wp:bdbEnsembl                  <http://identifiers.org/ensembl/ENSG00000085662> ;
         wp:bdbEntrezGene               <http://identifiers.org/ncbigene/231> ;
         wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/AKR1B1> ;
         wp:bdbUniprot                  <http://identifiers.org/uniprot/E9PCX2> , <http://identifiers.org/uniprot/E9PEF9> , <http://identifiers.org/uniprot/P15121> , <http://identifiers.org/uniprot/A0A024R7A8> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/fa4b3> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a3ea2> .
 
 <http://identifiers.org/chebi/CHEBI:30616>
         a                   wp:DataNode , wp:Metabolite ;
@@ -36,13 +36,31 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:30616> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:30616"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d0afe> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/aa58b> , <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c0434> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ca255> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d2841> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ab512> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:30616> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/4574455> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-J> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5461108> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27113900> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e9f4d> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e0a9a> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a9d3a> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a4600> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/edc3e> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/ed20c> .
+
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e631a>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23444097> ;
+        dcterms:identifier             "R-HSA-6813749"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6813749> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/d303e> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/b1885> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/a1c04> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/aa4ab> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/bf071> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/e631a> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/bd02a> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/d7e2b> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-71689> , <http://identifiers.org/chebi/CHEBI:32398> , <http://identifiers.org/chebi/CHEBI:57540> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:57945> , <http://identifiers.org/chebi/CHEBI:17378> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:57540> , <http://identifiers.org/chebi/CHEBI:17378> , <http://identifiers.org/reactome/R-HSA-71689> , <http://identifiers.org/chebi/CHEBI:15377> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:32398> , <http://identifiers.org/chebi/CHEBI:57945> .
+
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/ComplexBinding/a65c5>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Fruct_r1/Group/a65c5> ;
+        wp:participants   <http://identifiers.org/uniprot/Q3LXA3> , <http://identifiers.org/chebi/CHEBI:18420> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/a65c5> .
 
 <http://identifiers.org/pubmed/8535439>
         a                 wp:PublicationReference ;
@@ -56,14 +74,14 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:18105> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:18105"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c0434> , <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e871d> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c7aba> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ca255> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:18105> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/58741> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0060467> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/ZKLLSNQJRLJIGT-UYFOZJQFSA-N> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID65246> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q982755> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a1530> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/b1cf2> .
 
 <http://identifiers.org/pubmed/8281941>
         a                 wp:PublicationReference ;
@@ -77,13 +95,13 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:456216> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:456216"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/b82b3> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/aa58b> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c0434> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d0afe> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/f7324> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d2841> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ab512> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ca255> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:456216> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/5414423> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-K> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7058055> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27225748> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/b3c91> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/f5eaa> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/c270f> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/ec5bb> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a6495> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/b97f9> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/eb07b> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e34d2> .
 
 <http://identifiers.org/pubmed/13093749>
         a                 wp:PublicationReference ;
@@ -102,7 +120,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:29103> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:29103"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/b41d4> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/cfc2a> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:29103> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/791> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000586> ;
@@ -110,7 +128,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00238> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID813> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q15901933> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/de363> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/f4fa1> .
 
 <http://identifiers.org/pubmed/224930>
         a                 wp:PublicationReference ;
@@ -124,14 +142,14 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17378> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17378"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ceb72> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e871d> , <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/aa58b> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c7aba> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e631a> , <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ab512> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17378> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/71347> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/MNQZXJOMYWMBOU-VKHMYHEASA-N> ;
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00577> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID79014> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27093516> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/da01d> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e9714> .
 
 <http://identifiers.org/chebi/CHEBI:15824>
         a                   wp:DataNode , wp:Metabolite ;
@@ -139,10 +157,10 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:15824> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:15824"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb884> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c0434> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c2b3f> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ca255> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15824> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q38132767> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/be532> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/be1c7> .
 
 <http://identifiers.org/chebi/CHEBI:17924>
         a                   wp:DataNode , wp:Metabolite ;
@@ -151,7 +169,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17924> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17924"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb547> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb884> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/dadb1> , <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c2b3f> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:45559> , <http://identifiers.org/chebi/CHEBI:9201> , <http://identifiers.org/chebi/CHEBI:30911> , <http://identifiers.org/chebi/CHEBI:15093> , <http://identifiers.org/chebi/CHEBI:17924> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/5576> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000247> ;
@@ -159,19 +177,15 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00794> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5780> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q245280> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/d452c> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/c13e1> .
 
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e871d>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11679716> , <http://identifiers.org/pubmed/8535439> , <http://identifiers.org/pubmed/9610797> , <http://identifiers.org/pubmed/5353106> , <http://identifiers.org/pubmed/5777313> , <http://identifiers.org/pubmed/805723> , <http://identifiers.org/pubmed/13093749> ;
-        dcterms:identifier             "R-HSA-70342"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-70342> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/faae6> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/faa15> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/b510c> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/dd69b> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/e871d> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-70340> , <http://identifiers.org/chebi/CHEBI:57642> , <http://identifiers.org/chebi/CHEBI:18105> , <http://identifiers.org/chebi/CHEBI:17378> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-70340> , <http://identifiers.org/chebi/CHEBI:18105> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:57642> , <http://identifiers.org/chebi/CHEBI:17378> .
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/cfc2a>
+        a                 wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/cfc2a> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:29103> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ca255> ;
+        wp:source         <http://identifiers.org/chebi/CHEBI:29103> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ca255> .
 
 <http://identifiers.org/uniprot/Q00796>
         a                              wp:DataNode , wp:Protein ;
@@ -180,12 +194,12 @@
         dc:source                      "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/2691249> ;
         dcterms:identifier             "Q00796"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/e0a69> ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/ad255> ;
         wp:bdbEnsembl                  <http://identifiers.org/ensembl/ENSG00000140263> ;
         wp:bdbEntrezGene               <http://identifiers.org/ncbigene/6652> ;
         wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/SORD> ;
         wp:bdbUniprot                  <http://identifiers.org/uniprot/H0YKB3> , <http://identifiers.org/uniprot/Q00796> , <http://identifiers.org/uniprot/H0YLA4> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/d802a> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/bbdc9> .
 
 <http://identifiers.org/pubmed/16266770>
         a                 wp:PublicationReference ;
@@ -199,13 +213,13 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:58272> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:58272"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d0afe> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d2841> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:58272> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/23096232> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/OSJPPGNTCRNQQC-UWTATZPHSA-K> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID25245548> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27125660> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/ee263> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/ccbae> .
 
 <http://identifiers.org/wikipathways//Fruct_r1>
         a                    wp:Pathway , skos:Collection ;
@@ -237,13 +251,39 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:59776> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:59776"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/aa58b> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ab512> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:59776> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/21169165> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/LXJXRIRHZLFYRP-VKHMYHEASA-L> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID24794350> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27126894> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a8323> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/bf9c3> .
+
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/dadb1>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/2112546> , <http://identifiers.org/pubmed/15272156> , <http://identifiers.org/pubmed/8281941> , <http://identifiers.org/pubmed/14401390> , <http://identifiers.org/pubmed/18220710> , <http://identifiers.org/pubmed/1420136> ;
+        dcterms:identifier             "R-HSA-5652172"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5652172> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/a6aa7> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/eac58> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/ca52b> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/f666d> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/dadb1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/d6fff> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/a23c3> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/uniprot/P15121> , <http://identifiers.org/chebi/CHEBI:17924> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:17925> , <http://identifiers.org/chebi/CHEBI:16474> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:17925> , <http://identifiers.org/uniprot/P15121> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:16474> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:17924> .
+
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/f7324>
+        a                 wp:Inhibition , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/f7324> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:456216> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ca255> ;
+        wp:source         <http://identifiers.org/chebi/CHEBI:456216> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ca255> .
+
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/ad255>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Fruct_r1/Group/ad255> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:29105> , <http://identifiers.org/uniprot/Q00796> .
 
 <http://identifiers.org/reactome/R-HSA-71689>
         a                              wp:DataNode , wp:Complex ;
@@ -252,44 +292,14 @@
         dc:source                      "Reactome"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/224930> ;
         dcterms:identifier             "R-HSA-71689"^^xsd:string ;
-        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ceb72> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e631a> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-71689> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/b5cdd> .
-
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb884>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12962626> , <http://identifiers.org/pubmed/2691249> , <http://identifiers.org/pubmed/6870831> , <http://identifiers.org/pubmed/14401391> ;
-        dcterms:identifier             "R-HSA-5652195"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5652195> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/e3edc> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/ce713> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/c637e> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/f44e5> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/eb884> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/f171d> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/e5d93> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:15824> , <http://identifiers.org/chebi/CHEBI:57540> , <http://identifiers.org/chebi/CHEBI:17924> , <http://identifiers.org/chebi/CHEBI:57945> , <http://identifiers.org/reactome/R-HSA-5652211> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:57540> , <http://identifiers.org/reactome/R-HSA-5652211> , <http://identifiers.org/chebi/CHEBI:17924> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:15824> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:57945> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e673a> .
 
 <http://identifiers.org/pubmed/23493540>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23493540> .
-
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/a83ce>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Fruct_r1/Group/a83ce> ;
-        wp:participants   <http://identifiers.org/uniprot/Q3LXA3> , <http://identifiers.org/chebi/CHEBI:18420> .
-
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d0afe>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/16753811> , <http://identifiers.org/pubmed/20949620> , <http://identifiers.org/pubmed/2537226> ;
-        dcterms:identifier             "R-HSA-6799495"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6799495> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/fc0f7> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/dd6cb> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/a7a0d> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/d2e3b> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/f5690> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/d0afe> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/f4054> ;
-        wp:participants                <http://identifiers.org/uniprot/Q8IVS8> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/chebi/CHEBI:32398> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:58272> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/uniprot/Q8IVS8> , <http://identifiers.org/chebi/CHEBI:32398> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:58272> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:456216> .
 
 <http://identifiers.org/uniprot/Q3LXA3>
         a                   wp:Protein , wp:DataNode ;
@@ -297,12 +307,12 @@
         dc:identifier       <http://identifiers.org/uniprot/Q3LXA3> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q3LXA3"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/a83ce> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/a65c5> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000149476> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/26007> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/TKFC> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/I3L252> , <http://identifiers.org/uniprot/A0A140VJH7> , <http://identifiers.org/uniprot/Q3LXA3> , <http://identifiers.org/uniprot/E9PJG8> , <http://identifiers.org/uniprot/E9PQR1> , <http://identifiers.org/uniprot/H0YCY6> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e2b83> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/d4048> .
 
 <http://identifiers.org/pubmed/14401391>
         a                 wp:PublicationReference ;
@@ -316,38 +326,26 @@
         dc:source                      "Reactome"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/24569995> ;
         dcterms:identifier             "R-HSA-5652070"^^xsd:string ;
-        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/aa58b> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ab512> ;
         wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5652070> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/fdc16> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/fa7e9> .
 
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/aa58b>
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d2841>
         a                              wp:DirectedInteraction , wp:Interaction ;
         dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/13093749> , <http://identifiers.org/pubmed/4688871> , <http://identifiers.org/pubmed/24569995> , <http://identifiers.org/pubmed/22098443> , <http://identifiers.org/pubmed/16289032> , <http://identifiers.org/pubmed/24289155> ;
-        dcterms:identifier             "R-HSA-70349"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/2537226> , <http://identifiers.org/pubmed/20949620> , <http://identifiers.org/pubmed/16753811> ;
+        dcterms:identifier             "R-HSA-6799495"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-70349> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/cb73a> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/c76f7> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/aa58b> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/c4548> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/e042a> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/af38d> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/reactome/R-HSA-5652070> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/chebi/CHEBI:17378> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:17378> , <http://identifiers.org/reactome/R-HSA-5652070> , <http://identifiers.org/chebi/CHEBI:30616> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:456216> .
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6799495> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/d2841> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/d9f43> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/ad9fa> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/db07a> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/ab95a> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/d0099> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/ac848> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:58272> , <http://identifiers.org/uniprot/Q8IVS8> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/chebi/CHEBI:32398> , <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:32398> , <http://identifiers.org/uniprot/Q8IVS8> , <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:58272> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/chebi/CHEBI:15378> .
 
 <http://identifiers.org/pubmed/23493538>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23493538> .
-
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ceb72>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23444097> ;
-        dcterms:identifier             "R-HSA-6813749"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6813749> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/a7907> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/c0489> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/ddcf9> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/ceb72> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/af9ca> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/dc29b> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/aeeaa> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/c31a0> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-71689> , <http://identifiers.org/chebi/CHEBI:32398> , <http://identifiers.org/chebi/CHEBI:17378> , <http://identifiers.org/chebi/CHEBI:57945> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:57540> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-71689> , <http://identifiers.org/chebi/CHEBI:57540> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:17378> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:57945> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:32398> .
 
 <http://identifiers.org/reactome/R-HSA-3006523>
         a                              wp:Complex , wp:DataNode ;
@@ -356,9 +354,9 @@
         dc:source                      "Reactome"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19237742> ;
         dcterms:identifier             "R-HSA-3006523"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c0434> ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ca255> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-3006523> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/c6026> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/bd2c4> .
 
 <http://identifiers.org/chebi/CHEBI:15378>
         a                   wp:DataNode , wp:Metabolite ;
@@ -367,7 +365,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:15378> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:15378"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb547> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ceb72> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d0afe> , <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb884> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/dadb1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c2b3f> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d2841> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e631a> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15378> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/1010> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0059597> ;
@@ -375,7 +373,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00080> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1038> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q506710> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a47da> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/f338d> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/d54f3> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/ff391> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/df43e> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/aa600> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/fa878> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/f8998> .
 
 <http://identifiers.org/pubmed/6870831>
         a                 wp:PublicationReference ;
@@ -390,7 +388,7 @@
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26681795> ;
         dcterms:identifier             "R-HSA-196791"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/be8cf> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a19d5> .
 
 <http://identifiers.org/chebi/CHEBI:18009>
         a                   wp:Metabolite , wp:DataNode ;
@@ -399,7 +397,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:18009> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:18009"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb547> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/dadb1> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:18009> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/5675> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000217> ;
@@ -407,7 +405,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00006> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5886> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q26987754> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/f89aa> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a93a3> .
 
 <http://identifiers.org/pubmed/19237742>
         a                 wp:PublicationReference ;
@@ -423,18 +421,6 @@
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20841500> .
-
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/e0a69>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Fruct_r1/Group/e0a69> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:29105> , <http://identifiers.org/uniprot/Q00796> .
-
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/ComplexBinding/a83ce>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Fruct_r1/Group/a83ce> ;
-        wp:participants   <http://identifiers.org/uniprot/Q3LXA3> , <http://identifiers.org/chebi/CHEBI:18420> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/a83ce> .
 
 <http://identifiers.org/pubmed/16753811>
         a                 wp:PublicationReference ;
@@ -468,30 +454,18 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:57642> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:57642"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e871d> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c7aba> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:57642> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/3833110> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/GNGACRATGGDKBX-UHFFFAOYSA-L> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID4643300> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27124834> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e7e61> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e8501> .
 
 <http://identifiers.org/pubmed/9610797>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9610797> .
-
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c0434>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/16266770> , <http://identifiers.org/pubmed/12941785> , <http://identifiers.org/pubmed/22371574> , <http://identifiers.org/pubmed/7833921> , <http://identifiers.org/pubmed/19237742> , <http://identifiers.org/pubmed/20841500> ;
-        dcterms:identifier             "R-HSA-70333"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-70333> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/ae614> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/c0434> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/f035b> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/e0c4d> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/fdc90> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/b1491> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:18105> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/reactome/R-HSA-3006523> , <http://identifiers.org/chebi/CHEBI:15824> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:15824> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/reactome/R-HSA-3006523> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:18105> , <http://identifiers.org/chebi/CHEBI:456216> .
 
 <http://identifiers.org/chebi/CHEBI:15377>
         a                   wp:DataNode , wp:Metabolite ;
@@ -500,7 +474,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:15377> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:15377"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ceb72> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e631a> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15377> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/937> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0002111> ;
@@ -508,7 +482,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00001> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID962> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q283> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e4b22> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a6e85> .
 
 <http://identifiers.org/pubmed/1420136>
         a                 wp:PublicationReference ;
@@ -531,12 +505,12 @@
         dc:identifier       <http://identifiers.org/uniprot/Q8IVS8> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q8IVS8"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d0afe> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d2841> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000168237> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/132158> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/GLYCTK> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q8IVS8> , <http://identifiers.org/uniprot/C9J3N5> , <http://identifiers.org/uniprot/A0A024R302> , <http://identifiers.org/uniprot/A0A0C4DGA0> , <http://identifiers.org/uniprot/C9JA32> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/f8ba1> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/cc8b9> .
 
 <http://identifiers.org/pubmed/22098443>
         a                 wp:PublicationReference ;
@@ -553,22 +527,16 @@
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8213607> .
 
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb547>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/1420136> , <http://identifiers.org/pubmed/14401390> , <http://identifiers.org/pubmed/18220710> , <http://identifiers.org/pubmed/15272156> , <http://identifiers.org/pubmed/8281941> , <http://identifiers.org/pubmed/2112546> ;
-        dcterms:identifier             "R-HSA-5652172"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5652172> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/d7172> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/f0de5> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/dba89> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/eb547> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/b5770> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/e1550> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/fb146> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:17925> , <http://identifiers.org/chebi/CHEBI:17924> , <http://identifiers.org/uniprot/P15121> , <http://identifiers.org/chebi/CHEBI:16474> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/uniprot/P15121> , <http://identifiers.org/chebi/CHEBI:17925> , <http://identifiers.org/chebi/CHEBI:15378> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:17924> .
-
 <http://identifiers.org/pubmed/26681795>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26681795> .
+
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/ComplexBinding/ad255>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Fruct_r1/Group/ad255> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:29105> , <http://identifiers.org/uniprot/Q00796> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/ad255> .
 
 <http://identifiers.org/pubmed/5823111>
         a                 wp:PublicationReference ;
@@ -586,7 +554,7 @@
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/3795> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/KHK> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/C9JDL1> , <http://identifiers.org/uniprot/P50053> , <http://identifiers.org/uniprot/A0A140VJM6> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/f6a40> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/c821d> .
 
 <http://identifiers.org/pubmed/16289032>
         a                 wp:PublicationReference ;
@@ -610,7 +578,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:29105> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:29105"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/e0a69> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/ad255> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:29105> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/29723> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0015532> , <http://identifiers.org/hmdb/HMDB0001303> ;
@@ -618,7 +586,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00038> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID32051> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q26987394> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/fd6a3> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/cf800> .
 
 <http://identifiers.org/reactome/R-HSA-5652211>
         a                              wp:DataNode , wp:Complex ;
@@ -627,27 +595,31 @@
         dc:source                      "Reactome"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/3365415> , <http://identifiers.org/pubmed/12962626> ;
         dcterms:identifier             "R-HSA-5652211"^^xsd:string ;
-        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb884> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c2b3f> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5652211> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/afd18> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e8fbb> .
 
 <http://identifiers.org/pubmed/24289155>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/24289155> .
 
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/b82b3>
-        a                 wp:Inhibition , wp:DirectedInteraction , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/b82b3> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:456216> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c0434> ;
-        wp:source         <http://identifiers.org/chebi/CHEBI:456216> ;
-        wp:target         <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c0434> .
-
 <http://identifiers.org/pubmed/20949620>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20949620> .
+
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ab512>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/13093749> , <http://identifiers.org/pubmed/22098443> , <http://identifiers.org/pubmed/4688871> , <http://identifiers.org/pubmed/24289155> , <http://identifiers.org/pubmed/16289032> , <http://identifiers.org/pubmed/24569995> ;
+        dcterms:identifier             "R-HSA-70349"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-70349> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/b5805> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/aa8de> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/ca7c0> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/ab512> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/f218c> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/ea277> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/chebi/CHEBI:59776> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/reactome/R-HSA-5652070> , <http://identifiers.org/chebi/CHEBI:17378> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/chebi/CHEBI:17378> , <http://identifiers.org/reactome/R-HSA-5652070> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/chebi/CHEBI:59776> .
 
 <http://identifiers.org/reactome/R-HSA-70340>
         a                              wp:Complex , wp:DataNode ;
@@ -656,20 +628,44 @@
         dc:source                      "Reactome"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11679716> ;
         dcterms:identifier             "R-HSA-70340"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e871d> ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c7aba> ;
         wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-70340> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/c14a7> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/dcb9a> .
+
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c2b3f>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/14401391> , <http://identifiers.org/pubmed/12962626> , <http://identifiers.org/pubmed/6870831> , <http://identifiers.org/pubmed/2691249> ;
+        dcterms:identifier             "R-HSA-5652195"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5652195> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/e9786> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/f069e> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/c4984> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/c2b3f> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/d7973> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/de964> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/f14e1> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:57540> , <http://identifiers.org/chebi/CHEBI:57945> , <http://identifiers.org/chebi/CHEBI:15824> , <http://identifiers.org/chebi/CHEBI:17924> , <http://identifiers.org/reactome/R-HSA-5652211> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:57540> , <http://identifiers.org/reactome/R-HSA-5652211> , <http://identifiers.org/chebi/CHEBI:17924> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:57945> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:15824> .
+
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ca255>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19237742> , <http://identifiers.org/pubmed/20841500> , <http://identifiers.org/pubmed/22371574> , <http://identifiers.org/pubmed/7833921> , <http://identifiers.org/pubmed/16266770> , <http://identifiers.org/pubmed/12941785> ;
+        dcterms:identifier             "R-HSA-70333"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-70333> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/b65ce> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/b2fb7> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/e1305> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/d1089> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/ca255> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/e5e8d> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:18105> , <http://identifiers.org/chebi/CHEBI:456216> , <http://identifiers.org/chebi/CHEBI:15824> , <http://identifiers.org/reactome/R-HSA-3006523> , <http://identifiers.org/chebi/CHEBI:30616> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:15824> , <http://identifiers.org/chebi/CHEBI:30616> , <http://identifiers.org/reactome/R-HSA-3006523> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:18105> , <http://identifiers.org/chebi/CHEBI:456216> .
 
 <http://identifiers.org/pubmed/2112546>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/2112546> .
 
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/ComplexBinding/e0a69>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/a65c5>
+        a                 wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Fruct_r1/Group/e0a69> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:29105> , <http://identifiers.org/uniprot/Q00796> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/e0a69> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Fruct_r1/Group/a65c5> ;
+        wp:participants   <http://identifiers.org/uniprot/Q3LXA3> , <http://identifiers.org/chebi/CHEBI:18420> .
 
 <http://identifiers.org/uniprot/P00352>
         a                              wp:DataNode , wp:Protein ;
@@ -683,7 +679,7 @@
         wp:bdbEntrezGene               <http://identifiers.org/ncbigene/216> ;
         wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/ALDH1A1> ;
         wp:bdbUniprot                  <http://identifiers.org/uniprot/V9HW83> , <http://identifiers.org/uniprot/P00352> , <http://identifiers.org/uniprot/Q5SYQ8> , <http://identifiers.org/uniprot/Q5SYQ7> , <http://identifiers.org/uniprot/Q5SYQ9> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/cbc71> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/d0a9f> .
 
 <http://identifiers.org/chebi/CHEBI:57945>
         a                   wp:Metabolite , wp:DataNode ;
@@ -692,13 +688,13 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:57945> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:57945"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb884> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ceb72> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e631a> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c2b3f> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:57945> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/10239197> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/BOPGDPNILDQYTO-NNYOXOHSSA-L> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID21604869> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27125072> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a8df3> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/f1711> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/b012c> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e314a> .
 
 <http://identifiers.org/pubmed/24569995>
         a                 wp:PublicationReference ;
@@ -716,9 +712,9 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:57540> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:57540"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb884> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ceb72> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c2b3f> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e631a> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:57540> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/bb4bb> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/d2955> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a81f7> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/bec52> .
 
 <http://identifiers.org/pubmed/12962626>
         a                 wp:PublicationReference ;
@@ -732,7 +728,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:16474> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:16474"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb547> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/dadb1> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16474> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/17215925> , <http://identifiers.org/chemspider/5673> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000221> ;
@@ -740,7 +736,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00005> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5884> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID22833512> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q26841327> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e0df4> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/aacf4> .
 
 <http://identifiers.org/chebi/CHEBI:18420>
         a                   wp:DataNode , wp:Metabolite ;
@@ -749,7 +745,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:18420> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:18420"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/a83ce> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Complex/a65c5> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:18420> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/865> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000547> ;
@@ -757,15 +753,19 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00305> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID888> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q26987404> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/dfb28> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/ceec9> .
 
-<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/b41d4>
-        a                 wp:DirectedInteraction , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Fruct_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/b41d4> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:29103> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c0434> ;
-        wp:source         <http://identifiers.org/chebi/CHEBI:29103> ;
-        wp:target         <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c0434> .
+<http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/c7aba>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/5777313> , <http://identifiers.org/pubmed/13093749> , <http://identifiers.org/pubmed/11679716> , <http://identifiers.org/pubmed/9610797> , <http://identifiers.org/pubmed/8535439> , <http://identifiers.org/pubmed/805723> , <http://identifiers.org/pubmed/5353106> ;
+        dcterms:identifier             "R-HSA-70342"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Fruct_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-70342> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/e3526> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/c7aba> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/e86f4> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/edb34> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/Interaction/f7c05> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:18105> , <http://identifiers.org/reactome/R-HSA-70340> , <http://identifiers.org/chebi/CHEBI:57642> , <http://identifiers.org/chebi/CHEBI:17378> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:18105> , <http://identifiers.org/reactome/R-HSA-70340> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17378> , <http://identifiers.org/chebi/CHEBI:57642> .
 
 <http://identifiers.org/chebi/CHEBI:32398>
         a                   wp:Metabolite , wp:DataNode ;
@@ -774,7 +774,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:32398> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:32398"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/ceb72> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d0afe> , <http://identifiers.org/wikipathways//Fruct_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/d2841> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/e631a> , <http://identifiers.org/wikipathways//Fruct_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:32398> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/388334> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0031818> , <http://identifiers.org/hmdb/HMDB0000139> ;
@@ -782,7 +782,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00258> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID439194> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27104217> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/edda3> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e9459> .
 
 <http://identifiers.org/pubmed/23444097>
         a                 wp:PublicationReference ;
@@ -804,7 +804,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17925> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17925"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/eb547> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Fruct_r1> , <http://rdf.wikipathways.org/Pathway//Fruct_r1/WP/Interaction/dadb1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:10242> , <http://identifiers.org/chebi/CHEBI:40557> , <http://identifiers.org/chebi/CHEBI:17925> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/71358> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0003345> ;
@@ -812,7 +812,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00267> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID79025> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q23905965> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/e2a11> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/defd2> .
 
 <http://identifiers.org/pubmed/22371574>
         a                 wp:PublicationReference ;
@@ -830,7 +830,7 @@
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/229> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/ALDOB> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/P05062> , <http://identifiers.org/uniprot/A0A087WXX2> , <http://identifiers.org/uniprot/A0A024R145> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/ddbbb> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Fruct_r1/DataNode/a7644> .
 
 <http://identifiers.org/pubmed/5353106>
         a                 wp:PublicationReference ;

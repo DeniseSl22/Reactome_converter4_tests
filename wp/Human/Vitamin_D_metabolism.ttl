@@ -15,15 +15,41 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/aa6c5>
+        a                 wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/aa6c5> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:15824> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cbcd5> ;
+        wp:source         <http://identifiers.org/chebi/CHEBI:15824> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cbcd5> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/a5926>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/8706697> , <http://identifiers.org/pubmed/21595846> , <http://identifiers.org/pubmed/7768901> , <http://identifiers.org/pubmed/10052453> ;
+        dcterms:identifier             "R-HSA-350168"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-350168> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e4ede> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b186a> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/dbebd> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a5926> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-350115> , <http://identifiers.org/uniprot/P98164> , <http://identifiers.org/reactome/R-HSA-350092> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-350115> , <http://identifiers.org/uniprot/P98164> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-350092> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/dc25a>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/dc25a> ;
+        wp:participants   <http://identifiers.org/uniprot/P61956> , <http://identifiers.org/uniprot/P63279> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/dc25a> .
+
 <http://identifiers.org/reactome/R-HSA-209892>
         a                   wp:DataNode , wp:Complex ;
         rdfs:label          "GC:25(OH)D"^^xsd:string ;
         dc:identifier       <http://identifiers.org/reactome/R-HSA-209892> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-209892"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f8c58> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cb0a7> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/bb4d0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/b7841> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-209892> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e074e> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/ba987> .
 
 <http://identifiers.org/pubmed/10518789>
         a                 wp:PublicationReference ;
@@ -34,12 +60,6 @@
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/13093749> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/a5b8b>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/a5b8b> ;
-        wp:participants   <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/a5b8b> .
 
 <http://identifiers.org/pubmed/12668600>
         a                 wp:PublicationReference ;
@@ -56,21 +76,15 @@
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26199742> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/f40f0>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/f40f0> ;
-        wp:participants   <http://identifiers.org/uniprot/P61956> , <http://identifiers.org/uniprot/P63279> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f40f0> .
-
 <http://identifiers.org/reactome/R-HSA-350085>
         a                   wp:DataNode , wp:Complex ;
         rdfs:label          "CUBN:GC:25(OH)D"^^xsd:string ;
         dc:identifier       <http://identifiers.org/reactome/R-HSA-350085> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-350085"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cf636> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/be0db> , <http://identifiers.org/wikipathways//Vitam_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ba713> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/a7c3c> , <http://identifiers.org/wikipathways//Vitam_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-350085> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/fad83> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/cdafe> .
 
 <http://identifiers.org/reactome/R-HSA-5652084>
         a                              wp:DataNode ;
@@ -80,7 +94,7 @@
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/14401391> , <http://identifiers.org/pubmed/13093749> , <http://identifiers.org/pubmed/5823111> , <http://identifiers.org/pubmed/18220710> , <http://identifiers.org/pubmed/23493538> , <http://identifiers.org/pubmed/23493540> , <http://identifiers.org/pubmed/8213607> , <http://identifiers.org/pubmed/25639270> , <http://identifiers.org/pubmed/26199742> , <http://identifiers.org/pubmed/24666553> ;
         dcterms:identifier             "R-HSA-5652084"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e4afb> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c6fd9> .
 
 <http://identifiers.org/chebi/CHEBI:15824>
         a                   wp:DataNode , wp:Metabolite ;
@@ -88,25 +102,25 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:15824> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:15824"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/dd5d4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/efd49> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/e3849> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/aa6c5> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15824> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q38132767> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d395c> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c2d32> .
 
 <http://identifiers.org/wikipathways//Vitam>
         pav:hasVersion  <http://identifiers.org/wikipathways//Vitam_r1> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/bf8e3>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/bf8e3> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/P02774> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/aff47>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/aff47> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/uniprot/O60494> .
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c2ce3>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26681795> ;
+        dcterms:identifier             "R-HSA-8963913"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8963913> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c2ce3> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b5d90> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/faf62> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17823> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:17823> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17823> .
 
 <http://identifiers.org/chebi/CHEBI:15379>
         a                   wp:DataNode , wp:Metabolite ;
@@ -115,7 +129,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:15379> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:15379"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c53ef> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ef5e4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ff7> , <http://identifiers.org/wikipathways//Vitam_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ca4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cbcd5> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/d4ccd> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15379> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/952> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001377> ;
@@ -123,7 +137,7 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00007> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID977> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q5203615> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f60fe> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e6893> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/ca0b5> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c7e6f> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b4f63> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/a5d44> .
 
 <http://identifiers.org/pubmed/18220710>
         a                 wp:PublicationReference ;
@@ -136,33 +150,21 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-350092> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-350092"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/e679a> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cf636> , <http://identifiers.org/wikipathways//Vitam_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ba713> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/a5926> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-350092> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f1ef3> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f19d8> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/b861d>
-        a                              wp:Interaction , wp:DirectedInteraction ;
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/bb4d0>
+        a                              wp:DirectedInteraction , wp:Interaction ;
         dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/22564762> ;
-        dcterms:identifier             "R-HSA-4546387"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11717447> ;
+        dcterms:identifier             "R-HSA-350186"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-4546387> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f57e3> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e17c7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/deca9> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e518f> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/cf906> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b861d> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-2993778> , <http://identifiers.org/uniprot/Q8N2W9> , <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/uniprot/P63279> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-2993778> , <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/uniprot/Q8N2W9> ;
-        wp:target                      <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/uniprot/P63279> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/be0db>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10052453> ;
-        dcterms:identifier             "R-HSA-350158"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-350158> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/be0db> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d7182> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d2159> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ab0c2> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-350085> , <http://identifiers.org/uniprot/Q99538> , <http://identifiers.org/reactome/R-HSA-8963847> ;
-        wp:source                      <http://identifiers.org/uniprot/Q99538> , <http://identifiers.org/reactome/R-HSA-350085> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-8963847> .
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-350186> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f65d4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/bb4d0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c7edf> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ae1f0> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-209892> , <http://identifiers.org/reactome/R-HSA-350115> , <http://identifiers.org/uniprot/O60494> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-209892> , <http://identifiers.org/uniprot/O60494> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-350115> .
 
 <http://identifiers.org/uniprot/P98164>
         a                   wp:Protein , wp:DataNode ;
@@ -170,22 +172,28 @@
         dc:identifier       <http://identifiers.org/uniprot/P98164> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "P98164"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/e679a> , <http://identifiers.org/wikipathways//Vitam_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/a5926> , <http://identifiers.org/wikipathways//Vitam_r1> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000081479> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/4036> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/LRP2> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/P98164> , <http://identifiers.org/uniprot/E9PC35> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f09b2> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c60f9> .
+
+<http://identifiers.org/pubmed/21849106>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21849106> .
 
 <http://identifiers.org/pubmed/27250744>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/27250744> .
 
-<http://identifiers.org/pubmed/21849106>
-        a                 wp:PublicationReference ;
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/de113>
+        a                 wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21849106> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/de113> ;
+        wp:participants   <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> .
 
 <http://identifiers.org/reactome/R-HSA-8963847>
         a                   wp:Complex , wp:DataNode ;
@@ -193,9 +201,9 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-8963847> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-8963847"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/be0db> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/af439> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ebcd5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/a7c3c> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-8963847> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e5995> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c5beb> .
 
 <http://identifiers.org/uniprot/P02774>
         a                   wp:Protein , wp:DataNode ;
@@ -203,12 +211,12 @@
         dc:identifier       <http://identifiers.org/uniprot/P02774> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "P02774"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/b1b3d> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/a5b8b> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/aff47> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cce23> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/bf8e3> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f8c58> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/e3a74> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/a489b> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/bddc7> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/de113> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f17ff> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/e1289> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/d5d41> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/b6de6> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f2cd1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/b7841> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000145321> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/2638> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/GC> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/D6RF20> , <http://identifiers.org/uniprot/D6RF35> , <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/uniprot/D6RBJ7> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d2322> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d5aa9> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f86d8> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/ebcb4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d57ec> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/da571> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d01d6> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/bf262> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/da9c6> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c49d6> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f9d85> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b7c75> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f4fd6> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c7390> .
 
 <http://identifiers.org/reactome/R-HSA-350115>
         a                   wp:Complex , wp:DataNode ;
@@ -216,55 +224,37 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-350115> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-350115"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/e679a> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cb0a7> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/a5926> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/bb4d0> , <http://identifiers.org/wikipathways//Vitam_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-350115> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d8bbb> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/bd369>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11799400> ;
-        dcterms:identifier             "R-HSA-6807242"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6807242> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/cf6e5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/bd369> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a75dd> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:17933> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:17933> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:17933> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/a489b>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/a489b> ;
-        wp:participants   <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/a489b> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d50f8> .
 
 <http://identifiers.org/pubmed/23493540>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23493540> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/f6326>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/f6326> ;
-        wp:participants   <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/chebi/CHEBI:17823> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f6326> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/e679a>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10052453> , <http://identifiers.org/pubmed/7768901> , <http://identifiers.org/pubmed/21595846> , <http://identifiers.org/pubmed/8706697> ;
-        dcterms:identifier             "R-HSA-350168"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-350168> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a7360> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f6571> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e674c> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e679a> ;
-        wp:participants                <http://identifiers.org/uniprot/P98164> , <http://identifiers.org/reactome/R-HSA-350092> , <http://identifiers.org/reactome/R-HSA-350115> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-350115> , <http://identifiers.org/uniprot/P98164> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-350092> .
-
 <http://identifiers.org/pubmed/14401391>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/14401391> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/d4ccd>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12867411> , <http://identifiers.org/pubmed/15465040> ;
+        dcterms:identifier             "R-HSA-209845"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-209845> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/bdceb> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d4ccd> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d0a32> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/dde5e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b466e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b37e2> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c3657> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f8b85> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f5347> ;
+        wp:participants                <http://identifiers.org/uniprot/Q6VVX0> , <http://identifiers.org/chebi/CHEBI:28940> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/chebi/CHEBI:15377> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:28940> , <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/uniprot/Q6VVX0> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:16474> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/chebi/CHEBI:15377> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/e6aa3>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/e6aa3> ;
+        wp:participants   <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/chebi/CHEBI:17823> .
 
 <http://identifiers.org/uniprot/Q8N2W9>
         a                   wp:Protein , wp:DataNode ;
@@ -272,17 +262,29 @@
         dc:identifier       <http://identifiers.org/uniprot/Q8N2W9> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q8N2W9"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/b861d> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f8f49> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000105229> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/51588> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PIAS4> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q8N2W9> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/aee0c> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b9050> .
 
 <http://identifiers.org/pubmed/23493538>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23493538> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/e6f39>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11799400> ;
+        dcterms:identifier             "R-HSA-6807242"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-6807242> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c80a5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/eefce> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e6f39> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17933> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:17933> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17933> .
 
 <http://identifiers.org/uniprot/Q6VVX0>
         a                   wp:Protein , wp:DataNode ;
@@ -290,12 +292,12 @@
         dc:identifier       <http://identifiers.org/uniprot/Q6VVX0> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q6VVX0"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ff7> , <http://identifiers.org/wikipathways//Vitam_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/d4ccd> , <http://identifiers.org/wikipathways//Vitam_r1> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000186104> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/120227> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CYP2R1> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/E9PS56> , <http://identifiers.org/uniprot/K7EMQ4> , <http://identifiers.org/uniprot/E9PJT9> , <http://identifiers.org/uniprot/Q6VVX0> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c4a7f> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e206f> .
 
 <http://identifiers.org/reactome/R-HSA-352339>
         a                   wp:Complex , wp:DataNode ;
@@ -303,9 +305,9 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-352339> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-352339"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/e3a74> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cce23> , <http://identifiers.org/wikipathways//Vitam_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f2cd1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/bddc7> , <http://identifiers.org/wikipathways//Vitam_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-352339> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/af395> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f8791> .
 
 <http://identifiers.org/chebi/CHEBI:17823>
         a                   wp:DataNode , wp:Metabolite ;
@@ -314,7 +316,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17823> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17823"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/db988> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c53ef> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ef5e4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f6326> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ae312> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c2ce3> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ca4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/e6aa3> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/a74b9> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cbcd5> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:46435> , <http://identifiers.org/chebi/CHEBI:17823> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/4444108> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001903> ;
@@ -323,7 +325,7 @@
         wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST03020258> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5280453> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q139195> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/fcaed> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/fcac6> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/cf010> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b7ca0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/dc84a> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/fec4a> .
 
 <http://identifiers.org/chebi/CHEBI:15378>
         a                   wp:DataNode , wp:Metabolite ;
@@ -332,7 +334,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:15378> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:15378"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c53ef> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ef5e4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ff7> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cbcd5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/d4ccd> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ca4> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15378> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/1010> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0059597> ;
@@ -340,18 +342,18 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00080> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1038> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q506710> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/df992> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/da1bc> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d5271> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/a0225> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e4b31> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b2080> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/b6de6>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/b6de6> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:28940> , <http://identifiers.org/uniprot/P02774> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/b6de6> .
 
 <http://identifiers.org/pubmed/3524618>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/3524618> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f40f0>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/f40f0> ;
-        wp:participants   <http://identifiers.org/uniprot/P61956> , <http://identifiers.org/uniprot/P63279> .
 
 <http://identifiers.org/chebi/CHEBI:18009>
         a                   wp:Metabolite , wp:DataNode ;
@@ -360,7 +362,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:18009> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:18009"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c53ef> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ef5e4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ff7> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/d4ccd> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ca4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cbcd5> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:18009> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/5675> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000217> ;
@@ -368,31 +370,41 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00006> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5886> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q26987754> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b32a2> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b1bd8> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/ecce1> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e5871> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/a7718> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d7478> .
 
 <http://identifiers.org/pubmed/22877430>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22877430> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/dd5d4>
-        a                 wp:DirectedInteraction , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/dd5d4> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:15824> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c53ef> ;
-        wp:source         <http://identifiers.org/chebi/CHEBI:15824> ;
-        wp:target         <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c53ef> .
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ede4b>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26865365> ;
+        dcterms:identifier             "R-HSA-209766"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-209766> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e44a0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ede4b> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a4eec> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:17933> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:17933> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17933> .
 
 <http://identifiers.org/pubmed/21595846>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21595846> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/ce038>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/ce038> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> .
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/dbfe4>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11799400> ;
+        dcterms:identifier             "R-HSA-8963872"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8963872> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/daef3> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/dbfe4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/aadb5> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:28940> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:28940> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:28940> .
 
 <http://identifiers.org/uniprot/P63279>
         a                   wp:DataNode , wp:Protein ;
@@ -400,12 +412,12 @@
         dc:identifier       <http://identifiers.org/uniprot/P63279> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "P63279"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f40f0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/b861d> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/dc25a> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f8f49> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000103275> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/7329> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/UBE2I> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/H3BRD1> , <http://identifiers.org/uniprot/P63279> , <http://identifiers.org/uniprot/H3BPC4> , <http://identifiers.org/uniprot/H3BQQ9> , <http://identifiers.org/uniprot/B0QYN7> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e4da2> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f720e> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d20e5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/a8837> .
 
 <http://identifiers.org/pubmed/11856765>
         a                 wp:PublicationReference ;
@@ -418,20 +430,12 @@
         dc:identifier       <http://identifiers.org/uniprot/O15528> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "O15528"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ef5e4> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ca4> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000111012> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1594> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CYP27B1> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/O15528> , <http://identifiers.org/uniprot/V9GYP0> , <http://identifiers.org/uniprot/F8VWR7> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/eba7e> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/efd49>
-        a                 wp:Inhibition , wp:DirectedInteraction , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/efd49> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:15824> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ef5e4> ;
-        wp:source         <http://identifiers.org/chebi/CHEBI:15824> ;
-        wp:target         <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ef5e4> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c1ce0> .
 
 <http://identifiers.org/uniprot/O60494>
         a                   wp:Protein , wp:DataNode ;
@@ -439,24 +443,12 @@
         dc:identifier       <http://identifiers.org/uniprot/O60494> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "O60494"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cb0a7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/a489b> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/a5b8b> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/ce038> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/af439> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/aff47> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/bb4d0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/de113> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f17ff> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/e1289> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/d6cc0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ebcd5> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000107611> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/8029> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CUBN> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/H7C480> , <http://identifiers.org/uniprot/B0YIZ6> , <http://identifiers.org/uniprot/Q5JQ33> , <http://identifiers.org/uniprot/O60494> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/ac409> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/df322> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b3cfc> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b69bf> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c489e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e3aa8> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c76d0>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11799400> ;
-        dcterms:identifier             "R-HSA-8963872"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8963872> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c76d0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a7d12> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/bd462> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:28940> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:28940> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:28940> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/af83f> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d7fc1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/eb112> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e4d4e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f048b> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/eb962> .
 
 <http://identifiers.org/pubmed/11969204>
         a                 wp:PublicationReference ;
@@ -475,7 +467,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:47828> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:47828"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c53ef> , <http://identifiers.org/wikipathways//Vitam_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cbcd5> , <http://identifiers.org/wikipathways//Vitam_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:47828> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/4947800> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/MBLYZRMZFUWLOZ-FEUSBDLHSA-N> ;
@@ -483,7 +475,7 @@
         wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST03020013> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6443842> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q139295> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/ad38e> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/aabec> .
 
 <http://identifiers.org/uniprot/P11473>
         a                              wp:Protein , wp:DataNode ;
@@ -492,12 +484,24 @@
         dc:source                      "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/22564762> ;
         dcterms:identifier             "P11473"^^xsd:string ;
-        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/b861d> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/db988> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f6326> ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/a74b9> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/e6aa3> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f8f49> ;
         wp:bdbEnsembl                  <http://identifiers.org/ensembl/ENSG00000111424> ;
         wp:bdbEntrezGene               <http://identifiers.org/ncbigene/7421> ;
         wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/VDR> ;
         wp:bdbUniprot                  <http://identifiers.org/uniprot/F1D8P8> , <http://identifiers.org/uniprot/F8VVY8> , <http://identifiers.org/uniprot/F8VRJ4> , <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/uniprot/F8VPF8> , <http://identifiers.org/uniprot/F8VXQ9> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/a3cb0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/bdf5c> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e20f7> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e501e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/bd980> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e6cd1> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/bddc7>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/27250744> , <http://identifiers.org/pubmed/11799400> ;
+        dcterms:identifier             "R-HSA-209738"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-209738> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ed16a> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e0f86> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ed9a5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/bddc7> ;
+        wp:participants                <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/reactome/R-HSA-352339> , <http://identifiers.org/chebi/CHEBI:28940> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:28940> , <http://identifiers.org/uniprot/P02774> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-352339> .
 
 <http://identifiers.org/pubmed/24666553>
         a                 wp:PublicationReference ;
@@ -532,46 +536,22 @@
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12855575> .
 
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/d6cc0>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/d6cc0> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/d6cc0> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/dc25a>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/dc25a> ;
+        wp:participants   <http://identifiers.org/uniprot/P61956> , <http://identifiers.org/uniprot/P63279> .
+
 <http://identifiers.org/pubmed/15728261>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/15728261> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/af439>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10052453> ;
-        dcterms:identifier             "R-HSA-8963864"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8963864> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a2e56> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/af439> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a489e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b4272> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-8963847> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-8963847> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cce23>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/27250744> , <http://identifiers.org/pubmed/11799400> ;
-        dcterms:identifier             "R-HSA-209738"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-209738> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ebade> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d7437> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/cce23> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d4a70> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-352339> , <http://identifiers.org/chebi/CHEBI:28940> , <http://identifiers.org/uniprot/P02774> ;
-        wp:source                      <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:28940> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-352339> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f6326>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/f6326> ;
-        wp:participants   <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/chebi/CHEBI:17823> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/b1b3d>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/b1b3d> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:28940> , <http://identifiers.org/uniprot/P02774> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/b1b3d> .
 
 <http://identifiers.org/chebi/CHEBI:15377>
         a                   wp:DataNode , wp:Metabolite ;
@@ -580,7 +560,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:15377> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:15377"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ef5e4> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ff7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c53ef> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cbcd5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/d4ccd> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ca4> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15377> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/937> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0002111> ;
@@ -588,59 +568,30 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00001> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID962> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q283> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/a3f86> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/ec817> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d5bce> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/da53b> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c7bbd> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d1e0c> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cb0a7>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11717447> ;
-        dcterms:identifier             "R-HSA-350186"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-350186> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/be11d> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d365e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/cb0a7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/dcb8f> ;
-        wp:participants                <http://identifiers.org/uniprot/O60494> , <http://identifiers.org/reactome/R-HSA-350115> , <http://identifiers.org/reactome/R-HSA-209892> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-209892> , <http://identifiers.org/uniprot/O60494> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-350115> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c53ef>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/8679605> , <http://identifiers.org/pubmed/11012668> , <http://identifiers.org/pubmed/8506296> ;
-        dcterms:identifier             "R-HSA-209765"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-209765> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/fbbe2> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d6832> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/bb313> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c53ef> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a2fbd> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c1cca> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f760f> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a5ceb> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/de94d> ;
-        wp:participants                <http://identifiers.org/uniprot/Q07973> , <http://identifiers.org/chebi/CHEBI:47828> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:17823> , <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/chebi/CHEBI:16474> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/uniprot/Q07973> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:17823> , <http://identifiers.org/chebi/CHEBI:15378> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:47828> , <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:15377> .
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/e1289>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/e1289> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/uniprot/O60494> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/e1289> .
 
 <http://identifiers.org/pubmed/9556629>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/9556629> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f8c58>
-        a                              wp:DirectedInteraction , wp:Interaction ;
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ebcd5>
+        a                              wp:Interaction , wp:DirectedInteraction ;
         dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11799400> ;
-        dcterms:identifier             "R-HSA-209944"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10052453> ;
+        dcterms:identifier             "R-HSA-8963864"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-209944> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a067e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d94ae> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f5be2> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f8c58> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/reactome/R-HSA-209892> , <http://identifiers.org/uniprot/P02774> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/P02774> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-209892> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/a5b8b>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/a5b8b> ;
-        wp:participants   <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> .
-
-<http://identifiers.org/pubmed/8679605>
-        a                 wp:PublicationReference ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8679605> .
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8963864> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f5857> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c17a6> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d6d6b> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ebcd5> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-8963847> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-8963847> ;
+        wp:target                      <http://identifiers.org/uniprot/O60494> , <http://identifiers.org/chebi/CHEBI:17933> .
 
 <http://identifiers.org/pubmed/11085925>
         a                 wp:PublicationReference ;
@@ -665,19 +616,7 @@
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/1390320> , <http://identifiers.org/pubmed/11969204> , <http://identifiers.org/pubmed/3524618> , <http://identifiers.org/pubmed/12668600> , <http://identifiers.org/pubmed/16054061> ;
         dcterms:identifier             "R-HSA-191273"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d3886> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c6be5>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26865365> ;
-        dcterms:identifier             "R-HSA-209766"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-209766> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d7c64> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c062f> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c6be5> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:17933> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:17933> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:17933> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/af88d> .
 
 <http://identifiers.org/chebi/CHEBI:28940>
         a                   wp:Metabolite , wp:DataNode ;
@@ -686,7 +625,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:28940> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:28940"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cce23> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/d81f9> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c76d0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ff7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/b1b3d> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/e3a74> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f0100> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/b6de6> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f2cd1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/d4ccd> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/dbfe4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f2403> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/bddc7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/added> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:28940> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/4444353> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000876> ;
@@ -695,12 +634,7 @@
         wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST03020000> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5280795> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q139347> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f1116> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f0253> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/fab91> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/cff7a> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e17be> .
-
-<http://identifiers.org/pubmed/11012668>
-        a                 wp:PublicationReference ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11012668> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f0ee2> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/a1c75> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b9fd9> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d76a6> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/ad1c5> .
 
 <http://identifiers.org/reactome/R-HSA-2993778>
         a                   wp:DataNode , wp:Complex ;
@@ -708,49 +642,43 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-2993778> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-2993778"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/b861d> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f8f49> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-2993778> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/bd55d> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/aff47>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/aff47> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/uniprot/O60494> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/aff47> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/aadf3> .
 
 <http://identifiers.org/pubmed/8706697>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8706697> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f0100>
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/a74b9>
         a                              wp:Interaction , wp:DirectedInteraction ;
         dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15465040> ;
-        dcterms:identifier             "R-HSA-350147"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/21849106> , <http://identifiers.org/pubmed/15647825> , <http://identifiers.org/pubmed/23857223> , <http://identifiers.org/pubmed/27913313> , <http://identifiers.org/pubmed/22877430> , <http://identifiers.org/pubmed/15728261> , <http://identifiers.org/pubmed/28206978> ;
+        dcterms:identifier             "R-HSA-8963915"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-350147> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b3b33> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f5500> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f0100> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:28940> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:28940> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:28940> .
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8963915> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a4805> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a74b9> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ae21d> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f45bc> ;
+        wp:participants                <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/reactome/R-HSA-8963916> , <http://identifiers.org/chebi/CHEBI:17823> ;
+        wp:source                      <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/chebi/CHEBI:17823> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-8963916> .
 
 <http://identifiers.org/pubmed/5823111>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/5823111> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/db988>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/21849106> , <http://identifiers.org/pubmed/15728261> , <http://identifiers.org/pubmed/23857223> , <http://identifiers.org/pubmed/15647825> , <http://identifiers.org/pubmed/28206978> , <http://identifiers.org/pubmed/27913313> , <http://identifiers.org/pubmed/22877430> ;
-        dcterms:identifier             "R-HSA-8963915"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8963915> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/db988> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e31df> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a8eb9> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b46e4> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-8963916> , <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/chebi/CHEBI:17823> ;
-        wp:source                      <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/chebi/CHEBI:17823> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-8963916> .
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/f17ff>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/f17ff> ;
+        wp:participants   <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f17ff> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/d5d41>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/d5d41> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/P02774> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/d5d41> .
 
 <http://identifiers.org/pubmed/26865365>
         a                 wp:PublicationReference ;
@@ -761,6 +689,17 @@
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22564762> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cbcd5>
+        a                   wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-209765"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-209765> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b8e02> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/dae62> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c357c> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b948b> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e4232> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/fe66c> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c448e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/cbcd5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e89cc> ;
+        wp:participants     <http://identifiers.org/chebi/CHEBI:47828> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:17823> , <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/uniprot/Q07973> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:18009> ;
+        wp:source           <http://identifiers.org/chebi/CHEBI:17823> , <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/uniprot/Q07973> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:15378> ;
+        wp:target           <http://identifiers.org/chebi/CHEBI:47828> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:18009> .
 
 <http://identifiers.org/pubmed/15465040>
         a                 wp:PublicationReference ;
@@ -774,7 +713,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17759> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17759"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/d81f9> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/added> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17759> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/388534> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000032> ;
@@ -783,7 +722,13 @@
         wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST01010069> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID439423> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q139350> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/fa641> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b10bd> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/de113>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/de113> ;
+        wp:participants   <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/de113> .
 
 <http://identifiers.org/reactome/R-HSA-8963916>
         a                   wp:DataNode , wp:Complex ;
@@ -791,9 +736,9 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-8963916> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-8963916"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/db988> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/a74b9> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-8963916> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b8cb9> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/eb026> .
 
 <http://identifiers.org/uniprot/Q07973>
         a                   wp:DataNode , wp:Protein ;
@@ -801,58 +746,81 @@
         dc:identifier       <http://identifiers.org/uniprot/Q07973> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q07973"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c53ef> , <http://identifiers.org/wikipathways//Vitam_r1> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cbcd5> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000019186> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/1591> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/CYP24A1> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q07973> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d4daa> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/bc50b> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/a489b>
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f8f49>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/22564762> ;
+        dcterms:identifier             "R-HSA-4546387"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-4546387> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/bd1e4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/cc4ce> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ecee3> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/cba68> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e505e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f8f49> ;
+        wp:participants                <http://identifiers.org/uniprot/P63279> , <http://identifiers.org/uniprot/Q8N2W9> , <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/reactome/R-HSA-2993778> ;
+        wp:source                      <http://identifiers.org/uniprot/Q8N2W9> , <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/reactome/R-HSA-2993778> ;
+        wp:target                      <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/uniprot/P63279> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ba713>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11085925> , <http://identifiers.org/pubmed/9821970> ;
+        dcterms:identifier             "R-HSA-209760"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-209760> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a5d34> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b9157> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ba713> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-350085> , <http://identifiers.org/reactome/R-HSA-350092> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-350092> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-350085> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/d6cc0>
         a                 wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/a489b> ;
-        wp:participants   <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/d6cc0> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> .
 
 <http://identifiers.org/pubmed/12383504>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/12383504> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/b1b3d>
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/e6aa3>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/e6aa3> ;
+        wp:participants   <http://identifiers.org/uniprot/P11473> , <http://identifiers.org/chebi/CHEBI:17823> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/e6aa3> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/e1289>
         a                 wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/b1b3d> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:28940> , <http://identifiers.org/uniprot/P02774> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/e1289> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/uniprot/O60494> .
 
 <http://identifiers.org/pubmed/10052453>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10052453> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ef5e4>
+<http://identifiers.org/pubmed/23857223>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23857223> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ca4>
         a                              wp:DirectedInteraction , wp:Interaction ;
         dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/12855575> , <http://identifiers.org/pubmed/10518789> , <http://identifiers.org/pubmed/11856765> ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11856765> , <http://identifiers.org/pubmed/10518789> , <http://identifiers.org/pubmed/12855575> ;
         dcterms:identifier             "R-HSA-209868"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
         wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-209868> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e7cbc> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a8dc9> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a8a0c> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c0bb7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ef5e4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ae077> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f812e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a6658> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/cd581> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:17823> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/uniprot/O15528> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/uniprot/O15528> , <http://identifiers.org/chebi/CHEBI:15378> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:17823> , <http://identifiers.org/chebi/CHEBI:18009> , <http://identifiers.org/chebi/CHEBI:15377> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ae312>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26681795> ;
-        dcterms:identifier             "R-HSA-8963913"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8963913> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e5bde> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ae312> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c0dc1> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:17823> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:17823> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:17823> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c0b1d> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e4ae8> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/bad41> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f4ca4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a32f7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e1a99> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/bd938> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/cfd66> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a72d9> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:17823> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/uniprot/O15528> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/chebi/CHEBI:18009> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O15528> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:15379> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17823> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:18009> .
 
 <http://identifiers.org/pubmed/12867411>
         a                 wp:PublicationReference ;
@@ -871,17 +839,24 @@
         dc:source                      "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/9556629> , <http://identifiers.org/pubmed/12383504> ;
         dcterms:identifier             "P61956"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f40f0> ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/dc25a> ;
         wp:bdbEnsembl                  <http://identifiers.org/ensembl/ENSG00000188612> ;
         wp:bdbEntrezGene               <http://identifiers.org/ncbigene/6613> ;
         wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/SUMO2> ;
         wp:bdbUniprot                  <http://identifiers.org/uniprot/P61956> , <http://identifiers.org/uniprot/A0A024R8S3> , <http://identifiers.org/uniprot/J3KRH1> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/fbb73> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f6fc9> .
 
-<http://identifiers.org/pubmed/23857223>
-        a                 wp:PublicationReference ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23857223> .
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f2403>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15465040> ;
+        dcterms:identifier             "R-HSA-350147"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-350147> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f2403> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e56e7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e468b> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:28940> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:28940> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:28940> .
 
 <http://identifiers.org/uniprot/Q99538>
         a                   wp:DataNode , wp:Protein ;
@@ -889,28 +864,35 @@
         dc:identifier       <http://identifiers.org/uniprot/Q99538> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q99538"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/be0db> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/a7c3c> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000100600> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5641> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/LGMN> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/G3V2E9> , <http://identifiers.org/uniprot/Q53XC6> , <http://identifiers.org/uniprot/H0YJN9> , <http://identifiers.org/uniprot/G3V263> , <http://identifiers.org/uniprot/Q99538> , <http://identifiers.org/uniprot/G3V4E4> , <http://identifiers.org/uniprot/G3V4P5> , <http://identifiers.org/uniprot/G3V3Z4> , <http://identifiers.org/uniprot/G3V5B2> , <http://identifiers.org/uniprot/G3V2T4> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/dadb0> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/a7ba5> .
 
-<http://identifiers.org/pubmed/8506296>
-        a                 wp:PublicationReference ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/8506296> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/d81f9>
-        a                   wp:DirectedInteraction , wp:Interaction ;
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/added>
+        a                   wp:Interaction , wp:DirectedInteraction ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-209754"^^xsd:string ;
         dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-209754> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f2a74> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d8e3e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d81f9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/added> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b358b> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c4bba> ;
         wp:participants     <http://identifiers.org/chebi/CHEBI:17759> , <http://identifiers.org/chebi/CHEBI:28940> ;
         wp:source           <http://identifiers.org/chebi/CHEBI:17759> ;
         wp:target           <http://identifiers.org/chebi/CHEBI:28940> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/b7841>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11799400> ;
+        dcterms:identifier             "R-HSA-209944"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-209944> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f916e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ef5e5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f50fb> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b7841> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-209892> , <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:17933> ;
+        wp:source                      <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:17933> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-209892> .
 
 <http://identifiers.org/chebi/CHEBI:17933>
         a                   wp:Metabolite , wp:DataNode ;
@@ -919,7 +901,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17933> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17933"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/bf8e3> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/a5b8b> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/aff47> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ef5e4> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ff7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c6be5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/a489b> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f8c58> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/bd369> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/af439> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/ce038> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ede4b> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/e1289> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/d4ccd> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/de113> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ebcd5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/d6cc0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/d5d41> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f17ff> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/b7841> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ca4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/e6f39> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17933> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/4446820> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0003550> ;
@@ -928,30 +910,38 @@
         wp:bdbLipidMaps     <http://identifiers.org/lipidmaps/LMST03020246> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5283731> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q139307> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f86a2> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b40d8> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/ffa07> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/d5593> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/cffa5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/eea2e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/f139d> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/a76b0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/aade5> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c6364> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/db5a3> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b53a7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/aeb5d> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e238c> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c6539> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/b14d2> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/a4e3a> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/fd88b> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/b6de6>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/b6de6> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:28940> , <http://identifiers.org/uniprot/P02774> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/e3849>
+        a                 wp:Inhibition , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e3849> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:15824> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ca4> ;
+        wp:source         <http://identifiers.org/chebi/CHEBI:15824> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ca4> .
 
 <http://identifiers.org/pubmed/28206978>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/28206978> .
 
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cf636>
-        a                              wp:DirectedInteraction , wp:Interaction ;
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/a7c3c>
+        a                              wp:Interaction , wp:DirectedInteraction ;
         dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11085925> , <http://identifiers.org/pubmed/9821970> ;
-        dcterms:identifier             "R-HSA-209760"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10052453> ;
+        dcterms:identifier             "R-HSA-350158"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-209760> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/cf636> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e7a35> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/eb061> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-350092> , <http://identifiers.org/reactome/R-HSA-350085> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-350092> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-350085> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/ce038>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/ce038> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/ce038> .
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-350158> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/df65f> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/ab5d6> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a48a9> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a7c3c> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-8963847> , <http://identifiers.org/uniprot/Q99538> , <http://identifiers.org/reactome/R-HSA-350085> ;
+        wp:source                      <http://identifiers.org/uniprot/Q99538> , <http://identifiers.org/reactome/R-HSA-350085> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-8963847> .
 
 <http://identifiers.org/pubmed/11799400>
         a                 wp:PublicationReference ;
@@ -965,7 +955,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:16474> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:16474"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/ef5e4> , <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ff7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/c53ef> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Vitam_r1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ca4> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/cbcd5> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/d4ccd> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:16474> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/17215925> , <http://identifiers.org/chemspider/5673> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000221> ;
@@ -973,47 +963,41 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00005> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5884> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID22833512> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q26841327> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/fba49> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/e663d> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c3ddb> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f4ff7>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/15465040> , <http://identifiers.org/pubmed/12867411> ;
-        dcterms:identifier             "R-HSA-209845"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-209845> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e1c35> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f26f0> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e1104> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a1f0b> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/bc719> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f4ff7> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/c0f5c> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/dbc4d> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f543d> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:28940> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/chebi/CHEBI:15378> , <http://identifiers.org/uniprot/Q6VVX0> , <http://identifiers.org/chebi/CHEBI:18009> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:15379> , <http://identifiers.org/chebi/CHEBI:28940> , <http://identifiers.org/uniprot/Q6VVX0> , <http://identifiers.org/chebi/CHEBI:16474> , <http://identifiers.org/chebi/CHEBI:15378> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/chebi/CHEBI:18009> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/ComplexBinding/bf8e3>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/bf8e3> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/P02774> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/bf8e3> .
-
-<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/e3a74>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11799400> ;
-        dcterms:identifier             "R-HSA-8963851"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8963851> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/a1110> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/b6781> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/d9d59> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e3a74> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-352339> , <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:28940> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-352339> ;
-        wp:target                      <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:28940> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/a13a9> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c6c18> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/DataNode/c74b5> .
 
 <http://identifiers.org/pubmed/27913313>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/27913313> .
 
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/WP/Interaction/f2cd1>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11799400> ;
+        dcterms:identifier             "R-HSA-8963851"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8963851> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f2cd1> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/f826e> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/dcabb> , <http://rdf.wikipathways.org/Pathway//Vitam_r1/Interaction/e51be> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:28940> , <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/reactome/R-HSA-352339> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-352339> ;
+        wp:target                      <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:28940> .
+
 <http://identifiers.org/pubmed/16054061>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/16054061> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/f17ff>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/f17ff> ;
+        wp:participants   <http://identifiers.org/uniprot/P02774> , <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/O60494> .
+
+<http://rdf.wikipathways.org/Pathway//Vitam_r1/Complex/d5d41>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Vitam_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Vitam_r1/Group/d5d41> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:17933> , <http://identifiers.org/uniprot/P02774> .
 
 <http://identifiers.org/pubmed/11717447>
         a                 wp:PublicationReference ;

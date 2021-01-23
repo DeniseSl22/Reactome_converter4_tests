@@ -22,12 +22,12 @@
         dc:source                      "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/5049057> ;
         dcterms:identifier             "P00709"^^xsd:string ;
-        dcterms:isPartOf               <http://rdf.wikipathways.org/Pathway//Lacto_r1/Complex/b9258> , <http://identifiers.org/wikipathways//Lacto_r1> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/eaecf> ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Lacto_r1> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Complex/f0546> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/ec043> ;
         wp:bdbEnsembl                  <http://identifiers.org/ensembl/ENSG00000167531> ;
         wp:bdbEntrezGene               <http://identifiers.org/ncbigene/3906> ;
         wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/LALBA> ;
         wp:bdbUniprot                  <http://identifiers.org/uniprot/P00709> , <http://identifiers.org/uniprot/F8VWU1> , <http://identifiers.org/uniprot/A0A080YV01> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/e6fa6> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/fb2b2> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/b5fbc> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/bb3af> .
 
 <http://identifiers.org/chebi/CHEBI:17659>
         a                   wp:Metabolite , wp:DataNode ;
@@ -36,7 +36,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17659> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17659"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Lacto_r1> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/a78ba> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Lacto_r1> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/cddd8> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17659> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/5809> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000295> ;
@@ -44,18 +44,24 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00015> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6031> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q412593> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/a43b6> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/dded7> .
 
 <http://identifiers.org/wikipathways//Lacto>
         pav:hasVersion  <http://identifiers.org/wikipathways//Lacto_r1> .
 
-<http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/aa602>
+<http://rdf.wikipathways.org/Pathway//Lacto_r1/Complex/f0546>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Lacto_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Lacto_r1/Group/f0546> ;
+        wp:participants   <http://identifiers.org/uniprot/P15291> , <http://identifiers.org/uniprot/P00709> .
+
+<http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/a8db3>
         a                 wp:DirectedInteraction , wp:Interaction ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Lacto_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/aa602> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:18307> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/eaecf> ;
-        wp:source         <http://identifiers.org/chebi/CHEBI:18307> ;
-        wp:target         <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/eaecf> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/a8db3> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:29035> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/ec043> ;
+        wp:source         <http://identifiers.org/chebi/CHEBI:29035> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/ec043> .
 
 <http://identifiers.org/uniprot/P15291>
         a                   wp:Protein , wp:DataNode ;
@@ -63,31 +69,17 @@
         dc:identifier       <http://identifiers.org/uniprot/P15291> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "P15291"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/eaecf> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Complex/b9258> , <http://identifiers.org/wikipathways//Lacto_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/ec043> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Complex/f0546> , <http://identifiers.org/wikipathways//Lacto_r1> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000086062> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/2683> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/B4GALT1> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q86XA6> , <http://identifiers.org/uniprot/P15291> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/bbd6f> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/a0f32> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/e6f24> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/b4a10> .
 
 <http://identifiers.org/pubmed/10759149>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Lacto_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/10759149> .
-
-<http://rdf.wikipathways.org/Pathway//Lacto_r1/ComplexBinding/b9258>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Lacto_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Lacto_r1/Group/b9258> ;
-        wp:participants   <http://identifiers.org/uniprot/P15291> , <http://identifiers.org/uniprot/P00709> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Complex/b9258> .
-
-<http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/e3949>
-        a                 wp:DirectedInteraction , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Lacto_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/e3949> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:29035> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/eaecf> ;
-        wp:source         <http://identifiers.org/chebi/CHEBI:29035> ;
-        wp:target         <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/eaecf> .
 
 <http://identifiers.org/reactome/R-HSA-5653885>
         a                              wp:DataNode , wp:Complex ;
@@ -96,9 +88,21 @@
         dc:source                      "Reactome"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11419947> , <http://identifiers.org/pubmed/11947697> ;
         dcterms:identifier             "R-HSA-5653885"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Lacto_r1> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/a78ba> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/eaecf> ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Lacto_r1> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/ec043> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/cddd8> ;
         wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5653885> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/b6a64> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/fa14b> .
+
+<http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/ac830>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10759149> ;
+        dcterms:identifier             "R-HSA-5653873"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Lacto_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5653873> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/e702f> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/ac830> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/a7150> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/b8a82> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-5653881> , <http://identifiers.org/chebi/CHEBI:17925> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:17925> , <http://identifiers.org/reactome/R-HSA-5653881> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17925> .
 
 <http://identifiers.org/chebi/CHEBI:17925>
         a                   wp:Metabolite , wp:DataNode ;
@@ -107,7 +111,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17925> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17925"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/d2d92> , <http://identifiers.org/wikipathways//Lacto_r1> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/a78ba> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/cddd8> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/ac830> , <http://identifiers.org/wikipathways//Lacto_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:10242> , <http://identifiers.org/chebi/CHEBI:40557> , <http://identifiers.org/chebi/CHEBI:17925> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/71358> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0003345> ;
@@ -115,19 +119,19 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00267> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID79025> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q23905965> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/dcad6> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/fd54b> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/ccc39> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/c7dbb> .
 
-<http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/d2d92>
-        a                              wp:DirectedInteraction , wp:Interaction ;
+<http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/ec043>
+        a                              wp:Interaction , wp:DirectedInteraction ;
         dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/10759149> ;
-        dcterms:identifier             "R-HSA-5653873"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11419947> , <http://identifiers.org/pubmed/11947697> , <http://identifiers.org/pubmed/806951> ;
+        dcterms:identifier             "R-HSA-5653886"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Lacto_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5653873> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/d2d92> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/d7e47> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/fe78a> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/e933f> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:17925> , <http://identifiers.org/reactome/R-HSA-5653881> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:17925> , <http://identifiers.org/reactome/R-HSA-5653881> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:17925> .
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5653886> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/c1be3> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/a66a6> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/a8134> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/ec043> ;
+        wp:participants                <http://identifiers.org/uniprot/P00709> , <http://identifiers.org/uniprot/P15291> , <http://identifiers.org/reactome/R-HSA-5653885> ;
+        wp:source                      <http://identifiers.org/uniprot/P00709> , <http://identifiers.org/uniprot/P15291> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-5653885> .
 
 <http://identifiers.org/uniprot/P11166>
         a                              wp:DataNode , wp:Protein ;
@@ -141,30 +145,12 @@
         wp:bdbEntrezGene               <http://identifiers.org/ncbigene/6513> ;
         wp:bdbHgncSymbol               <http://identifiers.org/hgnc.symbol/SLC2A1> ;
         wp:bdbUniprot                  <http://identifiers.org/uniprot/A0A0D9SFK9> , <http://identifiers.org/uniprot/A6NL68> , <http://identifiers.org/uniprot/A0A1W2PQ59> , <http://identifiers.org/uniprot/P11166> , <http://identifiers.org/uniprot/A0A0D9SG74> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/bfb80> .
-
-<http://rdf.wikipathways.org/Pathway//Lacto_r1/Complex/b9258>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Lacto_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Lacto_r1/Group/b9258> ;
-        wp:participants   <http://identifiers.org/uniprot/P15291> , <http://identifiers.org/uniprot/P00709> .
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/f3838> .
 
 <http://identifiers.org/pubmed/806951>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Lacto_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/806951> .
-
-<http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/eaecf>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11947697> , <http://identifiers.org/pubmed/806951> , <http://identifiers.org/pubmed/11419947> ;
-        dcterms:identifier             "R-HSA-5653886"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Lacto_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5653886> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/eaecf> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/e3363> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/e42f1> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/f4582> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-5653885> , <http://identifiers.org/uniprot/P15291> , <http://identifiers.org/uniprot/P00709> ;
-        wp:source                      <http://identifiers.org/uniprot/P15291> , <http://identifiers.org/uniprot/P00709> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-5653885> .
 
 <http://identifiers.org/pubmed/11419947>
         a                 wp:PublicationReference ;
@@ -176,6 +162,18 @@
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Lacto_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/11947697> .
 
+<http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/cddd8>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11419947> , <http://identifiers.org/pubmed/11947697> , <http://identifiers.org/pubmed/806951> ;
+        dcterms:identifier             "R-HSA-5653878"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Lacto_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5653878> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/f0f07> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/e610f> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/f33f4> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/de4c7> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/bd12a> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/cddd8> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:18307> , <http://identifiers.org/chebi/CHEBI:17659> , <http://identifiers.org/reactome/R-HSA-5653885> , <http://identifiers.org/chebi/CHEBI:17716> , <http://identifiers.org/chebi/CHEBI:17925> ;
+        wp:source                      <http://identifiers.org/chebi/CHEBI:17925> , <http://identifiers.org/chebi/CHEBI:18307> , <http://identifiers.org/reactome/R-HSA-5653885> ;
+        wp:target                      <http://identifiers.org/chebi/CHEBI:17659> , <http://identifiers.org/chebi/CHEBI:17716> .
+
 <http://identifiers.org/chebi/CHEBI:18307>
         a                   wp:Metabolite , wp:DataNode ;
         rdfs:label          "UDP-Gal"^^xsd:string ;
@@ -183,14 +181,14 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:18307> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:18307"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/aa602> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/a78ba> , <http://identifiers.org/wikipathways//Lacto_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/cddd8> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/a89e9> , <http://identifiers.org/wikipathways//Lacto_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:18307> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/5256749> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0000302> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/HSCJRCZFDFQWRP-LNYDKVEPSA-N> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6857410> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27102985> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/dcdb7> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/b8ddd> .
 
 <http://identifiers.org/chebi/CHEBI:29035>
         a                   wp:Metabolite , wp:DataNode ;
@@ -199,7 +197,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:29035> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:29035"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Lacto_r1> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/e3949> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/a8db3> , <http://identifiers.org/wikipathways//Lacto_r1> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:29035> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/25916> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0001333> ;
@@ -207,7 +205,15 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C19610> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID27854> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27095727> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/b7155> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/ddd5d> .
+
+<http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/a89e9>
+        a                 wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Lacto_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/a89e9> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:18307> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/ec043> ;
+        wp:source         <http://identifiers.org/chebi/CHEBI:18307> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/ec043> .
 
 <http://identifiers.org/chebi/CHEBI:17716>
         a                   wp:DataNode , wp:Metabolite ;
@@ -216,12 +222,12 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:17716> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:17716"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Lacto_r1> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/a78ba> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Lacto_r1> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/cddd8> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:17716> ;
         wp:bdbInChIKey      <http://identifiers.org/inchikey/GUBGYTABKSRVRQ-QGENSXPJNA-N> ;
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00243> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q56229948> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/a57b1> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/a72e1> .
 
 <http://identifiers.org/pubmed/5049057>
         a                 wp:PublicationReference ;
@@ -234,9 +240,15 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-5653881> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-5653881"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/d2d92> , <http://identifiers.org/wikipathways//Lacto_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/ac830> , <http://identifiers.org/wikipathways//Lacto_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-5653881> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/f0e31> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Lacto_r1/DataNode/e4005> .
+
+<http://rdf.wikipathways.org/Pathway//Lacto_r1/ComplexBinding/f0546>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Lacto_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Lacto_r1/Group/f0546> ;
+        wp:participants   <http://identifiers.org/uniprot/P15291> , <http://identifiers.org/uniprot/P00709> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Complex/f0546> .
 
 <http://identifiers.org/wikipathways//Lacto_r1>
         a                    wp:Pathway , skos:Collection ;
@@ -250,15 +262,3 @@
         wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName      "Homo sapiens"^^xsd:string ;
         foaf:page            <http://www.wikipathways.org/instance//Lacto_r1> .
-
-<http://rdf.wikipathways.org/Pathway//Lacto_r1/WP/Interaction/a78ba>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/11419947> , <http://identifiers.org/pubmed/806951> , <http://identifiers.org/pubmed/11947697> ;
-        dcterms:identifier             "R-HSA-5653878"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Lacto_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-5653878> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/b47f2> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/a78ba> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/cbfe6> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/bdfb1> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/ca7a3> , <http://rdf.wikipathways.org/Pathway//Lacto_r1/Interaction/e2a5c> ;
-        wp:participants                <http://identifiers.org/chebi/CHEBI:17716> , <http://identifiers.org/reactome/R-HSA-5653885> , <http://identifiers.org/chebi/CHEBI:17659> , <http://identifiers.org/chebi/CHEBI:17925> , <http://identifiers.org/chebi/CHEBI:18307> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-5653885> , <http://identifiers.org/chebi/CHEBI:17925> , <http://identifiers.org/chebi/CHEBI:18307> ;
-        wp:target                      <http://identifiers.org/chebi/CHEBI:17659> , <http://identifiers.org/chebi/CHEBI:17716> .

@@ -1,0 +1,77 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/reactome/R-HSA-5467343>
+        a                              wp:DataNode ;
+        rdfs:label                     "Deletions in the AMER1 gene destabilize the destruction complex"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-5467343> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19760609> , <http://identifiers.org/pubmed/21248786> , <http://identifiers.org/pubmed/18311776> , <http://identifiers.org/pubmed/17510365> ;
+        dcterms:identifier             "R-HSA-5467343"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Signa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Signa_r1/DataNode/d0b1f> .
+
+<http://identifiers.org/reactome/R-HSA-5467348>
+        a                              wp:DataNode ;
+        rdfs:label                     "Truncations of AMER1 destabilize the destruction complex"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-5467348> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19760609> , <http://identifiers.org/pubmed/17510365> , <http://identifiers.org/pubmed/21248786> , <http://identifiers.org/pubmed/18311776> ;
+        dcterms:identifier             "R-HSA-5467348"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Signa_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Signa_r1/DataNode/b62fc> .
+
+<http://identifiers.org/pubmed/18311776>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/18311776> .
+
+<http://identifiers.org/wikipathways//Signa>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Signa_r1> .
+
+<http://identifiers.org/pubmed/23256519>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23256519> .
+
+<http://identifiers.org/pubmed/19760609>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19760609> .
+
+<http://identifiers.org/wikipathways//Signa_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Signa> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Signaling by AMER1 mutants"@en ;
+        dcterms:description  "AMER1/WTX is a component of the destruction complex that interacts directly with beta-catenin through its C-terminal half.  Depletion of AMER1 through siRNA stabilizes cellular beta-catenin levels and increases transcriptional activity in a reporter assay consistent with a role for AMER1 in the degradation of beta-catenin (Major et al, 2007).  Deletions of the entire AMER1 gene have been reported in Wilms tumor, as have nonsense and missense mutations that truncate the protein before the beta-catenin interaction domain.  These mutations are predicted to stabilize beta-catenin and increase WNT signaling (reviewed in Saito-Diaz et al, 2013; Huff, 2011).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=4839748 Reactome]." ;
+        dcterms:identifier   "/Signa"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/23256519> , <http://identifiers.org/pubmed/17510365> , <http://identifiers.org/pubmed/21248786> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Signa_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Signa_r1> .
+
+<http://identifiers.org/pubmed/21248786>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21248786> .
+
+<http://identifiers.org/pubmed/17510365>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Signa_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17510365> .

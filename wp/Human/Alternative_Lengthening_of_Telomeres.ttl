@@ -1,0 +1,40 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/wikipathways//Alter>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Alter_r1> .
+
+<http://identifiers.org/reactome/R-HSA-9670621>
+        a                   wp:DataNode ;
+        rdfs:label          "Defective Inhibition of DNA Recombination at Telomere"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-9670621> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-9670621"^^xsd:string ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Alter_r1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Alter_r1/DataNode/e36be> .
+
+<http://identifiers.org/wikipathways//Alter_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Alter> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Alternative Lengthening of Telomeres (ALT)"@en ;
+        dcterms:description  "Alternative lengthening of telomeres (ALT) is a homologous recombination repair-directed telomere synthesis that takes place in 5-15% of tumors. ALT positive tumors often harbor loss-of-function mutations in ATRX (Alpha thalassemia mental retardation X-linked) or, more rarely, DAXX (Death domain-associated protein 6) chromatin remodeling factors, which may act to inhibit DNA recombination at telomere ends (reviewed by Gocha et al. 2013). The nuclear receptor complex NuRD-ZNF827 contributes to the recruitment of homologous recombination (HR) machinery to telomeres (Conomos et al. 2014). ALT is most prevalent in subsets of sarcomas, including osteosarcomas and some soft tissue sarcomas, brain cancers and neuroblastomas (Heaphy et al. 2011, Arora and Azzalin 2015). For review, please refer to Nabetani and Ishikawa 2011, Pickett and Reddel 2015, Verma and Greenberg 2016, Amorim et al. 2016, Sommer and Royle 2020, Zhang and Zou 2020.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9006821 Reactome]." ;
+        dcterms:identifier   "/Alter"^^xsd:string ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Alter_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Alter_r1> .

@@ -15,11 +15,11 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 
-<http://rdf.wikipathways.org/Pathway//Intes_r1/Complex/b3f44>
-        a                 wp:Complex , wp:DataNode ;
+<http://rdf.wikipathways.org/Pathway//Intes_r1/ComplexBinding/d9748>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Intes_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Intes_r1/Group/b3f44> ;
-        wp:participants   <http://identifiers.org/uniprot/P25092> , <http://identifiers.org/uniprot/P01559> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Intes_r1/Group/d9748> ;
+        wp:participants   <http://identifiers.org/uniprot/P25092> , <http://identifiers.org/uniprot/P01559> , <http://rdf.wikipathways.org/Pathway//Intes_r1/Complex/d9748> .
 
 <http://identifiers.org/reactome/R-HSA-8936363>
         a                   wp:Complex , wp:DataNode ;
@@ -27,9 +27,9 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-8936363> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-8936363"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e30be> , <http://identifiers.org/wikipathways//Intes_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e62ce> , <http://identifiers.org/wikipathways//Intes_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-8936363> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/f2a44> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/b5608> .
 
 <http://identifiers.org/uniprot/P01559>
         a                   wp:Protein , wp:DataNode ;
@@ -37,9 +37,9 @@
         dc:identifier       <http://identifiers.org/uniprot/P01559> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "P01559"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Intes_r1/Complex/b3f44> , <http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e30be> , <http://identifiers.org/wikipathways//Intes_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Intes_r1/Complex/d9748> , <http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e62ce> , <http://identifiers.org/wikipathways//Intes_r1> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/P01559> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/b6bb8> , <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/c3c92> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/a12e1> , <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/ab680> .
 
 <http://identifiers.org/wikipathways//Intes_r1>
         a                    skos:Collection , wp:Pathway ;
@@ -54,25 +54,11 @@
         wp:organismName      "Homo sapiens"^^xsd:string ;
         foaf:page            <http://www.wikipathways.org/instance//Intes_r1> .
 
-<http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/a718f>
-        a                 wp:Inhibition , wp:DirectedInteraction , wp:Interaction ;
+<http://rdf.wikipathways.org/Pathway//Intes_r1/Complex/d9748>
+        a                 wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Intes_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Intes_r1/Interaction/a718f> ;
-        wp:participants   <http://identifiers.org/uniprot/Q86UT5> , <http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e30be> ;
-        wp:source         <http://identifiers.org/uniprot/Q86UT5> ;
-        wp:target         <http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e30be> .
-
-<http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e30be>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19960363> , <http://identifiers.org/pubmed/23269669> , <http://identifiers.org/pubmed/11950846> , <http://identifiers.org/pubmed/22069677> , <http://identifiers.org/pubmed/11123935> ;
-        dcterms:identifier             "R-HSA-8936356"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Intes_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8936356> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Intes_r1/Interaction/e30be> , <http://rdf.wikipathways.org/Pathway//Intes_r1/Interaction/aba8e> , <http://rdf.wikipathways.org/Pathway//Intes_r1/Interaction/b9c9c> , <http://rdf.wikipathways.org/Pathway//Intes_r1/Interaction/ed9d3> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-8936213> , <http://identifiers.org/reactome/R-HSA-8936363> , <http://identifiers.org/uniprot/P01559> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-8936213> , <http://identifiers.org/uniprot/P01559> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-8936363> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Intes_r1/Group/d9748> ;
+        wp:participants   <http://identifiers.org/uniprot/P25092> , <http://identifiers.org/uniprot/P01559> .
 
 <http://identifiers.org/uniprot/P25092>
         a                   wp:Protein , wp:DataNode ;
@@ -80,12 +66,12 @@
         dc:identifier       <http://identifiers.org/uniprot/P25092> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "P25092"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Intes_r1> , <http://rdf.wikipathways.org/Pathway//Intes_r1/Complex/b3f44> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Intes_r1> , <http://rdf.wikipathways.org/Pathway//Intes_r1/Complex/d9748> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000070019> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/2984> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/GUCY2C> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/P25092> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/cf980> , <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/dfab3> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/f56a7> , <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/b1142> .
 
 <http://identifiers.org/pubmed/23269669>
         a                 wp:PublicationReference ;
@@ -121,15 +107,21 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-8936213> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-8936213"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e30be> , <http://identifiers.org/wikipathways//Intes_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e62ce> , <http://identifiers.org/wikipathways//Intes_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-8936213> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/b0684> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/c5e68> .
 
-<http://rdf.wikipathways.org/Pathway//Intes_r1/ComplexBinding/b3f44>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Intes_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Intes_r1/Group/b3f44> ;
-        wp:participants   <http://identifiers.org/uniprot/P25092> , <http://identifiers.org/uniprot/P01559> , <http://rdf.wikipathways.org/Pathway//Intes_r1/Complex/b3f44> .
+<http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e62ce>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23269669> , <http://identifiers.org/pubmed/19960363> , <http://identifiers.org/pubmed/22069677> , <http://identifiers.org/pubmed/11950846> , <http://identifiers.org/pubmed/11123935> ;
+        dcterms:identifier             "R-HSA-8936356"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Intes_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-8936356> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Intes_r1/Interaction/ad360> , <http://rdf.wikipathways.org/Pathway//Intes_r1/Interaction/e62ce> , <http://rdf.wikipathways.org/Pathway//Intes_r1/Interaction/b300a> , <http://rdf.wikipathways.org/Pathway//Intes_r1/Interaction/baf14> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-8936213> , <http://identifiers.org/reactome/R-HSA-8936363> , <http://identifiers.org/uniprot/P01559> ;
+        wp:source                      <http://identifiers.org/uniprot/P01559> , <http://identifiers.org/reactome/R-HSA-8936213> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-8936363> .
 
 <http://identifiers.org/uniprot/Q86UT5>
         a                   wp:Protein , wp:DataNode ;
@@ -137,14 +129,22 @@
         dc:identifier       <http://identifiers.org/uniprot/Q86UT5> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q86UT5"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/a718f> , <http://identifiers.org/wikipathways//Intes_r1> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Intes_r1> , <http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e110c> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000172367> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/79849> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PDZD3> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q86UT5> , <http://identifiers.org/uniprot/E9PRB0> , <http://identifiers.org/uniprot/E9PPZ1> , <http://identifiers.org/uniprot/B0YJ61> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/c414a> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Intes_r1/DataNode/d5e5a> .
 
 <http://identifiers.org/pubmed/22069677>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Intes_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22069677> .
+
+<http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e110c>
+        a                 wp:Inhibition , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Intes_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Intes_r1/Interaction/e110c> ;
+        wp:participants   <http://identifiers.org/uniprot/Q86UT5> , <http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e62ce> ;
+        wp:source         <http://identifiers.org/uniprot/Q86UT5> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//Intes_r1/WP/Interaction/e62ce> .

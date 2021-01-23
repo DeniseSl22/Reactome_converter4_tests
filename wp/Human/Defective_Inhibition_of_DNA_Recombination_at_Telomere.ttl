@@ -1,0 +1,82 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix biopax: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix gpml:  <http://vocabularies.wikipathways.org/gpml#> .
+@prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wprdf: <http://rdf.wikipathways.org/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://identifiers.org/pubmed/27657132>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/27657132> .
+
+<http://identifiers.org/pubmed/21719641>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/21719641> .
+
+<http://identifiers.org/wikipathways//Defec>
+        pav:hasVersion  <http://identifiers.org/wikipathways//Defec_r1> .
+
+<http://identifiers.org/reactome/R-HSA-9670615>
+        a                              wp:DataNode ;
+        rdfs:label                     "Defective Inhibition of DNA Recombination at Telomere Due to ATRX Mutations"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9670615> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26581522> , <http://identifiers.org/pubmed/27657132> , <http://identifiers.org/pubmed/23219603> , <http://identifiers.org/pubmed/21719641> ;
+        dcterms:identifier             "R-HSA-9670615"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Defec_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Defec_r1/DataNode/d6acf> .
+
+<http://identifiers.org/pubmed/26581522>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26581522> .
+
+<http://identifiers.org/reactome/R-HSA-9670613>
+        a                              wp:DataNode ;
+        rdfs:label                     "Defective Inhibition of DNA Recombination at Telomere Due to DAXX Mutations"^^xsd:string ;
+        dc:identifier                  <http://identifiers.org/reactome/R-HSA-9670613> ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/23219603> , <http://identifiers.org/pubmed/26581522> ;
+        dcterms:identifier             "R-HSA-9670613"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Defec_r1> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Defec_r1/DataNode/aa241> .
+
+<http://identifiers.org/wikipathways//Defec_r1>
+        a                    wp:Pathway , skos:Collection ;
+        dc:identifier        <http://identifiers.org/wikipathways//Defec> ;
+        dc:source            "WikiPathways"^^xsd:string ;
+        dc:title             "Defective Inhibition of DNA Recombination at Telomere"@en ;
+        dcterms:description  "ATRX (Alpha thalassemia mental retardation X-lined) and DAXX (Death domain-associated protein 6) chromatin remodeling factors form a complex that binds to subtelomeric regions and plays a role in inhibition of DNA recombination at telomere ends, probably by mediating loading of H3F3A histone at telomere ends and by repressing transcription of TERRA (Telomeric repeat containing RNA), a long noncoding telomeric repeats-containing RNA. Tumors positive for alternative lengthening of telomeres (ALT) markers often harbor loss-of-function mutations in ATRX, and more rarely in DAXX or missense mutations in H3F3A, implying that the impairment of function of one of these three proteins may contribute to initiation of the ALT process. Additionally, mutations in IDH, the tumor suppressor TP53 and SMARCAL1 are also observed in the context of ALT in certain types of human cancers, particularly sarcomas and tumors of the central nervous system (Jiao et al. 2012, Nicolle et al. 2019). For review, please refer to Gocha et al. 2013, Pickett and Reddel 2015, Amorim et al. 2016).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9670621 Reactome]." ;
+        dcterms:identifier   "/Defec"^^xsd:string ;
+        dcterms:references   <http://identifiers.org/pubmed/31604924> , <http://identifiers.org/pubmed/26581522> , <http://identifiers.org/pubmed/27657132> , <http://identifiers.org/pubmed/22869205> , <http://identifiers.org/pubmed/23219603> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway//Defec_r1> ;
+        wp:organism          <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName      "Homo sapiens"^^xsd:string ;
+        foaf:page            <http://www.wikipathways.org/instance//Defec_r1> .
+
+<http://identifiers.org/pubmed/22869205>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/22869205> .
+
+<http://identifiers.org/pubmed/31604924>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/31604924> .
+
+<http://identifiers.org/pubmed/23219603>
+        a                 wp:PublicationReference ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Defec_r1> ;
+        foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/23219603> .

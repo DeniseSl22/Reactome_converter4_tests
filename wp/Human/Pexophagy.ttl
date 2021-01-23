@@ -15,22 +15,18 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/f53bd>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/f53bd> ;
-        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/c2054>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/c2054> ;
-        wp:participants   <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> .
-
 <http://identifiers.org/pubmed/31356149>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/31356149> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e4998>
+        a                 wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e4998> ;
+        wp:participants   <http://identifiers.org/chebi/CHEBI:26523> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d6dfa> ;
+        wp:source         <http://identifiers.org/chebi/CHEBI:26523> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d6dfa> .
 
 <http://identifiers.org/reactome/R-HSA-9665185>
         a                   wp:DataNode , wp:Complex ;
@@ -38,44 +34,56 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-9665185> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-9665185"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e0b7d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c82bf> , <http://identifiers.org/wikipathways//Pexop_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d6dfa> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/b492c> , <http://identifiers.org/wikipathways//Pexop_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9665185> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/fd876> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f7b6a> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/e6bd3>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/e6bd3> ;
-        wp:participants   <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/e6bd3> .
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c7d2b>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19398892> ;
+        dcterms:identifier             "R-HSA-9664880"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664880> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c7d2b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/be91d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/aa4de> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e69b8> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9665166> , <http://identifiers.org/reactome/R-HSA-9665165> , <http://identifiers.org/uniprot/Q9GZQ8> ;
+        wp:source                      <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/reactome/R-HSA-9665165> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9665166> .
 
 <http://identifiers.org/pubmed/17580304>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/17580304> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d9bea>
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c4b90>
         a                              wp:Interaction , wp:DirectedInteraction ;
         dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/25440060> ;
-        dcterms:identifier             "R-HSA-9664871"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26344566> ;
+        dcterms:identifier             "R-HSA-9664883"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664871> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/d9bea> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c2a85> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/ab5c4> ;
-        wp:participants                <http://identifiers.org/uniprot/Q14596> ;
-        wp:source                      <http://identifiers.org/uniprot/Q14596> ;
-        wp:target                      <http://identifiers.org/uniprot/Q14596> .
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664883> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c4b90> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/f22ca> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/cee64> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9665176> , <http://identifiers.org/reactome/R-HSA-9665170> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-9665170> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9665176> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/cdf5d>
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/db6b3>
         a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/cdf5d> ;
-        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/cdf5d> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/db6b3> ;
+        wp:participants   <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/db6b3> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/a7a9b>
-        a                 wp:Interaction , wp:ComplexBinding , wp:Binding ;
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/e6549>
+        a                 wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/a7a9b> ;
-        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/uniprot/Q13315> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a7a9b> , <http://identifiers.org/uniprot/Q13501> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/e6549> ;
+        wp:participants   <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/uniprot/Q13315> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/db6b3>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/db6b3> ;
+        wp:participants   <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> .
 
 <http://identifiers.org/uniprot/P50542>
         a                   wp:Protein , wp:DataNode ;
@@ -83,12 +91,12 @@
         dc:identifier       <http://identifiers.org/uniprot/P50542> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "P50542"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/af977> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/c60ba> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/cdf5d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ea068> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/e6bd3> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a7a9b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/f53bd> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/c2054> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/fd16b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/d4690> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a63d4> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/bc7f0> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a9ee8> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c6fb4> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ce615> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/f43a4> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/b7312> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ffd59> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ca8b7> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/db6b3> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/e6549> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/f712f> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000139197> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/5830> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/PEX5> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/J3KPV0> , <http://identifiers.org/uniprot/F5H432> , <http://identifiers.org/uniprot/F5GZ41> , <http://identifiers.org/uniprot/F5H205> , <http://identifiers.org/uniprot/A0A0S2Z480> , <http://identifiers.org/uniprot/B4E0T2> , <http://identifiers.org/uniprot/F5H0L9> , <http://identifiers.org/uniprot/F5H637> , <http://identifiers.org/uniprot/H0YGT8> , <http://identifiers.org/uniprot/F5H3X7> , <http://identifiers.org/uniprot/A0A0S2Z4F3> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/F5H5C0> , <http://identifiers.org/uniprot/F5GYB4> , <http://identifiers.org/uniprot/A0A0S2Z4H1> , <http://identifiers.org/uniprot/F5GXX3> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ff5e2> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c204b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ea1f5> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f8376> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b0df8> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e7401> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b055a> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b37a7> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/bbcc3> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/bdce0> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/d111f> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/fd1c7> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b5a34> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e1ed2> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f9a58> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e4d91> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b138d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a4a60> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f2f8c> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c10a1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b00b4> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a9fc6> .
 
 <http://identifiers.org/uniprot/P62987>
         a                   wp:DataNode , wp:Protein ;
@@ -101,7 +109,7 @@
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/7311> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/UBA52> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q3MIH3> , <http://identifiers.org/uniprot/M0R2S1> , <http://identifiers.org/uniprot/M0R1V7> , <http://identifiers.org/uniprot/M0R1M6> , <http://identifiers.org/uniprot/P62987> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f220f> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a652a> .
 
 <http://identifiers.org/reactome/R-HSA-113595>
         a                   wp:DataNode , wp:Complex ;
@@ -109,49 +117,67 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-113595> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-113595"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a8aab> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a1264> , <http://identifiers.org/wikipathways//Pexop_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-113595> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/db088> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c7f4c> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e0b7d>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/20966255> ;
-        dcterms:identifier             "R-HSA-9664879"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664879> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c1adf> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e0b7d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/efd11> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/f897e> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-9665185> , <http://identifiers.org/reactome/R-HSA-9665176> , <http://identifiers.org/uniprot/Q13315> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-9665176> , <http://identifiers.org/uniprot/Q13315> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-9665185> .
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/f712f>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/f712f> ;
+        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/f712f> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/ac4df>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/ac4df> ;
+        wp:participants   <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/uniprot/Q9GZQ8> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ac4df> .
 
 <http://identifiers.org/pubmed/20966255>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/20966255> .
 
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/f712f>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/f712f> ;
+        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ac4df>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/ac4df> ;
+        wp:participants   <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/uniprot/Q9GZQ8> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/a9ee8>
+        a                 wp:Interaction , wp:Binding , wp:ComplexBinding ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/a9ee8> ;
+        wp:participants   <http://identifiers.org/uniprot/Q13501> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a9ee8> , <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/uniprot/P50542> .
+
 <http://identifiers.org/pubmed/31131315>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/31131315> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/c2054>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/c2054> ;
-        wp:participants   <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/c2054> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a63d4>
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ffd59>
         a                 wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/a63d4> ;
-        wp:participants   <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/ffd59> ;
+        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/uniprot/Q13501> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/c60ba>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/c60ba> ;
-        wp:participants   <http://identifiers.org/uniprot/Q70CQ3> , <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> .
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/bac9f>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/25440060> ;
+        dcterms:identifier             "R-HSA-9664871"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664871> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/f5647> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e763f> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/bac9f> ;
+        wp:participants                <http://identifiers.org/uniprot/Q14596> ;
+        wp:source                      <http://identifiers.org/uniprot/Q14596> ;
+        wp:target                      <http://identifiers.org/uniprot/Q14596> .
 
 <http://identifiers.org/uniprot/P62979>
         a                   wp:Protein , wp:DataNode ;
@@ -164,42 +190,36 @@
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/6233> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/RPS27A> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/P62979> , <http://identifiers.org/uniprot/Q49A90> , <http://identifiers.org/uniprot/J3QTR3> , <http://identifiers.org/uniprot/B2RDW1> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a3425> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/cb55b> .
 
 <http://identifiers.org/pubmed/27068951>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/27068951> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c82bf>
-        a                              wp:Interaction , wp:DirectedInteraction ;
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/f429f>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/30700497> , <http://identifiers.org/pubmed/31131315> , <http://identifiers.org/pubmed/31356149> ;
+        dcterms:identifier             "R-HSA-9674131"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9674131> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/daac0> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/f429f> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/fc784> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/ae768> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9665179> , <http://identifiers.org/uniprot/Q70CQ3> , <http://identifiers.org/reactome/R-HSA-9674136> ;
+        wp:source                      <http://identifiers.org/uniprot/Q70CQ3> , <http://identifiers.org/reactome/R-HSA-9665179> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9674136> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c18c9>
+        a                              wp:DirectedInteraction , wp:Interaction ;
         dc:source                      "Reactome"^^xsd:string ;
         dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26344566> ;
-        dcterms:identifier             "R-HSA-9664862"^^xsd:string ;
+        dcterms:identifier             "R-HSA-9664888"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664862> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c82bf> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/da6f9> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/a4186> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-9665178> , <http://identifiers.org/reactome/R-HSA-9665185> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-9665185> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-9665178> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/acaf5>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/acaf5> ;
-        wp:participants   <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/uniprot/Q9GZQ8> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/acaf5> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ea068>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/ea068> ;
-        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/acaf5>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/acaf5> ;
-        wp:participants   <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/uniprot/Q9GZQ8> .
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664888> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c18c9> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/d7b7e> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/f1f81> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9665179> , <http://identifiers.org/reactome/R-HSA-9665178> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-9665178> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9665179> .
 
 <http://identifiers.org/uniprot/Q99814>
         a                   wp:Protein , wp:DataNode ;
@@ -207,22 +227,12 @@
         dc:identifier       <http://identifiers.org/uniprot/Q99814> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q99814"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/facc4> , <http://identifiers.org/wikipathways//Pexop_r1> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a7819> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000116016> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/2034> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/EPAS1> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q99814> , <http://identifiers.org/uniprot/C9J9N2> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e4a5c> .
-
-<http://identifiers.org/reactome/R-HSA-9674136>
-        a                   wp:DataNode , wp:Complex ;
-        rdfs:label          "ATM dimer:Ub-p-PEX5:USP30"^^xsd:string ;
-        dc:identifier       <http://identifiers.org/reactome/R-HSA-9674136> ;
-        dc:source           "Reactome"^^xsd:string ;
-        dcterms:identifier  "R-HSA-9674136"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a8aab> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a054a> ;
-        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9674136> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e44c4> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f5fd4> .
 
 <http://identifiers.org/reactome/R-HSA-9665176>
         a                   wp:Complex , wp:DataNode ;
@@ -230,24 +240,46 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-9665176> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-9665176"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d640d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e0b7d> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c4b90> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d6dfa> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9665176> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c7353> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f2944> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/af977>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/af977> ;
-        wp:participants   <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/af977> .
+<http://identifiers.org/reactome/R-HSA-9674136>
+        a                   wp:DataNode , wp:Complex ;
+        rdfs:label          "ATM dimer:Ub-p-PEX5:USP30"^^xsd:string ;
+        dc:identifier       <http://identifiers.org/reactome/R-HSA-9674136> ;
+        dc:source           "Reactome"^^xsd:string ;
+        dcterms:identifier  "R-HSA-9674136"^^xsd:string ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a1264> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/f429f> ;
+        wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9674136> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f28fc> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/af977>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/af977> ;
-        wp:participants   <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> .
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e001f>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19398892> ;
+        dcterms:identifier             "R-HSA-9664881"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664881> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/d18e8> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e3c0d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c8829> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e001f> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9665168> , <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/reactome/R-HSA-9665165> ;
+        wp:source                      <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/reactome/R-HSA-9665168> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9665165> .
 
 <http://identifiers.org/wikipathways//Pexop>
         pav:hasVersion  <http://identifiers.org/wikipathways//Pexop_r1> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/e6549>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/e6549> ;
+        wp:participants   <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q14596> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/e6549> , <http://identifiers.org/uniprot/Q13501> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ca8b7>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/ca8b7> ;
+        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> .
 
 <http://identifiers.org/reactome/R-HSA-9665170>
         a                   wp:Complex , wp:DataNode ;
@@ -255,14 +287,22 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-9665170> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-9665170"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/fd16b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d640d> , <http://identifiers.org/wikipathways//Pexop_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c6fb4> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c4b90> , <http://identifiers.org/wikipathways//Pexop_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9665170> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/dce8c> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b8fd5> .
 
 <http://identifiers.org/pubmed/26344566>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/26344566> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a7819>
+        a                 wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/a7819> ;
+        wp:participants   <http://identifiers.org/uniprot/Q99814> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/bac9f> ;
+        wp:source         <http://identifiers.org/uniprot/Q99814> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/bac9f> .
 
 <http://identifiers.org/chebi/CHEBI:26523>
         a                   wp:Metabolite , wp:DataNode ;
@@ -270,22 +310,10 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:26523> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:26523"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/baf90> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e4998> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:26523> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q424361> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ff450> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e4469>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26344566> ;
-        dcterms:identifier             "R-HSA-9664888"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664888> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e4469> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c8ede> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c4d21> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-9665178> , <http://identifiers.org/reactome/R-HSA-9665179> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-9665178> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-9665179> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f9cc4> .
 
 <http://identifiers.org/reactome/R-HSA-9665168>
         a                   wp:Complex , wp:DataNode ;
@@ -293,9 +321,9 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-9665168> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-9665168"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e39c5> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a4699> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/f4513> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e001f> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a1e1b> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/ab1cf> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9665168> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ab199> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/cb450> .
 
 <http://identifiers.org/uniprot/Q70CQ3>
         a                   wp:DataNode , wp:Protein ;
@@ -303,46 +331,46 @@
         dc:identifier       <http://identifiers.org/uniprot/Q70CQ3> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q70CQ3"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/c60ba> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a054a> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/b7312> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/f429f> , <http://identifiers.org/wikipathways//Pexop_r1> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000135093> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/84749> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/USP30> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q70CQ3> , <http://identifiers.org/uniprot/F5GXG2> , <http://identifiers.org/uniprot/B3KUS5> , <http://identifiers.org/uniprot/F5H8D3> , <http://identifiers.org/uniprot/A0A024RBM3> , <http://identifiers.org/uniprot/S4R354> , <http://identifiers.org/uniprot/S4R3D1> , <http://identifiers.org/uniprot/F5H3L3> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ec53d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ee966> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e6116> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/aecb5> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c6fb4>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/27068951> , <http://identifiers.org/pubmed/26344566> ;
+        dcterms:identifier             "R-HSA-9664850"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664850> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/f6554> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/b1972> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c6fb4> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c897b> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9665170> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> ;
+        wp:source                      <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9665170> .
 
 <http://identifiers.org/pubmed/30700497>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/30700497> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/a63d4>
-        a                 wp:ComplexBinding , wp:Interaction , wp:Binding ;
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/ffd59>
+        a                 wp:Interaction , wp:Binding , wp:ComplexBinding ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/a63d4> ;
-        wp:participants   <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13501> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a63d4> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/c60ba>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/c60ba> ;
-        wp:participants   <http://identifiers.org/uniprot/Q70CQ3> , <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/c60ba> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/ffd59> ;
+        wp:participants   <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ffd59> , <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q14596> .
 
 <http://identifiers.org/pubmed/19250911>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19250911> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d640d>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26344566> ;
-        dcterms:identifier             "R-HSA-9664883"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664883> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/ed79a> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/d640d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/ebc02> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-9665176> , <http://identifiers.org/reactome/R-HSA-9665170> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-9665170> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-9665176> .
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/bc7f0>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/bc7f0> ;
+        wp:participants   <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> .
 
 <http://identifiers.org/chebi/CHEBI:15377>
         a                   wp:DataNode , wp:Metabolite ;
@@ -351,7 +379,7 @@
         dc:identifier       <http://identifiers.org/chebi/CHEBI:15377> ;
         dc:source           "ChEBI"^^xsd:string ;
         dcterms:identifier  "CHEBI:15377"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a8aab> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a1264> ;
         wp:bdbChEBI         <http://identifiers.org/chebi/CHEBI:15377> ;
         wp:bdbChemspider    <http://identifiers.org/chemspider/937> ;
         wp:bdbHmdb          <http://identifiers.org/hmdb/HMDB0002111> ;
@@ -359,31 +387,13 @@
         wp:bdbKeggCompound  <http://identifiers.org/kegg.compound/C00001> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID962> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q283> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/dd61e> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/abebc> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/d4690>
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ce615>
         a                 wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/d4690> ;
-        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/uniprot/Q13501> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/ea068>
-        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/ea068> ;
-        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ea068> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/b3e29>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19250911> ;
-        dcterms:identifier             "R-HSA-9664867"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664867> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/f1011> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/b3e29> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/fbdd2> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e2b12> ;
-        wp:participants                <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/reactome/R-HSA-9665173> , <http://identifiers.org/uniprot/Q9GZQ8> ;
-        wp:source                      <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/uniprot/Q14596> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-9665173> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/ce615> ;
+        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> .
 
 <http://identifiers.org/reactome/R-HSA-9665167>
         a                   wp:Complex , wp:DataNode ;
@@ -391,9 +401,15 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-9665167> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-9665167"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a4699> , <http://identifiers.org/wikipathways//Pexop_r1> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a1e1b> , <http://identifiers.org/wikipathways//Pexop_r1> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9665167> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/fc821> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ec9a7> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/ca8b7>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/ca8b7> ;
+        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ca8b7> .
 
 <http://identifiers.org/uniprot/Q9GZQ8>
         a                   wp:Protein , wp:DataNode ;
@@ -401,24 +417,12 @@
         dc:identifier       <http://identifiers.org/uniprot/Q9GZQ8> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q9GZQ8"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a63d4> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e92c3> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/acaf5> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/b3e29> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/d4690> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a4699> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ac4df> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c7d2b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ffd59> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a9ee8> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a1e1b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/cfb09> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000140941> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/81631> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/MAP1LC3B> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/uniprot/H3BTE7> , <http://identifiers.org/uniprot/H3BM99> , <http://identifiers.org/uniprot/Q658J6> , <http://identifiers.org/uniprot/H3BTL1> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/add9b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ae171> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a08a0> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f3096> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a054a>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/31356149> , <http://identifiers.org/pubmed/31131315> , <http://identifiers.org/pubmed/30700497> ;
-        dcterms:identifier             "R-HSA-9674131"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9674131> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/a054a> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c49ce> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/fc0f4> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e72e1> ;
-        wp:participants                <http://identifiers.org/uniprot/Q70CQ3> , <http://identifiers.org/reactome/R-HSA-9674136> , <http://identifiers.org/reactome/R-HSA-9665179> ;
-        wp:source                      <http://identifiers.org/reactome/R-HSA-9665179> , <http://identifiers.org/uniprot/Q70CQ3> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-9674136> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c4e8a> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/d698a> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c3e6e> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f180e> .
 
 <http://identifiers.org/wikipathways//Pexop_r1>
         a                    skos:Collection , wp:Pathway ;
@@ -433,30 +437,40 @@
         wp:organismName      "Homo sapiens"^^xsd:string ;
         foaf:page            <http://www.wikipathways.org/instance//Pexop_r1> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/baf90>
-        a                 wp:DirectedInteraction , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/baf90> ;
-        wp:participants   <http://identifiers.org/chebi/CHEBI:26523> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e0b7d> ;
-        wp:source         <http://identifiers.org/chebi/CHEBI:26523> ;
-        wp:target         <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e0b7d> .
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a1264>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/31356149> , <http://identifiers.org/pubmed/31131315> , <http://identifiers.org/pubmed/30700497> ;
+        dcterms:identifier             "R-HSA-9674127"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9674127> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/ae9e8> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/ce9b7> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/a940e> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/d0f7d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/a1264> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/d4235> ;
+        wp:participants                <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/reactome/R-HSA-9674136> , <http://identifiers.org/reactome/R-HSA-9665178> , <http://identifiers.org/reactome/R-HSA-113595> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-9674136> , <http://identifiers.org/chebi/CHEBI:15377> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9665178> , <http://identifiers.org/reactome/R-HSA-113595> .
 
 <http://identifiers.org/pubmed/25440060>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/25440060> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e39c5>
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/b492c>
         a                              wp:DirectedInteraction , wp:Interaction ;
         dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19398892> ;
-        dcterms:identifier             "R-HSA-9664881"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26344566> ;
+        dcterms:identifier             "R-HSA-9664862"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664881> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/fabd4> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/d2b80> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e39c5> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/edddd> ;
-        wp:participants                <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/reactome/R-HSA-9665165> , <http://identifiers.org/reactome/R-HSA-9665168> ;
-        wp:source                      <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/reactome/R-HSA-9665168> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-9665165> .
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664862> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/b492c> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/eba63> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/eb710> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9665178> , <http://identifiers.org/reactome/R-HSA-9665185> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-9665185> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9665178> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/b7312>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/b7312> ;
+        wp:participants   <http://identifiers.org/uniprot/Q70CQ3> , <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> .
 
 <http://identifiers.org/uniprot/P0CG48>
         a                   wp:Protein , wp:DataNode ;
@@ -469,25 +483,19 @@
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/7316> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/UBC> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/F5GXK7> , <http://identifiers.org/uniprot/Q5PY61> , <http://identifiers.org/uniprot/F5GZ39> , <http://identifiers.org/uniprot/F5H2Z3> , <http://identifiers.org/uniprot/Q96C32> , <http://identifiers.org/uniprot/F5H388> , <http://identifiers.org/uniprot/P0CG48> , <http://identifiers.org/uniprot/F5GYU3> , <http://identifiers.org/uniprot/F5H265> , <http://identifiers.org/uniprot/F5H6Q2> , <http://identifiers.org/uniprot/F5H747> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e11ee> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b7d9a> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/fba7c> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/bfea8> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/d5668> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b3780> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/abbae> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/bb0a7> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b0f53> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e414b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/d3f9b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e839d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/afd35> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/d36dc> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b3933> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b3e22> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b593f> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/acf97> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/d4690>
-        a                 wp:Binding , wp:ComplexBinding , wp:Interaction ;
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/f43a4>
+        a                 wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/d4690> ;
-        wp:participants   <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/uniprot/Q9GZQ8> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/d4690> , <http://identifiers.org/uniprot/Q13315> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/f43a4> ;
+        wp:participants   <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/f4513>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26344566> ;
-        dcterms:identifier             "R-HSA-9664892"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664892> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/d22dc> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c1708> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/f4513> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/aa261> ;
-        wp:participants                <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/reactome/R-HSA-9665179> , <http://identifiers.org/reactome/R-HSA-9665168> ;
-        wp:source                      <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/reactome/R-HSA-9665179> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-9665168> .
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/bc7f0>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/bc7f0> ;
+        wp:participants   <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/bc7f0> .
 
 <http://identifiers.org/reactome/R-HSA-9665166>
         a                   wp:DataNode , wp:Complex ;
@@ -495,9 +503,15 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-9665166> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-9665166"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e92c3> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c7d2b> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9665166> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/d119e> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b1ad9> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/ce615>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/ce615> ;
+        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ce615> .
 
 <http://identifiers.org/reactome/R-HSA-9665179>
         a                   wp:DataNode , wp:Complex ;
@@ -505,41 +519,33 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-9665179> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-9665179"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e4469> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a054a> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/f4513> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c18c9> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/f429f> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/ab1cf> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9665179> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b4bc3> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/eb11e> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/e6bd3>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/e6bd3> ;
-        wp:participants   <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/facc4>
-        a                 wp:DirectedInteraction , wp:Interaction ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/facc4> ;
-        wp:participants   <http://identifiers.org/uniprot/Q99814> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d9bea> ;
-        wp:source         <http://identifiers.org/uniprot/Q99814> ;
-        wp:target         <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d9bea> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/fd16b>
-        a                              wp:DirectedInteraction , wp:Interaction ;
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/cfb09>
+        a                              wp:Interaction , wp:DirectedInteraction ;
         dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26344566> , <http://identifiers.org/pubmed/27068951> ;
-        dcterms:identifier             "R-HSA-9664850"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19250911> ;
+        dcterms:identifier             "R-HSA-9664867"^^xsd:string ;
         dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664850> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/fd16b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/efc6b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/cafcf> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e505a> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-9665170> , <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> ;
-        wp:source                      <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-9665170> .
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664867> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e111d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/cfb09> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/fa4dc> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/cae8b> ;
+        wp:participants                <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/reactome/R-HSA-9665173> , <http://identifiers.org/uniprot/Q9GZQ8> ;
+        wp:source                      <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/uniprot/Q9GZQ8> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9665173> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/cdf5d>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/cdf5d> ;
-        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> .
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/ab1cf>
+        a                              wp:Interaction , wp:DirectedInteraction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/26344566> ;
+        dcterms:identifier             "R-HSA-9664892"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664892> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/cd6d6> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/d68a5> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/ab1cf> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/b3265> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9665168> , <http://identifiers.org/reactome/R-HSA-9665179> , <http://identifiers.org/uniprot/Q13501> ;
+        wp:source                      <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/reactome/R-HSA-9665179> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9665168> .
 
 <http://identifiers.org/uniprot/Q13315>
         a                   wp:DataNode , wp:Protein ;
@@ -547,12 +553,12 @@
         dc:identifier       <http://identifiers.org/uniprot/Q13315> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q13315"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e0b7d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/fd16b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a7a9b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/e6bd3> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/af977> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/cdf5d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ea068> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/c60ba> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/d4690> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a63d4> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/c2054> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/f53bd> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/db6b3> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c6fb4> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ffd59> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/f43a4> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/f712f> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/bc7f0> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a9ee8> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/e6549> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ca8b7> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ce615> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/b7312> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d6dfa> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000149311> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/472> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/ATM> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/E9PRG7> , <http://identifiers.org/uniprot/H0YDU7> , <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/H0YEC6> , <http://identifiers.org/uniprot/E9PIQ5> , <http://identifiers.org/uniprot/E9PIN0> , <http://identifiers.org/uniprot/Q6P7P1> , <http://identifiers.org/uniprot/A0A024R3C7> , <http://identifiers.org/uniprot/A0A087X0E9> , <http://identifiers.org/uniprot/M0QXY8> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c1800> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/abc51> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/bd86a> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f706d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ea463> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/d6b9b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ab40a> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b659e> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ce2dd> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c1ea1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a5b19> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a6096> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b86a1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/d632a> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ff138> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ccaa9> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e0b44> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/cfbca> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b0052> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e5bdf> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/db2c5> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a0778> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/d42db> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/dedba> .
 
 <http://identifiers.org/reactome/R-HSA-9665173>
         a                   wp:DataNode , wp:Complex ;
@@ -560,33 +566,9 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-9665173> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-9665173"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/b3e29> , <http://identifiers.org/wikipathways//Pexop_r1> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/cfb09> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9665173> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/cc677> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a8aab>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/30700497> , <http://identifiers.org/pubmed/31356149> , <http://identifiers.org/pubmed/31131315> ;
-        dcterms:identifier             "R-HSA-9674127"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9674127> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/b2a49> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/a8aab> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/d0ed0> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/c4823> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e6e3b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/badb7> ;
-        wp:participants                <http://identifiers.org/reactome/R-HSA-113595> , <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/reactome/R-HSA-9674136> , <http://identifiers.org/reactome/R-HSA-9665178> ;
-        wp:source                      <http://identifiers.org/chebi/CHEBI:15377> , <http://identifiers.org/reactome/R-HSA-9674136> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-113595> , <http://identifiers.org/reactome/R-HSA-9665178> .
-
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e92c3>
-        a                              wp:Interaction , wp:DirectedInteraction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/19398892> ;
-        dcterms:identifier             "R-HSA-9664880"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664880> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/a5146> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/f0db0> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e92c3> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/ce113> ;
-        wp:participants                <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/reactome/R-HSA-9665166> , <http://identifiers.org/reactome/R-HSA-9665165> ;
-        wp:source                      <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/reactome/R-HSA-9665165> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-9665166> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f6cc5> .
 
 <http://identifiers.org/uniprot/Q14596>
         a                   wp:DataNode , wp:Protein ;
@@ -594,18 +576,24 @@
         dc:identifier       <http://identifiers.org/uniprot/Q14596> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q14596"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/d4690> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/acaf5> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d9bea> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/b3e29> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e39c5> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a7a9b> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ac4df> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/e6549> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/bac9f> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e001f> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/cfb09> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ffd59> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000188554> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/4077> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/NBR1> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/A0A0C4DGP6> , <http://identifiers.org/uniprot/A0A024R1V3> , <http://identifiers.org/uniprot/B7Z5R6> , <http://identifiers.org/uniprot/Q14596> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/bcf37> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/fc5f9> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e8e0a> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f302e> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a19a3> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/cdb3a> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a1e71> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f5c33> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c54ac> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/dcfbf> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a7a9b>
-        a                 wp:Complex , wp:DataNode ;
-        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/a7a9b> ;
-        wp:participants   <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q14596> , <http://identifiers.org/uniprot/Q13315> .
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/d6dfa>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/20966255> ;
+        dcterms:identifier             "R-HSA-9664879"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664879> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/d6dfa> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/a5def> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/e82ac> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/ddfe6> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9665176> , <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/reactome/R-HSA-9665185> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-9665176> , <http://identifiers.org/uniprot/Q13315> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9665185> .
 
 <http://identifiers.org/uniprot/P0CG47>
         a                   wp:DataNode , wp:Protein ;
@@ -618,24 +606,18 @@
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/7314> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/UBB> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/J3QSA3> , <http://identifiers.org/uniprot/J3QKN0> , <http://identifiers.org/uniprot/P0CG47> , <http://identifiers.org/uniprot/B4DV12> , <http://identifiers.org/uniprot/Q5U5U6> , <http://identifiers.org/uniprot/J3QS39> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/edc44> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a7589> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b3df7> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/dcfd9> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/cec10> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a7e8d> .
 
 <http://identifiers.org/pubmed/19398892>
         a                 wp:PublicationReference ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
         foaf:page         <http://www.ncbi.nlm.nih.gov/pubmed/19398892> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a4699>
-        a                              wp:DirectedInteraction , wp:Interaction ;
-        dc:source                      "Reactome"^^xsd:string ;
-        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/17580304> ;
-        dcterms:identifier             "R-HSA-9664855"^^xsd:string ;
-        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664855> ;
-        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/a4699> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/cf2db> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/b78e0> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/d2f92> ;
-        wp:participants                <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/reactome/R-HSA-9665168> , <http://identifiers.org/reactome/R-HSA-9665167> ;
-        wp:source                      <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/reactome/R-HSA-9665168> ;
-        wp:target                      <http://identifiers.org/reactome/R-HSA-9665167> .
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/b7312>
+        a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/b7312> ;
+        wp:participants   <http://identifiers.org/uniprot/Q70CQ3> , <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/b7312> .
 
 <http://identifiers.org/uniprot/Q13501>
         a                   wp:Protein , wp:DataNode ;
@@ -643,12 +625,12 @@
         dc:identifier       <http://identifiers.org/uniprot/Q13501> ;
         dc:source           "Uniprot-TrEMBL"^^xsd:string ;
         dcterms:identifier  "Q13501"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/c2054> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/d4690> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a63d4> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/f4513> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a7a9b> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/ffd59> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/e6549> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a9ee8> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/db6b3> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/ab1cf> ;
         wp:bdbEnsembl       <http://identifiers.org/ensembl/ENSG00000161011> ;
         wp:bdbEntrezGene    <http://identifiers.org/ncbigene/8878> ;
         wp:bdbHgncSymbol    <http://identifiers.org/hgnc.symbol/SQSTM1> ;
         wp:bdbUniprot       <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/uniprot/E7EMC7> , <http://identifiers.org/uniprot/E9PFW8> , <http://identifiers.org/uniprot/C9J6J8> , <http://identifiers.org/uniprot/E3W990> , <http://identifiers.org/uniprot/C9JRJ8> , <http://identifiers.org/uniprot/D6RBF1> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e793e> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e1eb4> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c826d> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/b7915> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/d01fe> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/e12e6> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c5444> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/bb618> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/fbf3c> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/a336a> .
 
 <http://identifiers.org/reactome/R-HSA-9665165>
         a                   wp:Complex , wp:DataNode ;
@@ -656,15 +638,33 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-9665165> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-9665165"^^xsd:string ;
-        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e39c5> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e92c3> ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c7d2b> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e001f> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9665165> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/ccaab> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c01f8> .
 
-<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/f53bd>
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a1e1b>
+        a                              wp:DirectedInteraction , wp:Interaction ;
+        dc:source                      "Reactome"^^xsd:string ;
+        dcterms:bibliographicCitation  <http://identifiers.org/pubmed/17580304> ;
+        dcterms:identifier             "R-HSA-9664855"^^xsd:string ;
+        dcterms:isPartOf               <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:bdbReactome                 <http://identifiers.org/reactome/R-HSA-9664855> ;
+        wp:isAbout                     <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/afe65> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/a1e1b> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/a09c2> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Interaction/f6192> ;
+        wp:participants                <http://identifiers.org/reactome/R-HSA-9665167> , <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/reactome/R-HSA-9665168> ;
+        wp:source                      <http://identifiers.org/reactome/R-HSA-9665168> , <http://identifiers.org/uniprot/Q9GZQ8> ;
+        wp:target                      <http://identifiers.org/reactome/R-HSA-9665167> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/a9ee8>
+        a                 wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/a9ee8> ;
+        wp:participants   <http://identifiers.org/uniprot/Q13501> , <http://identifiers.org/uniprot/Q9GZQ8> , <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> .
+
+<http://rdf.wikipathways.org/Pathway//Pexop_r1/ComplexBinding/f43a4>
         a                 wp:ComplexBinding , wp:Binding , wp:Interaction ;
         dcterms:isPartOf  <http://identifiers.org/wikipathways//Pexop_r1> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/f53bd> ;
-        wp:participants   <http://identifiers.org/uniprot/P50542> , <http://identifiers.org/uniprot/Q13315> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/f53bd> .
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway//Pexop_r1/Group/f43a4> ;
+        wp:participants   <http://identifiers.org/uniprot/Q13315> , <http://identifiers.org/uniprot/P50542> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/Complex/f43a4> .
 
 <http://identifiers.org/reactome/R-HSA-9665178>
         a                   wp:Complex , wp:DataNode ;
@@ -672,6 +672,6 @@
         dc:identifier       <http://identifiers.org/reactome/R-HSA-9665178> ;
         dc:source           "Reactome"^^xsd:string ;
         dcterms:identifier  "R-HSA-9665178"^^xsd:string ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a8aab> , <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c82bf> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/e4469> ;
+        dcterms:isPartOf    <http://identifiers.org/wikipathways//Pexop_r1> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/c18c9> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/b492c> , <http://rdf.wikipathways.org/Pathway//Pexop_r1/WP/Interaction/a1264> ;
         wp:bdbReactome      <http://identifiers.org/reactome/R-HSA-9665178> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/f8960> .
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway//Pexop_r1/DataNode/c91dd> .
